@@ -289,7 +289,7 @@ local strings = {
                 ANCIENT_ROBOT_HEAD ="",
                 ANCIENT_ROBOT_LEG ="",
                 ANCIENT_ROBOT_RIBS ="",
-                LIVING_ARTIFACT ="",
+                LIVING_ARTIFACT ="看！现在我是无敌的！",
 
                 OINC="希望这能值得我付出的时间。",
                 OINC10="买点什么好呢？",
