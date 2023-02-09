@@ -2,6 +2,40 @@
 local strings = {
     CHARACTERS = {
         WINONA = {
+            --[[
+            ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--进入完全遮蔽阳光的树林，未使用？
+            ANNOUCE_ALARMOVER = "呼，平安度过。",
+            ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "在这里一点用也没有，还不如我在卑诗省的家庭小屋。",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "这些工具的质量太差了。", --工具被腐蚀，未使用？
+            ANNOUNCE_TURFTOOHARD = "这里的土层相当瓷实。", --挖不起来这个地皮
+            ANNOUNCE_GAS_DAMAGE = "咳！瓦斯！咳！有瓦斯！", --毒气雨林伤害
+        
+            ANNOUNCE_SNEEZE = "啊啾！",	--打喷嚏
+            ANNOUNCE_HAYFEVER = "我的鼻子好痒...",	--开始有花粉
+            ANNOUNCE_HAYFEVER_OFF = "呼，终于舒服了。",	--花粉消失
+        
+            ANNOUNCE_PICKPOOP = {"噫！","太脏了！","难以忍受！",},	--翻粪堆
+
+            ANNOUNCE_TOO_HUMID = {"%s一点都不透气。","这%s闷得我要喘不过气来了。"},	--某衣服太热了
+            ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
+        
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"太硬了！", "手都震麻了！", "它肯定有个软肋。"}, --打蛇鳞
+            
+            ANNOUNCE_MYSTERY_FOUND = "",
+            ANNOUNCE_MYSTERY_NOREWARD = "",
+        
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "嘿！这后面有一扇暗门！",--用放大镜看到裂缝后面有暗门
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "就是一堵墙。",--后面没有门
+        
+            ANNOUNCE_HOUSE_DOOR = "",
+            ANNOUNCE_ROOM_STUCK = "",
+            ]]
+            ANNOUNCE_TAXDAY = "收税日到了！排好队！", --收税日
+            --ANNOUNCE_NOTHING_FOUND = "",
+        
+            ANNOUNCE_SUITUP = "全副武装！",
+
             DESCRIBE = {
                 ALOE = "吃下它会好吗？", 
                 ALOE_COOKED = "应该不会有问题，尝试一下吧。",
@@ -47,6 +81,7 @@ local strings = {
 
                 WALL_PIG_RUINS = "一堵年久失修的墙。",
 
+                --[[
                 ANCIENT_HULK ="",
                 ANCIENT_ROBOTS_ASSEMBLY ="",
                 ANCIENT_ROBOT_CLAW ="",
@@ -54,13 +89,58 @@ local strings = {
                 ANCIENT_ROBOT_LEG ="",
                 ANCIENT_ROBOT_RIBS ="",
                 LIVING_ARTIFACT ="",
+                ]]
 
                 OINC="这算是工资吗？",
                 OINC10="一点小积蓄，不要浪费。",
                 OINC100="勤奋是致富之本。",
+
+                --出生点的玩意儿
+                --[[
+                PORKLAND_INTRO_BASKET = "可惜没能凑效。",
+                PORKLAND_INTRO_BALLOON = "破成这样，应该补不好了。",
+                PORKLAND_INTRO_TRUNK = "这上面只写了“W”...喂！这是你们谁的？",
+                PORKLAND_INTRO_SUITCASE = "这上面只写了“W”...喂！这是你们谁的？",
+                PORKLAND_INTRO_FLAGS = "必要的装饰。",
+                PORKLAND_INTRO_SANDBAG = "一大包沙子，已经没用了。",
+                ]]
             },
         },
         WORTOX = {
+           --[[ 
+            ANNOUCE_UNDERLEAFCANOPY = "",
+            ANNOUCE_ALARMOVER = "",
+            ANNOUCE_BATS = "",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "", --？？？
+            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮
+            ANNOUNCE_GAS_DAMAGE = "", --毒气雨林伤害
+        
+            ANNOUNCE_SNEEZE = "",	--打喷嚏
+            ANNOUNCE_HAYFEVER = "",	--开始有花粉
+            ANNOUNCE_HAYFEVER_OFF = "",	--花粉消失
+        
+            ANNOUNCE_PICKPOOP = {"","","",},	--翻粪堆
+
+            ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
+            ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
+        
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
+            
+            ANNOUNCE_MYSTERY_FOUND = "",
+            ANNOUNCE_MYSTERY_NOREWARD = "",
+        
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
+        
+            ANNOUNCE_HOUSE_DOOR = "",
+            ANNOUNCE_ROOM_STUCK = "",
+            ]]
+            ANNOUNCE_TAXDAY = "", --收税日
+            --ANNOUNCE_NOTHING_FOUND = "",
+        
+            ANNOUNCE_SUITUP = "芜——湖！太好玩辣！",
+
             DESCRIBE = {
                 ALOE = "可以内服也可以外敷，我选择外敷。",
                 ALOE_COOKED = "对凡人们脆弱的身体有好处。",
@@ -106,6 +186,7 @@ local strings = {
 
                 WALL_PIG_RUINS = "这些符文不是能拦住我的那种。",
 
+                --[[
                 ANCIENT_HULK ="",
                 ANCIENT_ROBOTS_ASSEMBLY ="",
                 ANCIENT_ROBOT_CLAW ="",
@@ -113,6 +194,7 @@ local strings = {
                 ANCIENT_ROBOT_LEG ="",
                 ANCIENT_ROBOT_RIBS ="",
                 LIVING_ARTIFACT ="",
+                ]]
 
                 OINC="普通的硬币。",
                 OINC10="依然是普通的货币。",
@@ -120,6 +202,40 @@ local strings = {
             },
         },
         WURT = {
+            --[[
+            ANNOUCE_UNDERLEAFCANOPY = "",
+            ANNOUCE_ALARMOVER = "",
+            ANNOUCE_BATS = "",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "", --？？？
+            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮
+            ANNOUNCE_GAS_DAMAGE = "", --毒气雨林伤害
+        
+            ANNOUNCE_SNEEZE = "",	--打喷嚏
+            ANNOUNCE_HAYFEVER = "",	--开始有花粉
+            ANNOUNCE_HAYFEVER_OFF = "",	--花粉消失
+        
+            ANNOUNCE_PICKPOOP = {"","","",},	--翻粪堆
+
+            ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
+            ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
+        
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
+            
+            ANNOUNCE_MYSTERY_FOUND = "",
+            ANNOUNCE_MYSTERY_NOREWARD = "",
+        
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
+        
+            ANNOUNCE_HOUSE_DOOR = "",
+            ANNOUNCE_ROOM_STUCK = "",
+            ]]
+            ANNOUNCE_TAXDAY = "所有猪人都要给我钱！", --收税日
+            --ANNOUNCE_NOTHING_FOUND = "",
+        
+            ANNOUNCE_SUITUP = "浮浪特 格勒苏 浮路特！",--鱼人守卫战斗台词“为了鱼人的荣耀”
+
             DESCRIBE = {
                 ALOE = "又甜又黏。",
                 ALOE_COOKED = "但这尝起来不像药啊，薇克巴顿女士。", 
@@ -165,6 +281,7 @@ local strings = {
 
                 WALL_PIG_RUINS = "一堵破墙。",
 
+                --[[
                 ANCIENT_HULK ="",
                 ANCIENT_ROBOTS_ASSEMBLY ="",
                 ANCIENT_ROBOT_CLAW ="",
@@ -172,6 +289,7 @@ local strings = {
                 ANCIENT_ROBOT_LEG ="",
                 ANCIENT_ROBOT_RIBS ="",
                 LIVING_ARTIFACT ="",
+                ]]
 
                 OINC="这有什么用？",
                 OINC10="什么是“钱”？",
@@ -179,6 +297,40 @@ local strings = {
             },
         },
         WALTER = {
+            --[[
+            ANNOUCE_UNDERLEAFCANOPY = "",
+            ANNOUCE_ALARMOVER = "",
+            ANNOUCE_BATS = "",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "", --？？？
+            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮
+            ANNOUNCE_GAS_DAMAGE = "", --毒气雨林伤害
+        
+            ANNOUNCE_SNEEZE = "",	--打喷嚏
+            ANNOUNCE_HAYFEVER = "",	--开始有花粉
+            ANNOUNCE_HAYFEVER_OFF = "",	--花粉消失
+        
+            ANNOUNCE_PICKPOOP = {"","","",},	--翻粪堆
+
+            ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
+            ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
+        
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
+            
+            ANNOUNCE_MYSTERY_FOUND = "",
+            ANNOUNCE_MYSTERY_NOREWARD = "",
+        
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
+        
+            ANNOUNCE_HOUSE_DOOR = "",
+            ANNOUNCE_ROOM_STUCK = "",
+            ]]
+            ANNOUNCE_TAXDAY = "到收取管理费用的日子了。", --收税日
+            --ANNOUNCE_NOTHING_FOUND = "",
+        
+            ANNOUNCE_SUITUP = "现在我是钢铁人！",
+
             DESCRIBE = {
                 ALOE = "芦荟的用途也包括食用。",
                 ALOE_COOKED = "这样应该会更美味。",
@@ -224,6 +376,7 @@ local strings = {
 
                 WALL_PIG_RUINS = "古人...古猪们建造了它。",
 
+                --[[
                 ANCIENT_HULK ="战争机器人！流言是真的！",
                 ANCIENT_ROBOTS_ASSEMBLY ="",
                 ANCIENT_ROBOT_CLAW ="",
@@ -231,6 +384,7 @@ local strings = {
                 ANCIENT_ROBOT_LEG ="",
                 ANCIENT_ROBOT_RIBS ="一只机器蚂蚁？",
                 LIVING_ARTIFACT ="",
+                ]]
 
                 OINC="我的零花钱。",
                 OINC10="我的一点小钱。",
@@ -238,6 +392,40 @@ local strings = {
             },
         },
         WANDA = {
+            --[[
+            ANNOUCE_UNDERLEAFCANOPY = "他们潜伏在这里！我需要光！",
+            ANNOUCE_ALARMOVER = "",
+            ANNOUCE_BATS = "",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "", --？？？
+            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮
+            ANNOUNCE_GAS_DAMAGE = "", --毒气雨林伤害
+        
+            ANNOUNCE_SNEEZE = "",	--打喷嚏
+            ANNOUNCE_HAYFEVER = "",	--开始有花粉
+            ANNOUNCE_HAYFEVER_OFF = "",	--花粉消失
+        
+            ANNOUNCE_PICKPOOP = {"为什么我要做这种事？","呕。",},	--翻粪堆
+
+            ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
+            ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
+        
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
+            
+            ANNOUNCE_MYSTERY_FOUND = "",
+            ANNOUNCE_MYSTERY_NOREWARD = "",
+        
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "来这边！暗门在这里。",--用放大镜看到裂缝后面有暗门
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "嗷，不好。不是这里。",--后面没有门
+        
+            ANNOUNCE_HOUSE_DOOR = "",
+            ANNOUNCE_ROOM_STUCK = "",
+            ]]
+            ANNOUNCE_TAXDAY = "滴答滴答，该交税了市民们。", --Tick tock
+            --ANNOUNCE_NOTHING_FOUND = "",
+        
+            ANNOUNCE_SUITUP = "只是时间问题！！！",
+
             DESCRIBE = {
                 ALOE = "这可是好东西。",
                 ALOE_COOKED = "趁热吃吧。",
@@ -283,19 +471,330 @@ local strings = {
 
                 WALL_PIG_RUINS = "古代城墙的一部分。",
 
+                --[[
                 ANCIENT_HULK ="相信我！这是值得的！",
                 ANCIENT_ROBOTS_ASSEMBLY ="为什么我要这么做来着？",
                 ANCIENT_ROBOT_CLAW ="我记得是尾巴...但看着起来更像手啊？",
                 ANCIENT_ROBOT_HEAD ="",
                 ANCIENT_ROBOT_LEG ="",
                 ANCIENT_ROBOT_RIBS ="",
-                LIVING_ARTIFACT ="看！现在我是无敌的！",
+                LIVING_ARTIFACT ="就是这样！就是它！",
+                ]]
 
                 OINC="希望这能值得我付出的时间。",
                 OINC10="买点什么好呢？",
                 OINC100="这上面是松露吗？我之前从没仔细看过！",
             },
         },
+        --[[
+        WAGSTAFF = {
+            DESCRIBE = {
+                --威尔逊
+                --我是火学家，我放火
+                LIGHTER =  "她随身携带的奇怪人造物。火是怎么产生的？", --An odd artifact she carries with her. How it work?
+                BERNIE_ACTIVE = "",
+                BERNIE_BIG = "",
+                BERNIE_INACTIVE = {
+                    GENERIC= "",
+                    BROKEN = "",
+                },
+
+                --沃尔夫冈
+                DUMBBELL = "一个普通的哑铃。",
+                DUMBBELL_GOLDEN = "一个质量较大的哑铃，使用这里很普遍的材料制成。",
+                DUMBBELL_MARBLE = "一个质量更大的哑铃，我最好不要尝试。",
+                DUMBBELL_GEM = "它的惯性与质量不符，我假设这和宝石的聚集效应有关。",
+                MIGHTY_GYM = {
+                    GENERIC = "推动木板可以驱动顶部的结构，不知道有什么功能。",
+                    BURNT = "显然它的功能不包括灭火。",
+                },
+
+                --温蒂
+                SMALLGHOST = "不受黑暗燃料影响的年轻鬼魂。", --A younger poltergeist not affected by the dark fuel.
+                SISTURN = {
+                    GENERIC = "",
+                    SOME_FLOWERS = "",
+                    LOTS_OF_FLOWERS = "",
+                },
+                GHOSTFLOWER = "",
+
+                GHOSTLYELIXIR_ATTACK = "",
+                GHOSTLYELIXIR_FASTREGEN = "",
+                GHOSTLYELIXIR_RETALIATION = "",
+                GHOSTLYELIXIR_SHIELD = "",
+                GHOSTLYELIXIR_SLOWREGEN = "",
+                GHOSTLYELIXIR_SPEED = "",
+
+                --WX78
+                WX78_SCANNER_ITEM = "是J1-M1，它也一起进来了？",
+                WX78_SCANNER = {
+                    GENERIC = "看来它运转良好。",
+                    HUNTING = "它正在寻找可分析的样本。",
+                    SCANNING = "它需要一些时间对样本进行扫描和分析。",
+                },
+                WX78_SCANNER_SUCCEEDED = "分析已经完成，可惜我没有数据存储器。",
+
+                WX78_MODULEREMOVER = "你哪来这么多接口？你是不是...",
+
+                WX78MODULE_BEE = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_COLD = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_HEAT = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_LIGHT = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_MAXHEALTH = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_MAXHEALTH2 = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_MAXHUNGER = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_MAXHUNGER1 = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_MAXSANITY = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_MAXSANITY1 = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_MOVESPEED = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_MOVESPEED2 = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_MUSIC = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_NIGHTVISION = "标准的机器功能扩展插件，采用了仿生设计。",
+                WX78MODULE_TASER = "标准的机器功能扩展插件，采用了仿生设计。",
+
+                --薇克巴顿
+                BOOKSTATION = {
+                    GENERIC = "",
+                    BURNT = "",
+                },
+                BOOK_BEES = "",
+                BOOK_BIRDS = "",
+                BOOK_BRIMSTONE = "",
+                BOOK_ELEMENTAL = "",--熔炉傀儡书
+                BOOK_FIRE = "",
+                BOOK_FISH = "",
+                BOOK_FOSSIL = "",--熔炉石化书
+                BOOK_GARDENING = "",
+                BOOK_HORTICULTURE = "",
+                BOOK_HORTICULTURE_UPGRADED = "",
+                BOOK_LIGHT = "",
+                BOOK_LIGHT_UPGRADED = "",
+                BOOK_MOON = "",
+                BOOK_RAIN = "",
+                BOOK_RESEARCH_STATION = "",
+                BOOK_SILVICULTURE = "",
+                BOOK_SLEEP = "",
+                BOOK_TEMPERATURE = "",
+                BOOK_TENTACLES = "",
+                BOOK_WEB = "",
+
+                --伍迪
+                LUCY = "奇怪的能量波从它里面散发出来。", --Strange waves of energy are emanating from it.
+                WEREITEM_BEAVER = "",
+                WEREITEM_GOOSE = "",
+                WEREITEM_MOOSE = "",
+
+                --韦斯来了！！！！！（惊恐）
+                BALLOONS_EMPTY = "",--Balloons? Here?
+
+                BALLOON = "看来这里的大气成分和我们的世界不同。",
+                BALLOONPARTY = "",
+                BALLOONSPEED = {
+                    GENERIC = "",
+                    DEFLATED = "",
+                },
+
+                BALLOONHAT = "",
+                BALLOONVEST = "",
+
+                --可怜的Maxy，被她玩弄于股掌之间
+                WAXWELLJOURNAL = "我尝试读懂这本书但不知为何遭到了阻止。" --"My attempts to understand this are being thwarted somehow."
+                TOPHAT_MAGICIAN = "这将会是物流界的伟大革命！",
+                MAGICIAN_CHEST = "绝妙啊！黑暗燃料它的内部生成了一个虫洞。",
+
+                --薇格弗德
+                WATHGRITHRHAT = "",
+                SPEAR_WATHGRITHR = "",
+
+                BATTLESONG_DURABILITY = "",
+                BATTLESONG_FIRERESISTANCE = "",
+                BATTLESONG_HEALTHGAIN = "",
+                BATTLESONG_SANITYAURA = "",
+                BATTLESONG_SANITYGAIN = "",
+
+                BATTLESONG_INSTANT_PANIC = "",
+                BATTLESONG_INSTANT_TAUNT = "",
+
+                --韦伯
+                SPIDERDEN_BEDAZZLER = "",
+
+                spider_whistle = "",
+                spider_repellent = "",
+                spider_healer_item = "",
+
+                MUTATOR_DROPPER = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
+                MUTATOR_HEALER = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
+                MUTATOR_HIDER = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
+                MUTATOR_MOON = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
+                MUTATOR_SPITTER = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
+                MUTATOR_WARRIOR = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
+                MUTATOR_WATER = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
+                
+                --薇诺娜
+                SEWING_TAPE = "这是你发明的吗？这在家用市场有会有很大的前景。",
+                WINONA_CATAPULT= {
+                    GENERIC = "",
+                    OFF = "",
+                    BURNING = "",
+                    BURNT = "",
+                },
+                WINONA_SPOTLIGHT = {
+                    GENERIC = "",
+                    OFF = "",
+                    BURNING = "",
+                    BURNT = "",
+                },
+                WINONA_BATTERY_LOW= {
+                    GENERIC = "",
+                    LOWPOWER = "",
+                    OFF = "",
+                    BURNING = "",
+                    BURNT = "",
+                },
+                WINONA_BATTERY_HIGH= {
+                    GENERIC = "",
+                    LOWPOWER = "",
+                    OFF = "",
+                    BURNING = "",
+                    BURNT = "",
+                },
+
+                --沃利
+                SPICEPACK = "",
+
+                PORTABLEBLENDER_ITEM = "",
+                PORTABLECOOKPOT_ITEM = {
+                    GENERIC = "",
+                    DONE = "",
+
+                    COOKING_LONG = "",
+                    COOKING_SHORT = "",
+                    EMPTY = "",
+                },
+                PORTABLESPICER_ITEM= {
+                    GENERIC = "",
+                    DONE = "",
+                },
+
+                SPICE_CHILI = "",
+                SPICE_GARLIC = "",
+                SPICE_SALT = "",
+                SPICE_SUGAR = "",
+
+                MONSTERTARTARE = "",
+                FRESHFRUITCREPES = "",
+                FROGFISHBOWL = "",
+                POTATOTORNADO = "",
+                DRAGONCHILISALAD = "",
+                GLOWBERRYMOUSSE = "",
+                VOLTGOATJELLY = "",
+                NIGHTMAREPIE = "",
+                BONESOUP = "",
+                MASHEDPOTATOES = "",
+                POTATOSOUFFLE = "",
+                MOQUECA = "",
+                GAZPACHO = "",
+                ASPARAGUSSOUP = "",
+                VEGSTINGER = "",
+                BANANAPOP = "",
+                CEVICHE = "",
+                SALSA = "",
+                PEPPERPOPPER = "",
+
+                --小Nigger
+                PORTABLETENT = "",
+                PORTABLETENT_ITEM = "",
+
+                SLINGSHOT = "",
+                SLINGSHOTAMMO_ROCK = "",
+                SLINGSHOTAMMO_GOLD = "",
+                SLINGSHOTAMMO_MARBLE = "",
+                SLINGSHOTAMMO_FREEZE = "",
+                SLINGSHOTAMMO_SLOW = "",
+                SLINGSHOTAMMO_THULECITE = "",
+
+                SLINGSHOTAMMO_POOP = "",
+
+                WOBYBIG = {
+                    "",
+                    "",
+                }
+                WOBYSMALL = {
+                    "",
+                    "",
+                }
+                --沃拓克斯
+
+                WORTOX_SOUL = "有一股无形的力把它约束在这里。", --只有小恶魔能检查
+
+                --沃姆伍德？
+
+                --沃特
+
+                MERMHAT = "",
+                MERMTHRONE =
+                {
+                    GENERIC = "",
+                    BURNT = "",
+                },
+                MERMTHRONE_CONSTRUCTION =
+                {
+                    GENERIC = "",
+                    BURNT = "",
+                },
+                MERMHOUSE_CRAFTED =
+                {
+                    GENERIC = "",
+                    BURNT = "",
+                },
+        
+                MERMWATCHTOWER_REGULAR = "",
+                MERMWATCHTOWER_NOKING = "",
+                MERMKING = "",
+                MERMGUARD = "",
+                MERM_PRINCE = "",
+
+                --旺达
+                POCKETWATCH_HEAL = {--除了警告表之外的台词应该是一样的
+                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
+                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                },
+        
+                POCKETWATCH_REVIVE = {
+                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
+                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                },
+        
+                POCKETWATCH_WARP = {
+                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
+                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                },
+        
+                POCKETWATCH_RECALL = {
+                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
+                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                },
+        
+                POCKETWATCH_PORTAL = {
+                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
+                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                },
+        
+                POCKETWATCH_WEAPON = {
+                    GENERIC = "黑暗燃料极大的放大了它的杀伤力。",
+                },
+        
+                POCKETWATCH_PARTS = "她时间装备的内部元件，真是精妙的结构。",
+                POCKETWATCH_DISMANTLER = "一套齐全的五金工具。",
+        
+                POCKETWATCH_PORTAL_ENTRANCE =--两个应该是一样的
+                {
+                    GENERIC = "对裂缝的绝妙应用。",
+                    DIFFERENTSHARD = "对裂缝的绝妙应用。",
+                },
+                POCKETWATCH_PORTAL_EXIT = "对裂缝的绝妙应用。",
+            },
+        }]]
     }
 }
 

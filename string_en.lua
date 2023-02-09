@@ -97,6 +97,8 @@ local strings = {
             },
         },
         WURT = {
+            ANNOUNCE_TAXDAY = "Every pigfolk has to give me money today!", --收税日
+            ANNOUNCE_SUITUP = "Flort Glurtsu flut!",--鱼人守卫战斗台词“For glory of Mermfolk!”
             DESCRIBE = {
                 --ALOE = "又甜又黏。",
                 ALOE_COOKED = "But it don't taste like medicine. Ms. Wickerbottom",
@@ -156,6 +158,7 @@ local strings = {
             },
         },
         WALTER = {
+            ANNOUNCE_SUITUP = "Now I am Iron man!",
             DESCRIBE = {
                 --ALOE = "芦荟的用途也包括食用。",
                 --ALOE_COOKED = "这样应该会更美味。",
@@ -216,6 +219,8 @@ local strings = {
             },
         },
         WANDA = {
+            ANNOUNCE_TAXDAY = "Tick tock. Is time for tax. Citizens hurry up.",
+            ANNOUNCE_SUITUP = "Just matter of TIME!!!",
             DESCRIBE = {
                 --ALOE = "这可是好东西。",
                 --ALOE_COOKED = "趁热吃吧。",
