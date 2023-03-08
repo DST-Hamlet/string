@@ -14,32 +14,32 @@ local strings = {
             ANNOUNCE_SNEEZE = "啊啾！",	--打喷嚏
             ANNOUNCE_HAYFEVER = "我的鼻子好痒...",	--开始有花粉
             ANNOUNCE_HAYFEVER_OFF = "呼，终于舒服了。",	--花粉消失
-            
+
             ANNOUNCE_PICKPOOP = {"噫！","太脏了！","难以忍受！",},	--翻粪堆
             --[[
             ANNOUNCE_TOO_HUMID = {"%s一点都不透气。","这%s闷得我要喘不过气来了。"},	--某衣服太热了
             ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
-        
+
             ANNOUNCE_PUGALISK_INVULNERABLE = {"太硬了！", "手都震麻了！", "它肯定有个软肋。"}, --打蛇鳞
-            
+
             ANNOUNCE_MYSTERY_FOUND = "",
             ANNOUNCE_MYSTERY_NOREWARD = "",
-        
+
             ANNOUNCE_MYSTERY_DOOR_FOUND = "嘿！这后面有一扇暗门！",--用放大镜看到裂缝后面有暗门
             ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "就是一堵墙。",--后面没有门
-        
+
             ANNOUNCE_HOUSE_DOOR = "",
             ANNOUNCE_ROOM_STUCK = "",
             ]]
             ANNOUNCE_TAXDAY = "收税日到了！排好队！", --收税日
             --ANNOUNCE_NOTHING_FOUND = "",
-        
+
             ANNOUNCE_SUITUP = "全副武装！",
 
             DESCRIBE = {
-                ALOE = "吃下它会好吗？", 
+                ALOE = "吃下它会好吗？",
                 ALOE_COOKED = "应该不会有问题，尝试一下吧。",
-                ALOE_PLANTED = "一株奇怪的植物。", 
+                ALOE_PLANTED = "一株奇怪的植物。",
                 ALOE_SEEDS = "一把种子。", -- 联机版种子台词
 
                 RADISH = "非常火辣的萝卜。",
@@ -107,7 +107,7 @@ local strings = {
             },
         },
         WORTOX = {
-           --[[ 
+           --[[
             ANNOUCE_UNDERLEAFCANOPY = "生长的枝条遮蔽了阳光。",
             ANNOUCE_ALARMOVER = "",
             ANNOUCE_BATS = "哼哼！吸血鬼来们了！",--蝙蝠来咯
@@ -119,26 +119,26 @@ local strings = {
             ANNOUNCE_SNEEZE = "（吸气）啊啾！啊啊啊啾！",	--sniff
             ANNOUNCE_HAYFEVER = "哎呀，好多花粉，要难受了。",	--开始有花粉
             ANNOUNCE_HAYFEVER_OFF = "花粉走光光了。终于。",	--花粉消失
-            
+
             ANNOUNCE_PICKPOOP = {"真恶心！","这还是热的！","我的爪子不能要了！",},	--翻粪堆
             --[[
             ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
             ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
-        
+
             ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
-            
+
             ANNOUNCE_MYSTERY_FOUND = "",
             ANNOUNCE_MYSTERY_NOREWARD = "",
-        
+
             ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
             ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
-        
+
             ANNOUNCE_HOUSE_DOOR = "",
             ANNOUNCE_ROOM_STUCK = "",
             ]]
             ANNOUNCE_TAXDAY = "", --收税日
             --ANNOUNCE_NOTHING_FOUND = "",
-        
+
             ANNOUNCE_SUITUP = "芜——湖！太好玩辣！",
 
             DESCRIBE = {
@@ -156,7 +156,7 @@ local strings = {
                 PIG_RUINS_IDOL = "上面的小雕像不错啊，我们把它拿走吧。",
 
                 RELIC_2 = "我看看...“问号，流星，松树。”哈哈，开玩笑的。", --Gravity Falls
-                PIG_RUINS_PLAQUE = "嘿！小树，猜猜这上面写的是什么？", 
+                PIG_RUINS_PLAQUE = "嘿！小树，猜猜这上面写的是什么？",
 
                 RELIC_3 = "大猪头的大鼻头。",
                 PIG_RUINS_HEAD = "别人有伞，它有大头！",
@@ -214,57 +214,57 @@ local strings = {
             ANNOUNCE_SNEEZE = "呵——呼，哈嚏呦！！！",	--打喷嚏
             ANNOUNCE_HAYFEVER = "格勒。鳃好难受...",	--开始有花粉
             ANNOUNCE_HAYFEVER_OFF = "噢！鳃终于舒服了！",	--花粉消失
-            
+
             ANNOUNCE_PICKPOOP = {"好脏的水！","格勒...","没有下次了！",},	--翻粪堆
             --[[
             ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
             ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
-        
+
             ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
-            
+
             ANNOUNCE_MYSTERY_FOUND = "",
             ANNOUNCE_MYSTERY_NOREWARD = "",
-        
+
             ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
             ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
-        
+
             ANNOUNCE_HOUSE_DOOR = "",
             ANNOUNCE_ROOM_STUCK = "",
             ]]
             ANNOUNCE_TAXDAY = "所有猪人都要给我钱！", --收税日
             --ANNOUNCE_NOTHING_FOUND = "",
-        
+
             ANNOUNCE_SUITUP = "浮浪特 格勒苏 浮路特！",--鱼人守卫战斗台词“为了鱼人的荣耀”
 
             DESCRIBE = {
                 ALOE = "又甜又黏。",
-                ALOE_COOKED = "但这尝起来不像药啊，薇克巴顿女士。", 
+                ALOE_COOKED = "但这尝起来不像药啊，薇克巴顿女士。",
                 ALOE_PLANTED = "格，没见过的小吃",
                 ALOE_SEEDS = "能长出更多的小吃，浮浪噗！",
 
-                RADISH = "辛辣的根！","
+                RADISH = "辛辣的根！",
                 RADISH_COOKED = "没有比原本更好。",
-                RADISH_PLANTED = "格，没见过的小吃", 
-                RADISH_SEEDS = "能长出更多的小吃，浮浪噗！", 
+                RADISH_PLANTED = "格，没见过的小吃",
+                RADISH_SEEDS = "能长出更多的小吃，浮浪噗！",
 
-                RELIC_1 = "猪人给我钱换它们自己的东西，好！", 
-                PIG_RUINS_IDOL = "一个猪人像，而不是鱼人。", 
+                RELIC_1 = "猪人给我钱换它们自己的东西，好！",
+                PIG_RUINS_IDOL = "一个猪人像，而不是鱼人。",
 
                 RELIC_2 = "猪人给我钱换它们自己的东西，好！",
-                PIG_RUINS_PLAQUE = "这也是猪人造的吗？", 
+                PIG_RUINS_PLAQUE = "这也是猪人造的吗？",
 
                 RELIC_3 = "战利品！",
-                PIG_RUINS_HEAD = "巨大的猪人脸。", 
+                PIG_RUINS_HEAD = "巨大的猪人脸。",
 
                 RELIC_4 = "一个不一样的猪人，为什么？",
                 RELIC_5 = "不能吃，但闪闪发光。",
 
-                PIG_RUINS_PIG = "看我把猪人的牙齿拿走！", 
+                PIG_RUINS_PIG = "看我把猪人的牙齿拿走！",
 
-                BASEFAN = "水都跑掉了！浮浪噗的！",  
+                BASEFAN = "水都跑掉了！浮浪噗的！",
 
                 PIG_SHOP_CITYHALL = {
-                    GENERIC = "鱼人必须也有一个！", 
+                    GENERIC = "鱼人必须也有一个！",
                     BURNING= "烧吧！",
                 },
                 PIG_SHOP_CITYHALL_PLAYER = {
@@ -314,21 +314,21 @@ local strings = {
             --[[
             ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
             ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
-        
+
             ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
-            
+
             ANNOUNCE_MYSTERY_FOUND = "",
             ANNOUNCE_MYSTERY_NOREWARD = "",
-        
+
             ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
             ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
-        
+
             ANNOUNCE_HOUSE_DOOR = "",
             ANNOUNCE_ROOM_STUCK = "",
             ]]
             ANNOUNCE_TAXDAY = "到收取管理费用的日子了。", --收税日
             --ANNOUNCE_NOTHING_FOUND = "",
-        
+
             ANNOUNCE_SUITUP = "现在我是钢铁人！",
 
             DESCRIBE = {
@@ -409,21 +409,21 @@ local strings = {
             --[[
             ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
             ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
-        
+
             ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
-            
+
             ANNOUNCE_MYSTERY_FOUND = "",
             ANNOUNCE_MYSTERY_NOREWARD = "",
-        
+
             ANNOUNCE_MYSTERY_DOOR_FOUND = "来这边！暗门在这里。",--用放大镜看到裂缝后面有暗门
             ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "嗷，不好。不是这里。",--后面没有门
-        
+
             ANNOUNCE_HOUSE_DOOR = "",
             ANNOUNCE_ROOM_STUCK = "",
             ]]
             ANNOUNCE_TAXDAY = "滴答滴答，该交税了市民们。", --Tick tock
             --ANNOUNCE_NOTHING_FOUND = "",
-        
+
             ANNOUNCE_SUITUP = "只是时间问题！！！",
 
             DESCRIBE = {
@@ -434,7 +434,7 @@ local strings = {
 
                 RADISH = "这绝对是萝卜。",
                 RADISH_COOKED = "搞定了，希望它值得。",
-                RADISH_PLANTED = "这肯定是萝卜了，我不会认错。",  
+                RADISH_PLANTED = "这肯定是萝卜了，我不会认错。",
                 RADISH_SEEDS = "既然现在就能吃，为什么还要浪费时间种呢？", -- 联机版种子台词
 
                 RELIC_1 = "并不是谁都能跨越漫长的时间。",
@@ -549,7 +549,7 @@ local strings = {
                 LOST_TOY_19 = "从理论上讲，这是位面投影的一种。",
                 LOST_TOY_42 = "从理论上讲，这是位面投影的一种。",
                 LOST_TOY_43 = "从理论上讲，这是位面投影的一种。",
-        
+
                 GHOSTFLOWER = "年轻鬼魂催生了花朵形的精神体结构，以此向她表示感谢。",
 
                 GHOSTLYELIXIR_ATTACK = "巧妙地利用了精神体的相互作用，真聪明。",
@@ -663,7 +663,7 @@ local strings = {
                 MUTATOR_SPITTER = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
                 MUTATOR_WARRIOR = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
                 MUTATOR_WATER = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
-                
+
                 --薇诺娜
                 SEWING_TAPE = "这是你发明的吗？这在家用市场有会有很大的前景。",
                 WINONA_CATAPULT= {
@@ -752,11 +752,11 @@ local strings = {
                 WOBYBIG = {
                     "",
                     "",
-                }
+                },
                 WOBYSMALL = {
                     "",
                     "",
-                }
+                },
                 --沃拓克斯
 
                 WORTOX_SOUL = "有一股无形的力把它约束在这里。", --只有小恶魔能检查
@@ -781,7 +781,7 @@ local strings = {
                     GENERIC = "",
                     BURNT = "",
                 },
-        
+
                 MERMWATCHTOWER_REGULAR = "",
                 MERMWATCHTOWER_NOKING = "",
                 MERMKING = "",
@@ -793,34 +793,34 @@ local strings = {
                     GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
                     RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
                 },
-        
+
                 POCKETWATCH_REVIVE = {
                     GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
                     RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
                 },
-        
+
                 POCKETWATCH_WARP = {
                     GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
                     RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
                 },
-        
+
                 POCKETWATCH_RECALL = {
                     GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
                     RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
                 },
-        
+
                 POCKETWATCH_PORTAL = {
                     GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
                     RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
                 },
-        
+
                 POCKETWATCH_WEAPON = {
                     GENERIC = "黑暗燃料极大的放大了它的杀伤力。",
                 },
-        
+
                 POCKETWATCH_PARTS = "她时间装备的内部元件，真是精妙的结构。",
                 POCKETWATCH_DISMANTLER = "一套齐全的五金工具。",
-        
+
                 POCKETWATCH_PORTAL_ENTRANCE =--两个应该是一样的
                 {
                     GENERIC = "对裂缝的绝妙应用。",
@@ -847,7 +847,7 @@ local strings = {
                 ALTERGUARDIANHATSHARD = "",
 
                 MOONSTORM_GLASS = {
-                    GENERIC = "",v
+                    GENERIC = "",
                     INFUSED = ""
                 },
 
@@ -905,7 +905,7 @@ local strings = {
             [31] = { "Desert", "Badlands", "Flats" },
             [32] = { "Place", "Corner", "Spot", "Base", "Hidey-Hole", "Zone", "Scale" },
         },]]
-        
+
     }
 }
 

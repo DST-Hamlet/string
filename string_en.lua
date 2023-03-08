@@ -10,8 +10,8 @@ local strings = {
 
                 --RADISH = "非常火辣的萝卜。",
                 --RADISH_COOKED = "粗糙的加工适得其反。",
-                RADISH_PLANTED = "Perfectly pluckable.", 
-                RADISH_SEEDS = "A handful of seeds.",  
+                RADISH_PLANTED = "Perfectly pluckable.",
+                RADISH_SEEDS = "A handful of seeds.",
                 --[[
                 RELIC_1 = "会有有钱人想要这个的。",
                 PIG_RUINS_IDOL = "一定有什么办法把上面那部分卸下来。",
@@ -27,7 +27,7 @@ local strings = {
 
                 PIG_RUINS_PIG = "未免太过于张扬了。",
                 ]]
-                BASEFAN = "I'm sure bossman would be very interested in it.", 
+                BASEFAN = "I'm sure bossman would be very interested in it.",
                 --[[
                 PIG_SHOP_CITYHALL = {
                     GENERIC = "当官的工作的地方。",
@@ -44,7 +44,7 @@ local strings = {
                     SLEEPING = "睡吧，懒猪。",
                 },
                 APORKALYPSE_CLOCK = "一套相当复杂的仪表装置。",
-               ]]  
+               ]]
             },
         },
         WORTOX = {
@@ -52,12 +52,12 @@ local strings = {
                 --ALOE = "可以内服也可以外敷，我选择外敷。",
                 --ALOE_COOKED = "对凡人们脆弱的身体有好处。",
                 --ALOE_PLANTED = "是芦荟，凡人的食物。",
-                ALOE_SEEDS = "Strange little seeds, indeed, indeed.", 
+                ALOE_SEEDS = "Strange little seeds, indeed, indeed.",
 
                 --RADISH = "有点辣。",
                 --RADISH_COOKED = "辣死了辣死了。",
                 --RADISH_PLANTED = "",
-                RADISH_SEEDS = "Grow a seed and you shall feed!", 
+                RADISH_SEEDS = "Grow a seed and you shall feed!",
 
                 --RELIC_1 = "古代的小雕像，拿来装饰吧。",
                 --PIG_RUINS_IDOL = "上面的小雕像不错啊，我们把它拿走吧。",
@@ -102,22 +102,22 @@ local strings = {
             DESCRIBE = {
                 --ALOE = "又甜又黏。",
                 ALOE_COOKED = "But it don't taste like medicine. Ms. Wickerbottom",
-                ALOE_PLANTED = "Grrr, snack never seen.", 
-                ALOE_SEEDS = "Make more snacks, florp!", 
+                ALOE_PLANTED = "Grrr, snack never seen.",
+                ALOE_SEEDS = "Make more snacks, florp!",
 
-                RADISH = "Hot spicy root!", 
-                RADISH_COOKED = "Not better than it was.", 
-                RADISH_PLANTED = "Grrr, snack never seen.", 
-                RADISH_SEEDS = "Make more snacks, florp!", 
+                RADISH = "Hot spicy root!",
+                RADISH_COOKED = "Not better than it was.",
+                RADISH_PLANTED = "Grrr, snack never seen.",
+                RADISH_SEEDS = "Make more snacks, florp!",
 
-                RELIC_1 = "Pigfolk pay me for their own stuff. Good!"", -- 
-                PIG_RUINS_IDOL = "A pigfolk idol, not mermfolk.", 
+                RELIC_1 = "Pigfolk pay me for their own stuff. Good!", --
+                PIG_RUINS_IDOL = "A pigfolk idol, not mermfolk.",
 
                 RELIC_2 = "Pigfolk pay me for their own stuff. Good!",
-                PIG_RUINS_PLAQUE = "Created by pigfolk too?", 
+                PIG_RUINS_PLAQUE = "Created by pigfolk too?",
 
                 --RELIC_3 = "战利品！",
-                PIG_RUINS_HEAD = "Giant pifrolk face!", 
+                PIG_RUINS_HEAD = "Giant pifrolk face!",
 
                 RELIC_4 = "A different pigfolk, why?",
                 --RELIC_5 = "不能吃，但闪闪发光。",
@@ -227,9 +227,9 @@ local strings = {
                 --ALOE_PLANTED = "我们摘走它吧，这可能是最后一个了。",
                 ALOE_SEEDS = "Why waste time growing them when I can just eat them now?",
 
-                RADISH = "I Said. It must be a turnip.", 
+                RADISH = "I Said. It must be a turnip.",
                 --RADISH_COOKED = "搞定了，希望它值得。",
-                RADISH_PLANTED = "It's a turnip. I can't be wrong,", 
+                RADISH_PLANTED = "It's a turnip. I can't be wrong,",
                 RADISH_SEEDS = "Why waste time growing them when I can just eat them now?",
                 --[[
                 RELIC_1 = "并不是谁都能跨越漫长的时间。",
