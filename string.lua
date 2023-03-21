@@ -8,18 +8,19 @@ local strings = {
             ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "在这里一点用也没有，还不如我在卑诗省的家庭小屋。",--其它世界的地契
             ANNOUNCE_TOOLCORRODED = "这些工具的质量太差了。", --工具被腐蚀，未使用？
-            ANNOUNCE_TURFTOOHARD = "这里的土层相当瓷实。", --挖不起来这个地皮
+            ANNOUNCE_TURFTOOHARD = "这里的土层相当瓷实。", --挖不起来这个地皮]]
             ANNOUNCE_GAS_DAMAGE = "咳！瓦斯！咳！有瓦斯！", --毒气雨林伤害
-            ]]
+            
             ANNOUNCE_SNEEZE = "啊啾！",	--打喷嚏
             ANNOUNCE_HAYFEVER = "我的鼻子好痒...",	--开始有花粉
             ANNOUNCE_HAYFEVER_OFF = "呼，终于舒服了。",	--花粉消失
 
             ANNOUNCE_PICKPOOP = {"噫！","太脏了！","难以忍受！",},	--翻粪堆
-            --[[
+            
             ANNOUNCE_TOO_HUMID = {"%s一点都不透气。","这%s闷得我要喘不过气来了。"},	--某衣服太热了
-            ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
+            ANNOUNCE_DEHUMID = "这样就舒服多了。",
 
+            --[[
             ANNOUNCE_PUGALISK_INVULNERABLE = {"太硬了！", "手都震麻了！", "它肯定有个软肋。"}, --打蛇鳞
 
             ANNOUNCE_MYSTERY_FOUND = "",
@@ -113,18 +114,19 @@ local strings = {
             ANNOUCE_BATS = "哼哼！吸血鬼来们了！",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
             ANNOUNCE_TOOLCORRODED = "", --？？？
-            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮
-            ANNOUNCE_GAS_DAMAGE = "", --毒气雨林伤害
-            ]]
+            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮]]
+            ANNOUNCE_GAS_DAMAGE = "哈！咳咳！咳咳咳！", --毒气雨林伤害
+            
             ANNOUNCE_SNEEZE = "（吸气）啊啾！啊啊啊啾！",	--sniff
             ANNOUNCE_HAYFEVER = "哎呀，好多花粉，要难受了。",	--开始有花粉
             ANNOUNCE_HAYFEVER_OFF = "花粉走光光了。终于。",	--花粉消失
 
             ANNOUNCE_PICKPOOP = {"真恶心！","这还是热的！","我的爪子不能要了！",},	--翻粪堆
-            --[[
-            ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
-            ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
 
+            ANNOUNCE_TOO_HUMID = {"我受不了%s了！",""},	--某衣服太热了
+            ANNOUNCE_DEHUMID = "自由自在，这才是我！",	--靠近风扇？总之是雾效果结束的
+
+            --[[
             ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
 
             ANNOUNCE_MYSTERY_FOUND = "",
@@ -136,7 +138,7 @@ local strings = {
             ANNOUNCE_HOUSE_DOOR = "",
             ANNOUNCE_ROOM_STUCK = "",
             ]]
-            ANNOUNCE_TAXDAY = "", --收税日
+            ANNOUNCE_TAXDAY = "排好队排好队，收税了！", --收税日
             --ANNOUNCE_NOTHING_FOUND = "",
 
             ANNOUNCE_SUITUP = "芜——湖！太好玩辣！",
@@ -208,18 +210,18 @@ local strings = {
             ANNOUCE_BATS = "",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
             ANNOUNCE_TOOLCORRODED = "", --？？？
-            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮
-            ANNOUNCE_GAS_DAMAGE = "", --毒气雨林伤害
-            ]]
+            ANNOUNCE_TURFTOOHARD = "好结实的土层。", --挖不起来这个地皮]]
+            ANNOUNCE_GAS_DAMAGE = "呵——呼，好难闻。", --毒气雨林伤害
+            
             ANNOUNCE_SNEEZE = "呵——呼，哈嚏呦！！！",	--打喷嚏
             ANNOUNCE_HAYFEVER = "格勒。鳃好难受...",	--开始有花粉
             ANNOUNCE_HAYFEVER_OFF = "噢！鳃终于舒服了！",	--花粉消失
 
             ANNOUNCE_PICKPOOP = {"好脏的水！","格勒...","没有下次了！",},	--翻粪堆
+            
+            ANNOUNCE_TOO_HUMID = {"%s热！","不想穿%s了！"},	--某衣服太热了
+            ANNOUNCE_DEHUMID = "呼，凉快了。",	--靠近风扇？总之是雾效果结束的
             --[[
-            ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
-            ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
-
             ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
 
             ANNOUNCE_MYSTERY_FOUND = "",
@@ -303,18 +305,18 @@ local strings = {
             ANNOUCE_BATS = "",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
             ANNOUNCE_TOOLCORRODED = "", --？？？
-            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮
-            ANNOUNCE_GAS_DAMAGE = "", --毒气雨林伤害
-            ]]
+            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮]]
+            ANNOUNCE_GAS_DAMAGE = "咳！这里的空气不对！", --毒气雨林伤害
+            
             ANNOUNCE_SNEEZE = "阿嚏！",	--打喷嚏
             ANNOUNCE_HAYFEVER = "空气中有什么东西...我的鼻子好痒。",	--开始有花粉
             ANNOUNCE_HAYFEVER_OFF = "我的鼻子好多了，它终于没了！",	--花粉消失
 
             ANNOUNCE_PICKPOOP = {"松树先锋队员必须能吃苦耐劳...但...","这真的太不卫生了！","别过来！沃比！",},	--翻粪堆
-            --[[
-            ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
-            ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
 
+            ANNOUNCE_TOO_HUMID = {"好闷啊。","%s一点都不透气。"},	--某衣服太热了
+            ANNOUNCE_DEHUMID = "还是这样更舒服。",	--靠近风扇？总之是雾效果结束的
+            --[[
             ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
 
             ANNOUNCE_MYSTERY_FOUND = "",
@@ -398,17 +400,18 @@ local strings = {
             ANNOUCE_BATS = "为什么总有人找我们麻烦呢？",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "这个地址实在太远了。",--其它世界的地契
             ANNOUNCE_TOOLCORRODED = "", --？？？
-            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮
-            ANNOUNCE_GAS_DAMAGE = "", --毒气雨林伤害
-            ]]
+            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮]]
+            ANNOUNCE_GAS_DAMAGE = "咳咳！嗬——咳咳咳！", --毒气雨林伤害
+            
             ANNOUNCE_SNEEZE = "阿嚏！",	--打喷嚏
             ANNOUNCE_HAYFEVER = "这些植物除了到处撒粉没别的事干了吗？",	--开始有花粉
             ANNOUNCE_HAYFEVER_OFF = "呼哈！终于结束了！",	--花粉消失
 
             ANNOUNCE_PICKPOOP = {"为什么我要做这种事？","我一定是哪根筋搭错了。","呕。",},	--翻粪堆
+
+            ANNOUNCE_TOO_HUMID = {"穿%s真是自讨不快。","这鬼天气...真不该穿%s的。"},	--某衣服太热了
+            ANNOUNCE_DEHUMID = "哈，感觉好多了。",	--靠近风扇？总之是雾效果结束的
             --[[
-            ANNOUNCE_TOO_HUMID = {"",""},	--某衣服太热了
-            ANNOUNCE_DEHUMID = {"",""},	--靠近风扇？总之是雾效果结束的
 
             ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
 
@@ -622,7 +625,7 @@ local strings = {
                 BALLOONS_EMPTY = "看来这是他带进来的。", --单机版："Balloons? Here?"
 
                 BALLOON = "也许这里的大气成分和我们的世界不同。",
-                BALLOONPARTY = "",
+                BALLOONPARTY = "一个用于庆祝的气球制品。",
                 BALLOONSPEED = {
                     GENERIC = "",
                     DEFLATED = "",
@@ -637,24 +640,24 @@ local strings = {
                 MAGICIAN_CHEST = "绝妙啊！黑暗燃料它的内部生成了一个虫洞。",
 
                 --薇格弗德
-                WATHGRITHRHAT = "",
-                SPEAR_WATHGRITHR = "",
+                WATHGRITHRHAT = "手工制作的演出道具，出人意料地坚固。",
+                SPEAR_WATHGRITHR = "手工制作的演出道具，出人意料地锋利。",
 
-                BATTLESONG_DURABILITY = "",
-                BATTLESONG_FIRERESISTANCE = "",
-                BATTLESONG_HEALTHGAIN = "",
-                BATTLESONG_SANITYAURA = "",
-                BATTLESONG_SANITYGAIN = "",
+                BATTLESONG_DURABILITY = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_FIRERESISTANCE = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_HEALTHGAIN = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_SANITYAURA = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_SANITYGAIN = "通过特殊调制的声波触发不明力量，有趣。",
 
-                BATTLESONG_INSTANT_PANIC = "",
-                BATTLESONG_INSTANT_TAUNT = "",
+                BATTLESONG_INSTANT_PANIC = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_INSTANT_TAUNT = "通过特殊调制的声波触发不明力量，有趣。",
 
                 --韦伯
-                SPIDERDEN_BEDAZZLER = "",
+                SPIDERDEN_BEDAZZLER = "这些涂鸦会改变生物的习性，有趣。",
 
-                spider_whistle = "",
-                spider_repellent = "",
-                spider_healer_item = "",
+                spider_whistle = "它们全都未经训练，也就是说这些是本能反应。",
+                spider_repellent = "这里的蛛形纲生物的竟会有如此有趣的本能反应？",
+                spider_healer_item = "显然是根据这里的蛛形纲生物调制的，但对人类仍有轻微的治疗效果。",
 
                 MUTATOR_DROPPER = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
                 MUTATOR_HEALER = "这种食物似乎能诱发蛛形纲生物进行快速的化蛹和羽化。",
@@ -717,13 +720,13 @@ local strings = {
 
                 MONSTERTARTARE = "",
                 FRESHFRUITCREPES = "",
-                FROGFISHBOWL = "",
+                FROGFISHBOWL = "它似乎能够在食用者身上生成疏水薄膜。",
                 POTATOTORNADO = "",
                 DRAGONCHILISALAD = "",
                 GLOWBERRYMOUSSE = "",
-                VOLTGOATJELLY = "",
-                NIGHTMAREPIE = "",
-                BONESOUP = "",
+                VOLTGOATJELLY = "储存了大量电能的胶状物。",
+                NIGHTMAREPIE = "黑暗燃料的食疗效果？我非常感兴趣，但等我去找一下纸笔...",
+                BONESOUP = "看上去非常简单，为什么我做不出来呢？",
                 MASHEDPOTATOES = "",
                 POTATOSOUFFLE = "",
                 MOQUECA = "",
@@ -760,8 +763,6 @@ local strings = {
                 --沃拓克斯
 
                 WORTOX_SOUL = "有一股无形的力把它约束在这里。", --只有小恶魔能检查
-
-                --沃姆伍德？
 
                 --沃特
 
@@ -830,18 +831,18 @@ local strings = {
 
                 --风暴之眼
                 ALTERGUARDIAN_PHASE1 = {
-                    GENERIC = "",
-                    DEAD = "",
+                    GENERIC = "自动防御机制被触发了，正如预想的一样。",
+                    DEAD = "不要放松警惕，它还有备用武装。",
                 },
                 ALTERGUARDIAN_PHASE2 = {
-                    GENERIC = "",
-                   DEAD = "",
+                    GENERIC = "它切换了战斗策略，明智但无用。",
+                   DEAD = "剩余的结构应该还足够进行一次重组。",
                 },
                 ALTERGUARDIAN_PHASE2SPIKE = "",
                 ALTERGUARDIAN_PHASE3 = "",
                 ALTERGUARDIAN_PHASE3TRAP = "",
                 ALTERGUARDIAN_PHASE3DEADORB = "",
-                ALTERGUARDIAN_PHASE3DEAD = "",
+                ALTERGUARDIAN_PHASE3DEAD = "最后的防护措施，效果甚微。",
 
                 ALTERGUARDIANHAT = "",
                 ALTERGUARDIANHATSHARD = "",
@@ -855,11 +856,11 @@ local strings = {
                 MOONSTORM_STATIC_ITEM = "",
                 MOONSTORM_SPARK = "",
 
-                BIRD_MUTANT = "",
-                BIRD_MUTANT_SPITTER = "",
+                BIRD_MUTANT = "别让他们靠近我的机器！",
+                BIRD_MUTANT_SPITTER = "该死的鸟！滚远点！",
 
                 WAGSTAFF_NPC = "啊，这是那时我的投影。",
-                ALTERGUARDIAN_CONTAINED = "",
+                ALTERGUARDIAN_CONTAINED = "从现在开始，我们需要按照时间计划进行。",
 
                 WAGSTAFF_TOOL_1 = "我的网状缓冲器，以投影形态送到这个位面。",
                 WAGSTAFF_TOOL_2 = "我的装置除垢器，以投影形态送到这个位面。",
@@ -867,7 +868,7 @@ local strings = {
                 WAGSTAFF_TOOL_4 = "我的概念刷洗器，以投影形态送到这个位面。",
                 WAGSTAFF_TOOL_5 = "我的校准观察机，以投影形态送到这个位面。",
 
-                MOONSTORM_GOGGLESHAT = "",
+                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神影响。",
                 --[[
                 --单机版各种护目镜的台词，放在这里做参考
                 GOGGLESARMORHAT = "我这么设计以供我在战斗中研究声音的回响。", --"I designed it so I can study sound reverberations while I'm engaged in combat."
