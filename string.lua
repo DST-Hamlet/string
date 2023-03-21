@@ -123,7 +123,7 @@ local strings = {
 
             ANNOUNCE_PICKPOOP = {"真恶心！","这还是热的！","我的爪子不能要了！",},	--翻粪堆
 
-            ANNOUNCE_TOO_HUMID = {"我受不了%s了！",""},	--某衣服太热了
+            ANNOUNCE_TOO_HUMID = {"我受不了%s了。","脱掉%s吧。"},	--某衣服太热了
             ANNOUNCE_DEHUMID = "自由自在，这才是我！",	--靠近风扇？总之是雾效果结束的
 
             --[[
