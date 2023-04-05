@@ -2,6 +2,41 @@
 local strings = {
     CHARACTERS = {
         WINONA = {
+            ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--进入完全遮蔽阳光的树林，未使用？
+            --[[
+            ANNOUCE_ALARMOVER = "呼，平安度过。",
+            ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "在这里一点用也没有，还不如我在卑诗省的家庭小屋。",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "这些工具的质量太差了。", --工具被腐蚀，未使用？
+            ANNOUNCE_TURFTOOHARD = "这里的土层相当瓷实。", --挖不起来这个地皮]]
+            ANNOUNCE_GAS_DAMAGE = "咳！瓦斯！咳！有瓦斯！", --毒气雨林伤害
+            
+            ANNOUNCE_SNEEZE = "啊啾！",	--打喷嚏
+            ANNOUNCE_HAYFEVER = "我的鼻子好痒...",	--开始有花粉
+            ANNOUNCE_HAYFEVER_OFF = "呼，终于舒服了。",	--花粉消失
+
+            ANNOUNCE_PICKPOOP = {"噫！","太脏了！","难以忍受！",},	--翻粪堆
+            
+            ANNOUNCE_TOO_HUMID = {"%s一点都不透气。","这%s闷得我要喘不过气来了。"},	--某衣服太热了
+            ANNOUNCE_DEHUMID = "这样就舒服多了。",
+
+            --[[
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"太硬了！", "手都震麻了！", "它肯定有个软肋。"}, --打蛇鳞
+
+            ANNOUNCE_MYSTERY_FOUND = "",
+            ANNOUNCE_MYSTERY_NOREWARD = "",
+
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "嘿！这后面有一扇暗门！",--用放大镜看到裂缝后面有暗门
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "就是一堵墙。",--后面没有门
+
+            ANNOUNCE_HOUSE_DOOR = "",
+            ANNOUNCE_ROOM_STUCK = "",
+            ]]
+            ANNOUNCE_TAXDAY = "收税日到了！排好队！", --收税日
+            --ANNOUNCE_NOTHING_FOUND = "",
+
+            ANNOUNCE_SUITUP = "全副武装！",
+
             DESCRIBE = {
                 ALOE = "Is it health benefits?",
                 --ALOE_COOKED = "",
@@ -44,10 +79,85 @@ local strings = {
                     SLEEPING = "睡吧，懒猪。",
                 },
                 APORKALYPSE_CLOCK = "一套相当复杂的仪表装置。",
-               ]]
+
+                WALL_PIG_RUINS = "一堵年久失修的墙。",
+
+                ANCIENT_HULK ="",
+                ANCIENT_ROBOTS_ASSEMBLY ="",
+                ANCIENT_ROBOT_CLAW ="",
+                ANCIENT_ROBOT_HEAD ="",
+                ANCIENT_ROBOT_LEG ="",
+                ANCIENT_ROBOT_RIBS ="",
+                LIVING_ARTIFACT ="",]]
+
+                OINC="这算是工资吗？",
+                OINC10="一点小积蓄，不要浪费。",
+                OINC100="勤奋是致富之本。",--[[
+
+                --出生点的玩意儿
+                PORKLAND_INTRO_BASKET = "可惜没能凑效。",
+                PORKLAND_INTRO_BALLOON = "破成这样，应该补不好了。",
+                PORKLAND_INTRO_TRUNK = "这上面只写了“W”...喂！这是你们谁的？",
+                PORKLAND_INTRO_SUITCASE = "这上面只写了“W”...喂！这是你们谁的？",
+                PORKLAND_INTRO_FLAGS = "必要的装饰。",
+                PORKLAND_INTRO_SANDBAG = "一大包沙子，已经没用了。",
+                
+                GLOWFLY={
+                    GENERIC="会飞的聚光灯。",
+                    SLEEPING="检修时间到。",
+                    DEAD="它坏掉了。",--这玩意怎么检查？
+                },
+                GLOWFLY_COCOON="改变正在发生。",
+                RABID_BEETLE={
+                    GENERIC="你们到底在兴奋什么？",
+                    SLEEPING="好好冷静一下！",
+                    DEAD="啊，消停了。",--这玩意怎么检查？
+                },
+                TREE_PILLAR="它一直延伸到我视野的尽头。",
+                FLOWER_RAINFOREST="我从未见过这样的花。",
+                
+                BRAMBLESPIKE="",
+                BRAMBLE_BULB="",
+                BRAMBLE_CORE="",
+                ]]
             },
         },
         WORTOX = {
+            ANNOUCE_UNDERLEAFCANOPY = "生长的枝条遮蔽了阳光。",
+            --[[
+            ANNOUCE_ALARMOVER = "",
+            ANNOUCE_BATS = "哼哼！吸血鬼来们了！",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "", --？？？
+            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮]]
+            ANNOUNCE_GAS_DAMAGE = "哈！咳咳！咳咳咳！", --毒气雨林伤害
+            
+            ANNOUNCE_SNEEZE = "（吸气）啊啾！啊啊啊啾！",	--sniff
+            ANNOUNCE_HAYFEVER = "哎呀，好多花粉，要难受了。",	--开始有花粉
+            ANNOUNCE_HAYFEVER_OFF = "花粉走光光了。终于。",	--花粉消失
+
+            ANNOUNCE_PICKPOOP = {"真恶心！","这还是热的！","我的爪子不能要了！",},	--翻粪堆
+
+            ANNOUNCE_TOO_HUMID = {"我受不了%s了。","脱掉%s吧。"},	--某衣服太热了
+            ANNOUNCE_DEHUMID = "自由自在，这才是我！",	--靠近风扇？总之是雾效果结束的
+
+            --[[
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
+
+            ANNOUNCE_MYSTERY_FOUND = "",
+            ANNOUNCE_MYSTERY_NOREWARD = "",
+
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
+
+            ANNOUNCE_HOUSE_DOOR = "",
+            ANNOUNCE_ROOM_STUCK = "",
+            ]]
+            ANNOUNCE_TAXDAY = "排好队排好队，收税了！", --收税日
+            --ANNOUNCE_NOTHING_FOUND = "",
+
+            ANNOUNCE_SUITUP = "芜——湖！太好玩辣！",
+
             DESCRIBE = {
                 --ALOE = "可以内服也可以外敷，我选择外敷。",
                 --ALOE_COOKED = "对凡人们脆弱的身体有好处。",
@@ -92,13 +202,84 @@ local strings = {
                 },
                 APORKALYPSE_CLOCK = "好大规模的魔法，天啊，这会很好玩的。",
 
-                WALL_PIG_RUINS = "一堵年久失修的墙。",
+                WALL_PIG_RUINS = "这些符文不是能拦住我的那种。",
+
+                ANCIENT_HULK ="",
+                ANCIENT_ROBOTS_ASSEMBLY ="",
+                ANCIENT_ROBOT_CLAW ="",
+                ANCIENT_ROBOT_HEAD ="",
+                ANCIENT_ROBOT_LEG ="",
+                ANCIENT_ROBOT_RIBS ="",
+                LIVING_ARTIFACT ="",
+                ]]
+
+                OINC="普通的硬币。",
+                OINC10="依然是普通的货币。",
+                OINC100="有钱能使鬼推磨，但他们毕竟只是猪。",
+
+                --出生点的玩意儿
+                --[[
+                PORKLAND_INTRO_BASKET = "",
+                PORKLAND_INTRO_BALLOON = "",
+                PORKLAND_INTRO_TRUNK = "",
+                PORKLAND_INTRO_SUITCASE = "",
+                PORKLAND_INTRO_FLAGS = "",
+                PORKLAND_INTRO_SANDBAG = "",
+
+                GLOWFLY={
+                    GENERIC="闪亮的小家伙。",
+                    SLEEPING="做个好梦吧。",
+                    DEAD="对不起。",--这玩意怎么检查？
+                },
+                GLOWFLY_COCOON="会变成什么样呢？",
+                RABID_BEETLE={
+                    GENERIC="真有精力，来跳支舞吗？",
+                    SLEEPING="那就中场休息。",
+                    DEAD="真遗憾。",--这玩意怎么检查？
+                },
+                TREE_PILLAR="遮天蔽日。",
+                FLOWER_RAINFOREST="有一种野性的美。",
+
+                BRAMBLESPIKE="",
+                BRAMBLE_BULB="",
+                BRAMBLE_CORE="",
                 ]]
             },
         },
         WURT = {
+            ANNOUCE_UNDERLEAFCANOPY = "大树挡住了光。",
+            --[[
+            ANNOUCE_ALARMOVER = "鱼人王国的故事还没完呢。",
+            ANNOUCE_BATS = "",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "", --？？？
+            ANNOUNCE_TURFTOOHARD = "好结实的土层。", --挖不起来这个地皮]]
+            ANNOUNCE_GAS_DAMAGE = "呵——呼，好难闻。", --毒气雨林伤害
+            
+            ANNOUNCE_SNEEZE = "呵——呼，哈嚏呦！！！",	--打喷嚏
+            ANNOUNCE_HAYFEVER = "格勒。鳃好难受...",	--开始有花粉
+            ANNOUNCE_HAYFEVER_OFF = "噢！鳃终于舒服了！",	--花粉消失
+
+            ANNOUNCE_PICKPOOP = {"好脏的水！","格勒...","没有下次了！",},	--翻粪堆
+            
+            ANNOUNCE_TOO_HUMID = {"%s热！","不想穿%s了！"},	--某衣服太热了
+            ANNOUNCE_DEHUMID = "呼，凉快了。",	--靠近风扇？总之是雾效果结束的
+            --[[
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
+
+            ANNOUNCE_MYSTERY_FOUND = "",
+            ANNOUNCE_MYSTERY_NOREWARD = "",
+
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
+
+            ANNOUNCE_HOUSE_DOOR = "",
+            ANNOUNCE_ROOM_STUCK = "",
+            ]]
             ANNOUNCE_TAXDAY = "Every pigfolk has to give me money today!", --收税日
+            --ANNOUNCE_NOTHING_FOUND = "",
             ANNOUNCE_SUITUP = "Flort Glurtsu flut!",--鱼人守卫战斗台词“For glory of Mermfolk!”
+            
             DESCRIBE = {
                 --ALOE = "又甜又黏。",
                 ALOE_COOKED = "But it don't taste like medicine. Ms. Wickerbottom",
@@ -155,10 +336,72 @@ local strings = {
                 OINC="What it for?",
                 OINC10="What is \"Gurrency\"?",
                 OINC100="Stuff for stuff! \"Gurrency\"!",
+
+                --出生点的玩意儿
+                --[[
+                PORKLAND_INTRO_BASKET = "",
+                PORKLAND_INTRO_BALLOON = "",
+                PORKLAND_INTRO_TRUNK = "",
+                PORKLAND_INTRO_SUITCASE = "",
+                PORKLAND_INTRO_FLAGS = "",
+                PORKLAND_INTRO_SANDBAG = "",
+                
+
+                GLOWFLY={
+                    GENERIC="",
+                    SLEEPING="",
+                    DEAD="",--这玩意怎么检查？
+                },
+                GLOWFLY_COCOON="小虫子把自己裹了起来。",
+                RABID_BEETLE={
+                    GENERIC="",
+                    SLEEPING="",
+                    DEAD="",--这玩意怎么检查？
+                },
+                TREE_PILLAR="一颗巨大的树。",
+                FLOWER_RAINFOREST="稍微好看点的植物，还是很丑",
+                
+                BRAMBLESPIKE="",
+                BRAMBLE_BULB="",
+                BRAMBLE_CORE="",
+                ]]
             },
         },
         WALTER = {
+            ANNOUCE_UNDERLEAFCANOPY = "好茂盛的森林，一点光都进不来。",
+            --[[
+            ANNOUCE_ALARMOVER = "",
+            ANNOUCE_BATS = "",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "", --？？？
+            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮]]
+            ANNOUNCE_GAS_DAMAGE = "咳！这里的空气不对！", --毒气雨林伤害
+            
+            ANNOUNCE_SNEEZE = "阿嚏！",	--打喷嚏
+            ANNOUNCE_HAYFEVER = "空气中有什么东西...我的鼻子好痒。",	--开始有花粉
+            ANNOUNCE_HAYFEVER_OFF = "我的鼻子好多了，它终于没了！",	--花粉消失
+
+            ANNOUNCE_PICKPOOP = {"松树先锋队员必须能吃苦耐劳...但...","这真的太不卫生了！","别过来！沃比！",},	--翻粪堆
+
+            ANNOUNCE_TOO_HUMID = {"好闷啊。","%s一点都不透气。"},	--某衣服太热了
+            ANNOUNCE_DEHUMID = "还是这样更舒服。",	--靠近风扇？总之是雾效果结束的
+            --[[
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
+
+            ANNOUNCE_MYSTERY_FOUND = "",
+            ANNOUNCE_MYSTERY_NOREWARD = "",
+
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
+
+            ANNOUNCE_HOUSE_DOOR = "",
+            ANNOUNCE_ROOM_STUCK = "",
+            ]]
+            ANNOUNCE_TAXDAY = "到收取管理费用的日子了。", --收税日
+            --ANNOUNCE_NOTHING_FOUND = "",
+
             ANNOUNCE_SUITUP = "Now I am Iron man!",
+
             DESCRIBE = {
                 --ALOE = "芦荟的用途也包括食用。",
                 --ALOE_COOKED = "这样应该会更美味。",
@@ -216,10 +459,70 @@ local strings = {
                 OINC10="",
                 OINC100="",
                 ]]
+
+                --出生点的玩意儿
+                --[[
+                PORKLAND_INTRO_BASKET = "",
+                PORKLAND_INTRO_BALLOON = "",
+                PORKLAND_INTRO_TRUNK = "至少我们可以排除麦斯威尔先生。",
+                PORKLAND_INTRO_SUITCASE = "至少我们可以排除麦斯威尔先生。",
+                PORKLAND_INTRO_FLAGS = "",
+                PORKLAND_INTRO_SANDBAG = "",
+                
+
+                GLOWFLY={
+                    GENERIC="哇哦，看看它们发出的光！",
+                    SLEEPING="它在睡觉。",
+                    DEAD="喔，死掉了。",--这玩意怎么检查？
+                },
+                GLOWFLY_COCOON="一个茧，里面会是什么呢？",
+                RABID_BEETLE={
+                    GENERIC="哇哦，你看它们多活跃啊！",
+                    SLEEPING="它在睡觉，",
+                    DEAD="喔，死掉了。",--这玩意怎么检查？
+                },
+                TREE_PILLAR="这么大的树，哪怕是海狸人也啃不完吧。",
+                FLOWER_RAINFOREST="哦！这就是丛林探险故事中的那种花。",
+                ]]
+                BRAMBLESPIKE="It's all right. I'll be careful, Mr. Wilson.",
+                BRAMBLE_BULB="I'm the great southern plantkiller",
+                BRAMBLE_CORE="A overgrown monstrosity of the jungle's depths.",
             },
         },
         WANDA = {
+            ANNOUCE_UNDERLEAFCANOPY = "他们潜伏在这里！我需要光！",
+            --[[
+            ANNOUCE_ALARMOVER = "我们安全了，暂时。",
+            ANNOUCE_BATS = "为什么总有人找我们麻烦呢？",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "这个地址实在太远了。",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "", --？？？
+            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮]]
+            ANNOUNCE_GAS_DAMAGE = "咳咳！嗬——咳咳咳！", --毒气雨林伤害
+            
+            ANNOUNCE_SNEEZE = "阿嚏！",	--打喷嚏
+            ANNOUNCE_HAYFEVER = "这些植物除了到处撒粉没别的事干了吗？",	--开始有花粉
+            ANNOUNCE_HAYFEVER_OFF = "呼哈！终于结束了！",	--花粉消失
+
+            ANNOUNCE_PICKPOOP = {"为什么我要做这种事？","我一定是哪根筋搭错了。","呕。",},	--翻粪堆
+
+            ANNOUNCE_TOO_HUMID = {"穿%s真是自讨不快。","这鬼天气...真不该穿%s的。"},	--某衣服太热了
+            ANNOUNCE_DEHUMID = "哈，感觉好多了。",	--靠近风扇？总之是雾效果结束的
+            --[[
+
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
+
+            ANNOUNCE_MYSTERY_FOUND = "",
+            ANNOUNCE_MYSTERY_NOREWARD = "",
+
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "来这边！暗门在这里。",--用放大镜看到裂缝后面有暗门
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "嗷，不好。不是这里。",--后面没有门
+
+            ANNOUNCE_HOUSE_DOOR = "",
+            ANNOUNCE_ROOM_STUCK = "",
+            ]]
             ANNOUNCE_TAXDAY = "Tick tock. Is time for tax. Citizens hurry up.",
+            --ANNOUNCE_NOTHING_FOUND = "",
+
             ANNOUNCE_SUITUP = "Just matter of TIME!!!",
             DESCRIBE = {
                 --ALOE = "这可是好东西。",
@@ -265,6 +568,45 @@ local strings = {
                 APORKALYPSE_CLOCK = "掌握他们的动向...非常聪明的想法。",
 
                 WALL_PIG_RUINS = "古代城墙的一部分。",
+
+                ANCIENT_HULK ="相信我！这是值得的！",
+                ANCIENT_ROBOTS_ASSEMBLY ="为什么我要这么做来着？",
+                ANCIENT_ROBOT_CLAW ="我记得是尾巴...但看着起来更像手啊？",
+                ANCIENT_ROBOT_HEAD ="",
+                ANCIENT_ROBOT_LEG ="",
+                ANCIENT_ROBOT_RIBS ="",
+                LIVING_ARTIFACT ="就是这样！就是它！",
+
+                OINC="希望这能值得我付出的时间。",
+                OINC10="买点什么好呢？",
+                OINC100="这上面是松露吗？我之前从没仔细看过！",
+
+                --出生点的玩意儿
+                
+                PORKLAND_INTRO_BASKET = "",
+                PORKLAND_INTRO_BALLOON = "",
+                PORKLAND_INTRO_TRUNK = "",
+                PORKLAND_INTRO_SUITCASE = "",
+                PORKLAND_INTRO_FLAGS = "",
+                PORKLAND_INTRO_SANDBAG = "",
+
+                GLOWFLY={
+                    GENERIC="我还是喜欢它们现在的样子。",
+                    SLEEPING="趁现在好好睡吧。",
+                    DEAD="也许这样才是最好的。",--这玩意怎么检查？
+                },
+                GLOWFLY_COCOON="我们最好在它破茧前离开。",
+                RABID_BEETLE={
+                    GENERIC="害虫！快走开！",
+                    SLEEPING="呼，可以喘口气了。",
+                    DEAD="世上又少了一个害虫。",--这玩意怎么检查？
+                },
+                TREE_PILLAR="幸好它没有完全遮蔽住阳光。",
+                FLOWER_RAINFOREST="为什么我要浪费时间盯着它看？",
+
+                BRAMBLESPIKE="它们挡了我的路。",
+                BRAMBLE_BULB="或许有一些方法能把它利用起来。",
+                BRAMBLE_CORE="我不确定那是否值得我把时间花在它上面。",
                 ]]
             },
         },

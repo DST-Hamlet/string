@@ -2,8 +2,8 @@
 local strings = {
     CHARACTERS = {
         WINONA = {
-            --[[
             ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--进入完全遮蔽阳光的树林，未使用？
+            --[[
             ANNOUCE_ALARMOVER = "呼，平安度过。",
             ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "在这里一点用也没有，还不如我在卑诗省的家庭小屋。",--其它世界的地契
@@ -105,11 +105,30 @@ local strings = {
                 PORKLAND_INTRO_FLAGS = "必要的装饰。",
                 PORKLAND_INTRO_SANDBAG = "一大包沙子，已经没用了。",
                 ]]
+
+                GLOWFLY={
+                    GENERIC="会飞的聚光灯。",
+                    SLEEPING="检修时间到。",
+                    DEAD="它坏掉了。",--这玩意怎么检查？
+                },
+                GLOWFLY_COCOON="改变正在发生。",
+                RABID_BEETLE={
+                    GENERIC="你们到底在兴奋什么？",
+                    SLEEPING="好好冷静一下！",
+                    DEAD="啊，消停了。",--这玩意怎么检查？
+                },
+                TREE_PILLAR="它一直延伸到我视野的尽头。",
+                FLOWER_RAINFOREST="我从未见过这样的花。",
+
+                BRAMBLESPIKE="缠绕在一起的一大团东西。",
+                BRAMBLE_BULB="不知道这有什么用。",
+                BRAMBLE_CORE="这一定就是源头。",
+
             },
         },
         WORTOX = {
-           --[[
             ANNOUCE_UNDERLEAFCANOPY = "生长的枝条遮蔽了阳光。",
+            --[[
             ANNOUCE_ALARMOVER = "",
             ANNOUCE_BATS = "哼哼！吸血鬼来们了！",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
@@ -201,11 +220,39 @@ local strings = {
                 OINC="普通的硬币。",
                 OINC10="依然是普通的货币。",
                 OINC100="有钱能使鬼推磨，但他们毕竟只是猪。",
+
+                --出生点的玩意儿
+                --[[
+                PORKLAND_INTRO_BASKET = "",
+                PORKLAND_INTRO_BALLOON = "",
+                PORKLAND_INTRO_TRUNK = "",
+                PORKLAND_INTRO_SUITCASE = "",
+                PORKLAND_INTRO_FLAGS = "",
+                PORKLAND_INTRO_SANDBAG = "",
+                ]]
+
+                GLOWFLY={
+                    GENERIC="闪亮的小家伙。",
+                    SLEEPING="做个好梦吧。",
+                    DEAD="对不起。",--这玩意怎么检查？
+                },
+                GLOWFLY_COCOON="会变成什么样呢？",
+                RABID_BEETLE={
+                    GENERIC="真有精力，来跳支舞吗？",
+                    SLEEPING="那就中场休息。",
+                    DEAD="真遗憾。",--这玩意怎么检查？
+                },
+                TREE_PILLAR="遮天蔽日。",
+                FLOWER_RAINFOREST="有一种野性的美。",
+                
+                BRAMBLESPIKE="这些刺可拦不住我。",
+                BRAMBLE_BULB="我记得有一种魔法能用到它。",
+                BRAMBLE_CORE="找到你了！",
             },
         },
         WURT = {
-            --[[
             ANNOUCE_UNDERLEAFCANOPY = "大树挡住了光。",
+            --[[
             ANNOUCE_ALARMOVER = "鱼人王国的故事还没完呢。",
             ANNOUCE_BATS = "",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
@@ -296,11 +343,39 @@ local strings = {
                 OINC="这有什么用？",
                 OINC10="什么是“钱”？",
                 OINC100="换东西的东西！“钱”！",
+
+                --出生点的玩意儿
+                --[[
+                PORKLAND_INTRO_BASKET = "",
+                PORKLAND_INTRO_BALLOON = "",
+                PORKLAND_INTRO_TRUNK = "",
+                PORKLAND_INTRO_SUITCASE = "",
+                PORKLAND_INTRO_FLAGS = "",
+                PORKLAND_INTRO_SANDBAG = "",
+                ]]
+
+                GLOWFLY={
+                    GENERIC="它们是怎么发光的？",
+                    SLEEPING="在睡觉。",
+                    DEAD="死掉了。",--这玩意怎么检查？
+                },
+                GLOWFLY_COCOON="小虫子把自己裹了起来。",
+                RABID_BEETLE={
+                    GENERIC="小虫子在发疯！",
+                    SLEEPING="小虫子安静了。",
+                    DEAD="死掉了。",--这玩意怎么检查？
+                },
+                TREE_PILLAR="一颗巨大的树。",
+                FLOWER_RAINFOREST="稍微好看点的植物，还是很丑",
+
+                BRAMBLESPIKE="坏植物！坏！",
+                BRAMBLE_BULB="现在它归我了！",
+                BRAMBLE_CORE="坏植物头头！坏！",
             },
         },
         WALTER = {
-            --[[
             ANNOUCE_UNDERLEAFCANOPY = "好茂盛的森林，一点光都进不来。",
+            --[[
             ANNOUCE_ALARMOVER = "",
             ANNOUCE_BATS = "",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
@@ -391,11 +466,40 @@ local strings = {
                 OINC="我的零花钱。",
                 OINC10="我的一点小钱。",
                 OINC100="我的一笔巨款。",
+
+                --出生点的玩意儿
+                --[[
+                PORKLAND_INTRO_BASKET = "",
+                PORKLAND_INTRO_BALLOON = "",
+                PORKLAND_INTRO_TRUNK = "至少我们可以排除麦斯威尔先生。",
+                PORKLAND_INTRO_SUITCASE = "至少我们可以排除麦斯威尔先生。",
+                PORKLAND_INTRO_FLAGS = "",
+                PORKLAND_INTRO_SANDBAG = "",
+                ]]
+
+                GLOWFLY={
+                    GENERIC="哇哦，看看它们发出的光！",
+                    SLEEPING="它在睡觉。",
+                    DEAD="喔，死掉了。",--这玩意怎么检查？
+                },
+                GLOWFLY_COCOON="一个茧，里面会是什么呢？",
+                RABID_BEETLE={
+                    GENERIC="哇哦，你看它们多活跃啊！",
+                    SLEEPING="它在睡觉，",
+                    DEAD="喔，死掉了。",--这玩意怎么检查？
+                },
+                TREE_PILLAR="这么大的树，哪怕是海狸人也啃不完吧。",
+                FLOWER_RAINFOREST="哦！这就是丛林探险故事中的那种花。",
+                
+                BRAMBLESPIKE="没事，我会小心的，威尔逊先生。",
+                BRAMBLE_BULB="我是大南方植物的终结者。",
+                BRAMBLE_CORE="蔓生在丛林深处的畸形怪花。",
+                
             },
         },
         WANDA = {
-            --[[
             ANNOUCE_UNDERLEAFCANOPY = "他们潜伏在这里！我需要光！",
+            --[[
             ANNOUCE_ALARMOVER = "我们安全了，暂时。",
             ANNOUCE_BATS = "为什么总有人找我们麻烦呢？",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "这个地址实在太远了。",--其它世界的地契
@@ -487,6 +591,35 @@ local strings = {
                 OINC="希望这能值得我付出的时间。",
                 OINC10="买点什么好呢？",
                 OINC100="这上面是松露吗？我之前从没仔细看过！",
+
+                --出生点的玩意儿
+                --[[
+                PORKLAND_INTRO_BASKET = "",
+                PORKLAND_INTRO_BALLOON = "",
+                PORKLAND_INTRO_TRUNK = "",
+                PORKLAND_INTRO_SUITCASE = "",
+                PORKLAND_INTRO_FLAGS = "",
+                PORKLAND_INTRO_SANDBAG = "",
+                ]]
+
+                GLOWFLY={
+                    GENERIC="我还是喜欢它们现在的样子。",
+                    SLEEPING="趁现在好好睡吧。",
+                    DEAD="也许这样才是最好的。",--这玩意怎么检查？
+                },
+                GLOWFLY_COCOON="我们最好在它破茧前离开。",
+                RABID_BEETLE={
+                    GENERIC="害虫！快走开！",
+                    SLEEPING="呼，可以喘口气了。",
+                    DEAD="世上又少了一个害虫。",--这玩意怎么检查？
+                },
+                TREE_PILLAR="幸好它没有完全遮蔽住阳光。",
+                FLOWER_RAINFOREST="为什么我要浪费时间盯着它看？",
+                
+                BRAMBLESPIKE="它们挡了我的路。",
+                BRAMBLE_BULB="或许有一些方法能把它利用起来。",
+                BRAMBLE_CORE="我不确定那是否值得我把时间花在它上面。",
+                
             },
         },
         WAGSTAFF = {
@@ -502,7 +635,7 @@ local strings = {
             ANNOUNCE_PUTONGOGGLES_NUTRIENTSGOGGLESHAT = "",
 
             --骨头头盔
-            ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "",
+            ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "原来如此，这就是他眼中的世界。",
             --启迪皇冠
             ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "无限的洞察力！我甚至能看到世界的纤维在律动！",
 
@@ -627,8 +760,8 @@ local strings = {
                 BALLOON = "也许这里的大气成分和我们的世界不同。",
                 BALLOONPARTY = "一个用于庆祝的气球制品。",
                 BALLOONSPEED = {
-                    GENERIC = "",
-                    DEFLATED = "",
+                    GENERIC = "从理论上将，这能够抵消我身上的负重。",
+                    DEFLATED = "填充气体已经消散殆尽了。",
                 },
 
                 BALLOONHAT = "啊，真是个有趣的小玩具。",
@@ -670,27 +803,27 @@ local strings = {
                 --薇诺娜
                 SEWING_TAPE = "这是你发明的吗？这在家用市场有会有很大的前景。",
                 WINONA_CATAPULT= {
-                    GENERIC = "",
-                    OFF = "",
+                    GENERIC = "它是如何进行智能目标识别的呢？",
+                    OFF = "需要电力才能运行。当然。",
                     BURNING = "",
                     BURNT = "",
                 },
                 WINONA_SPOTLIGHT = {
-                    GENERIC = "",
-                    OFF = "",
+                    GENERIC = "它是如何进行智能目标识别的呢？",
+                    OFF = "需要电力才能运行。当然。",
                     BURNING = "",
                     BURNT = "",
                 },
                 WINONA_BATTERY_LOW= {
                     GENERIC = "",
-                    LOWPOWER = "",
+                    LOWPOWER = "能源快要耗尽了。",
                     OFF = "",
                     BURNING = "",
                     BURNT = "",
                 },
                 WINONA_BATTERY_HIGH= {
                     GENERIC = "",
-                    LOWPOWER = "",
+                    LOWPOWER = "能源快要耗尽了。",
                     OFF = "",
                     BURNING = "",
                     BURNT = "",
@@ -841,15 +974,15 @@ local strings = {
                 ALTERGUARDIAN_PHASE2SPIKE = "",
                 ALTERGUARDIAN_PHASE3 = "",
                 ALTERGUARDIAN_PHASE3TRAP = "",
-                ALTERGUARDIAN_PHASE3DEADORB = "",
-                ALTERGUARDIAN_PHASE3DEAD = "最后的防护措施，效果甚微。",
+                ALTERGUARDIAN_PHASE3DEADORB = "残余的结构已经几乎失去了力量。",
+                ALTERGUARDIAN_PHASE3DEAD = "最后的防护措施，可以被轻易破解。",
 
-                ALTERGUARDIANHAT = "",
-                ALTERGUARDIANHATSHARD = "",
+                ALTERGUARDIANHAT = "用可塑材料重新生成了相同的结构？有趣。",
+                ALTERGUARDIANHATSHARD = "分离后的子个体呈现出了与整体不同的性质。",
 
                 MOONSTORM_GLASS = {
-                    GENERIC = "",
-                    INFUSED = ""
+                    GENERIC = "可塑材料中的能量已经耗尽了。",
+                    INFUSED = "被注入了强大能量的可塑材料。"
                 },
 
                 MOONSTORM_STATIC = "",
@@ -878,9 +1011,9 @@ local strings = {
                 ]]
 
                 MOON_DEVICE = {
-                    GENERIC = "",
-                    CONSTRUCTION1 = "",
-                    CONSTRUCTION2 = "",
+                    GENERIC = "完成了，让我们开始吧。",
+                    CONSTRUCTION1 = "然后是将其向上引导的能量场...",
+                    CONSTRUCTION2 = "最后，还需要一个合适的容器...",
                 },
             },
         }
