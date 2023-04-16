@@ -3,12 +3,11 @@ local strings = {
     CHARACTERS = {
         WINONA = {
             ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--进入完全遮蔽阳光的树林，未使用？
-            --[[
             ANNOUCE_ALARMOVER = "呼，平安度过。",
             ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "在这里一点用也没有，还不如我在卑诗省的家庭小屋。",--其它世界的地契
             ANNOUNCE_TOOLCORRODED = "这些工具的质量太差了。", --工具被腐蚀，未使用？
-            ANNOUNCE_TURFTOOHARD = "这里的土层相当瓷实。", --挖不起来这个地皮]]
+            ANNOUNCE_TURFTOOHARD = "这里的土层相当瓷实。", --挖不起来这个地皮
             ANNOUNCE_GAS_DAMAGE = "咳！瓦斯！咳！有瓦斯！", --毒气雨林伤害
             
             ANNOUNCE_SNEEZE = "啊啾！",	--打喷嚏
@@ -124,16 +123,17 @@ local strings = {
                 BRAMBLE_BULB="不知道这有什么用。",
                 BRAMBLE_CORE="这一定就是源头。",
 
+                CHITIN="我不知道这能拿来做什么。",
+
             },
         },
         WORTOX = {
             ANNOUCE_UNDERLEAFCANOPY = "生长的枝条遮蔽了阳光。",
-            --[[
-            ANNOUCE_ALARMOVER = "",
+            ANNOUCE_ALARMOVER = "呦吼！有惊无险！",
             ANNOUCE_BATS = "哼哼！吸血鬼来们了！",--蝙蝠来咯
-            ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
-            ANNOUNCE_TOOLCORRODED = "", --？？？
-            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮]]
+            ANNOUCE_OTHERWORLD_DEED = "它位于另一个位面。",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "不禁用啊。",
+            ANNOUNCE_TURFTOOHARD = "这里的地面太坚固了。", --挖不起来这个地皮
             ANNOUNCE_GAS_DAMAGE = "哈！咳咳！咳咳咳！", --毒气雨林伤害
             
             ANNOUNCE_SNEEZE = "（吸气）啊啾！啊啊啊啾！",	--sniff
@@ -248,16 +248,17 @@ local strings = {
                 BRAMBLESPIKE="这些刺可拦不住我。",
                 BRAMBLE_BULB="我记得有一种魔法能用到它。",
                 BRAMBLE_CORE="找到你了！",
+
+                CHITIN="那些家伙的外壳。",
             },
         },
         WURT = {
             ANNOUCE_UNDERLEAFCANOPY = "大树挡住了光。",
-            --[[
             ANNOUCE_ALARMOVER = "鱼人王国的故事还没完呢。",
-            ANNOUCE_BATS = "",--蝙蝠来咯
-            ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
-            ANNOUNCE_TOOLCORRODED = "", --？？？
-            ANNOUNCE_TURFTOOHARD = "好结实的土层。", --挖不起来这个地皮]]
+            ANNOUCE_BATS = "浮浪噗。这是什么影子？",--蝙蝠来咯
+            ANNOUCE_OTHERWORLD_DEED = "这是在哪里？",--其它世界的地契
+            ANNOUNCE_TOOLCORRODED = "工具化掉了，浮浪噗。", --？？？
+            ANNOUNCE_TURFTOOHARD = "好结实的土层。", --挖不起来这个地皮
             ANNOUNCE_GAS_DAMAGE = "呵——呼，好难闻。", --毒气雨林伤害
             
             ANNOUNCE_SNEEZE = "呵——呼，哈嚏呦！！！",	--打喷嚏
@@ -371,16 +372,17 @@ local strings = {
                 BRAMBLESPIKE="坏植物！坏！",
                 BRAMBLE_BULB="现在它归我了！",
                 BRAMBLE_CORE="坏植物头头！坏！",
+
+                CHITIN="坚硬的皮。",
             },
         },
         WALTER = {
             ANNOUCE_UNDERLEAFCANOPY = "好茂盛的森林，一点光都进不来。",
-            --[[
-            ANNOUCE_ALARMOVER = "",
-            ANNOUCE_BATS = "",--蝙蝠来咯
-            ANNOUCE_OTHERWORLD_DEED = "",--其它世界的地契
-            ANNOUNCE_TOOLCORRODED = "", --？？？
-            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮]]
+            ANNOUCE_ALARMOVER = "还会有什么怪物等着我们呢？",
+            ANNOUCE_BATS = "这好像不是个好兆头。",
+            ANNOUCE_OTHERWORLD_DEED = "这不在附近，但我们会找到它的！",
+            ANNOUNCE_TOOLCORRODED = "这些工具的质量真的不是很好。", 
+            ANNOUNCE_TURFTOOHARD = "这块土地不适合扎营。", 
             ANNOUNCE_GAS_DAMAGE = "咳！这里的空气不对！", --毒气雨林伤害
             
             ANNOUNCE_SNEEZE = "阿嚏！",	--打喷嚏
@@ -494,17 +496,18 @@ local strings = {
                 BRAMBLESPIKE="没事，我会小心的，威尔逊先生。",
                 BRAMBLE_BULB="我是大南方植物的终结者。",
                 BRAMBLE_CORE="蔓生在丛林深处的畸形怪花。",
+
+                CHITIN="看看这上面的花纹！沃比！",
                 
             },
         },
         WANDA = {
             ANNOUCE_UNDERLEAFCANOPY = "他们潜伏在这里！我需要光！",
-            --[[
             ANNOUCE_ALARMOVER = "我们安全了，暂时。",
             ANNOUCE_BATS = "为什么总有人找我们麻烦呢？",--蝙蝠来咯
             ANNOUCE_OTHERWORLD_DEED = "这个地址实在太远了。",--其它世界的地契
-            ANNOUNCE_TOOLCORRODED = "", --？？？
-            ANNOUNCE_TURFTOOHARD = "", --挖不起来这个地皮]]
+            ANNOUNCE_TOOLCORRODED = "呃，它不是为了在这种环境下使用而设计的。", --？？？
+            ANNOUNCE_TURFTOOHARD = "这还不知道要浪费我多少时间呢。", --挖不起来这个地皮
             ANNOUNCE_GAS_DAMAGE = "咳咳！嗬——咳咳咳！", --毒气雨林伤害
             
             ANNOUNCE_SNEEZE = "阿嚏！",	--打喷嚏
@@ -619,6 +622,8 @@ local strings = {
                 BRAMBLESPIKE="它们挡了我的路。",
                 BRAMBLE_BULB="或许有一些方法能把它利用起来。",
                 BRAMBLE_CORE="我不确定那是否值得我把时间花在它上面。",
+
+                CHITIN="我不明白这有什么意义？",
                 
             },
         },
