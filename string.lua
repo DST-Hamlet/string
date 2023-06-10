@@ -16,11 +16,11 @@ local strings = {
 
             ANNOUNCE_PICKPOOP = {"噫！","太脏了！","难以忍受！",},	--翻粪堆
             
-            ANNOUNCE_TOO_HUMID = {"%s一点都不透气。","这%s闷得我要喘不过气来了。"},	--某衣服太热了
+            ANNOUNCE_TOO_HUMID = {"%s一点都不透气。","这%s闷得我要喘不过气来了。",},	--某衣服太热了
             ANNOUNCE_DEHUMID = "这样就舒服多了。",
 
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"太硬了！", "手都震麻了！", "它肯定有个软肋。",}, --打蛇鳞
             --[[
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"太硬了！", "手都震麻了！", "它肯定有个软肋。"}, --打蛇鳞
 
             ANNOUNCE_MYSTERY_FOUND = "",
             ANNOUNCE_MYSTERY_NOREWARD = "",
@@ -125,6 +125,34 @@ local strings = {
 
                 CHITIN="我不知道这能拿来做什么。",
 
+                TURF_PIGRUINS = "那是一块地。",  --猪遗迹，未使用 --That's a chunk of ground.
+                TURF_RAINFOREST = "那是一块地。", --雨林地皮
+                TURF_DEEPRAINFOREST = "那是一块地。",--深层雨林，未使用
+                TURF_GASJUNGLE = "那是一块地。",--毒气雨林，未使用
+
+                TURF_LAWN = "那是一块地。",--草坪，方格子的那个
+                TURF_MOSS = "那是一块地。",--苔藓，猪镇边缘的那个
+                TURF_FIELDS = "那是一块地。",--田地，城郊的
+                TURF_FOUNDATION = "那是一块打了地基的地。",--平整石地板--That's a chunk of foundation.
+                TURF_COBBLEROAD = "那是一块建有道路的地。",--猪镇石板路--That's a chunk of road.
+
+                TURF_PAINTED = "那是一块地。", --彩绘沙漠
+		        TURF_PLAINS = "那是一块地。",--荒芜平原
+                TURF_DEEPRAINFOREST_NOCANOPY = "那是一块地。",--繁茂，人造种荨麻的那个
+                --[[
+                PANGOLDEN = "",--淘金兽
+                SEDIMENTPUDDLE = "",--闪光水坑
+
+                GNATMOUND = "",
+                GNAT = "",
+
+                TUBERTREE = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
+                ]]
             },
         },
         WORTOX = {
@@ -142,11 +170,11 @@ local strings = {
 
             ANNOUNCE_PICKPOOP = {"真恶心！","这还是热的！","我的爪子不能要了！",},	--翻粪堆
 
-            ANNOUNCE_TOO_HUMID = {"我受不了%s了。","脱掉%s吧。"},	--某衣服太热了
+            ANNOUNCE_TOO_HUMID = {"我受不了%s了。","脱掉%s吧。",},	--某衣服太热了
             ANNOUNCE_DEHUMID = "自由自在，这才是我！",	--靠近风扇？总之是雾效果结束的
 
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"这样行不通。", "几乎是块石头！", "这里不是它的七寸！",}, --打蛇鳞
             --[[
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
 
             ANNOUNCE_MYSTERY_FOUND = "",
             ANNOUNCE_MYSTERY_NOREWARD = "",
@@ -250,6 +278,35 @@ local strings = {
                 BRAMBLE_CORE="找到你了！",
 
                 CHITIN="那些家伙的外壳。",
+
+                TURF_PIGRUINS = "地板还是天花板，取决于你的角度。",  --猪遗迹，未使用 --Floor or ceiling, depending on your perspective.
+                TURF_RAINFOREST = "地板还是天花板，取决于你的角度。", --雨林地皮
+                TURF_DEEPRAINFOREST = "地板还是天花板，取决于你的角度。",--深层雨林，未使用
+                TURF_GASJUNGLE = "地板还是天花板，取决于你的角度。",--毒气雨林，未使用
+
+                TURF_LAWN = "地板还是天花板，取决于你的角度。",--草坪，方格子的那个
+                TURF_MOSS = "地板还是天花板，取决于你的角度。",--苔藓，猪镇边缘的那个
+                TURF_FIELDS = "地板还是天花板，取决于你的角度。",--田地，城郊的
+                TURF_FOUNDATION = "地板还是天花板，取决于你的角度。",--平整石地板
+                TURF_COBBLEROAD = "地板还是天花板，取决于你的角度。",--猪镇石板路
+
+                TURF_PAINTED = "地板还是天花板，取决于你的角度。", --彩绘沙漠
+		        TURF_PLAINS = "地板还是天花板，取决于你的角度。",--荒芜平原
+                TURF_DEEPRAINFOREST_NOCANOPY = "地板还是天花板，取决于你的角度。",--繁茂，人造种荨麻的那个
+                --[[
+                PANGOLDEN = "",--淘金兽
+                SEDIMENTPUDDLE = "",--闪光水坑
+
+                GNATMOUND = "",
+                GNAT = "",
+
+                TUBERTREE = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
+                ]]
             },
         },
         WURT = {
@@ -267,11 +324,11 @@ local strings = {
 
             ANNOUNCE_PICKPOOP = {"好脏的水！","格勒...","没有下次了！",},	--翻粪堆
             
-            ANNOUNCE_TOO_HUMID = {"%s热！","不想穿%s了！"},	--某衣服太热了
+            ANNOUNCE_TOO_HUMID = {"%s热！","不想穿%s了！",},	--某衣服太热了
             ANNOUNCE_DEHUMID = "呼，凉快了。",	--靠近风扇？总之是雾效果结束的
+            
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"打不穿！", "鳞片太硬了！","太坚固了！",}, --打蛇鳞
             --[[
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
-
             ANNOUNCE_MYSTERY_FOUND = "",
             ANNOUNCE_MYSTERY_NOREWARD = "",
 
@@ -374,6 +431,35 @@ local strings = {
                 BRAMBLE_CORE="坏植物头头！坏！",
 
                 CHITIN="坚硬的皮。",
+
+                TURF_PIGRUINS = "地面上的东西。",  --猪遗迹，未使用--Ground bit.
+                TURF_RAINFOREST = "地面上的东西。", --雨林地皮
+                TURF_DEEPRAINFOREST = "地面上的东西。",--深层雨林，未使用
+                TURF_GASJUNGLE = "地面上的东西。",--毒气雨林，未使用
+
+                TURF_LAWN = "地面上的东西。",--草坪，方格子的那个
+                TURF_MOSS = "地面上的东西。",--苔藓，猪镇边缘的那个
+                TURF_FIELDS = "地面上的东西。",--田地，城郊的
+                TURF_FOUNDATION = "地面上的东西。",--平整石地板
+                TURF_COBBLEROAD = "能让地面好走一点！",--猪镇石板路 --Make ground walk-ier!
+
+                TURF_PAINTED = "地面上的东西。", --彩绘沙漠
+		        TURF_PLAINS = "地面上的东西。",--荒芜平原
+                TURF_DEEPRAINFOREST_NOCANOPY = "地面上的东西。",--繁茂，人造种荨麻的那个
+                --[[
+                PANGOLDEN = "",--淘金兽
+                SEDIMENTPUDDLE = "",--闪光水坑
+    
+                GNATMOUND = "",
+                GNAT = "",
+    
+                TUBERTREE = "",
+    
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
+                ]]
             },
         },
         WALTER = {
@@ -393,8 +479,9 @@ local strings = {
 
             ANNOUNCE_TOO_HUMID = {"好闷啊。","%s一点都不透气。"},	--某衣服太热了
             ANNOUNCE_DEHUMID = "还是这样更舒服。",	--靠近风扇？总之是雾效果结束的
+            
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"就像金属一样硬！", "它有刀枪不入的鳞片！", "它的全身都是这样吗？",}, --打蛇鳞
             --[[
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
 
             ANNOUNCE_MYSTERY_FOUND = "",
             ANNOUNCE_MYSTERY_NOREWARD = "",
@@ -498,6 +585,35 @@ local strings = {
                 BRAMBLE_CORE="蔓生在丛林深处的畸形怪花。",
 
                 CHITIN="看看这上面的花纹！沃比！",
+
+                TURF_PIGRUINS = "一块地。",  --猪遗迹，未使用 --A patch of ground.
+                TURF_RAINFOREST = "一块地。", --雨林地皮
+                TURF_DEEPRAINFOREST = "一块地。",--深层雨林，未使用
+                TURF_GASJUNGLE = "一块地。",--毒气雨林，未使用
+
+                TURF_LAWN = "一块地。",--草坪，方格子的那个
+                TURF_MOSS = "一块地。",--苔藓，猪镇边缘的那个
+                TURF_FIELDS = "一块地。",--田地，城郊的
+                TURF_FOUNDATION = "一些地基。",--平整石地板--Some Foundation.
+                TURF_COBBLEROAD = "一些路。",--猪镇石板路 --Some road.
+
+                TURF_PAINTED = "一块地。", --彩绘沙漠
+		        TURF_PLAINS = "一块地。",--荒芜平原
+                TURF_DEEPRAINFOREST_NOCANOPY = "一块地。",--繁茂，人造种荨麻的那个
+                --[[
+                PANGOLDEN = "",--淘金兽
+                SEDIMENTPUDDLE = "",--闪光水坑
+
+                GNATMOUND = "",
+                GNAT = "",
+
+                TUBERTREE = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
+                ]]
                 
             },
         },
@@ -518,9 +634,9 @@ local strings = {
 
             ANNOUNCE_TOO_HUMID = {"穿%s真是自讨不快。","这鬼天气...真不该穿%s的。"},	--某衣服太热了
             ANNOUNCE_DEHUMID = "哈，感觉好多了。",	--靠近风扇？总之是雾效果结束的
-            --[[
 
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"", "", ""}, --打蛇鳞
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"不是这里，位置不对。", "这里是打不穿的。", "在哪里...它在哪里？",}, --打蛇鳞
+            --[[
 
             ANNOUNCE_MYSTERY_FOUND = "",
             ANNOUNCE_MYSTERY_NOREWARD = "",
@@ -624,23 +740,55 @@ local strings = {
                 BRAMBLE_CORE="我不确定那是否值得我把时间花在它上面。",
 
                 CHITIN="我不明白这有什么意义？",
-                
+
+                TURF_PIGRUINS = "我为什么要浪费时间盯着地面看？",  --猪遗迹，未使用 --Why am I wasting time staring at the ground?
+                TURF_RAINFOREST = "我为什么要浪费时间盯着地面看？", --雨林地皮
+                TURF_DEEPRAINFOREST = "我为什么要浪费时间盯着地面看？",--深层雨林，未使用
+                TURF_GASJUNGLE = "我为什么要浪费时间盯着地面看？",--毒气雨林，未使用
+
+                TURF_LAWN = "我为什么要浪费时间盯着地面看？",--草坪，方格子的那个
+                TURF_MOSS = "我为什么要浪费时间盯着地面看？",--苔藓，猪镇边缘的那个
+                TURF_FIELDS = "我为什么要浪费时间盯着地面看？",--田地，城郊的
+                TURF_FOUNDATION = "我为什么要浪费时间盯着地面看？",--平整石地板
+                TURF_COBBLEROAD = "这条路通往哪里？",--猪镇石板路 --A road to where, exactly?
+
+                TURF_PAINTED = "我为什么要浪费时间盯着地面看？", --彩绘沙漠
+		        TURF_PLAINS = "我为什么要浪费时间盯着地面看？",--荒芜平原
+                TURF_DEEPRAINFOREST_NOCANOPY = "我为什么要浪费时间盯着地面看？",--繁茂，人造种荨麻的那个
+                --[[
+                PANGOLDEN = "",--淘金兽
+                SEDIMENTPUDDLE = "",--闪光水坑
+
+                GNATMOUND = "",
+                GNAT = "",
+
+                TUBERTREE = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
+                ]]
             },
         },
         WAGSTAFF = {
             --[[
             --戴各种眼镜的台词，可能会用得到。
 
-            --星象和沙漠护目镜，话说让老瓦自己的眼镜免疫风沙应该更好吧
-            ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "",
-            ANNOUNCE_PUTONGOGGLES_DESERTHAT = "",
+            --星象、沙漠、亮茄头盔，话说让老瓦自己的眼镜免疫风沙应该更好吧
+            ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "啊，让我看看在哪里...",
+            ANNOUNCE_PUTONGOGGLES_DESERTHAT = "透过这样的镜片我能够看清世界。",
+            ANNOUNCE_PUTONGOGGLES_LUNARPLANTHAT = "扭曲的光线充当了眼镜的效果。",
+
+            --虚空帽
+            ANNOUNCE_PUTONGOGGLES_VOIDCLOTHHAT = "虚空的双眼会替我观察世界。",
 
             --耕作先驱帽子
-            ANNOUNCE_PUTONGOGGLES_PLANTREGISTRYHAT = "",
-            ANNOUNCE_PUTONGOGGLES_NUTRIENTSGOGGLESHAT = "",
+            ANNOUNCE_PUTONGOGGLES_PLANTREGISTRYHAT = "这将有助于我观察这个世界的植物。",
+            ANNOUNCE_PUTONGOGGLES_NUTRIENTSGOGGLESHAT = "利用聚焦效应我能够看到微小的营养物质。",
 
             --骨头头盔
-            ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "原来如此，这就是他眼中的世界。",
+            ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "原来如此，这就是...他看到的...",
             --启迪皇冠
             ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "无限的洞察力！我甚至能看到世界的纤维在律动！",
 
@@ -709,7 +857,7 @@ local strings = {
                 },
                 WX78_SCANNER_SUCCEEDED = "分析已经完成，可惜我没有数据存储器。",
 
-                WX78_MODULEREMOVER = "你哪来这么多接口？你是不是...",
+                WX78_MODULEREMOVER = "你哪来这么多接口？你是不是拆了...",
 
                 WX78MODULE_BEE = "标准的机器功能扩展插件，采用了仿生设计。",
                 WX78MODULE_COLD = "标准的机器功能扩展插件，采用了仿生设计。",
@@ -749,7 +897,7 @@ local strings = {
                 BOOK_RESEARCH_STATION = "女士，你是如何让知识扩展自己的？",
                 BOOK_SILVICULTURE = "为什么它无法对一部分植物起效呢？",
                 --BOOK_SLEEP = "这些墨水里面有黑暗燃料吗？真迷人！",--和单机一样
-                BOOK_TEMPERATURE = "对热能的完全控制！真是革命性的技术！",
+                BOOK_TEMPERATURE = "对内能的完全控制！真是革命性的技术！",
                 --BOOK_TENTACLES = "是什么在阻止我使用这个？",--和单机一样
                 BOOK_WEB = "有趣。它生成的材料能够识别敌我，选择性地展现粘性。",
 
@@ -860,18 +1008,15 @@ local strings = {
                 FRESHFRUITCREPES = "",
                 FROGFISHBOWL = "它似乎能够在食用者身上生成疏水薄膜。",
                 POTATOTORNADO = "",
-                DRAGONCHILISALAD = "",
+                DRAGONCHILISALAD = "这会极大地放大新陈代谢所产生的热量。",
                 GLOWBERRYMOUSSE = "",
                 VOLTGOATJELLY = "储存了大量电能的胶状物。",
                 NIGHTMAREPIE = "黑暗燃料的食疗效果？我非常感兴趣，但等我去找一下纸笔...",
                 BONESOUP = "看上去非常简单，为什么我做不出来呢？",
                 MASHEDPOTATOES = "",
-                POTATOSOUFFLE = "",
+                POTATOSOUFFLE = "一顿丰盛的蔬菜佳肴。有益身心健康。",--A hearty vegetable meal. Good for the constitution.
                 MOQUECA = "",
-                GAZPACHO = "",
-                ASPARAGUSSOUP = "",
-                VEGSTINGER = "",
-                BANANAPOP = "",
+                GAZPACHO = "带来长久的冷却效果。",
                 CEVICHE = "",
                 SALSA = "",
                 PEPPERPOPPER = "",
@@ -904,28 +1049,28 @@ local strings = {
 
                 --沃特
 
-                MERMHAT = "",
+                MERMHAT = "一个实用的伪装！我可以潜入这些生物之中！",
                 MERMTHRONE =
                 {
-                    GENERIC = "",
-                    BURNT = "",
+                    GENERIC = "这些颜色是如何产生的？",
+                    BURNT = "又一个王朝结束了。",
                 },
                 MERMTHRONE_CONSTRUCTION =
                 {
-                    GENERIC = "",
-                    BURNT = "",
+                    GENERIC = "它们拥有和人类一样的手工能力。",
+                    BURNT = "还未开始就结束了。",
                 },
                 MERMHOUSE_CRAFTED =
                 {
-                    GENERIC = "",
-                    BURNT = "",
+                    GENERIC = "建筑技艺有明显的进步。",
+                    BURNT = "建立消防体系终究还是太为难它们了。",
                 },
 
-                MERMWATCHTOWER_REGULAR = "",
-                MERMWATCHTOWER_NOKING = "",
-                MERMKING = "",
-                MERMGUARD = "",
-                MERM_PRINCE = "",
+                MERMWATCHTOWER_REGULAR = "保护政权的坚固屏障。",
+                MERMWATCHTOWER_NOKING = "这座要塞因社会组织力的退步而荒废。",
+                MERMKING = "它们已经进步到了封建社会阶段。",
+                MERMGUARD = "为什么这些守卫不使用武器呢？",
+                MERM_PRINCE = "它们的王位继承制度相当随意。",
 
                 --旺达
                 POCKETWATCH_HEAL = {--除了警告表之外的台词应该是一样的
@@ -1022,28 +1167,6 @@ local strings = {
                 },
             },
         }
-        --[[
-            -- Indices match ground types in constants.lua
-        NOUNS =
-        {
-            [2] = { "Road", "Path" },
-            [3] = { "Crag", "Area", "Region", "Rocky Place" },
-            [4] = { "Patch", "Turf", "Area", "Tract" },
-            [5] = { "Savannah", "Grassland", "Prairie" },
-            [6] = { "Field", "Pasture", "Meadow", "Garden" },
-            [7] = { "Forest", "Woods", "Thicket", "Grove" },
-            [8] = { "Marsh", "Swamp", "Bog", "Fen" },
-            [9] = { "Web", "Cobweb" },
-            [10] = { "Place", "Corner", "Spot", "Base", "Hidey-Hole" },
-            [11] = { "Place", "Corner", "Spot", "Base", "Hidey-Hole", "Carpet", "Rug" },
-            [12] = { "Place", "Corner", "Spot", "Base", "Checkerboard", "Zone" },
-            [13] = { "Cave" },[14] = { "Cave" },[15] = { "Cave" },[16] = { "Cave" },[17] = { "Cave" },[18] = { "Cave" },
-            [19] = { "Cave" },[20] = { "Cave" },[21] = { "Cave" },[22] = { "Cave" },[23] = { "Cave" },[24] = { "Cave" },
-            [25] = { "Cave" },
-            [30] = { "Forest", "Woods", "Thicket", "Grove" },
-            [31] = { "Desert", "Badlands", "Flats" },
-            [32] = { "Place", "Corner", "Spot", "Base", "Hidey-Hole", "Zone", "Scale" },
-        },]]
 
     }
 }

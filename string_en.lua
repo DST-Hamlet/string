@@ -119,6 +119,37 @@ local strings = {
                 BRAMBLESPIKE="",
                 BRAMBLE_BULB="",
                 BRAMBLE_CORE="",
+
+                CHITIN="",
+                ]]
+
+                TURF_PIGRUINS = "That's a chunk of ground.",  --猪遗迹，未使用 --
+                TURF_RAINFOREST = "That's a chunk of ground.", --雨林地皮
+                TURF_DEEPRAINFOREST = "That's a chunk of ground.",--深层雨林，未使用
+                TURF_GASJUNGLE = "That's a chunk of ground.",--毒气雨林，未使用
+
+                TURF_LAWN = "That's a chunk of ground.",--草坪，方格子的那个
+                TURF_MOSS = "That's a chunk of ground.",--苔藓，猪镇边缘的那个
+                TURF_FIELDS = "That's a chunk of ground.",--田地，城郊的
+                TURF_FOUNDATION = "That's a chunk of foundation.",--平整石地板
+                TURF_COBBLEROAD = "That's a chunk of road.",--猪镇石板路
+
+                TURF_PAINTED = "That's a chunk of ground.", --彩绘沙漠
+		        TURF_PLAINS = "That's a chunk of ground.",--荒芜平原
+                TURF_DEEPRAINFOREST_NOCANOPY = "That's a chunk of ground.",--繁茂，人造种荨麻的那个
+                --[[
+                PANGOLDEN = "",--淘金兽
+                SEDIMENTPUDDLE = "",--闪光水坑
+
+                GNATMOUND = "",
+                GNAT = "",
+
+                TUBERTREE = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
                 ]]
             },
         },
@@ -243,6 +274,36 @@ local strings = {
                 BRAMBLESPIKE="",
                 BRAMBLE_BULB="",
                 BRAMBLE_CORE="",
+
+                CHITIN="",
+                ]]
+                TURF_PIGRUINS = "Floor or ceiling, depending on your perspective.",  --猪遗迹，未使用
+                TURF_RAINFOREST = "Floor or ceiling, depending on your perspective.", --雨林地皮
+                TURF_DEEPRAINFOREST = "Floor or ceiling, depending on your perspective.",--深层雨林，未使用
+                TURF_GASJUNGLE = "Floor or ceiling, depending on your perspective.",--毒气雨林，未使用
+
+                TURF_LAWN = "Floor or ceiling, depending on your perspective.",--草坪，方格子的那个
+                TURF_MOSS = "Floor or ceiling, depending on your perspective.",--苔藓，猪镇边缘的那个
+                TURF_FIELDS = "Floor or ceiling, depending on your perspective.",--田地，城郊的
+                TURF_FOUNDATION = "Floor or ceiling, depending on your perspective.",--平整石地板
+                TURF_COBBLEROAD = "Floor or ceiling, depending on your perspective.",--猪镇石板路
+
+                TURF_PAINTED = "Floor or ceiling, depending on your perspective.", --彩绘沙漠
+		        TURF_PLAINS = "Floor or ceiling, depending on your perspective.",--荒芜平原
+                TURF_DEEPRAINFOREST_NOCANOPY = "Floor or ceiling, depending on your perspective.",--繁茂，人造种荨麻的那个
+                --[[
+                PANGOLDEN = "",--淘金兽
+                SEDIMENTPUDDLE = "",--闪光水坑
+
+                GNATMOUND = "",
+                GNAT = "",
+
+                TUBERTREE = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
                 ]]
             },
         },
@@ -364,6 +425,36 @@ local strings = {
                 BRAMBLESPIKE="",
                 BRAMBLE_BULB="",
                 BRAMBLE_CORE="",
+
+                CHITIN="",
+                ]]
+                TURF_PIGRUINS = "Ground bit.",  --猪遗迹，未使用--
+                TURF_RAINFOREST = "Ground bit.", --雨林地皮
+                TURF_DEEPRAINFOREST = "Ground bit.",--深层雨林，未使用
+                TURF_GASJUNGLE = "Ground bit.",--毒气雨林，未使用
+
+                TURF_LAWN = "Ground bit.",--草坪，方格子的那个
+                TURF_MOSS = "Ground bit.",--苔藓，猪镇边缘的那个
+                TURF_FIELDS = "Ground bit.",--田地，城郊的
+                TURF_FOUNDATION = "Ground bit.",--平整石地板
+                TURF_COBBLEROAD = "Make ground walk-ier!",--猪镇石板路 --
+
+                TURF_PAINTED = "Ground bit.", --彩绘沙漠
+		        TURF_PLAINS = "Ground bit.",--荒芜平原
+                TURF_DEEPRAINFOREST_NOCANOPY = "Ground bit.",--繁茂，人造种荨麻的那个
+                --[[
+                PANGOLDEN = "",--淘金兽
+                SEDIMENTPUDDLE = "",--闪光水坑
+
+                GNATMOUND = "",
+                GNAT = "",
+
+                TUBERTREE = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
                 ]]
             },
         },
@@ -483,10 +574,45 @@ local strings = {
                 },
                 TREE_PILLAR="这么大的树，哪怕是海狸人也啃不完吧。",
                 FLOWER_RAINFOREST="哦！这就是丛林探险故事中的那种花。",
+
+                BRAMBLESPIKE="",
+                BRAMBLE_BULB="",
+                BRAMBLE_CORE="",
+
+                CHITIN="",
                 ]]
                 BRAMBLESPIKE="It's all right. I'll be careful, Mr. Wilson.",
                 BRAMBLE_BULB="I'm the great southern plantkiller",
                 BRAMBLE_CORE="A overgrown monstrosity of the jungle's depths.",
+
+                TURF_PIGRUINS = "A patch of ground.",  --猪遗迹，未使用 --
+                TURF_RAINFOREST = "A patch of ground.", --雨林地皮
+                TURF_DEEPRAINFOREST = "A patch of ground.",--深层雨林，未使用
+                TURF_GASJUNGLE = "A patch of ground.",--毒气雨林，未使用
+
+                TURF_LAWN = "A patch of ground.",--草坪，方格子的那个
+                TURF_MOSS = "A patch of ground.",--苔藓，猪镇边缘的那个
+                TURF_FIELDS = "A patch of ground.",--田地，城郊的
+                TURF_FOUNDATION = "Some Foundation.",--平整石地板--
+                TURF_COBBLEROAD = "Some road.",--猪镇石板路 --
+
+                TURF_PAINTED = "A patch of ground.", --彩绘沙漠
+		        TURF_PLAINS = "A patch of ground.",--荒芜平原
+                TURF_DEEPRAINFOREST_NOCANOPY = "A patch of ground.",--繁茂，人造种荨麻的那个
+                --[[
+                PANGOLDEN = "",--淘金兽
+                SEDIMENTPUDDLE = "",--闪光水坑
+
+                GNATMOUND = "",
+                GNAT = "",
+
+                TUBERTREE = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
+                ]]
             },
         },
         WANDA = {
@@ -607,6 +733,37 @@ local strings = {
                 BRAMBLESPIKE="它们挡了我的路。",
                 BRAMBLE_BULB="或许有一些方法能把它利用起来。",
                 BRAMBLE_CORE="我不确定那是否值得我把时间花在它上面。",
+
+                CHITIN="",
+                ]]
+
+                TURF_PIGRUINS = "Why am I wasting time staring at the ground?",  --猪遗迹，未使用 --
+                TURF_RAINFOREST = "Why am I wasting time staring at the ground?", --雨林地皮
+                TURF_DEEPRAINFOREST = "Why am I wasting time staring at the ground?",--深层雨林，未使用
+                TURF_GASJUNGLE = "Why am I wasting time staring at the ground?",--毒气雨林，未使用
+
+                TURF_LAWN = "Why am I wasting time staring at the ground?",--草坪，方格子的那个
+                TURF_MOSS = "Why am I wasting time staring at the ground?",--苔藓，猪镇边缘的那个
+                TURF_FIELDS = "Why am I wasting time staring at the ground?",--田地，城郊的
+                TURF_FOUNDATION = "Why am I wasting time staring at the ground?",--平整石地板
+                TURF_COBBLEROAD = "A road to where, exactly?",--猪镇石板路 --
+
+                TURF_PAINTED = "Why am I wasting time staring at the ground?", --彩绘沙漠
+		        TURF_PLAINS = "Why am I wasting time staring at the ground?",--荒芜平原
+                TURF_DEEPRAINFOREST_NOCANOPY = "Why am I wasting time staring at the ground?",--繁茂，人造种荨麻的那个
+                --[[
+                PANGOLDEN = "",--淘金兽
+                SEDIMENTPUDDLE = "",--闪光水坑
+
+                GNATMOUND = "",
+                GNAT = "",
+
+                TUBERTREE = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
                 ]]
             },
         },
