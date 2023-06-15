@@ -88,7 +88,7 @@ local strings = {
                 ANCIENT_ROBOT_LEG ="",
                 ANCIENT_ROBOT_RIBS ="",
                 INFUSED_IRON = "这不是自然金属能有的纹路。",
-                LIVING_ARTIFACT ="",]]
+                LIVING_ARTIFACT ="",
 
                 OINC="这算是工资吗？",
                 OINC10="一点小积蓄，不要浪费。",
@@ -101,7 +101,7 @@ local strings = {
                 PORKLAND_INTRO_SUITCASE = "这上面只写了“W”...喂！这是你们谁的？",
                 PORKLAND_INTRO_FLAGS = "必要的装饰。",
                 PORKLAND_INTRO_SANDBAG = "一大包沙子，已经没用了。",
-                --[[
+                
                 GLOWFLY={
                     GENERIC="会飞的聚光灯。",
                     SLEEPING="检修时间到。",
@@ -156,8 +156,9 @@ local strings = {
             --[[
             ANNOUCE_UNDERLEAFCANOPY = "生长的枝条遮蔽了阳光。",
             ANNOUCE_ALARMOVER = "呦吼！有惊无险！",
-            ANNOUCE_BATS = "哼哼！吸血鬼来们了！",--蝙蝠来咯
-            ANNOUCE_OTHERWORLD_DEED = "它位于另一个位面。",--其它世界的地契
+            ANNOUCE_BATS = "哼哼！吸血鬼来们了！",--蝙蝠来咯]]
+            ANNOUCE_OTHERWORLD_DEED = "It's locate on another plane.",--其它世界的地契
+            --[[
             ANNOUNCE_TOOLCORRODED = "不禁用啊。",
             ANNOUNCE_TURFTOOHARD = "这里的地面太坚固了。", --挖不起来这个地皮
             ANNOUNCE_GAS_DAMAGE = "哈！咳咳！咳咳咳！", --毒气雨林伤害
@@ -229,9 +230,9 @@ local strings = {
                     GENERIC = "Yes, Prime Minister.",
                    SLEEPING = "That's a lot of work, isn't it?",
                 },
-                --[[APORKALYPSE_CLOCK = "好大规模的魔法，天啊，这会很好玩的。",
+                APORKALYPSE_CLOCK = "Magic on a grand scale. Oh, my God, this is gonna be fun.",
 
-                WALL_PIG_RUINS = "这些符文不是能拦住我的那种。",
+                WALL_PIG_RUINS = "These runes are not the kind that can stop me.",--[[
 
                 ANCIENT_HULK ="",
                 ANCIENT_ROBOTS_ASSEMBLY ="",
@@ -251,8 +252,8 @@ local strings = {
                 
                 PORKLAND_INTRO_BASKET = "哼哼，这不一定是坏事。",
                 PORKLAND_INTRO_BALLOON = "哼哼，这不一定是坏事。",
-                PORKLAND_INTRO_TRUNK = "这堆东西现在更谈不上“珍贵”了。",
-                PORKLAND_INTRO_SUITCASE = "这堆东西现在更谈不上“珍贵”了。",
+                PORKLAND_INTRO_TRUNK = "这堆东西现在更谈不上\"珍贵\"了。",
+                PORKLAND_INTRO_SUITCASE = "这堆东西现在更谈不上\"珍贵\"了。", --ancient rune joke
                 PORKLAND_INTRO_FLAGS = "一场好派对的必需品。",
                 PORKLAND_INTRO_SANDBAG = "对于丢人玩来说太重了。",
 
@@ -306,7 +307,7 @@ local strings = {
                 ]]
             },
         },
-        WURT = {
+        WURT = {--pigfolk mermfolk
             --[[
             ANNOUCE_UNDERLEAFCANOPY = "大树挡住了光。",
             ANNOUCE_ALARMOVER = "鱼人王国的故事还没完呢。",
@@ -338,18 +339,18 @@ local strings = {
             ]]
             ANNOUNCE_TAXDAY = "Every pigfolk has to give me money today!", --收税日
             --ANNOUNCE_NOTHING_FOUND = "",
-            ANNOUNCE_SUITUP = "Flort Glurtsu flut!",--Merm gurad line "For glory of Mermfolk!""
+            ANNOUNCE_SUITUP = "Flort Glurtsu flut!",--Merm gurad line "For glory of Mermfolk!" on merm sound
             
             DESCRIBE = {
                 --ALOE = "又甜又黏。",
                 ALOE_COOKED = "But it don't taste like medicine. Ms. Wickerbottom",
                 ALOE_PLANTED = "Grrr, snack never seen.",
-                ALOE_SEEDS = "Make more snacks, florp!",
+                ALOE_SEEDS = "Make more snacks, florp!", --DST seeds line
 
                 RADISH = "Hot spicy root!",
                 RADISH_COOKED = "Not better than it was.",
                 RADISH_PLANTED = "Grrr, snack never seen.",
-                RADISH_SEEDS = "Make more snacks, florp!",
+                RADISH_SEEDS = "Make more snacks, florp!", --DST seeds line
 
                 RELIC_1 = "Pigfolk pay me for their own stuff. Good!", --
                 PIG_RUINS_IDOL = "A pigfolk idol, not mermfolk.",
@@ -407,7 +408,6 @@ local strings = {
                 PORKLAND_INTRO_FLAGS = "彩旗。",
                 PORKLAND_INTRO_SANDBAG = "这是一大包沙子。",
                 
-
                 GLOWFLY={
                     GENERIC="它们是怎么发光的？",
                     SLEEPING="在睡觉。",
@@ -420,14 +420,14 @@ local strings = {
                     DEAD="死掉了。",--这玩意怎么检查？
                 },
                 TREE_PILLAR="一颗巨大的树。",
-                FLOWER_RAINFOREST="稍微好看点的植物，还是很丑",
+                FLOWER_RAINFOREST="稍微好看点的植物，还是很丑。",]]
 
-                BRAMBLESPIKE="坏植物！坏！",
-                BRAMBLE_BULB="现在它归我了！",
-                BRAMBLE_CORE="坏植物头头！坏！",
+                BRAMBLESPIKE="Bad plant! Bad!",
+                BRAMBLE_BULB="Now it's my!",
+                BRAMBLE_CORE="Bad plant boss! Bad!",
 
-                CHITIN="坚硬的皮。",
-                ]]
+                --CHITIN="坚硬的皮。",
+                
                 TURF_PIGRUINS = "Ground bit.",  --猪遗迹，未使用
                 TURF_RAINFOREST = "Ground bit.", --雨林地皮
                 TURF_DEEPRAINFOREST = "Ground bit.",--深层雨林，未使用
@@ -497,12 +497,12 @@ local strings = {
                 --ALOE = "芦荟的用途也包括食用。",
                 --ALOE_COOKED = "这样应该会更美味。",
                 --ALOE_PLANTED = "我认识这个！是芦荟！有很多好用途。",
-                ALOE_SEEDS = "Woby, do you see a good spot to plant these?",
+                ALOE_SEEDS = "Woby, do you see a good spot to plant these?", --DST seeds line
 
                 --RADISH = "这种萝卜有可能会变成老鼠吗？",
                 --RADISH_COOKED = "对。这是做熟的水萝卜。",
                 --RADISH_PLANTED = "现在我们有更多的水萝卜了。耶。",
-                RADISH_SEEDS = "Woby, do you see a good spot to plant these?",
+                RADISH_SEEDS = "Woby, do you see a good spot to plant these?", --DST seeds line
                 --[[
                 RELIC_1 = "一尊小小的猪人像。",
                 PIG_RUINS_IDOL = "看看我们发现了什么，沃比！",
@@ -541,8 +541,8 @@ local strings = {
                 ANCIENT_HULK ="War automation! It's real!",
                 --[[ANCIENT_ROBOTS_ASSEMBLY ="它们在自行组装！最终会变成什么样呢？",
                 ANCIENT_ROBOT_CLAW ="它可以被装在WX身上吗？",
-                ANCIENT_ROBOT_HEAD ="一个巨大的机器人头！",
-                ANCIENT_ROBOT_LEG ="一条腿，我想知道它们是否来自同一个巨人？",]]
+                ANCIENT_ROBOT_HEAD ="一个巨大的机器人头！",]]
+                ANCIENT_ROBOT_LEG ="A leg. I wonder are they come from the same giant?",
                 ANCIENT_ROBOT_RIBS ="A machine ant?",
                 --[[INFUSED_IRON = "这些纹路闪烁着诡异的光。",
                 LIVING_ARTIFACT ="无坚不摧的机械盔甲！",
@@ -689,11 +689,11 @@ local strings = {
                 PIGMAN_MAYOR = {
                     GENERIC = "你会继续当选，还是那个谁来着。",
                     SLEEPING = "珍惜清闲吧。",
-                },
-                APORKALYPSE_CLOCK = "掌握他们的动向...非常聪明的想法。",
-
-                WALL_PIG_RUINS = "古代城墙的一部分。",
-
+                },]]
+                APORKALYPSE_CLOCK = "...Very clever idea.", --I have a brilliant pun but I can't translate it :(
+                
+                WALL_PIG_RUINS = "Part of ancient citadel.",
+                --[[
                 ANCIENT_HULK ="这最好是值得的！",
                 ANCIENT_ROBOTS_ASSEMBLY ="为什么我要这么做来着？",
                 ANCIENT_ROBOT_CLAW ="我记得是尾巴...但看着起来更像手啊？",
@@ -709,10 +709,10 @@ local strings = {
 
                 --出生点的玩意儿
                 PORKLAND_INTRO_BASKET = "啊，都怪我...为什么我没有早点想起来？",
-                PORKLAND_INTRO_BALLOON = "破了一个大洞，已经不能用了。",
-                PORKLAND_INTRO_TRUNK = "这上面只有一个“W”，真是一个有辨识度的标记。",
-                PORKLAND_INTRO_SUITCASE = "这上面只有一个“W”，真是一个有辨识度的标记。",
-                PORKLAND_INTRO_FLAGS = "一些简单的小装饰。",
+                PORKLAND_INTRO_BALLOON = "破了一个大洞，已经不能用了。",]]
+                PORKLAND_INTRO_TRUNK = "There's only a \"W\" on it, what a recognizable mark.",
+                PORKLAND_INTRO_SUITCASE = "There's only a \"W\" on it, what a recognizable mark.",
+                --[[PORKLAND_INTRO_FLAGS = "一些简单的小装饰。",
                 PORKLAND_INTRO_SANDBAG = "用于配重。",
 
                 GLOWFLY={
@@ -766,6 +766,406 @@ local strings = {
                 ]]
             },
         },
+        --[[ --New Characters
+        WAGSTAFF = {
+            
+            --戴各种眼镜的台词，可能会用得到。
+
+            --星象、沙漠、亮茄头盔，话说让老瓦自己的眼镜免疫风沙应该更好吧
+            --ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "啊，让我看看在哪里...",
+            --ANNOUNCE_PUTONGOGGLES_DESERTHAT = "透过这样的镜片我能够看清世界。",
+            --ANNOUNCE_PUTONGOGGLES_LUNARPLANTHAT = "扭曲的光线充当了眼镜的效果。",
+
+            --虚空帽
+            --ANNOUNCE_PUTONGOGGLES_VOIDCLOTHHAT = "虚空的双眼会替我观察世界。",
+
+            --耕作先驱帽子
+            --ANNOUNCE_PUTONGOGGLES_PLANTREGISTRYHAT = "这将有助于我观察这个世界的植物。",
+            --ANNOUNCE_PUTONGOGGLES_NUTRIENTSGOGGLESHAT = "利用聚焦效应我能够看到微小的营养物质。",
+
+            --AF hat
+            ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "So that's it. That's... What he saw...",
+            --CC hat
+            ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "Unlimited insight! I can even see the fibers of the reality pulsating!",
+
+            --单机版那些，放在这里做参考。
+            --ANNOUNCE_PUTONGOGGLES_GOGGLESARMORHAT = "My cranium is now safeguarded for combat.",
+            --ANNOUNCE_PUTONGOGGLES_GOGGLESHEATHAT = "I see the world through infrared colored glasses.",
+            --ANNOUNCE_PUTONGOGGLES_GOGGLESNORMALHAT = "Ah! The world is so much more interesting when you can see it!",
+            --ANNOUNCE_PUTONGOGGLES_GOGGLESSHOOTHAT = "Now I can emit destructive spheres of electromagnetic radiation.",
+            
+
+            DESCRIBE = {
+                --我是火学家，我放火
+                LIGHTER =  "An odd artifact she carries with her. How it work?",
+                BERNIE_ACTIVE = "It responds to psychic attacks! Fascinating!",
+                BERNIE_BIG = "不可思议。它表现得就像一个活物！",
+                BERNIE_INACTIVE = {
+                    GENERIC= "有些破旧的小熊玩偶，深受我合作伙伴们的喜爱。",
+                    BROKEN = "还能再修一下。",
+                },
+
+                --沃尔夫冈
+                DUMBBELL = "一个普通的哑铃。",
+                DUMBBELL_GOLDEN = "一个质量较大的哑铃，使用这里很普遍的材料制成。",
+                DUMBBELL_MARBLE = "一个质量更大的哑铃，我最好不要尝试。",
+                DUMBBELL_GEM = "它的惯性与质量不符，我假设这和宝石的聚集效应有关。",
+                MIGHTY_GYM = {
+                    GENERIC = "推动木板可以驱动顶部的结构，不知道有什么功能。",
+                    BURNT = "显然它的功能不包括灭火。",
+                },
+
+                --温蒂
+                SMALLGHOST = "A younger poltergeist not affected by the dark fuel.",
+                SISTURN = {
+                    GENERIC = "我为她感到遗憾，小姑娘。",
+                    SOME_FLOWERS = "这里还需要更多的花。",
+                    LOTS_OF_FLOWERS = "我们的纪念仪式竟然逆转了引力子的方向...",
+                },
+
+                LOST_TOY_1  = "Theoretically, this is a kind of plane projection.",
+                LOST_TOY_2  = "Theoretically, this is a kind of plane projection.",
+                LOST_TOY_7  = "Theoretically, this is a kind of plane projection.",
+                LOST_TOY_10 = "Theoretically, this is a kind of plane projection.",
+                LOST_TOY_11 = "Theoretically, this is a kind of plane projection.",
+                LOST_TOY_14 = "Theoretically, this is a kind of plane projection.",
+                LOST_TOY_18 = "Theoretically, this is a kind of plane projection.",
+                LOST_TOY_19 = "Theoretically, this is a kind of plane projection.",
+                LOST_TOY_42 = "Theoretically, this is a kind of plane projection.",
+                LOST_TOY_43 = "Theoretically, this is a kind of plane projection.",
+
+                GHOSTFLOWER = "年轻鬼魂催生了花朵形的精神体结构，以此向她表示感谢。",
+
+                GHOSTLYELIXIR_ATTACK = "巧妙地利用了精神体的相互作用，真聪明。",
+                GHOSTLYELIXIR_FASTREGEN = "巧妙地利用了精神体的相互作用，真聪明。",
+                GHOSTLYELIXIR_RETALIATION = "巧妙地利用了精神体的相互作用，真聪明。",
+                GHOSTLYELIXIR_SHIELD = "巧妙地利用了精神体的相互作用，真聪明。",
+                GHOSTLYELIXIR_SLOWREGEN = "巧妙地利用了精神体的相互作用，真聪明。",
+                GHOSTLYELIXIR_SPEED = "巧妙地利用了精神体的相互作用，真聪明。",
+
+                --WX78
+                WX78_SCANNER_ITEM = "The Scanalyzer J1-M1. Did it come in with me?", --ref to DIVININGRODSTART
+                WX78_SCANNER = {
+                    GENERIC = "看来它运转良好。",
+                    HUNTING = "它正在寻找可分析的样本。",
+                    SCANNING = "它需要一些时间对样本进行扫描和分析。",
+                },
+                WX78_SCANNER_SUCCEEDED = "分析已经完成，可惜我没有数据存储器。",
+
+                WX78_MODULEREMOVER = "你哪来这么多接口？你是不是拆了...",
+
+                WX78MODULE_BEE = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_COLD = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_HEAT = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_LIGHT = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_MAXHEALTH = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_MAXHEALTH2 = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_MAXHUNGER = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_MAXHUNGER1 = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_MAXSANITY = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_MAXSANITY1 = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_MOVESPEED = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_MOVESPEED2 = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_MUSIC = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_NIGHTVISION = "Standard automaton function extension plug-in, using bionic design.",
+                WX78MODULE_TASER = "Standard automaton function extension plug-in, using bionic design.",
+
+                --薇克巴顿
+                BOOKSTATION = {
+                    GENERIC = "绝妙啊！无需任何能量物质输入就能自动完成图书的护理修复工作。",--Wonderful!
+                    BURNT = "正如我预料的一样，依然可燃。",
+                },
+                BOOK_BEES = "我无法翻开它，这些昆虫尾器是如何把书页钉这么死的？",
+                --BOOK_BIRDS = "我无法获取其中的知识。真令人沮丧！",--same as ds
+                --BOOK_BRIMSTONE = "哦，我真希望我能得到它的力量。",--same as ds
+                BOOK_ELEMENTAL = "这一本书也被允许用作钝器武器，为什么？",--forge
+                BOOK_FIRE = "它能在作用范围内控制氧化反应，真迷人！",
+                BOOK_FISH = "控制海洋鱼群，超声波？心灵感应？",
+                BOOK_FOSSIL = "我试过用其它书作为钝器武器，但都被无形的力阻止了，它有什么不同？",--forge
+                --BOOK_GARDENING = "不止于收录事实。",--same as ds
+                BOOK_HORTICULTURE = "您可以再写一本完整版吗？女士？",
+                BOOK_HORTICULTURE_UPGRADED = "看来它的效果与记录的信息量呈正相关。",
+                BOOK_LIGHT = "My attempts to understand this are being thwarted somehow.",  --same as Codex Umbra
+                BOOK_LIGHT_UPGRADED = "这些光线是从哪里射出的？",
+                BOOK_MOON = "从理论上讲，这能够安全地对“那个东西”施加影响。",
+                BOOK_RAIN = "这将是混沌系统预测的大突破！",
+                BOOK_RESEARCH_STATION = "女士，你是如何让知识扩展自己的？",
+                BOOK_SILVICULTURE = "为什么它无法对一部分植物起效呢？",
+                --BOOK_SLEEP = "这些墨水里面有黑暗燃料吗？真迷人！",--same as ds
+                BOOK_TEMPERATURE = "对内能的完全控制！真是革命性的技术！",
+                --BOOK_TENTACLES = "是什么在阻止我使用这个？",--same as ds
+                BOOK_WEB = "有趣。它生成的材料能够识别敌我，选择性地展现粘性。",
+
+                --伍迪
+                --LUCY = "奇怪的能量波从它里面散发出来。",--same as ds
+                WEREITEM_BEAVER = "他通过食用这些来定向激活“诅咒”效果。",
+                WEREITEM_GOOSE = "他通过食用这些来定向激活“诅咒”效果。",
+                WEREITEM_MOOSE = "他通过食用这些来定向激活“诅咒”效果。",
+
+                --韦斯来了！！！！！（惊恐）
+                BALLOONS_EMPTY = "看来这是他带进来的。", --ref to ds "Balloons? Here?"
+
+                BALLOON = "也许这里的大气成分和我们的世界不同。",
+                BALLOONPARTY = "一个用于庆祝的气球制品。",
+                BALLOONSPEED = {
+                    GENERIC = "从理论上将，这能够抵消我身上的负重。",
+                    DEFLATED = "填充气体已经消散殆尽了。",
+                },
+
+                BALLOONHAT = "啊，真是个有趣的小玩具。",
+                BALLOONVEST = "提供浮力，简陋但有用。",
+
+                --可怜的Maxy，被她玩弄于股掌之间
+                --WAXWELLJOURNAL = "我尝试读懂这本书但不知为何遭到了阻止。"--same as ds
+                TOPHAT_MAGICIAN = "这将会是物流界的伟大革命！",
+                MAGICIAN_CHEST = "绝妙啊！黑暗燃料它的内部生成了一个虫洞。",
+
+                --薇格弗德
+                WATHGRITHRHAT = "手工制作的演出道具，出人意料地坚固。",
+                SPEAR_WATHGRITHR = "手工制作的演出道具，出人意料地锋利。",
+
+                BATTLESONG_DURABILITY = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_FIRERESISTANCE = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_HEALTHGAIN = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_SANITYAURA = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_SANITYGAIN = "通过特殊调制的声波触发不明力量，有趣。",
+
+                BATTLESONG_INSTANT_PANIC = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_INSTANT_TAUNT = "通过特殊调制的声波触发不明力量，有趣。",
+
+                --韦伯
+                SPIDERDEN_BEDAZZLER = "这些涂鸦会改变生物的习性，有趣。",
+
+                spider_whistle = "它们全都未经训练，也就是说这些是本能反应。",
+                spider_repellent = "这里的蛛形纲生物的竟会有如此有趣的本能反应？",
+                spider_healer_item = "显然是根据这里的蛛形纲生物调制的，但对人类仍有轻微的治疗效果。",
+
+                MUTATOR_DROPPER = "These food seems to induce rapid pupation and emergence in arachnids.",
+                MUTATOR_HEALER = "These food seems to induce rapid pupation and emergence in arachnids.",
+                MUTATOR_HIDER = "These food seems to induce rapid pupation and emergence in arachnids.",
+                MUTATOR_MOON = "These food seems to induce rapid pupation and emergence in arachnids.",
+                MUTATOR_SPITTER = "These food seems to induce rapid pupation and emergence in arachnids.",
+                MUTATOR_WARRIOR = "These food seems to induce rapid pupation and emergence in arachnids.",
+                MUTATOR_WATER = "These food seems to induce rapid pupation and emergence in arachnids.",
+
+                --薇诺娜
+                SEWING_TAPE = "这是你发明的吗？这在家用市场有会有很大的前景。",
+                WINONA_CATAPULT= {
+                    GENERIC = "它是如何进行智能目标识别的呢？",
+                    OFF = "需要电力才能运行。当然。",
+                    BURNING = "",
+                    BURNT = "",
+                },
+                WINONA_SPOTLIGHT = {
+                    GENERIC = "它是如何进行智能目标识别的呢？",
+                    OFF = "需要电力才能运行。当然。",
+                    BURNING = "",
+                    BURNT = "",
+                },
+                WINONA_BATTERY_LOW= {
+                    GENERIC = "",
+                    LOWPOWER = "能源快要耗尽了。",
+                    OFF = "",
+                    BURNING = "",
+                    BURNT = "",
+                },
+                WINONA_BATTERY_HIGH= {
+                    GENERIC = "",
+                    LOWPOWER = "能源快要耗尽了。",
+                    OFF = "",
+                    BURNING = "",
+                    BURNT = "",
+                },
+
+                --沃利
+                SPICEPACK = "",
+
+                PORTABLEBLENDER_ITEM = "",
+                PORTABLECOOKPOT_ITEM = {
+                    GENERIC = "",
+                    DONE = "",
+
+                    COOKING_LONG = "",
+                    COOKING_SHORT = "",
+                    EMPTY = "",
+                },
+                PORTABLESPICER_ITEM= {
+                    GENERIC = "",
+                    DONE = "",
+                },
+
+                SPICE_CHILI = "",
+                SPICE_GARLIC = "",
+                SPICE_SALT = "",
+                SPICE_SUGAR = "",
+
+                MONSTERTARTARE = "",
+                FRESHFRUITCREPES = "",
+                FROGFISHBOWL = "它似乎能够在食用者身上生成疏水薄膜。",
+                POTATOTORNADO = "",
+                DRAGONCHILISALAD = "这会极大地放大新陈代谢所产生的热量。",
+                GLOWBERRYMOUSSE = "",
+                VOLTGOATJELLY = "储存了大量电能的胶状物。",
+                NIGHTMAREPIE = "黑暗燃料的食疗效果？我非常感兴趣，但等我去找一下纸笔...",
+                BONESOUP = "看上去非常简单，为什么我做不出来呢？",
+                MASHEDPOTATOES = "",
+                POTATOSOUFFLE = "A hearty vegetable meal. Good for the constitution.",
+                MOQUECA = "",
+                GAZPACHO = "带来长久的冷却效果。",
+                CEVICHE = "",
+                SALSA = "",
+                PEPPERPOPPER = "",
+
+                --Walter
+                PORTABLETENT = "",
+                PORTABLETENT_ITEM = "",
+
+                SLINGSHOT = "这些血囊展示出了超强的延展性和弹性。",--plasma sacks
+                SLINGSHOTAMMO_ROCK = "",
+                SLINGSHOTAMMO_GOLD = "",
+                SLINGSHOTAMMO_MARBLE = "",
+                SLINGSHOTAMMO_FREEZE = "",
+                SLINGSHOTAMMO_SLOW = "",
+                SLINGSHOTAMMO_THULECITE = "",
+
+                SLINGSHOTAMMO_POOP = "",
+
+                WOBYBIG = {
+                    "",
+                    "",
+                },
+                WOBYSMALL = {
+                    "",
+                    "",
+                },
+                --沃拓克斯
+
+                WORTOX_SOUL = "有一股无形的力把它约束在这里。", --只有小恶魔能检查
+
+                --沃特
+
+                MERMHAT = "一个实用的伪装！我可以潜入这些生物之中！",
+                MERMTHRONE =
+                {
+                    GENERIC = "这些颜色是如何印染的？",
+                    BURNT = "又一个王朝结束了。",
+                },
+                MERMTHRONE_CONSTRUCTION =
+                {
+                    GENERIC = "它们拥有和人类一样的手工能力。",
+                    BURNT = "还未开始就结束了。",
+                },
+                MERMHOUSE_CRAFTED =
+                {
+                    GENERIC = "建筑技艺有明显的进步。",
+                    BURNT = "建立消防体系终究还是太为难它们了。",
+                },
+
+                MERMWATCHTOWER_REGULAR = "保护政权的坚固屏障。",
+                MERMWATCHTOWER_NOKING = "这座要塞因社会组织力的退步而荒废。",
+                MERMKING = "它们已经进步到了封建社会阶段。",
+                MERMGUARD = "为什么这些守卫不使用武器呢？",
+                MERM_PRINCE = "它们的王位继承制度相当随意。",
+
+                --旺达
+                POCKETWATCH_HEAL = {--除了警告表之外的台词应该是一样的
+                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
+                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                },
+
+                POCKETWATCH_REVIVE = {
+                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
+                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                },
+
+                POCKETWATCH_WARP = {
+                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
+                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                },
+
+                POCKETWATCH_RECALL = {
+                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
+                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                },
+
+                POCKETWATCH_PORTAL = {
+                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
+                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                },
+
+                POCKETWATCH_WEAPON = {
+                    GENERIC = "黑暗燃料极大的放大了它的杀伤力。",
+                },
+
+                POCKETWATCH_PARTS = "她时间装备的内部元件，真是精妙的结构。",
+                POCKETWATCH_DISMANTLER = "一套齐全的五金工具。",
+
+                POCKETWATCH_PORTAL_ENTRANCE =--两个应该是一样的
+                {
+                    GENERIC = "对裂缝的绝妙应用。",
+                    DIFFERENTSHARD = "对裂缝的绝妙应用。",
+                },
+                POCKETWATCH_PORTAL_EXIT = "对裂缝的绝妙应用。",
+
+                --风暴之眼
+                ALTERGUARDIAN_PHASE1 = {
+                    GENERIC = "自动防御机制被触发了，正如预想的一样。",
+                    DEAD = "不要放松警惕，它还有备用武装。",
+                },
+                ALTERGUARDIAN_PHASE2 = {
+                    GENERIC = "它切换了战斗策略，明智但无用。",
+                   DEAD = "剩余的结构应该还足够进行一次重组。",
+                },
+                ALTERGUARDIAN_PHASE2SPIKE = "它生成了额外的增生物，用于确保目标位于杀伤范围内。",
+                ALTERGUARDIAN_PHASE3 = "它的结构以及展开到了极限，这是最后的形态了。",
+                ALTERGUARDIAN_PHASE3TRAP = "它在发射出强大的精神干扰脉冲。",--psychic interference
+                ALTERGUARDIAN_PHASE3DEADORB = "残余的结构已经几乎失去了力量。",
+                ALTERGUARDIAN_PHASE3DEAD = "最后的防护措施，可以被轻易破解。",
+
+                ALTERGUARDIANHAT = "用可塑材料重新生成了相同的结构？有趣。",
+                ALTERGUARDIANHATSHARD = "分离后的子个体呈现出了与整体不同的性质。",
+
+                MOONSTORM_GLASS = {
+                    GENERIC = "可塑材料中的能量已经耗尽了。",
+                    INFUSED = "被注入了强大能量的可塑材料。"
+                },
+
+                MOONSTORM_STATIC = "",
+                MOONSTORM_STATIC_ITEM = "",
+                MOONSTORM_SPARK = "",
+
+                BIRD_MUTANT = "别让他们靠近我的机器！",
+                BIRD_MUTANT_SPITTER = "该死的鸟！滚远点！",
+
+                WAGSTAFF_NPC = "啊，这是那时我的投影。",
+                ALTERGUARDIAN_CONTAINED = "从现在开始，我们需要按照时间计划进行。",
+
+                WAGSTAFF_TOOL_1 = "我的网状缓冲器，以投影形态送到这个位面。",
+                WAGSTAFF_TOOL_2 = "我的装置除垢器，以投影形态送到这个位面。",
+                WAGSTAFF_TOOL_3 = "我的垫圈开槽器，以投影形态送到这个位面。",
+                WAGSTAFF_TOOL_4 = "我的概念刷洗器，以投影形态送到这个位面。",
+                WAGSTAFF_TOOL_5 = "我的校准观察机，以投影形态送到这个位面。",
+
+                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",
+                --[[
+                --单机版各种护目镜的台词，放在这里做参考
+                GOGGLESARMORHAT = "I designed it so I can study sound reverberations while I'm engaged in combat.",
+                GOGGLESHEATHAT = "I do hope to catch a glimpse of the night creature with these.",
+                GOGGLESNORMALHAT = "Refracted lenses polished to a specific curvature so I can see better.",
+                GOGGLESSHOOTHAT = ""Tiny spheres of static energy make a marvelous flaming projectile.",
+                
+
+                MOON_DEVICE = {
+                    GENERIC = "完成了，让我们开始吧。",
+                    CONSTRUCTION1 = "然后是将其向上引导的能量场...",
+                    CONSTRUCTION2 = "最后，还需要一个合适的容器...",
+                },
+            },
+        },
+        WILBA = {},
+        WHEELER = {},
+        WARBUCKS = {},--really?
+        ]]
     }
 }
 

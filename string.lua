@@ -421,7 +421,7 @@ local strings = {
                     DEAD="死掉了。",--这玩意怎么检查？
                 },
                 TREE_PILLAR="一颗巨大的树。",
-                FLOWER_RAINFOREST="稍微好看点的植物，还是很丑",
+                FLOWER_RAINFOREST="稍微好看点的植物，还是很丑。",
 
                 BRAMBLESPIKE="坏植物！坏！",
                 BRAMBLE_BULB="现在它归我了！",
@@ -1011,7 +1011,7 @@ local strings = {
                 SALSA = "",
                 PEPPERPOPPER = "",
 
-                --小Nigger
+                --沃尔特
                 PORTABLETENT = "",
                 PORTABLETENT_ITEM = "",
 
@@ -1156,8 +1156,12 @@ local strings = {
                     CONSTRUCTION2 = "最后，还需要一个合适的容器...",
                 },
             },
-        }
-
+        },
+        --[[
+        WILBA = {},
+        WHEELER = {},
+        WARBUCKS = {},--really?
+        ]]
     }
 }
 
