@@ -88,6 +88,7 @@ local strings = {
                 ANCIENT_ROBOT_HEAD ="",
                 ANCIENT_ROBOT_LEG ="",
                 ANCIENT_ROBOT_RIBS ="",
+                INFUSED_IRON = "这不是自然金属能有的纹路。",
                 LIVING_ARTIFACT ="",
                 ]]
 
@@ -96,14 +97,12 @@ local strings = {
                 OINC100="勤奋是致富之本。",
 
                 --出生点的玩意儿
-                --[[
                 PORKLAND_INTRO_BASKET = "可惜没能凑效。",
                 PORKLAND_INTRO_BALLOON = "破成这样，应该补不好了。",
                 PORKLAND_INTRO_TRUNK = "这上面只写了“W”...喂！这是你们谁的？",
                 PORKLAND_INTRO_SUITCASE = "这上面只写了“W”...喂！这是你们谁的？",
                 PORKLAND_INTRO_FLAGS = "必要的装饰。",
                 PORKLAND_INTRO_SANDBAG = "一大包沙子，已经没用了。",
-                ]]
 
                 GLOWFLY={
                     GENERIC="会飞的聚光灯。",
@@ -140,7 +139,7 @@ local strings = {
 		        TURF_PLAINS = "那是一块地。",--荒芜平原
                 TURF_DEEPRAINFOREST_NOCANOPY = "那是一块地。",--繁茂，人造种荨麻的那个
                 --[[
-                PANGOLDEN = "",--淘金兽
+                PANGOLDEN = "活生生的冶金炉。",--淘金兽
                 SEDIMENTPUDDLE = "",--闪光水坑
 
                 GNATMOUND = "",
@@ -198,7 +197,7 @@ local strings = {
 
                 RADISH = "有点辣。",
                 RADISH_COOKED = "辣死了辣死了。",
-                RADISH_PLANTED = "",
+                RADISH_PLANTED = "一颗奇怪的萝卜。",
                 RADISH_SEEDS = "春种一粒粟，秋收万颗子！",  -- 联机版种子台词
 
                 RELIC_1 = "古代的小雕像，拿来装饰吧。",
@@ -242,6 +241,7 @@ local strings = {
                 ANCIENT_ROBOT_HEAD ="",
                 ANCIENT_ROBOT_LEG ="",
                 ANCIENT_ROBOT_RIBS ="",
+                INFUSED_IRON = "某种魔法被注入到了其中。",
                 LIVING_ARTIFACT ="",
                 ]]
 
@@ -250,14 +250,12 @@ local strings = {
                 OINC100="有钱能使鬼推磨，但他们毕竟只是猪。",
 
                 --出生点的玩意儿
-                --[[
-                PORKLAND_INTRO_BASKET = "",
-                PORKLAND_INTRO_BALLOON = "",
-                PORKLAND_INTRO_TRUNK = "",
-                PORKLAND_INTRO_SUITCASE = "",
-                PORKLAND_INTRO_FLAGS = "",
-                PORKLAND_INTRO_SANDBAG = "",
-                ]]
+                PORKLAND_INTRO_BASKET = "哼哼，这不一定是坏事。",
+                PORKLAND_INTRO_BALLOON = "哼哼，这不一定是坏事。",
+                PORKLAND_INTRO_TRUNK = "这堆东西现在更谈不上“珍贵”了。",
+                PORKLAND_INTRO_SUITCASE = "这堆东西现在更谈不上“珍贵”了。",
+                PORKLAND_INTRO_FLAGS = "一场好派对的必需品。",
+                PORKLAND_INTRO_SANDBAG = "对于丢人玩来说太重了。",
 
                 GLOWFLY={
                     GENERIC="闪亮的小家伙。",
@@ -389,12 +387,13 @@ local strings = {
                 WALL_PIG_RUINS = "一堵破墙。",
 
                 --[[
-                ANCIENT_HULK ="",
-                ANCIENT_ROBOTS_ASSEMBLY ="",
+                ANCIENT_HULK ="金属怪兽动起来了！",
+                ANCIENT_ROBOTS_ASSEMBLY ="它们正在变成一头更大的怪兽。",
                 ANCIENT_ROBOT_CLAW ="",
                 ANCIENT_ROBOT_HEAD ="",
                 ANCIENT_ROBOT_LEG ="",
                 ANCIENT_ROBOT_RIBS ="",
+                INFUSED_IRON = "",
                 LIVING_ARTIFACT ="",
                 ]]
 
@@ -403,14 +402,12 @@ local strings = {
                 OINC100="换东西的东西！“钱”！",
 
                 --出生点的玩意儿
-                --[[
-                PORKLAND_INTRO_BASKET = "",
-                PORKLAND_INTRO_BALLOON = "",
-                PORKLAND_INTRO_TRUNK = "",
-                PORKLAND_INTRO_SUITCASE = "",
-                PORKLAND_INTRO_FLAGS = "",
-                PORKLAND_INTRO_SANDBAG = "",
-                ]]
+                PORKLAND_INTRO_BASKET = "噢...",
+                PORKLAND_INTRO_BALLOON = "袋子不能飞了吗？",
+                PORKLAND_INTRO_TRUNK = "实在搬不动。",
+                PORKLAND_INTRO_SUITCASE = "我们所有人的行李。",
+                PORKLAND_INTRO_FLAGS = "彩旗。",
+                PORKLAND_INTRO_SANDBAG = "这是一大包沙子。",
 
                 GLOWFLY={
                     GENERIC="它们是怎么发光的？",
@@ -542,29 +539,26 @@ local strings = {
 
                 WALL_PIG_RUINS = "古人...古猪们建造了它。",
 
-                --[[
                 ANCIENT_HULK ="战争机器人！流言是真的！",
-                ANCIENT_ROBOTS_ASSEMBLY ="",
-                ANCIENT_ROBOT_CLAW ="",
-                ANCIENT_ROBOT_HEAD ="",
-                ANCIENT_ROBOT_LEG ="",
+                ANCIENT_ROBOTS_ASSEMBLY ="它们在自行组装！最终会变成什么样呢？",
+                ANCIENT_ROBOT_CLAW ="它可以被装在WX身上吗？",
+                ANCIENT_ROBOT_HEAD ="一个巨大的机器人头！",
+                ANCIENT_ROBOT_LEG ="一条腿，我想知道它们是否来自同一个巨人？",
                 ANCIENT_ROBOT_RIBS ="一只机器蚂蚁？",
-                LIVING_ARTIFACT ="",
-                ]]
+                INFUSED_IRON = "这些纹路闪烁着诡异的光。",
+                LIVING_ARTIFACT ="无坚不摧的机械盔甲！",
 
                 OINC="我的零花钱。",
                 OINC10="我的一点小钱。",
                 OINC100="我的一笔巨款。",
 
                 --出生点的玩意儿
-                --[[
-                PORKLAND_INTRO_BASKET = "",
-                PORKLAND_INTRO_BALLOON = "",
+                PORKLAND_INTRO_BASKET = "第一次气球旅行就这么结束了。",
+                PORKLAND_INTRO_BALLOON = "真可惜，没有坚持更久。",
                 PORKLAND_INTRO_TRUNK = "至少我们可以排除麦斯威尔先生。",
                 PORKLAND_INTRO_SUITCASE = "至少我们可以排除麦斯威尔先生。",
-                PORKLAND_INTRO_FLAGS = "",
-                PORKLAND_INTRO_SANDBAG = "",
-                ]]
+                PORKLAND_INTRO_FLAGS = "传递信号的旗帜。",
+                PORKLAND_INTRO_SANDBAG = "薇勒尔女士，它有什么用？",
 
                 GLOWFLY={
                     GENERIC="哇哦，看看它们发出的光！",
@@ -697,29 +691,26 @@ local strings = {
 
                 WALL_PIG_RUINS = "古代城墙的一部分。",
 
-                --[[
-                ANCIENT_HULK ="相信我！这是值得的！",
+                ANCIENT_HULK ="这最好是值得的！",
                 ANCIENT_ROBOTS_ASSEMBLY ="为什么我要这么做来着？",
                 ANCIENT_ROBOT_CLAW ="我记得是尾巴...但看着起来更像手啊？",
-                ANCIENT_ROBOT_HEAD ="",
-                ANCIENT_ROBOT_LEG ="",
-                ANCIENT_ROBOT_RIBS ="",
-                LIVING_ARTIFACT ="就是这样！就是它！",
-                ]]
+                ANCIENT_ROBOT_HEAD ="还是不要在太岁头上动土吧。",
+                ANCIENT_ROBOT_LEG ="在我们准备好之前，最好离它远点。",
+                ANCIENT_ROBOT_RIBS ="一具巨大的肋骨。",
+                INFUSED_IRON = "如果能够用在我的怀表上...",
+                LIVING_ARTIFACT ="就是这样！完美的利用方式！",
 
                 OINC="希望这能值得我付出的时间。",
                 OINC10="买点什么好呢？",
                 OINC100="这上面是松露吗？我之前从没仔细看过！",
 
                 --出生点的玩意儿
-                --[[
-                PORKLAND_INTRO_BASKET = "",
-                PORKLAND_INTRO_BALLOON = "",
-                PORKLAND_INTRO_TRUNK = "",
-                PORKLAND_INTRO_SUITCASE = "",
-                PORKLAND_INTRO_FLAGS = "",
-                PORKLAND_INTRO_SANDBAG = "",
-                ]]
+                PORKLAND_INTRO_BASKET = "啊，都怪我...为什么我没有早点想起来？",
+                PORKLAND_INTRO_BALLOON = "破了一个大洞，已经不能用了。",
+                PORKLAND_INTRO_TRUNK = "这上面只有一个“W”，真是一个有辨识度的标记。",
+                PORKLAND_INTRO_SUITCASE = "这上面只有一个“W”，真是一个有辨识度的标记。",
+                PORKLAND_INTRO_FLAGS = "一些简单的小装饰。",
+                PORKLAND_INTRO_SANDBAG = "用于配重。",
 
                 GLOWFLY={
                     GENERIC="我还是喜欢它们现在的样子。",
@@ -800,10 +791,9 @@ local strings = {
             ]]
 
             DESCRIBE = {
-                --威尔逊
                 --我是火学家，我放火
                 LIGHTER =  "她随身携带的奇怪人造物。火是怎么产生的？", --An odd artifact she carries with her. How it work?
-                BERNIE_ACTIVE = "它会与精神攻击产生反应！真迷人！", --"It responds to  psychic attacks! Fascinating!"
+                BERNIE_ACTIVE = "它会与精神攻击产生反应！真迷人！", --"It responds to psychic attacks! Fascinating!"
                 BERNIE_BIG = "不可思议。它表现得就像一个活物！",
                 BERNIE_INACTIVE = {
                     GENERIC= "有些破旧的小熊玩偶，深受我合作伙伴们的喜爱。",
@@ -1052,7 +1042,7 @@ local strings = {
                 MERMHAT = "一个实用的伪装！我可以潜入这些生物之中！",
                 MERMTHRONE =
                 {
-                    GENERIC = "这些颜色是如何产生的？",
+                    GENERIC = "这些颜色是如何印染的？",
                     BURNT = "又一个王朝结束了。",
                 },
                 MERMTHRONE_CONSTRUCTION =
@@ -1121,9 +1111,9 @@ local strings = {
                     GENERIC = "它切换了战斗策略，明智但无用。",
                    DEAD = "剩余的结构应该还足够进行一次重组。",
                 },
-                ALTERGUARDIAN_PHASE2SPIKE = "",
-                ALTERGUARDIAN_PHASE3 = "",
-                ALTERGUARDIAN_PHASE3TRAP = "",
+                ALTERGUARDIAN_PHASE2SPIKE = "它生成了额外的增生物，用于确保目标位于杀伤范围内。",
+                ALTERGUARDIAN_PHASE3 = "它的结构以及展开到了极限，这是最后的形态了。",
+                ALTERGUARDIAN_PHASE3TRAP = "它在发射出强大的精神干扰脉冲。",--psychic interference
                 ALTERGUARDIAN_PHASE3DEADORB = "残余的结构已经几乎失去了力量。",
                 ALTERGUARDIAN_PHASE3DEAD = "最后的防护措施，可以被轻易破解。",
 
@@ -1151,7 +1141,7 @@ local strings = {
                 WAGSTAFF_TOOL_4 = "我的概念刷洗器，以投影形态送到这个位面。",
                 WAGSTAFF_TOOL_5 = "我的校准观察机，以投影形态送到这个位面。",
 
-                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神影响。",
+                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",
                 --[[
                 --单机版各种护目镜的台词，放在这里做参考
                 GOGGLESARMORHAT = "我这么设计以供我在战斗中研究声音的回响。", --"I designed it so I can study sound reverberations while I'm engaged in combat."
