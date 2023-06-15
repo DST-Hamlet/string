@@ -94,11 +94,11 @@ local strings = {
                 OINC10="一点小积蓄，不要浪费。",
                 OINC100="勤奋是致富之本。",
 
-                --出生点的玩意儿
+                --spawner
                 PORKLAND_INTRO_BASKET = "可惜没能凑效。",
-                PORKLAND_INTRO_BALLOON = "破成这样，应该补不好了。",
-                PORKLAND_INTRO_TRUNK = "这上面只写了“W”...喂！这是你们谁的？",
-                PORKLAND_INTRO_SUITCASE = "这上面只写了“W”...喂！这是你们谁的？",
+                PORKLAND_INTRO_BALLOON = "破成这样，应该补不好了。",]]
+                PORKLAND_INTRO_TRUNK = "Just a \"W\"...Hey! Whose is this?",
+                PORKLAND_INTRO_SUITCASE = "Just a \"W\"...Hey! Whose is this?",--[[
                 PORKLAND_INTRO_FLAGS = "必要的装饰。",
                 PORKLAND_INTRO_SANDBAG = "一大包沙子，已经没用了。",
                 
@@ -248,7 +248,7 @@ local strings = {
                 OINC10="依然是普通的货币。",
                 OINC100="有钱能使鬼推磨，但他们毕竟只是猪。",
 
-                --出生点的玩意儿
+                --spawner
                 
                 PORKLAND_INTRO_BASKET = "哼哼，这不一定是坏事。",
                 PORKLAND_INTRO_BALLOON = "哼哼，这不一定是坏事。",
@@ -399,7 +399,7 @@ local strings = {
                 OINC10="What is \"Gurrency\"?",
                 OINC100="Stuff for stuff! \"Gurrency\"!",
 
-                --出生点的玩意儿
+                --spawner
                 --[[
                 PORKLAND_INTRO_BASKET = "噢...",
                 PORKLAND_INTRO_BALLOON = "袋子不能飞了吗？",
@@ -552,7 +552,7 @@ local strings = {
                 OINC100="我的一笔巨款。",
                 ]]
 
-                --出生点的玩意儿
+                --spawner
                 --[[
                 PORKLAND_INTRO_BASKET = "第一次气球旅行就这么结束了。",
                 PORKLAND_INTRO_BALLOON = "真可惜，没有坚持更久。",
@@ -707,7 +707,7 @@ local strings = {
                 OINC10="买点什么好呢？",
                 OINC100="这上面是松露吗？我之前从没仔细看过！",
 
-                --出生点的玩意儿
+                --spawner
                 PORKLAND_INTRO_BASKET = "啊，都怪我...为什么我没有早点想起来？",
                 PORKLAND_INTRO_BALLOON = "破了一个大洞，已经不能用了。",]]
                 PORKLAND_INTRO_TRUNK = "There's only a \"W\" on it, what a recognizable mark.",
@@ -887,7 +887,7 @@ local strings = {
                 BOOK_HORTICULTURE_UPGRADED = "看来它的效果与记录的信息量呈正相关。",
                 BOOK_LIGHT = "My attempts to understand this are being thwarted somehow.",  --same as Codex Umbra
                 BOOK_LIGHT_UPGRADED = "这些光线是从哪里射出的？",
-                BOOK_MOON = "从理论上讲，这能够安全地对“那个东西”施加影响。",
+                BOOK_MOON = "Theoretically, This could safely influence \"that thing\".",
                 BOOK_RAIN = "这将是混沌系统预测的大突破！",
                 BOOK_RESEARCH_STATION = "女士，你是如何让知识扩展自己的？",
                 BOOK_SILVICULTURE = "为什么它无法对一部分植物起效呢？",
@@ -898,9 +898,9 @@ local strings = {
 
                 --伍迪
                 --LUCY = "奇怪的能量波从它里面散发出来。",--same as ds
-                WEREITEM_BEAVER = "他通过食用这些来定向激活“诅咒”效果。",
-                WEREITEM_GOOSE = "他通过食用这些来定向激活“诅咒”效果。",
-                WEREITEM_MOOSE = "他通过食用这些来定向激活“诅咒”效果。",
+                WEREITEM_BEAVER = "He ate them to activate the \"curse\ effect in directed.",
+                WEREITEM_GOOSE = "He ate them to activate the \"curse\ effect in directed.",
+                WEREITEM_MOOSE = "He ate them to activate the \"curse\ effect in directed.",
 
                 --韦斯来了！！！！！（惊恐）
                 BALLOONS_EMPTY = "看来这是他带进来的。", --ref to ds "Balloons? Here?"
