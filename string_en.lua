@@ -3,44 +3,46 @@ local strings = {
     CHARACTERS = {
         WINONA = {
             --[[
-            ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--进入完全遮蔽阳光的树林，未使用？
+            ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--unuse
             ANNOUCE_ALARMOVER = "呼，平安度过。",
-            ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",--蝙蝠来咯
-            ANNOUCE_OTHERWORLD_DEED = "在这里一点用也没有，还不如我在卑诗省的家庭小屋。",--其它世界的地契
-            ANNOUNCE_TOOLCORRODED = "这些工具的质量太差了。", --工具被腐蚀，未使用？
-            ANNOUNCE_TURFTOOHARD = "这里的土层相当瓷实。", --挖不起来这个地皮
-            ANNOUNCE_GAS_DAMAGE = "咳！瓦斯！咳！有瓦斯！", --毒气雨林伤害
+            ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",
+            ANNOUCE_OTHERWORLD_DEED = "在这里一点用也没有，还不如我在卑诗省的家庭小屋。",
+            ANNOUNCE_TOOLCORRODED = "这些工具的质量太差了。",--unuse
+            ANNOUNCE_TURFTOOHARD = "这里的土层相当瓷实。", 
+            ANNOUNCE_GAS_DAMAGE = "咳！瓦斯！咳！有瓦斯！", 
             
-            ANNOUNCE_SNEEZE = "啊啾！",	--打喷嚏
-            ANNOUNCE_HAYFEVER = "我的鼻子好痒...",	--开始有花粉
-            ANNOUNCE_HAYFEVER_OFF = "呼，终于舒服了。",	--花粉消失
+            ANNOUNCE_SNEEZE = "啊啾！",
+            ANNOUNCE_HAYFEVER = "我的鼻子好痒...",
+            ANNOUNCE_HAYFEVER_OFF = "呼，终于舒服了。",	
 
-            ANNOUNCE_PICKPOOP = {"噫！","太脏了！","难以忍受！",},	--翻粪堆
+            ANNOUNCE_PICKPOOP = {"噫！","太脏了！","难以忍受！",},
             
-            ANNOUNCE_TOO_HUMID = {"%s一点都不透气。","这%s闷得我要喘不过气来了。"},	--某衣服太热了
+            ANNOUNCE_TOO_HUMID = {"%s一点都不透气。","这%s闷得我要喘不过气来了。"},
             ANNOUNCE_DEHUMID = "这样就舒服多了。",
 
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"太硬了！", "手都震麻了！", "它肯定有个软肋。"}, --打蛇鳞
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"太硬了！", "手都震麻了！", "它肯定有个软肋。"},
 
-            ANNOUNCE_MYSTERY_FOUND = "",
-            ANNOUNCE_MYSTERY_NOREWARD = "",
+            ANNOUNCE_MYSTERY_FOUND = "这下面有什么东西。",
+            ANNOUNCE_MYSTERY_NOREWARD = "我很确定这里什么都没有。",
 
-            ANNOUNCE_MYSTERY_DOOR_FOUND = "嘿！这后面有一扇暗门！",--用放大镜看到裂缝后面有暗门
-            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "就是一堵墙。",--后面没有门
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "嘿！这后面有一扇暗门！",]]
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "Jusr a wall.",
 
-            ANNOUNCE_HOUSE_DOOR = "",
-            ANNOUNCE_ROOM_STUCK = "",
+            ANNOUNCE_HOUSE_DOOR = "This is illegal construction.",
+            ANNOUNCE_ROOM_STUCK = "We need to get out of here before the demolition.",
             
-            ANNOUNCE_TAXDAY = "收税日到了！排好队！", --收税日
-            --ANNOUNCE_NOTHING_FOUND = "",
+            --ANNOUNCE_TAXDAY = "收税日到了！排好队！",
+            ANNOUNCE_NOTHING_FOUND = "I think it's beyond its limits.",
 
-            ANNOUNCE_SUITUP = "全副武装！",]]
+            ANNOUNCE_SUITUP = "Fully armed!",
 
             DESCRIBE = {
                 ALOE = "Is it health benefits?",
                 --ALOE_COOKED = "应该不会有问题，尝试一下吧。",
                 ALOE_PLANTED = "A weird plant.",
                 ALOE_SEEDS = "A handful of seeds.", --DST seeds line
+
+                ASPARAGUS_PLANTED = "Vegetables with lot of iron.", 
 
                 --RADISH = "非常火辣的萝卜。",
                 --RADISH_COOKED = "粗糙的加工适得其反。",
@@ -61,7 +63,7 @@ local strings = {
 
                 PIG_RUINS_PIG = "未免太过于张扬了。",
                 ]]
-                BASEFAN = "I'm sure bossman would be very interested in it.", --ref wagstaff line
+                BASEFAN = "I'm sure bossman would be very interested in it.", --ref wagstaff basefan line
                 --[[
                 PIG_SHOP_CITYHALL = {
                     GENERIC = "当官的工作的地方。",
@@ -105,13 +107,13 @@ local strings = {
                 GLOWFLY={
                     GENERIC="会飞的聚光灯。",
                     SLEEPING="检修时间到。",
-                    DEAD="它坏掉了。",--这玩意怎么检查？
+                    DEAD="它坏掉了。",--how to examine it?
                 },
                 GLOWFLY_COCOON="改变正在发生。",
                 RABID_BEETLE={
                     GENERIC="你们到底在兴奋什么？",
                     SLEEPING="好好冷静一下！",
-                    DEAD="啊，消停了。",--这玩意怎么检查？
+                    DEAD="啊，消停了。",--how to examine it?
                 },
                 TREE_PILLAR="它一直延伸到我视野的尽头。",
                 FLOWER_RAINFOREST="我从未见过这样的花。",
@@ -122,20 +124,20 @@ local strings = {
 
                 CHITIN="我不知道这能拿来做什么。",]]
 
-                TURF_PIGRUINS = "That's a chunk of ground.",  --猪遗迹，未使用
-                TURF_RAINFOREST = "That's a chunk of ground.", --雨林地皮
-                TURF_DEEPRAINFOREST = "That's a chunk of ground.",--深层雨林，未使用
-                TURF_GASJUNGLE = "That's a chunk of ground.",--毒气雨林，未使用
+                TURF_PIGRUINS = "That's a chunk of ground.",--unuse
+                TURF_RAINFOREST = "That's a chunk of ground.", 
+                TURF_DEEPRAINFOREST = "That's a chunk of ground.",--unuse
+                TURF_GASJUNGLE = "That's a chunk of ground.",--unuse
 
-                TURF_LAWN = "That's a chunk of ground.",--草坪，方格子的那个
-                TURF_MOSS = "That's a chunk of ground.",--苔藓，猪镇边缘的那个
-                TURF_FIELDS = "That's a chunk of ground.",--田地，城郊的
-                TURF_FOUNDATION = "That's a chunk of foundation.",--平整石地板
-                TURF_COBBLEROAD = "That's a chunk of road.",--猪镇石板路
+                TURF_LAWN = "That's a chunk of ground.",
+                TURF_MOSS = "That's a chunk of ground.",
+                TURF_FIELDS = "That's a chunk of ground.",
+                TURF_FOUNDATION = "That's a chunk of foundation.",
+                TURF_COBBLEROAD = "That's a chunk of road.",
 
-                TURF_PAINTED = "That's a chunk of ground.", --彩绘沙漠
-		        TURF_PLAINS = "That's a chunk of ground.",--荒芜平原
-                TURF_DEEPRAINFOREST_NOCANOPY = "That's a chunk of ground.",--繁茂，人造种荨麻的那个
+                TURF_PAINTED = "That's a chunk of ground.",
+		        TURF_PLAINS = "That's a chunk of ground.",
+                TURF_DEEPRAINFOREST_NOCANOPY = "That's a chunk of ground.",
                 --[[
                 PANGOLDEN = "活生生的冶金炉。",--淘金兽
                 SEDIMENTPUDDLE = "",--闪光水坑
@@ -156,37 +158,37 @@ local strings = {
             --[[
             ANNOUCE_UNDERLEAFCANOPY = "生长的枝条遮蔽了阳光。",
             ANNOUCE_ALARMOVER = "呦吼！有惊无险！",
-            ANNOUCE_BATS = "哼哼！吸血鬼来们了！",--蝙蝠来咯]]
-            ANNOUCE_OTHERWORLD_DEED = "It's locate on another plane.",--其它世界的地契
+            ANNOUCE_BATS = "哼哼！吸血鬼来们了！",]]
+            ANNOUCE_OTHERWORLD_DEED = "It's locate on another plane.",
             --[[
             ANNOUNCE_TOOLCORRODED = "不禁用啊。",
-            ANNOUNCE_TURFTOOHARD = "这里的地面太坚固了。", --挖不起来这个地皮
-            ANNOUNCE_GAS_DAMAGE = "哈！咳咳！咳咳咳！", --毒气雨林伤害
+            ANNOUNCE_TURFTOOHARD = "这里的地面太坚固了。", 
+            ANNOUNCE_GAS_DAMAGE = "哈！咳咳！咳咳咳！", 
             
             ANNOUNCE_SNEEZE = "（吸气）啊啾！啊啊啊啾！",	--sniff
-            ANNOUNCE_HAYFEVER = "哎呀，好多花粉，要难受了。",	--开始有花粉
-            ANNOUNCE_HAYFEVER_OFF = "花粉走光光了。终于。",	--花粉消失
+            ANNOUNCE_HAYFEVER = "哎呀，好多花粉，要难受了。",
+            ANNOUNCE_HAYFEVER_OFF = "花粉走光光了。终于。",	
 
-            ANNOUNCE_PICKPOOP = {"真恶心！","这还是热的！","我的爪子不能要了！",},	--翻粪堆
+            ANNOUNCE_PICKPOOP = {"真恶心！","这还是热的！","我的爪子不能要了！",},
 
-            ANNOUNCE_TOO_HUMID = {"我受不了%s了。","脱掉%s吧。"},	--某衣服太热了
-            ANNOUNCE_DEHUMID = "自由自在，这才是我！",	--靠近风扇？总之是雾效果结束的
+            ANNOUNCE_TOO_HUMID = {"我受不了%s了。","脱掉%s吧。"},
+            ANNOUNCE_DEHUMID = "自由自在，这才是我！",
 
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"这样行不通。", "几乎是块石头！", "这里不是它的七寸！",}, --打蛇鳞
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"这样行不通。", "几乎是块石头！", "这里不是它的七寸！",},]]
 
-            ANNOUNCE_MYSTERY_FOUND = "",
-            ANNOUNCE_MYSTERY_NOREWARD = "",
+            ANNOUNCE_MYSTERY_FOUND = "Hyuyu! Someone hide something here.",
+            ANNOUNCE_MYSTERY_NOREWARD = "Nothing here.",
 
-            ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
-            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "Guess what's it? A Door!",
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "The other side of the wall is still a wall.",
 
-            ANNOUNCE_HOUSE_DOOR = "",
-            ANNOUNCE_ROOM_STUCK = "",
+            ANNOUNCE_HOUSE_DOOR = "Must have a paper permit? Can I write one down?",
+            ANNOUNCE_ROOM_STUCK = "If this room collapses, I may not have time to hop out.",
             
-            ANNOUNCE_TAXDAY = "排好队排好队，收税了！", --收税日
-            ANNOUNCE_NOTHING_FOUND = "",
+            --ANNOUNCE_TAXDAY = "排好队排好队，收税了！",
+            ANNOUNCE_NOTHING_FOUND = "Not everyone can reach such a great distance.",
 
-            ANNOUNCE_SUITUP = "芜——湖！太好玩辣！",]]
+            ANNOUNCE_SUITUP = "Wo——Ho! So much fun!",
 
             DESCRIBE = {
                 --ALOE = "可以内服也可以外敷，我选择外敷。",
@@ -194,19 +196,21 @@ local strings = {
                 --ALOE_PLANTED = "是芦荟，凡人的食物。",
                 ALOE_SEEDS = "Strange little seeds, indeed, indeed.", --DST seeds line
 
+                ASPARAGUS_PLANTED = "Transpierce out of the earth.", 
+
                 --RADISH = "有点辣。",
                 --RADISH_COOKED = "辣死了辣死了。",
                 --RADISH_PLANTED = "一颗奇怪的萝卜。",
                 RADISH_SEEDS = "Grow a seed and you shall feed!", --DST seeds line
 
-                --RELIC_1 = "古代的小雕像，拿来装饰吧。",
-                --PIG_RUINS_IDOL = "上面的小雕像不错啊，我们把它拿走吧。",
+                RELIC_1 = "An old idol, use for decoration.",
+                PIG_RUINS_IDOL = "What a nice little idol. Let's take it.",
 
-                RELIC_2 = "Let me see...\"Question mark, shooting star, pine tree.\"Haha, just kidding.", --Gravity Falls
-                PIG_RUINS_PLAQUE = "Hey little tree,guess what this says?",
+                RELIC_2 = "It said...\"Question mark, shooting star, pine tree.\"Haha, just kidding.", --Gravity Falls
+                PIG_RUINS_PLAQUE = "Hey little tree, guess what this says?",
 
-                --RELIC_3 = "大猪头的大鼻头。",
-                --PIG_RUINS_HEAD = "别人有伞，它有大头！",
+                RELIC_3 = "Big nose for big noise.",
+                PIG_RUINS_HEAD = "Others use umbrella, it use big head!",
 
                 RELIC_4 = "It looks very royal.",
                 --[[
@@ -239,9 +243,9 @@ local strings = {
                 ANCIENT_ROBOT_CLAW ="",
                 ANCIENT_ROBOT_HEAD ="",
                 ANCIENT_ROBOT_LEG ="",
-                ANCIENT_ROBOT_RIBS ="",
-                INFUSED_IRON = "某种魔法被注入到了其中。",
-                LIVING_ARTIFACT ="",
+                ANCIENT_ROBOT_RIBS ="",]]
+                INFUSED_IRON = "Some kind of energy was injected into it.",
+                --[[LIVING_ARTIFACT ="",
                 
 
                 OINC="普通的硬币。",
@@ -260,13 +264,13 @@ local strings = {
                 GLOWFLY={
                     GENERIC="闪亮的小家伙。",
                     SLEEPING="做个好梦吧。",
-                    DEAD="对不起。",--这玩意怎么检查？
+                    DEAD="对不起。",--how to examine it?
                 },
                 GLOWFLY_COCOON="会变成什么样呢？",
                 RABID_BEETLE={
                     GENERIC="真有精力，来跳支舞吗？",
                     SLEEPING="那就中场休息。",
-                    DEAD="真遗憾。",--这玩意怎么检查？
+                    DEAD="真遗憾。",--how to examine it?
                 },
                 TREE_PILLAR="遮天蔽日。",
                 FLOWER_RAINFOREST="有一种野性的美。",
@@ -277,20 +281,20 @@ local strings = {
 
                 CHITIN="那些家伙的外壳。",
                 ]]
-                TURF_PIGRUINS = "Floor or ceiling, depending on your perspective.",  --猪遗迹，未使用
-                TURF_RAINFOREST = "Floor or ceiling, depending on your perspective.", --雨林地皮
-                TURF_DEEPRAINFOREST = "Floor or ceiling, depending on your perspective.",--深层雨林，未使用
-                TURF_GASJUNGLE = "Floor or ceiling, depending on your perspective.",--毒气雨林，未使用
+                TURF_PIGRUINS = "Floor or ceiling, depending on your perspective.",--unuse
+                TURF_RAINFOREST = "Floor or ceiling, depending on your perspective.", 
+                TURF_DEEPRAINFOREST = "Floor or ceiling, depending on your perspective.",--unuse
+                TURF_GASJUNGLE = "Floor or ceiling, depending on your perspective.",--unuse
 
-                TURF_LAWN = "Floor or ceiling, depending on your perspective.",--草坪，方格子的那个
-                TURF_MOSS = "Floor or ceiling, depending on your perspective.",--苔藓，猪镇边缘的那个
-                TURF_FIELDS = "Floor or ceiling, depending on your perspective.",--田地，城郊的
-                TURF_FOUNDATION = "Floor or ceiling, depending on your perspective.",--平整石地板
-                TURF_COBBLEROAD = "Floor or ceiling, depending on your perspective.",--猪镇石板路
+                TURF_LAWN = "Floor or ceiling, depending on your perspective.",
+                TURF_MOSS = "Floor or ceiling, depending on your perspective.",
+                TURF_FIELDS = "Floor or ceiling, depending on your perspective.",
+                TURF_FOUNDATION = "Floor or ceiling, depending on your perspective.",
+                TURF_COBBLEROAD = "Floor or ceiling, depending on your perspective.",
 
-                TURF_PAINTED = "Floor or ceiling, depending on your perspective.", --彩绘沙漠
-		        TURF_PLAINS = "Floor or ceiling, depending on your perspective.",--荒芜平原
-                TURF_DEEPRAINFOREST_NOCANOPY = "Floor or ceiling, depending on your perspective.",--繁茂，人造种荨麻的那个
+                TURF_PAINTED = "Floor or ceiling, depending on your perspective.",
+		        TURF_PLAINS = "Floor or ceiling, depending on your perspective.",
+                TURF_DEEPRAINFOREST_NOCANOPY = "Floor or ceiling, depending on your perspective.",
                 --[[
                 PANGOLDEN = "",--淘金兽
                 SEDIMENTPUDDLE = "",--闪光水坑
@@ -307,45 +311,48 @@ local strings = {
                 ]]
             },
         },
-        WURT = {--pigfolk mermfolk
+        WURT = {
             --[[
             ANNOUCE_UNDERLEAFCANOPY = "大树挡住了光。",
             ANNOUCE_ALARMOVER = "鱼人王国的故事还没完呢。",
-            ANNOUCE_BATS = "浮浪噗。这是什么影子？",--蝙蝠来咯
-            ANNOUCE_OTHERWORLD_DEED = "这是在哪里？",--其它世界的地契
+            ANNOUCE_BATS = "浮浪噗。这是什么影子？",
+            ANNOUCE_OTHERWORLD_DEED = "这是在哪里？",
             ANNOUNCE_TOOLCORRODED = "工具化掉了，浮浪噗。", --？？？
-            ANNOUNCE_TURFTOOHARD = "好结实的土层。", --挖不起来这个地皮
-            ANNOUNCE_GAS_DAMAGE = "呵——呼，好难闻。", --毒气雨林伤害
+            ANNOUNCE_TURFTOOHARD = "好结实的土层。", 
+            ANNOUNCE_GAS_DAMAGE = "呵——呼，好难闻。", 
             
-            ANNOUNCE_SNEEZE = "呵——呼，哈嚏呦！！！",	--打喷嚏
-            ANNOUNCE_HAYFEVER = "格勒。鳃好难受...",	--开始有花粉
-            ANNOUNCE_HAYFEVER_OFF = "噢！鳃终于舒服了！",	--花粉消失
+            ANNOUNCE_SNEEZE = "呵——呼，哈嚏呦！！！",
+            ANNOUNCE_HAYFEVER = "格勒。鳃好难受...",
+            ANNOUNCE_HAYFEVER_OFF = "噢！鳃终于舒服了！",	
 
-            ANNOUNCE_PICKPOOP = {"好脏的水！","格勒...","没有下次了！",},	--翻粪堆
+            ANNOUNCE_PICKPOOP = {"好脏的水！","格勒...","没有下次了！",},
             
-            ANNOUNCE_TOO_HUMID = {"%s热！","不想穿%s了！",},	--某衣服太热了
-            ANNOUNCE_DEHUMID = "呼，凉快了。",	--靠近风扇？总之是雾效果结束的
+            ANNOUNCE_TOO_HUMID = {"%s热！","不想穿%s了！",},
+            ANNOUNCE_DEHUMID = "呼，凉快了。",
             
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"打不穿！", "鳞片太硬了！","太坚固了！",}, --打蛇鳞
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"打不穿！", "鳞片太硬了！","太坚固了！",},]]
 
-            ANNOUNCE_MYSTERY_FOUND = "",
-            ANNOUNCE_MYSTERY_NOREWARD = "",
+            ANNOUNCE_MYSTERY_FOUND = "There somthing.",
+            ANNOUNCE_MYSTERY_NOREWARD = "Nothing.",
 
-            ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
-            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "How do we into that room?",
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "Dirt, and Dirt.",
 
-            ANNOUNCE_HOUSE_DOOR = "",
-            ANNOUNCE_ROOM_STUCK = "",
-            ]]
-            ANNOUNCE_TAXDAY = "Every pigfolk has to give me money today!", --收税日
-            --ANNOUNCE_NOTHING_FOUND = "",
+            ANNOUNCE_HOUSE_DOOR = "Why listening to Pigfolk here?",
+            ANNOUNCE_ROOM_STUCK = "Let me out first!",
+            
+            ANNOUNCE_TAXDAY = "Every pigfolk has to give me money today!",
+            ANNOUNCE_NOTHING_FOUND = "Is it too far?",
+
             ANNOUNCE_SUITUP = "Flort Glurtsu flut!",--Merm gurad line "For glory of Mermfolk!" on merm sound
             
             DESCRIBE = {
-                --ALOE = "又甜又黏。",
+                ALOE = "Sweet and stick.",
                 ALOE_COOKED = "But it don't taste like medicine. Ms. Wickerbottom",
                 ALOE_PLANTED = "Grrr, snack never seen.",
                 ALOE_SEEDS = "Make more snacks, florp!", --DST seeds line
+
+                ASPARAGUS_PLANTED = "Grrr, snack never seen.", 
 
                 RADISH = "Hot spicy root!",
                 RADISH_COOKED = "Not better than it was.",
@@ -358,7 +365,7 @@ local strings = {
                 RELIC_2 = "Pigfolk pay me for their own stuff. Good!",
                 PIG_RUINS_PLAQUE = "Created by pigfolk too?",
 
-                --RELIC_3 = "战利品！",
+                RELIC_3 = "Loot!",
                 PIG_RUINS_HEAD = "Giant pifrolk face!",
 
                 RELIC_4 = "A different pigfolk, why?",
@@ -370,7 +377,7 @@ local strings = {
 
                 PIG_SHOP_CITYHALL = {
                     GENERIC = "Mermfolk must have one!",
-                    --BURNING= "烧吧！",
+                    BURNING= "Burn!",
                 },
                 PIG_SHOP_CITYHALL_PLAYER = {
                     GENERIC = "Pigfolk listen Mermfolk now!",
@@ -411,13 +418,13 @@ local strings = {
                 GLOWFLY={
                     GENERIC="它们是怎么发光的？",
                     SLEEPING="在睡觉。",
-                    DEAD="死掉了。",--这玩意怎么检查？
+                    DEAD="死掉了。",--how to examine it?
                 },
                 GLOWFLY_COCOON="小虫子把自己裹了起来。",
                 RABID_BEETLE={
                     GENERIC="小虫子在发疯！",
                     SLEEPING="小虫子安静了。",
-                    DEAD="死掉了。",--这玩意怎么检查？
+                    DEAD="死掉了。",--how to examine it?
                 },
                 TREE_PILLAR="一颗巨大的树。",
                 FLOWER_RAINFOREST="稍微好看点的植物，还是很丑。",]]
@@ -428,20 +435,20 @@ local strings = {
 
                 --CHITIN="坚硬的皮。",
                 
-                TURF_PIGRUINS = "Ground bit.",  --猪遗迹，未使用
-                TURF_RAINFOREST = "Ground bit.", --雨林地皮
-                TURF_DEEPRAINFOREST = "Ground bit.",--深层雨林，未使用
-                TURF_GASJUNGLE = "Ground bit.",--毒气雨林，未使用
+                TURF_PIGRUINS = "Ground bit.",--unuse
+                TURF_RAINFOREST = "Ground bit.", 
+                TURF_DEEPRAINFOREST = "Ground bit.",--unuse
+                TURF_GASJUNGLE = "Ground bit.",--unuse
 
-                TURF_LAWN = "Ground bit.",--草坪，方格子的那个
-                TURF_MOSS = "Ground bit.",--苔藓，猪镇边缘的那个
-                TURF_FIELDS = "Ground bit.",--田地，城郊的
-                TURF_FOUNDATION = "Ground bit.",--平整石地板
-                TURF_COBBLEROAD = "Make ground walk-ier!",--猪镇石板路 --
+                TURF_LAWN = "Ground bit.",
+                TURF_MOSS = "Ground bit.",
+                TURF_FIELDS = "Ground bit.",
+                TURF_FOUNDATION = "Ground bit.",
+                TURF_COBBLEROAD = "Make ground walk-ier!", --
 
-                TURF_PAINTED = "Ground bit.", --彩绘沙漠
-		        TURF_PLAINS = "Ground bit.",--荒芜平原
-                TURF_DEEPRAINFOREST_NOCANOPY = "Ground bit.",--繁茂，人造种荨麻的那个
+                TURF_PAINTED = "Ground bit.",
+		        TURF_PLAINS = "Ground bit.",
+                TURF_DEEPRAINFOREST_NOCANOPY = "Ground bit.",
                 --[[
                 PANGOLDEN = "",--淘金兽
                 SEDIMENTPUDDLE = "",--闪光水坑
@@ -466,30 +473,30 @@ local strings = {
             ANNOUCE_OTHERWORLD_DEED = "这不在附近，但我们会找到它的！",
             ANNOUNCE_TOOLCORRODED = "这些工具的质量真的不是很好。", 
             ANNOUNCE_TURFTOOHARD = "这块土地不适合扎营。", 
-            ANNOUNCE_GAS_DAMAGE = "咳！这里的空气不对！", --毒气雨林伤害
+            ANNOUNCE_GAS_DAMAGE = "咳！这里的空气不对！", 
             
-            ANNOUNCE_SNEEZE = "阿嚏！",	--打喷嚏
-            ANNOUNCE_HAYFEVER = "空气中有什么东西...我的鼻子好痒。",	--开始有花粉
-            ANNOUNCE_HAYFEVER_OFF = "我的鼻子好多了，它终于没了！",	--花粉消失
+            ANNOUNCE_SNEEZE = "阿嚏！",
+            ANNOUNCE_HAYFEVER = "空气中有什么东西...我的鼻子好痒。",
+            ANNOUNCE_HAYFEVER_OFF = "我的鼻子好多了，它终于没了！",	
 
-            ANNOUNCE_PICKPOOP = {"松树先锋队员必须能吃苦耐劳...但...","这真的太不卫生了！","别过来！沃比！",},	--翻粪堆
+            ANNOUNCE_PICKPOOP = {"松树先锋队员必须能吃苦耐劳...但...","这真的太不卫生了！","别过来！沃比！",},
 
-            ANNOUNCE_TOO_HUMID = {"好闷啊。","%s一点都不透气。"},	--某衣服太热了
-            ANNOUNCE_DEHUMID = "还是这样更舒服。",	--靠近风扇？总之是雾效果结束的
+            ANNOUNCE_TOO_HUMID = {"好闷啊。","%s一点都不透气。"},
+            ANNOUNCE_DEHUMID = "还是这样更舒服。",
             
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"就像金属一样硬！", "它有刀枪不入的鳞片！", "它的全身都是这样吗？",}, --打蛇鳞
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"就像金属一样硬！", "它有刀枪不入的鳞片！", "它的全身都是这样吗？",},]]
 
-            ANNOUNCE_MYSTERY_FOUND = "",
-            ANNOUNCE_MYSTERY_NOREWARD = "",
+            ANNOUNCE_MYSTERY_FOUND = "Look what I found!",
+            ANNOUNCE_MYSTERY_NOREWARD = "I didn't find anything.",
 
-            ANNOUNCE_MYSTERY_DOOR_FOUND = "",--用放大镜看到裂缝后面有暗门
-            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "",--后面没有门
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "A chamber! There's a chamber of secrets!",
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "This is really a wall.",
 
-            ANNOUNCE_HOUSE_DOOR = "",
-            ANNOUNCE_ROOM_STUCK = "",
+            ANNOUNCE_HOUSE_DOOR = "We have to get approval from the government.",
+            ANNOUNCE_ROOM_STUCK = "We'll be trapped in this room!",
             
-            ANNOUNCE_TAXDAY = "到收取管理费用的日子了。", --收税日]]
-            --ANNOUNCE_NOTHING_FOUND = "",
+            --ANNOUNCE_TAXDAY = "到收取管理费用的日子了。",
+            ANNOUNCE_NOTHING_FOUND = "Mrs.Wheeler! It doesn't work!",
 
             ANNOUNCE_SUITUP = "Now I am Iron man!",
 
@@ -498,6 +505,8 @@ local strings = {
                 --ALOE_COOKED = "这样应该会更美味。",
                 --ALOE_PLANTED = "我认识这个！是芦荟！有很多好用途。",
                 ALOE_SEEDS = "Woby, do you see a good spot to plant these?", --DST seeds line
+
+                ASPARAGUS_PLANTED = "In general, there will be more food near the food!", 
 
                 --RADISH = "这种萝卜有可能会变成老鼠吗？",
                 --RADISH_COOKED = "对。这是做熟的水萝卜。",
@@ -564,13 +573,13 @@ local strings = {
                 GLOWFLY={
                     GENERIC="哇哦，看看它们发出的光！",
                     SLEEPING="它在睡觉。",
-                    DEAD="喔，死掉了。",--这玩意怎么检查？
+                    DEAD="喔，死掉了。",--how to examine it?
                 },
                 GLOWFLY_COCOON="一个茧，里面会是什么呢？",
                 RABID_BEETLE={
                     GENERIC="哇哦，你看它们多活跃啊！",
                     SLEEPING="它在睡觉，",
-                    DEAD="喔，死掉了。",--这玩意怎么检查？
+                    DEAD="喔，死掉了。",--how to examine it?
                 },
                 TREE_PILLAR="这么大的树，哪怕是海狸人也啃不完吧。",
                 FLOWER_RAINFOREST="哦！这就是丛林探险故事中的那种花。",
@@ -585,20 +594,20 @@ local strings = {
                 BRAMBLE_BULB="I'm the great southern plantkiller",
                 BRAMBLE_CORE="A overgrown monstrosity of the jungle's depths.",
 
-                TURF_PIGRUINS = "A patch of ground.",  --猪遗迹，未使用 --
-                TURF_RAINFOREST = "A patch of ground.", --雨林地皮
-                TURF_DEEPRAINFOREST = "A patch of ground.",--深层雨林，未使用
-                TURF_GASJUNGLE = "A patch of ground.",--毒气雨林，未使用
+                TURF_PIGRUINS = "A patch of ground.", --unuse
+                TURF_RAINFOREST = "A patch of ground.", 
+                TURF_DEEPRAINFOREST = "A patch of ground.",--unuse
+                TURF_GASJUNGLE = "A patch of ground.",--unuse
 
-                TURF_LAWN = "A patch of ground.",--草坪，方格子的那个
-                TURF_MOSS = "A patch of ground.",--苔藓，猪镇边缘的那个
-                TURF_FIELDS = "A patch of ground.",--田地，城郊的
-                TURF_FOUNDATION = "Some Foundation.",--平整石地板--
-                TURF_COBBLEROAD = "Some road.",--猪镇石板路 --
+                TURF_LAWN = "A patch of ground.",
+                TURF_MOSS = "A patch of ground.",
+                TURF_FIELDS = "A patch of ground.",
+                TURF_FOUNDATION = "Some Foundation.",--
+                TURF_COBBLEROAD = "Some road.", --
 
-                TURF_PAINTED = "A patch of ground.", --彩绘沙漠
-		        TURF_PLAINS = "A patch of ground.",--荒芜平原
-                TURF_DEEPRAINFOREST_NOCANOPY = "A patch of ground.",--繁茂，人造种荨麻的那个
+                TURF_PAINTED = "A patch of ground.",
+		        TURF_PLAINS = "A patch of ground.",
+                TURF_DEEPRAINFOREST_NOCANOPY = "A patch of ground.",
                 --[[
                 PANGOLDEN = "",--淘金兽
                 SEDIMENTPUDDLE = "",--闪光水坑
@@ -619,44 +628,47 @@ local strings = {
             --[[
             ANNOUCE_UNDERLEAFCANOPY = "他们潜伏在这里！我需要光！",
             ANNOUCE_ALARMOVER = "我们安全了，暂时。",
-            ANNOUCE_BATS = "为什么总有人找我们麻烦呢？",--蝙蝠来咯
-            ANNOUCE_OTHERWORLD_DEED = "这个地址实在太远了。",--其它世界的地契
+            ANNOUCE_BATS = "为什么总有人找我们麻烦呢？",
+            ANNOUCE_OTHERWORLD_DEED = "这个地址实在太远了。",
             ANNOUNCE_TOOLCORRODED = "呃，它不是为了在这种环境下使用而设计的。", --？？？
-            ANNOUNCE_TURFTOOHARD = "这还不知道要浪费我多少时间呢。", --挖不起来这个地皮
-            ANNOUNCE_GAS_DAMAGE = "咳咳！嗬——咳咳咳！", --毒气雨林伤害
+            ANNOUNCE_TURFTOOHARD = "这还不知道要浪费我多少时间呢。", 
+            ANNOUNCE_GAS_DAMAGE = "咳咳！嗬——咳咳咳！", 
             
-            ANNOUNCE_SNEEZE = "阿嚏！",	--打喷嚏
-            ANNOUNCE_HAYFEVER = "这些植物除了到处撒粉没别的事干了吗？",	--开始有花粉
-            ANNOUNCE_HAYFEVER_OFF = "呼哈！终于结束了！",	--花粉消失
+            ANNOUNCE_SNEEZE = "阿嚏！",
+            ANNOUNCE_HAYFEVER = "这些植物除了到处撒粉没别的事干了吗？",
+            ANNOUNCE_HAYFEVER_OFF = "呼哈！终于结束了！",	
 
-            ANNOUNCE_PICKPOOP = {"为什么我要做这种事？","我一定是哪根筋搭错了。","呕。",},	--翻粪堆
+            ANNOUNCE_PICKPOOP = {"为什么我要做这种事？","我一定是哪根筋搭错了。","(Retching)",},
 
-            ANNOUNCE_TOO_HUMID = {"穿%s真是自讨不快。","这鬼天气...真不该穿%s的。"},	--某衣服太热了
-            ANNOUNCE_DEHUMID = "哈，感觉好多了。",	--靠近风扇？总之是雾效果结束的
+            ANNOUNCE_TOO_HUMID = {"穿%s真是自讨不快。","这鬼天气...真不该穿%s的。"},
+            ANNOUNCE_DEHUMID = "哈，感觉好多了。",
 
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"不是这里，位置不对。", "这里是打不穿的。", "在哪里...它在哪里？",}, --打蛇鳞
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"不是这里，位置不对。", "这里是打不穿的。", "在哪里...它在哪里？",},
 
-            ANNOUNCE_MYSTERY_FOUND = "",
-            ANNOUNCE_MYSTERY_NOREWARD = "",
+            ANNOUNCE_MYSTERY_FOUND = "嘿，这里真的有什么东西。",
+            ANNOUNCE_MYSTERY_NOREWARD = "真是在浪费时间。",
 
-            ANNOUNCE_MYSTERY_DOOR_FOUND = "来这边！暗门在这里。",--用放大镜看到裂缝后面有暗门
-            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "嗷，不好。不是这里。",--后面没有门
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "来这边！暗门在这里。",]]
+            ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "Uh. Nope. Not here.",
 
-            ANNOUNCE_HOUSE_DOOR = "",
-            ANNOUNCE_ROOM_STUCK = "",
-            ]]
+            ANNOUNCE_HOUSE_DOOR = "Permission must be obtained first.",
+            ANNOUNCE_ROOM_STUCK = "I don't wanna to stay in this room forever.",
+
             ANNOUNCE_TAXDAY = "Tick tock. Is time for tax. Citizens hurry up.",
-            --ANNOUNCE_NOTHING_FOUND = "",
+            ANNOUNCE_NOTHING_FOUND = "The distance is too much for it.",
 
             ANNOUNCE_SUITUP = "Just matter of TIME!!!",
+
             DESCRIBE = {
                 --ALOE = "这可是好东西。",
                 --ALOE_COOKED = "趁热吃吧。",
                 --ALOE_PLANTED = "我们摘走它吧，这可能是最后一个了。",
                 ALOE_SEEDS = "Why waste time growing them when I can just eat them now?",
 
+                ASPARAGUS_PLANTED = "The secret to a long and healthy life... except the time travel.", 
+
                 RADISH = "I Said. It must be a turnip.",
-                --RADISH_COOKED = "搞定了，希望它值得。",
+                RADISH_COOKED = "Got it. I hope it worthy.",
                 RADISH_PLANTED = "It's a turnip. I can't be wrong,",
                 RADISH_SEEDS = "Why waste time growing them when I can just eat them now?",
                 --[[
@@ -693,14 +705,14 @@ local strings = {
                 APORKALYPSE_CLOCK = "...Very clever idea.", --I have a brilliant pun but I can't translate it :(
                 
                 WALL_PIG_RUINS = "Part of ancient citadel.",
-                --[[
-                ANCIENT_HULK ="这最好是值得的！",
-                ANCIENT_ROBOTS_ASSEMBLY ="为什么我要这么做来着？",
-                ANCIENT_ROBOT_CLAW ="我记得是尾巴...但看着起来更像手啊？",
-                ANCIENT_ROBOT_HEAD ="还是不要在太岁头上动土吧。",
-                ANCIENT_ROBOT_LEG ="在我们准备好之前，最好离它远点。",
-                ANCIENT_ROBOT_RIBS ="一具巨大的肋骨。",
-                INFUSED_IRON = "如果能够用在我的怀表上...",
+                
+                ANCIENT_HULK ="It better be worth it!",
+                ANCIENT_ROBOTS_ASSEMBLY ="Why I'm doing this again?",
+                ANCIENT_ROBOT_CLAW ="I think it was the tail... But doesn't it look more like a hand?",
+                ANCIENT_ROBOT_HEAD ="We'd better not do that in its face.",
+                ANCIENT_ROBOT_LEG ="We better stay away from it before ready.",
+                ANCIENT_ROBOT_RIBS ="A giant metal rib.",
+                INFUSED_IRON = "If I could use it on my pocket watch...",--[[
                 LIVING_ARTIFACT ="就是这样！完美的利用方式！",
 
                 OINC="希望这能值得我付出的时间。",
@@ -710,21 +722,21 @@ local strings = {
                 --spawner
                 PORKLAND_INTRO_BASKET = "啊，都怪我...为什么我没有早点想起来？",
                 PORKLAND_INTRO_BALLOON = "破了一个大洞，已经不能用了。",]]
-                PORKLAND_INTRO_TRUNK = "There's only a \"W\" on it, what a recognizable mark.",
-                PORKLAND_INTRO_SUITCASE = "There's only a \"W\" on it, what a recognizable mark.",
+                PORKLAND_INTRO_TRUNK = "There's only a \"W\" on it. What a recognizable mark.",
+                PORKLAND_INTRO_SUITCASE = "There's only a \"W\" on it. What a recognizable mark.",
                 --[[PORKLAND_INTRO_FLAGS = "一些简单的小装饰。",
                 PORKLAND_INTRO_SANDBAG = "用于配重。",
 
                 GLOWFLY={
                     GENERIC="我还是喜欢它们现在的样子。",
                     SLEEPING="趁现在好好睡吧。",
-                    DEAD="也许这样才是最好的。",--这玩意怎么检查？
+                    DEAD="也许这样才是最好的。",--how to examine it?
                 },
                 GLOWFLY_COCOON="我们最好在它破茧前离开。",
                 RABID_BEETLE={
                     GENERIC="害虫！快走开！",
                     SLEEPING="呼，可以喘口气了。",
-                    DEAD="世上又少了一个害虫。",--这玩意怎么检查？
+                    DEAD="One more pest less.",--how to examine it?
                 },
                 TREE_PILLAR="幸好它没有完全遮蔽住阳光。",
                 FLOWER_RAINFOREST="为什么我要浪费时间盯着它看？",
@@ -736,20 +748,20 @@ local strings = {
                 CHITIN="我不明白这有什么意义？",
                 ]]
 
-                TURF_PIGRUINS = "Why am I wasting time staring at the ground?",  --猪遗迹，未使用 --
-                TURF_RAINFOREST = "Why am I wasting time staring at the ground?", --雨林地皮
-                TURF_DEEPRAINFOREST = "Why am I wasting time staring at the ground?",--深层雨林，未使用
-                TURF_GASJUNGLE = "Why am I wasting time staring at the ground?",--毒气雨林，未使用
+                TURF_PIGRUINS = "Why am I wasting time staring at the ground?", --unuse
+                TURF_RAINFOREST = "Why am I wasting time staring at the ground?", 
+                TURF_DEEPRAINFOREST = "Why am I wasting time staring at the ground?",--unuse
+                TURF_GASJUNGLE = "Why am I wasting time staring at the ground?",--unuse
 
-                TURF_LAWN = "Why am I wasting time staring at the ground?",--草坪，方格子的那个
-                TURF_MOSS = "Why am I wasting time staring at the ground?",--苔藓，猪镇边缘的那个
-                TURF_FIELDS = "Why am I wasting time staring at the ground?",--田地，城郊的
-                TURF_FOUNDATION = "Why am I wasting time staring at the ground?",--平整石地板
-                TURF_COBBLEROAD = "A road to where, exactly?",--猪镇石板路 --
+                TURF_LAWN = "Why am I wasting time staring at the ground?",
+                TURF_MOSS = "Why am I wasting time staring at the ground?",
+                TURF_FIELDS = "Why am I wasting time staring at the ground?",
+                TURF_FOUNDATION = "Why am I wasting time staring at the ground?",
+                TURF_COBBLEROAD = "A road to where, exactly?", --
 
-                TURF_PAINTED = "Why am I wasting time staring at the ground?", --彩绘沙漠
-		        TURF_PLAINS = "Why am I wasting time staring at the ground?",--荒芜平原
-                TURF_DEEPRAINFOREST_NOCANOPY = "Why am I wasting time staring at the ground?",--繁茂，人造种荨麻的那个
+                TURF_PAINTED = "Why am I wasting time staring at the ground?",
+		        TURF_PLAINS = "Why am I wasting time staring at the ground?",
+                TURF_DEEPRAINFOREST_NOCANOPY = "Why am I wasting time staring at the ground?",
                 --[[
                 PANGOLDEN = "",--淘金兽
                 SEDIMENTPUDDLE = "",--闪光水坑
@@ -766,29 +778,30 @@ local strings = {
                 ]]
             },
         },
-        --[[ --New Characters
+        --New Characters
+        --[[
         WAGSTAFF = {
             
-            --戴各种眼镜的台词，可能会用得到。
+            --line for goggles?
 
-            --星象、沙漠、亮茄头盔，话说让老瓦自己的眼镜免疫风沙应该更好吧
-            --ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "啊，让我看看在哪里...",
+            --moonstorm, sandstorm and brightshade
+            --ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "Ah, let me see where it is...",
             --ANNOUNCE_PUTONGOGGLES_DESERTHAT = "透过这样的镜片我能够看清世界。",
-            --ANNOUNCE_PUTONGOGGLES_LUNARPLANTHAT = "扭曲的光线充当了眼镜的效果。",
+            --ANNOUNCE_PUTONGOGGLES_LUNARPLANTHAT = "The warped light acts as the goggles' effect.",
 
-            --虚空帽
-            --ANNOUNCE_PUTONGOGGLES_VOIDCLOTHHAT = "虚空的双眼会替我观察世界。",
+            --void
+            --ANNOUNCE_PUTONGOGGLES_VOIDCLOTHHAT = "Void eyes will see the world for me.",
 
-            --耕作先驱帽子
-            --ANNOUNCE_PUTONGOGGLES_PLANTREGISTRYHAT = "这将有助于我观察这个世界的植物。",
-            --ANNOUNCE_PUTONGOGGLES_NUTRIENTSGOGGLESHAT = "利用聚焦效应我能够看到微小的营养物质。",
+            --Fram hat
+            --ANNOUNCE_PUTONGOGGLES_PLANTREGISTRYHAT = "This will help me to observe the plants of this world.",
+            --ANNOUNCE_PUTONGOGGLES_NUTRIENTSGOGGLESHAT = "Using the focusing effect, I can see tiny nutrients.",
 
             --AF hat
-            ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "So that's it. That's... What he saw...",
+            --ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "So that's it. That's... What he saw...",
             --CC hat
-            ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "Unlimited insight! I can even see the fibers of the reality pulsating!",
+            --ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "Unlimited insight! I can even see the fibers of the reality pulsating!",
 
-            --单机版那些，放在这里做参考。
+            --DS for refer
             --ANNOUNCE_PUTONGOGGLES_GOGGLESARMORHAT = "My cranium is now safeguarded for combat.",
             --ANNOUNCE_PUTONGOGGLES_GOGGLESHEATHAT = "I see the world through infrared colored glasses.",
             --ANNOUNCE_PUTONGOGGLES_GOGGLESNORMALHAT = "Ah! The world is so much more interesting when you can see it!",
@@ -796,16 +809,17 @@ local strings = {
             
 
             DESCRIBE = {
-                --我是火学家，我放火
+                --Im a scientist. i work with science
+                --Im a firentist. i play with fire
                 LIGHTER =  "An odd artifact she carries with her. How it work?",
                 BERNIE_ACTIVE = "It responds to psychic attacks! Fascinating!",
-                BERNIE_BIG = "不可思议。它表现得就像一个活物！",
+                BERNIE_BIG = "Incredible! It acts like a living creature!",
                 BERNIE_INACTIVE = {
-                    GENERIC= "有些破旧的小熊玩偶，深受我合作伙伴们的喜爱。",
-                    BROKEN = "还能再修一下。",
+                    GENERIC= "A slightly worn bear doll, loved by my coagents.",
+                    BROKEN = "Still can be fixed.",
                 },
 
-                --沃尔夫冈
+                --wolf
                 DUMBBELL = "一个普通的哑铃。",
                 DUMBBELL_GOLDEN = "一个质量较大的哑铃，使用这里很普遍的材料制成。",
                 DUMBBELL_MARBLE = "一个质量更大的哑铃，我最好不要尝试。",
@@ -815,7 +829,7 @@ local strings = {
                     BURNT = "显然它的功能不包括灭火。",
                 },
 
-                --温蒂
+                --wendy
                 SMALLGHOST = "A younger poltergeist not affected by the dark fuel.",
                 SISTURN = {
                     GENERIC = "我为她感到遗憾，小姑娘。",
@@ -843,7 +857,7 @@ local strings = {
                 GHOSTLYELIXIR_SLOWREGEN = "巧妙地利用了精神体的相互作用，真聪明。",
                 GHOSTLYELIXIR_SPEED = "巧妙地利用了精神体的相互作用，真聪明。",
 
-                --WX78
+                --WX
                 WX78_SCANNER_ITEM = "The Scanalyzer J1-M1. Did it come in with me?", --ref to DIVININGRODSTART
                 WX78_SCANNER = {
                     GENERIC = "看来它运转良好。",
@@ -870,19 +884,19 @@ local strings = {
                 WX78MODULE_NIGHTVISION = "Standard automaton function extension plug-in, using bionic design.",
                 WX78MODULE_TASER = "Standard automaton function extension plug-in, using bionic design.",
 
-                --薇克巴顿
+                --Brainlady
                 BOOKSTATION = {
                     GENERIC = "绝妙啊！无需任何能量物质输入就能自动完成图书的护理修复工作。",--Wonderful!
                     BURNT = "正如我预料的一样，依然可燃。",
                 },
                 BOOK_BEES = "我无法翻开它，这些昆虫尾器是如何把书页钉这么死的？",
-                --BOOK_BIRDS = "我无法获取其中的知识。真令人沮丧！",--same as ds
-                --BOOK_BRIMSTONE = "哦，我真希望我能得到它的力量。",--same as ds
+                --BOOK_BIRDS = "I cannot access the knowledge within it. How frustrating!",--same as ds
+                --BOOK_BRIMSTONE = "Oh, I do wish I could access its power.",--same as ds
                 BOOK_ELEMENTAL = "这一本书也被允许用作钝器武器，为什么？",--forge
                 BOOK_FIRE = "它能在作用范围内控制氧化反应，真迷人！",
                 BOOK_FISH = "控制海洋鱼群，超声波？心灵感应？",
                 BOOK_FOSSIL = "我试过用其它书作为钝器武器，但都被无形的力阻止了，它有什么不同？",--forge
-                --BOOK_GARDENING = "不止于收录事实。",--same as ds
+                --BOOK_GARDENING = "Much more than a collection of facts.",--same as ds
                 BOOK_HORTICULTURE = "您可以再写一本完整版吗？女士？",
                 BOOK_HORTICULTURE_UPGRADED = "看来它的效果与记录的信息量呈正相关。",
                 BOOK_LIGHT = "My attempts to understand this are being thwarted somehow.",  --same as Codex Umbra
@@ -891,18 +905,18 @@ local strings = {
                 BOOK_RAIN = "这将是混沌系统预测的大突破！",
                 BOOK_RESEARCH_STATION = "女士，你是如何让知识扩展自己的？",
                 BOOK_SILVICULTURE = "为什么它无法对一部分植物起效呢？",
-                --BOOK_SLEEP = "这些墨水里面有黑暗燃料吗？真迷人！",--same as ds
+                --BOOK_SLEEP = "Is this ink imbued with dark fuel?! Fascinating!",--same as ds
                 BOOK_TEMPERATURE = "对内能的完全控制！真是革命性的技术！",
-                --BOOK_TENTACLES = "是什么在阻止我使用这个？",--same as ds
+                --BOOK_TENTACLES = "What prevents me from using this?",--same as ds
                 BOOK_WEB = "有趣。它生成的材料能够识别敌我，选择性地展现粘性。",
 
-                --伍迪
-                --LUCY = "奇怪的能量波从它里面散发出来。",--same as ds
+                --Canadians
+                --LUCY = "Strange waves of energy are emanating from it.",--same as ds
                 WEREITEM_BEAVER = "He ate them to activate the \"curse\ effect in directed.",
                 WEREITEM_GOOSE = "He ate them to activate the \"curse\ effect in directed.",
                 WEREITEM_MOOSE = "He ate them to activate the \"curse\ effect in directed.",
 
-                --韦斯来了！！！！！（惊恐）
+                --OP character
                 BALLOONS_EMPTY = "看来这是他带进来的。", --ref to ds "Balloons? Here?"
 
                 BALLOON = "也许这里的大气成分和我们的世界不同。",
@@ -915,12 +929,12 @@ local strings = {
                 BALLOONHAT = "啊，真是个有趣的小玩具。",
                 BALLOONVEST = "提供浮力，简陋但有用。",
 
-                --可怜的Maxy，被她玩弄于股掌之间
-                --WAXWELLJOURNAL = "我尝试读懂这本书但不知为何遭到了阻止。"--same as ds
-                TOPHAT_MAGICIAN = "这将会是物流界的伟大革命！",
-                MAGICIAN_CHEST = "绝妙啊！黑暗燃料它的内部生成了一个虫洞。",
+                --75hp Maxy
+                --WAXWELLJOURNAL = "My attempts to understand this are being thwarted somehow."--same as ds
+                TOPHAT_MAGICIAN = "This will be a great revolution in logistics",
+                MAGICIAN_CHEST = "Wonderful! Dark fuel created a mini wormhole inside it.",
 
-                --薇格弗德
+                --Valkyrie
                 WATHGRITHRHAT = "手工制作的演出道具，出人意料地坚固。",
                 SPEAR_WATHGRITHR = "手工制作的演出道具，出人意料地锋利。",
 
@@ -933,7 +947,7 @@ local strings = {
                 BATTLESONG_INSTANT_PANIC = "通过特殊调制的声波触发不明力量，有趣。",
                 BATTLESONG_INSTANT_TAUNT = "通过特殊调制的声波触发不明力量，有趣。",
 
-                --韦伯
+                --Webby-boy
                 SPIDERDEN_BEDAZZLER = "这些涂鸦会改变生物的习性，有趣。",
 
                 spider_whistle = "它们全都未经训练，也就是说这些是本能反应。",
@@ -948,7 +962,7 @@ local strings = {
                 MUTATOR_WARRIOR = "These food seems to induce rapid pupation and emergence in arachnids.",
                 MUTATOR_WATER = "These food seems to induce rapid pupation and emergence in arachnids.",
 
-                --薇诺娜
+                --Rosie the Riveter
                 SEWING_TAPE = "这是你发明的吗？这在家用市场有会有很大的前景。",
                 WINONA_CATAPULT= {
                     GENERIC = "它是如何进行智能目标识别的呢？",
@@ -977,7 +991,7 @@ local strings = {
                     BURNT = "",
                 },
 
-                --沃利
+                --Offend constantly
                 SPICEPACK = "",
 
                 PORTABLEBLENDER_ITEM = "",
@@ -1016,7 +1030,7 @@ local strings = {
                 SALSA = "",
                 PEPPERPOPPER = "",
 
-                --Walter
+                --jerk watermelon
                 PORTABLETENT = "",
                 PORTABLETENT_ITEM = "",
 
@@ -1038,12 +1052,11 @@ local strings = {
                     "",
                     "",
                 },
-                --沃拓克斯
 
+                --Hyuyu
                 WORTOX_SOUL = "有一股无形的力把它约束在这里。", --只有小恶魔能检查
 
-                --沃特
-
+                --Frog princess
                 MERMHAT = "一个实用的伪装！我可以潜入这些生物之中！",
                 MERMTHRONE =
                 {
@@ -1067,30 +1080,30 @@ local strings = {
                 MERMGUARD = "为什么这些守卫不使用武器呢？",
                 MERM_PRINCE = "它们的王位继承制度相当随意。",
 
-                --旺达
-                POCKETWATCH_HEAL = {--除了警告表之外的台词应该是一样的
-                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
-                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                --The only magic girl in town
+                POCKETWATCH_HEAL = {--they should be the same
+                    GENERIC = "Using mechanical structures drive dark energy to creat tachyon stream. Wonderful!",
+                    RECHARGING = "The clockwork mechanical structure has its drawbacks after all.",
                 },
 
                 POCKETWATCH_REVIVE = {
-                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
-                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                    GENERIC = "Using mechanical structures drive dark energy to creat tachyon stream. Wonderful!",
+                    RECHARGING = "The clockwork mechanical structure has its drawbacks after all.",
                 },
 
                 POCKETWATCH_WARP = {
-                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
-                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                    GENERIC = "Using mechanical structures drive dark energy to creat tachyon stream. Wonderful!",
+                    RECHARGING = "The clockwork mechanical structure has its drawbacks after all.",
                 },
 
                 POCKETWATCH_RECALL = {
-                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
-                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                    GENERIC = "Using mechanical structures drive dark energy to creat tachyon stream. Wonderful!",
+                    RECHARGING = "The clockwork mechanical structure has its drawbacks after all.",
                 },
 
                 POCKETWATCH_PORTAL = {
-                    GENERIC = "绝妙啊！用机械结构驱动黑暗能量产生快子流。",
-                    RECHARGING = "发条机械结构终究有其弊端，还有一些改良空间。",
+                    GENERIC = "Using mechanical structures drive dark energy to creat tachyon stream. Wonderful!",
+                    RECHARGING = "The clockwork mechanical structure has its drawbacks after all.",
                 },
 
                 POCKETWATCH_WEAPON = {
@@ -1107,7 +1120,7 @@ local strings = {
                 },
                 POCKETWATCH_PORTAL_EXIT = "对裂缝的绝妙应用。",
 
-                --风暴之眼
+                --EotS
                 ALTERGUARDIAN_PHASE1 = {
                     GENERIC = "自动防御机制被触发了，正如预想的一样。",
                     DEAD = "不要放松警惕，它还有备用武装。",
@@ -1140,11 +1153,11 @@ local strings = {
                 WAGSTAFF_NPC = "啊，这是那时我的投影。",
                 ALTERGUARDIAN_CONTAINED = "从现在开始，我们需要按照时间计划进行。",
 
-                WAGSTAFF_TOOL_1 = "我的网状缓冲器，以投影形态送到这个位面。",
-                WAGSTAFF_TOOL_2 = "我的装置除垢器，以投影形态送到这个位面。",
-                WAGSTAFF_TOOL_3 = "我的垫圈开槽器，以投影形态送到这个位面。",
-                WAGSTAFF_TOOL_4 = "我的概念刷洗器，以投影形态送到这个位面。",
-                WAGSTAFF_TOOL_5 = "我的校准观察机，以投影形态送到这个位面。",
+                WAGSTAFF_TOOL_1 = "My Reticulating Buffer, projected onto this plane.",
+                WAGSTAFF_TOOL_2 = "My Widget Deflubber, projected onto this plane.",
+                WAGSTAFF_TOOL_3 = "My Grommet Scriber, projected onto this plane.",
+                WAGSTAFF_TOOL_4 = "My Conceptual Scrubber, projected onto this plane.",
+                WAGSTAFF_TOOL_5 = "My Calibrated Perceiver, projected onto this plane.",
 
                 MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",
                 --[[
