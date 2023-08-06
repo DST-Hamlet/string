@@ -79,19 +79,18 @@ local strings = {
                     SLEEPING = "睡吧，懒猪。",
                 },
                 APORKALYPSE_CLOCK = "一套相当复杂的仪表装置。",
+                ANCIENT_HERALD = "我们只能眼睁睁地看着他毁掉所有东西吗？",
 
                 WALL_PIG_RUINS = "一堵年久失修的墙。",
 
-                --[[
-                ANCIENT_HULK ="",
-                ANCIENT_ROBOTS_ASSEMBLY ="",
-                ANCIENT_ROBOT_CLAW ="",
-                ANCIENT_ROBOT_HEAD ="",
-                ANCIENT_ROBOT_LEG ="",
-                ANCIENT_ROBOT_RIBS ="",
+                ANCIENT_HULK ="为什么非得是杀手机器人呢？",--shoul't use "robot" because the word invent in 1920
+                ANCIENT_ROBOTS_ASSEMBLY ="还有工作没有完成。",
+                ANCIENT_ROBOT_CLAW ="由我来接手吧。",
+                ANCIENT_ROBOT_HEAD ="一个狰狞的机器脑袋。",
+                ANCIENT_ROBOT_LEG ="这只靴子一点都不绝缘。",
+                ANCIENT_ROBOT_RIBS ="我猜是机器框架。",
                 INFUSED_IRON = "这不是自然金属能有的纹路。",
-                LIVING_ARTIFACT ="",
-                ]]
+                LIVING_ARTIFACT ="WX似乎对我们穿它这件事感到困惑。",
 
                 OINC="这算是工资吗？",
                 OINC10="一点小积蓄，不要浪费。",
@@ -123,6 +122,8 @@ local strings = {
                 BRAMBLE_BULB="不知道这有什么用。",
                 BRAMBLE_CORE="这一定就是源头。",
 
+                ROOTTRUNK_CHILD = "",
+
                 CHITIN="我不知道这能拿来做什么。",
 
                 TURF_PIGRUINS = "那是一块地。", --That's a chunk of ground.
@@ -139,20 +140,32 @@ local strings = {
                 TURF_PAINTED = "那是一块地。",
 		        TURF_PLAINS = "那是一块地。",
                 TURF_DEEPRAINFOREST_NOCANOPY = "那是一块地。",
-                --[[
+                
                 PANGOLDEN = "活生生的冶金炉。",--淘金兽
-                SEDIMENTPUDDLE = "",--闪光水坑
+                SEDIMENTPUDDLE = "金属含量严重超标了。",--闪光水坑
 
-                GNATMOUND = "",
-                GNAT = "",
+                --[[GNATMOUND = "",
+                GNAT = "离我远点！",
 
-                TUBERTREE = "",
+                TUBERTREE = "那是一块巨大的姜？",
 
-                THUNDERBIRD = "",
+                THUNDERBIRD = "积攒静电过多的典型案例。",
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
                 ]]
+                CUTNETTLE = "保持呼吸通畅、提神醒脑。",
+
+                NETTLE = {
+        	        WITHERED = "土地不够好，你可真挑剔。",
+                 	MOIST = "我想它已经被伺候到位了。",
+                	EMPTY = "它还会再长出来的。",
+                	DEFAULT = "它散发着强烈的气味。",
+                },
+                DUG_NETTLE = "我们把它带回营地吧。",
+
+                MEATED_NETTLE = "为了让薇格弗德吃下它，厨师真的费了不少功夫。",
+                NETTLELOSANGE = "良药苦口啊。",
             },
         },
         WORTOX = {
@@ -233,6 +246,7 @@ local strings = {
                     SLEEPING = "真是累死人，对吧。",
                 },
                 APORKALYPSE_CLOCK = "好大规模的魔法，天啊，这会很好玩的。",
+                ANCIENT_HERALD = "如果你不小心绊倒自己，会掉到另一个位面去吗？",
 
                 WALL_PIG_RUINS = "这些符文不是能拦住我的那种。",
 
@@ -277,6 +291,8 @@ local strings = {
                 BRAMBLE_BULB="我记得有一种魔法能用到它。",
                 BRAMBLE_CORE="找到你了！",
 
+                ROOTTRUNK_CHILD = "这样我就不总是需要随身携带它们了！",
+
                 CHITIN="那些家伙的外壳。",
 
                 TURF_PIGRUINS = "地板还是天花板，取决于你的角度。", --Floor or ceiling, depending on your perspective.
@@ -293,12 +309,12 @@ local strings = {
                 TURF_PAINTED = "地板还是天花板，取决于你的角度。",
 		        TURF_PLAINS = "地板还是天花板，取决于你的角度。",
                 TURF_DEEPRAINFOREST_NOCANOPY = "地板还是天花板，取决于你的角度。",
-                --[[
-                PANGOLDEN = "",--淘金兽
-                SEDIMENTPUDDLE = "",--闪光水坑
 
-                GNATMOUND = "",
-                GNAT = "",
+                PANGOLDEN = "今天过得怎么样？有什么收获吗？",--淘金兽
+                SEDIMENTPUDDLE = "这些可不是喝的。",
+
+                --[[GNATMOUND = "",
+                GNAT = "别让它们钻到我的皮毛里！",
 
                 TUBERTREE = "",
 
@@ -307,6 +323,18 @@ local strings = {
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
                 ]]
+                CUTNETTLE = "光是闻一闻就能让我的鼻子通气了。",
+
+                NETTLE = {
+        	        WITHERED = "这里的土地让它受伤了。",
+                 	MOIST = "哼哼，你喜欢潮湿吗？",
+                	EMPTY = "空空如也。",
+                	DEFAULT = "好冲的味道！",
+                },
+                DUG_NETTLE = "让我想想该如何把它用在我的恶作剧里...",
+
+                MEATED_NETTLE = "对我来说没什么用，但还是谢谢啦。",
+                NETTLELOSANGE = "这没有让它好多少。",
             },
         },
         WURT = {
@@ -319,10 +347,10 @@ local strings = {
             ANNOUNCE_GAS_DAMAGE = "呵——呼，好难闻。",
             
             ANNOUNCE_SNEEZE = "呵——呼，哈嚏呦！！！",
-            ANNOUNCE_HAYFEVER = "格勒。鳃好难受...",
+            ANNOUNCE_HAYFEVER = "格勒浮...鳃好难受...",
             ANNOUNCE_HAYFEVER_OFF = "噢！鳃终于舒服了！",
 
-            ANNOUNCE_PICKPOOP = {"好脏的水！","格勒...","没有下次了！",},
+            ANNOUNCE_PICKPOOP = {"好脏的水！","格勒格...","没有下次了！",},
             
             ANNOUNCE_TOO_HUMID = {"%s热！","不想穿%s了！",},
             ANNOUNCE_DEHUMID = "呼，凉快了。",
@@ -387,11 +415,12 @@ local strings = {
                     SLEEPING = "不许睡觉你这蠢猪！",--nasty Pigfolk!
                 },
                 APORKALYPSE_CLOCK = "坏故事里的东西！",
+                ANCIENT_HERALD = "坏故事成真了！",
 
                 WALL_PIG_RUINS = "一堵破墙。",
 
                 --[[
-                ANCIENT_HULK ="金属怪兽动起来了！",
+                ANCIENT_HULK ="金属大怪兽动起来了！",
                 ANCIENT_ROBOTS_ASSEMBLY ="它们正在变成一头更大的怪兽。",
                 ANCIENT_ROBOT_CLAW ="",
                 ANCIENT_ROBOT_HEAD ="",
@@ -431,6 +460,8 @@ local strings = {
                 BRAMBLE_BULB="现在它归我了！",
                 BRAMBLE_CORE="坏植物头头！坏！",
 
+                ROOTTRUNK_CHILD = "",
+
                 CHITIN="坚硬的皮。",
 
                 TURF_PIGRUINS = "地面上的东西。",--Ground bit.
@@ -447,11 +478,11 @@ local strings = {
                 TURF_PAINTED = "地面上的东西。",
 		        TURF_PLAINS = "地面上的东西。",
                 TURF_DEEPRAINFOREST_NOCANOPY = "地面上的东西。",
-                --[[
-                PANGOLDEN = "",--淘金兽
-                SEDIMENTPUDDLE = "",--闪光水坑
+                
+                PANGOLDEN = "不要都喝光了！",
+                SEDIMENTPUDDLE = "水在...发光？",
     
-                GNATMOUND = "",
+                --[[GNATMOUND = "",
                 GNAT = "",
     
                 TUBERTREE = "",
@@ -461,6 +492,18 @@ local strings = {
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
                 ]]
+                CUTNETTLE = "它钻进我的鼻子里了！",
+
+                NETTLE = {
+        	        WITHERED = "坏土地。",
+                 	MOIST = "原来你也喜欢水。",
+                	EMPTY = "一点也不剩。",
+                	DEFAULT = "格勒。有什么钻进我的鼻子里了！",
+                },
+                DUG_NETTLE = "我们带你去个好地方！",
+
+                MEATED_NETTLE = "为什么？",
+                NETTLELOSANGE = "有点辣辣的。",
             },
         },
         WALTER = {
@@ -541,6 +584,7 @@ local strings = {
                     SLEEPING = "市长先生就在地上睡着了。",
                 },
                 APORKALYPSE_CLOCK = "哦不！是末日预言！",
+                ANCIENT_HERALD = "你是带来毁灭的使者吗？",
 
                 WALL_PIG_RUINS = "古人...古猪们建造了它。",
 
@@ -583,6 +627,8 @@ local strings = {
                 BRAMBLE_BULB="我是大南方植物的终结者。",
                 BRAMBLE_CORE="蔓生在丛林深处的畸形怪花。",
 
+                ROOTTRUNK_CHILD = "就像麦斯威尔先生的魔术！",
+
                 CHITIN="看看这上面的花纹！沃比！",
 
                 TURF_PIGRUINS = "一块地。", --A patch of ground.
@@ -599,27 +645,38 @@ local strings = {
                 TURF_PAINTED = "一块地。",
 		        TURF_PLAINS = "一块地。",
                 TURF_DEEPRAINFOREST_NOCANOPY = "一块地。",
-                --[[
-                PANGOLDEN = "",--淘金兽
-                SEDIMENTPUDDLE = "",--闪光水坑
+                
+                PANGOLDEN = "天生的淘金者。",
+                SEDIMENTPUDDLE = "那里面是黄金吗？",
 
-                GNATMOUND = "",
-                GNAT = "",
+                --[[GNATMOUND = "",
+                GNAT = "酷！但...也许我们应该退后一点？",
 
-                TUBERTREE = "",
+                TUBERTREE = "这是防风草吗？",
 
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
                 ]]
-                
+                CUTNETTLE = "嗷！它划到我了。",
+
+                NETTLE = {
+        	        WITHERED = "不，这里不算是好地方。",
+                 	MOIST = "它好像很开心。",
+                	EMPTY = "完工。不知道它需要多长时间长回来。",
+                	DEFAULT = "这一定是某种草药！",
+                },
+                DUG_NETTLE = "沃比！我们找个好地方把它种回去！",
+
+                MEATED_NETTLE = "这样也只是好了一点点。",
+                NETTLELOSANGE = "呃，又苦又辣。",
             },
         },
         WANDA = {
             ANNOUCE_UNDERLEAFCANOPY = "他们潜伏在这里！我需要光！",
             ANNOUCE_ALARMOVER = "我们安全了，暂时。",
-            ANNOUCE_BATS = "为什么总有人找我们麻烦呢？",
+            ANNOUCE_BATS = "为什么总有东西不停地找我们麻烦呢？",
             ANNOUCE_OTHERWORLD_DEED = "这个地址实在太远了。",
             ANNOUNCE_TOOLCORRODED = "呃，它不是为了在这种环境下使用而设计的。", --？？？
             ANNOUNCE_TURFTOOHARD = "这还不知道要浪费我多少时间呢。",
@@ -694,6 +751,7 @@ local strings = {
                     SLEEPING = "珍惜清闲吧。",
                 },
                 APORKALYPSE_CLOCK = "掌握他们的动向...非常聪明的想法。",
+                ANCIENT_HERALD = "它不是冲我来的不代表我就对此没意见了！",
 
                 WALL_PIG_RUINS = "古代城墙的一部分。",
 
@@ -713,7 +771,7 @@ local strings = {
                 --出生点的玩意儿
                 PORKLAND_INTRO_BASKET = "啊，都怪我...为什么我没有早点想起来？",
                 PORKLAND_INTRO_BALLOON = "破了一个大洞，已经不能用了。",
-                PORKLAND_INTRO_TRUNK = "这上面只有一个“W”，真是个有辨识度的标记。",
+                PORKLAND_INTRO_TRUNK = "这上面只有一个“W”，真是个有用的标记。",
                 PORKLAND_INTRO_SUITCASE = "这上面只有一个“W”，真是个有辨识度的标记。",
                 PORKLAND_INTRO_FLAGS = "一些简单的小装饰。",
                 PORKLAND_INTRO_SANDBAG = "用于配重。",
@@ -736,6 +794,8 @@ local strings = {
                 BRAMBLE_BULB="或许有一些方法能把它利用起来。",
                 BRAMBLE_CORE="我不确定那是否值得我把时间花在它上面。",
 
+                ROOTTRUNK_CHILD = "很难以想象它的根系有多发达。",
+
                 CHITIN="我不明白这有什么意义？",
 
                 TURF_PIGRUINS = "我为什么要浪费时间盯着地面看？", --Why am I wasting time staring at the ground?
@@ -752,11 +812,11 @@ local strings = {
                 TURF_PAINTED = "我为什么要浪费时间盯着地面看？",
 		        TURF_PLAINS = "我为什么要浪费时间盯着地面看？",
                 TURF_DEEPRAINFOREST_NOCANOPY = "我为什么要浪费时间盯着地面看？",
-                --[[
-                PANGOLDEN = "",--淘金兽
-                SEDIMENTPUDDLE = "",--闪光水坑
+                
+                PANGOLDEN = "它们的食谱非常奢侈。",--淘金兽
+                SEDIMENTPUDDLE = "水不是这里唯一在反射阳光的东西。",--闪光水坑
 
-                GNATMOUND = "",
+                --[[GNATMOUND = "",
                 GNAT = "",
 
                 TUBERTREE = "",
@@ -766,6 +826,18 @@ local strings = {
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
                 ]]
+                CUTNETTLE = "这能让我们保持呼吸顺畅。",
+
+                NETTLE = {
+        	        WITHERED = "这种土壤不适合它。",
+                 	MOIST = "怎么会有人喜欢潮湿而不是干爽呢？",
+                	EMPTY = "好吧各位，我们三天后见。",
+                	DEFAULT = "就是它，就是这个味道。",
+                },
+                DUG_NETTLE = "它需要特殊的土壤才能生长，是什么呢...",
+
+                MEATED_NETTLE = "这绝对是主次颠倒了。",
+                NETTLELOSANGE = "这样就好下口多了。",
             },
         },
         --New Characters
@@ -776,7 +848,7 @@ local strings = {
             --星象、沙漠、亮茄头盔，话说让老瓦自己的眼镜免疫风沙应该更好吧
             --ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "啊，让我看看在哪里...",
             --ANNOUNCE_PUTONGOGGLES_DESERTHAT = "透过这样的镜片我能够看清世界。",
-            --ANNOUNCE_PUTONGOGGLES_LUNARPLANTHAT = "扭曲的光线充当了眼镜的效果。",
+            --ANNOUNCE_PUTONGOGGLES_LUNARPLANTHAT = "光线的扭曲充当了眼镜的效果。",
 
             --虚空帽
             --ANNOUNCE_PUTONGOGGLES_VOIDCLOTHHAT = "虚空的双眼会替我观察世界。",
@@ -815,6 +887,11 @@ local strings = {
                     GENERIC = "推动木板可以驱动顶部的结构，不知道有什么功能。",
                     BURNT = "显然它的功能不包括灭火。",
                 },
+
+                DUMBBELL_HEAT = "",
+                DUMBBELL_REDGEM = "",
+                DUMBBELL_BLUEGEM = "",
+                WOLFGANG_WHISTLE = "",
 
                 --温蒂
                 SMALLGHOST = "不受黑暗燃料影响的年轻鬼魂。", --A younger poltergeist not affected by the dark fuel.
@@ -902,6 +979,11 @@ local strings = {
                 WEREITEM_BEAVER = "他通过食用这些来定向激活“诅咒”效果。",
                 WEREITEM_GOOSE = "他通过食用这些来定向激活“诅咒”效果。",
                 WEREITEM_MOOSE = "他通过食用这些来定向激活“诅咒”效果。",
+
+                LEIF_IDOL = "毫无疑问燃烧它会激怒那些发狂的树。",
+
+                WOODCARVEDHAT = "非常精细的木工制品。",
+                WALKING_STICK = "非常精细的木工制品。",
 
                 --韦斯来了！！！！！（惊恐）
                 BALLOONS_EMPTY = "看来这是他带进来的。", --单机版："Balloons? Here?"
@@ -1042,6 +1124,9 @@ local strings = {
 
                 --恶魔人
                 WORTOX_SOUL = "有一股无形的力把它约束在这里。", --只有小恶魔能检查
+
+                --沃姆伍德
+                IPECACSYRUP ="这无疑会对我的胃造成巨大伤害。",
 
                 --小鱼人
                 MERMHAT = "一个实用的伪装！我可以潜入这些生物之中！",
