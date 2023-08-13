@@ -123,7 +123,7 @@ local strings = {
                 BRAMBLE_BULB="不知道这有什么用。",
                 BRAMBLE_CORE="这一定就是源头。",
 
-                ROOTTRUNK_CHILD = "",
+                ROOTTRUNK_CHILD = "自动化物流，这才是未来。",
 
                 CHITIN="我不知道这能拿来做什么。",]]
 
@@ -155,18 +155,25 @@ local strings = {
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
 
-                CUTNETTLE = "保持呼吸顺畅、提神醒脑。",--item
+                CUTNETTLE = "保持呼吸顺畅、提神醒脑。",--item]]
 
-                NETTLE = {--plant
+                IRON = "Invaluable material for manufacturing useful tools.",
+
+                --[[NETTLE = {--plant
         	        WITHERED = "土地不够好，你可真挑剔。",
                  	MOIST = "我想它已经被伺候到位了。",
                 	EMPTY = "它还会再长出来的。",
                 	DEFAULT = "它散发着强烈的气味。",
                 },
-                DUG_NETTLE = "我们把它带回营地吧。",--dug plant
+                DUG_NETTLE = "我们把它带回营地吧。",--dug plant]]
 
-                MEATED_NETTLE = "为了让薇格弗德吃下它，厨师真的费了不少功夫。",--meat
-                NETTLELOSANGE = "良药苦口啊。",--roll
+                MEATED_NETTLE = "The chef really went to a lot of work to get Wigfrid eat it.",--meat
+                NETTLELOSANGE = "Being cruel to be kind.",
+
+                ALLOY = "Proper processing makes it better.",
+                HALBERD = "More suited to combat than to work.",
+                --[[ARMOR_METALPLATE = "笨重，但防护效果出奇地好。",
+                METALPLATEHAT = "看起来像是殖民者会戴的东西。",
                 ]]
             },
         },
@@ -315,6 +322,7 @@ local strings = {
 		        TURF_PLAINS = "Floor or ceiling, depending on your perspective.",
                 TURF_DEEPRAINFOREST_NOCANOPY = "Floor or ceiling, depending on your perspective.",
                 
+                --Painted
                 PANGOLDEN = "How are you today? Any outcome?",
                 SEDIMENTPUDDLE = "These are not for drink.",
 
@@ -328,6 +336,8 @@ local strings = {
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
 
+                IRON = "Oooh. Almost burned me.",
+
                 CUTNETTLE = "光是闻一闻就能让我的鼻子通气了。",--item]]
 
                 NETTLE = {--plant
@@ -340,6 +350,13 @@ local strings = {
 
                 MEATED_NETTLE = "对我来说没什么用，但还是谢谢啦。",--meat
                 NETTLELOSANGE = "这没有让它好多少。",--roll
+
+                ALLOY = "嗷！！！",
+                HALBERD = "真是把恶毒的武器。",
+                ARMOR_METALPLATE = "真是个可怕的酷刑。",
+                METALPLATEHAT = "我的角要被烤焦了！",
+
+                BLUNDERBUSS = "War, war never changes.",
                 ]]
             },
         },
@@ -373,14 +390,14 @@ local strings = {
             ANNOUNCE_HOUSE_DOOR = "Why listening to Pigfolk here?",
             ANNOUNCE_ROOM_STUCK = "Let me out first!",
             
-            ANNOUNCE_TAXDAY = "Every pigfolk has to give me money today!",
+            ANNOUNCE_TAXDAY = "Every Pigfolk has to give me money today!",
             ANNOUNCE_NOTHING_FOUND = "Is it too far?",
 
             ANNOUNCE_SUITUP = "Flort Glurtsu flut!",--Merm gurad line "For glory of Mermfolk!" on merm sound
             
             DESCRIBE = {
                 ALOE = "Sweet and stick.",
-                ALOE_COOKED = "But it don't taste like medicine. Ms. Wickerbottom",
+                ALOE_COOKED = "But it don't taste like medicine. Ms. Wickerbottom.",
                 ALOE_PLANTED = "Grrr, snack never seen.",
                 ALOE_SEEDS = "Make more snacks, florp!", --DST seeds line
 
@@ -392,18 +409,18 @@ local strings = {
                 RADISH_SEEDS = "Make more snacks, florp!", --DST seeds line
 
                 RELIC_1 = "Pigfolk pay me for their own stuff. Good!", --
-                PIG_RUINS_IDOL = "A pigfolk idol, not mermfolk.",
+                PIG_RUINS_IDOL = "A Pigfolk idol, not mermfolk.",
 
                 RELIC_2 = "Pigfolk pay me for their own stuff. Good!",
-                PIG_RUINS_PLAQUE = "Created by pigfolk too?",
+                PIG_RUINS_PLAQUE = "Created by Pigfolk too?",
 
                 RELIC_3 = "Loot!",
                 PIG_RUINS_HEAD = "Giant pifrolk face!",
 
-                RELIC_4 = "A different pigfolk, why?",
+                RELIC_4 = "A different Pigfolk, why?",
                 --RELIC_5 = "不能吃，但闪闪发光。",
 
-                PIG_RUINS_PIG = "I pull out the pigfolk's teeth!",
+                PIG_RUINS_PIG = "I pull out the Pigfolk's teeth!",
 
                 BASEFAN = "Water ran away! florpt!",
 
@@ -485,6 +502,7 @@ local strings = {
 		        TURF_PLAINS = "Ground bit.",
                 TURF_DEEPRAINFOREST_NOCANOPY = "Ground bit.",
                 
+                --Painted
                 PANGOLDEN = "Don't drink them all!",
                 SEDIMENTPUDDLE = "Water are ... shining?",
 
@@ -496,7 +514,9 @@ local strings = {
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
-                THUNDERHAT = "",]]
+                THUNDERHAT = "",
+                
+                IRON = "Red hard rock.",]]
 
                 CUTNETTLE = "It into my nose!",
 
@@ -510,6 +530,11 @@ local strings = {
 
                 MEATED_NETTLE = "Why?",
                 NETTLELOSANGE = "little spicy.",
+
+                --ALLOY = "石头变得更硬了。",
+                HALBERD = "Strange weapon used by Pigfolk.",
+                --ARMOR_METALPLATE = "坚固，但好重。",
+                METALPLATEHAT = "The hat from Ms. Wickerbottom's book!",
             },
         },
         WALTER = {
@@ -632,9 +657,9 @@ local strings = {
                 TREE_PILLAR="这么大的树，哪怕是海狸人也啃不完吧。",
                 FLOWER_RAINFOREST="哦！这就是丛林探险故事中的那种花。",
                 
-                BRAMBLESPIKE="没事，我会小心的，威尔逊先生。",
-                BRAMBLE_BULB="我是大南方植物的终结者。",
-                BRAMBLE_CORE="蔓生在丛林深处的畸形怪花。",]]
+                BRAMBLESPIKE="没事，我会小心的，威尔逊先生。",]]
+                BRAMBLE_BULB="I am the great southern plantkiller.",
+                --BRAMBLE_CORE="蔓生在丛林深处的畸形怪花。",
 
                 ROOTTRUNK_CHILD = "Just like Mr. Maxwell's magic!",
 
@@ -658,10 +683,11 @@ local strings = {
                 TURF_PAINTED = "A patch of ground.",
 		        TURF_PLAINS = "A patch of ground.",
                 TURF_DEEPRAINFOREST_NOCANOPY = "A patch of ground.",
-                
+
+                --Painted
                 PANGOLDEN = "A born gold rusher.",
                 SEDIMENTPUDDLE = "Is that gold in there?",
-
+                
                 --[[GNATMOUND = "",
                 GNAT = "Cool! But... maybe we should back off a little bit?",
 
@@ -671,6 +697,8 @@ local strings = {
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
+
+                IRON = "那是铁吗？",
 
                 CUTNETTLE = "嗷！它划到我了。",
 
@@ -684,6 +712,11 @@ local strings = {
 
                 MEATED_NETTLE = "这样也只是好了一点点。",
                 NETTLELOSANGE = "呃，又苦又辣。",
+
+                ALLOY = "是钢铁！看我炼出的钢铁！",
+                HALBERD = "一把巨大的斧头！",
+                ARMOR_METALPLATE = "穿上这个就没有东西能伤到我了！",
+                METALPLATEHAT = "看起来真滑稽。",
                 ]]
             },
         },
@@ -711,7 +744,7 @@ local strings = {
             ANNOUNCE_MYSTERY_FOUND = "嘿，这里真的有什么东西。",
             ANNOUNCE_MYSTERY_NOREWARD = "真是在浪费时间。",
 
-            ANNOUNCE_MYSTERY_DOOR_FOUND = "来这边！暗门在这里。",]]
+            ANNOUNCE_MYSTERY_DOOR_FOUND = "Over here! 暗门在这里。",]]
             ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "Uh. Nope. Not here.",
 
             ANNOUNCE_HOUSE_DOOR = "Permission must be obtained first.",
@@ -827,7 +860,8 @@ local strings = {
                 TURF_PAINTED = "Why am I wasting time staring at the ground?",
 		        TURF_PLAINS = "Why am I wasting time staring at the ground?",
                 TURF_DEEPRAINFOREST_NOCANOPY = "Why am I wasting time staring at the ground?",
-                
+
+                --Painted
                 PANGOLDEN = "It has an extravagant recipe.",
                 SEDIMENTPUDDLE = "Water isn't the only thing reflecting sunlight here.",
 
@@ -841,6 +875,8 @@ local strings = {
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
 
+                IRON = "精确钟表的必备材料。",
+
                 CUTNETTLE = "这能让我们保持呼吸顺畅。",--item]]
 
                 NETTLE = {--plant
@@ -853,6 +889,11 @@ local strings = {
 
                 MEATED_NETTLE = "This is definitely a reversal of priorities.",--meat
                 --NETTLELOSANGE = "这样就好下口多了。",--roll
+
+                --ALLOY = "坚固的精炼金属。",
+                HALBERD = "I'm not planning on murdering grove of trees.",--Aatrox
+                --ARMOR_METALPLATE = "我还是更喜欢魔法。",
+                --METALPLATEHAT = "很不错，但对于一顶帽子来说着实太重了。",
                 
             },
         },
@@ -917,7 +958,7 @@ local strings = {
                 SISTURN = {
                     GENERIC = "我为她感到遗憾，小姑娘。",
                     SOME_FLOWERS = "这里还需要更多的花。",
-                    LOTS_OF_FLOWERS = "我们的纪念仪式竟然逆转了引力子的方向...",
+                    LOTS_OF_FLOWERS = "Our memorial reversed the direction of graviton...",
                 },
 
                 LOST_TOY_1  = "Theoretically, this is a kind of planar projection.",
@@ -941,7 +982,7 @@ local strings = {
                 GHOSTLYELIXIR_SPEED = "巧妙地利用了精神体的相互作用，真聪明。",
 
                 --WX
-                WX78_SCANNER_ITEM = "The Scanalyzer J1-M1. Did it come in with me?", --ref to DIVININGRODSTART
+                WX78_SCANNER_ITEM = "Ah, the scanalyzer J1-M1. I know it well.", --ref ml-77
                 WX78_SCANNER = {
                     GENERIC = "看来它运转良好。",
                     HUNTING = "它正在寻找可分析的样本。",
@@ -969,16 +1010,16 @@ local strings = {
 
                 --Brainlady
                 BOOKSTATION = {
-                    GENERIC = "绝妙啊！无需任何能量物质输入就能自动完成图书的护理修复工作。",--Wonderful!
+                    GENERIC = "Wonderful! 无需任何能量物质输入就能自动完成图书的护理修复工作。",
                     BURNT = "正如我预料的一样，依然可燃。",
                 },
                 BOOK_BEES = "我无法翻开它，这些昆虫尾器是如何把书页钉这么死的？",
                 --BOOK_BIRDS = "I cannot access the knowledge within it. How frustrating!",--same as ds
                 --BOOK_BRIMSTONE = "Oh, I do wish I could access its power.",--same as ds
-                BOOK_ELEMENTAL = "这一本书也被允许用作钝器武器，为什么？",--forge
+                BOOK_ELEMENTAL = "This book is also allowed use as a blunt weapon. Why?",--forge
                 BOOK_FIRE = "它能在作用范围内控制氧化反应，真迷人！",
                 BOOK_FISH = "控制海洋鱼群，超声波？心灵感应？",
-                BOOK_FOSSIL = "我试过用其它书作为钝器武器，但都被无形的力阻止了，它有什么不同？",--forge
+                BOOK_FOSSIL = "I've tried using other books as blunt weapons, but stopped by invisible forces.",--forge
                 --BOOK_GARDENING = "Much more than a collection of facts.",--same as ds
                 BOOK_HORTICULTURE = "您可以再写一本完整版吗？女士？",
                 BOOK_HORTICULTURE_UPGRADED = "看来它的效果与记录的信息量呈正相关。",
@@ -1017,7 +1058,7 @@ local strings = {
                 BALLOONHAT = "啊，真是个有趣的小玩具。",
                 BALLOONVEST = "提供浮力，简陋但有用。",
 
-                --75hp Maxy
+                --Maxy
                 --WAXWELLJOURNAL = "My attempts to understand this are being thwarted somehow."--same as ds
                 TOPHAT_MAGICIAN = "This will be a great revolution in logistics",
                 MAGICIAN_CHEST = "Wonderful! Dark fuel created a mini wormhole inside it.",
@@ -1250,7 +1291,7 @@ local strings = {
                 WAGSTAFF_TOOL_4 = "My Conceptual Scrubber, projected onto this plane.",
                 WAGSTAFF_TOOL_5 = "My Calibrated Perceiver, projected onto this plane.",
 
-                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",
+                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",--psychic interference
                 --[[
                 --单机版各种护目镜的台词，放在这里做参考
                 GOGGLESARMORHAT = "I designed it so I can study sound reverberations while I'm engaged in combat.",

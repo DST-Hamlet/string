@@ -122,7 +122,7 @@ local strings = {
                 BRAMBLE_BULB="不知道这有什么用。",
                 BRAMBLE_CORE="这一定就是源头。",
 
-                ROOTTRUNK_CHILD = "",
+                ROOTTRUNK_CHILD = "自动化物流，这才是未来。",
 
                 CHITIN="我不知道这能拿来做什么。",
 
@@ -153,6 +153,8 @@ local strings = {
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
+
+                IRON = "制造优秀器具的必需品。",
                 ]]
                 CUTNETTLE = "保持呼吸通畅、提神醒脑。",
 
@@ -166,6 +168,11 @@ local strings = {
 
                 MEATED_NETTLE = "为了让薇格弗德吃下它，厨师真的费了不少功夫。",
                 NETTLELOSANGE = "良药苦口啊。",
+
+                ALLOY = "适当的加工让它变得更好。",
+                HALBERD = "更适合战斗而不是工作。",
+                ARMOR_METALPLATE = "笨重，但防护效果出奇地好。",
+                METALPLATEHAT = "看起来像是殖民者会戴的东西。",
             },
         },
         WORTOX = {
@@ -310,6 +317,7 @@ local strings = {
 		        TURF_PLAINS = "地板还是天花板，取决于你的角度。",
                 TURF_DEEPRAINFOREST_NOCANOPY = "地板还是天花板，取决于你的角度。",
 
+                --彩绘沙漠
                 PANGOLDEN = "今天过得怎么样？有什么收获吗？",--淘金兽
                 SEDIMENTPUDDLE = "这些可不是喝的。",
 
@@ -322,6 +330,8 @@ local strings = {
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
+
+                IRON = "呼，差点烫到我了。",
                 ]]
                 CUTNETTLE = "光是闻一闻就能让我的鼻子通气了。",
 
@@ -335,6 +345,13 @@ local strings = {
 
                 MEATED_NETTLE = "对我来说没什么用，但还是谢谢啦。",
                 NETTLELOSANGE = "这没有让它好多少。",
+
+                ALLOY = "嗷！！！",
+                HALBERD = "真是把恶毒的武器。",
+                ARMOR_METALPLATE = "真是个可怕的酷刑。",
+                METALPLATEHAT = "我的角要被烤焦了！",
+
+                --BLUNDERBUSS = "战争从未改变。",
             },
         },
         WURT = {
@@ -479,6 +496,7 @@ local strings = {
 		        TURF_PLAINS = "地面上的东西。",
                 TURF_DEEPRAINFOREST_NOCANOPY = "地面上的东西。",
                 
+                --彩绘沙漠
                 PANGOLDEN = "不要都喝光了！",
                 SEDIMENTPUDDLE = "水在...发光？",
     
@@ -491,6 +509,8 @@ local strings = {
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
+
+                IRON = "红色的硬石头。",
                 ]]
                 CUTNETTLE = "它钻进我的鼻子里了！",
 
@@ -504,6 +524,11 @@ local strings = {
 
                 MEATED_NETTLE = "为什么？",
                 NETTLELOSANGE = "有点辣辣的。",
+
+                ALLOY = "石头变得更硬了。",
+                HALBERD = "猪人用的奇怪武器。",
+                ARMOR_METALPLATE = "坚固，但好重。",
+                METALPLATEHAT = "是维克巴顿女士书里的帽子！",
             },
         },
         WALTER = {
@@ -645,7 +670,8 @@ local strings = {
                 TURF_PAINTED = "一块地。",
 		        TURF_PLAINS = "一块地。",
                 TURF_DEEPRAINFOREST_NOCANOPY = "一块地。",
-                
+
+                --彩绘沙漠
                 PANGOLDEN = "天生的淘金者。",
                 SEDIMENTPUDDLE = "那里面是黄金吗？",
 
@@ -658,6 +684,8 @@ local strings = {
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
+
+                IRON = "那是铁吗？",
                 ]]
                 CUTNETTLE = "嗷！它划到我了。",
 
@@ -671,6 +699,11 @@ local strings = {
 
                 MEATED_NETTLE = "这样也只是好了一点点。",
                 NETTLELOSANGE = "呃，又苦又辣。",
+
+                ALLOY = "是钢铁！看我炼出的钢铁！",
+                HALBERD = "一把巨大的斧头！",
+                ARMOR_METALPLATE = "穿上这个就没有东西能伤到我了！",
+                METALPLATEHAT = "看起来真滑稽。",
             },
         },
         WANDA = {
@@ -812,7 +845,8 @@ local strings = {
                 TURF_PAINTED = "我为什么要浪费时间盯着地面看？",
 		        TURF_PLAINS = "我为什么要浪费时间盯着地面看？",
                 TURF_DEEPRAINFOREST_NOCANOPY = "我为什么要浪费时间盯着地面看？",
-                
+
+                --彩绘沙漠
                 PANGOLDEN = "它们的食谱非常奢侈。",--淘金兽
                 SEDIMENTPUDDLE = "水不是这里唯一在反射阳光的东西。",--闪光水坑
 
@@ -825,6 +859,8 @@ local strings = {
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
+
+                IRON = "精确钟表的必备材料。",
                 ]]
                 CUTNETTLE = "这能让我们保持呼吸顺畅。",
 
@@ -838,6 +874,11 @@ local strings = {
 
                 MEATED_NETTLE = "这绝对是主次颠倒了。",
                 NETTLELOSANGE = "这样就好下口多了。",
+
+                ALLOY = "坚固的精炼金属。",
+                HALBERD = "我的对手可不是一片树林。",--Aatrox
+                ARMOR_METALPLATE = "我还是更喜欢魔法。",
+                METALPLATEHAT = "很不错，但对于一顶帽子来说着实太重了。",
             },
         },
         --New Characters
@@ -922,7 +963,7 @@ local strings = {
                 GHOSTLYELIXIR_SPEED = "巧妙地利用了精神体的相互作用，真聪明。",
 
                 --WX
-                WX78_SCANNER_ITEM = "是J1-M1，它也一起进来了？",
+                WX78_SCANNER_ITEM = "啊，J1-M1扫描分析仪，我再熟悉不过了。",
                 WX78_SCANNER = {
                     GENERIC = "看来它运转良好。",
                     HUNTING = "它正在寻找可分析的样本。",
