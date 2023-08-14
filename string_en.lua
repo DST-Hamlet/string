@@ -145,19 +145,19 @@ local strings = {
                 PANGOLDEN = "Living Metallurgical.",
                 SEDIMENTPUDDLE = "The metal content is seriously over the limit.",
 
-                --[[GNATMOUND = "",
+                --GNATMOUND = "那些虫子就住在这里面。",
                 GNAT = "Get away from me!",
 
                 TUBERTREE = "A giant ginger I guess?",
-
+                --[[
                 THUNDERBIRD = "A classic case of over much static electricity.",
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
-
-                CUTNETTLE = "保持呼吸顺畅、提神醒脑。",--item]]
-
+                ]]
                 IRON = "Invaluable material for manufacturing useful tools.",
+
+                --CUTNETTLE = "保持呼吸顺畅、提神醒脑。",--item
 
                 --[[NETTLE = {--plant
         	        WITHERED = "土地不够好，你可真挑剔。",
@@ -174,6 +174,14 @@ local strings = {
                 HALBERD = "More suited to combat than to work.",
                 --[[ARMOR_METALPLATE = "笨重，但防护效果出奇地好。",
                 METALPLATEHAT = "看起来像是殖民者会戴的东西。",
+
+                BLUNDERBUSS = "",
+
+                LAWNORNAMENT = {
+                    GENERIC = "",
+                    BURNING = "",
+                	BURNT = "",
+                },
                 ]]
             },
         },
@@ -260,16 +268,16 @@ local strings = {
                 APORKALYPSE_CLOCK = "Magic on a grand scale. Oh, my God, this is gonna be fun.",
                 ANCIENT_HERALD = "Will you fall into another plane if you trip yourself?",
 
-                WALL_PIG_RUINS = "These runes are not the kind that can stop me.",--[[
-
-                ANCIENT_HULK ="",
-                ANCIENT_ROBOTS_ASSEMBLY ="",
-                ANCIENT_ROBOT_CLAW ="",
-                ANCIENT_ROBOT_HEAD ="",
-                ANCIENT_ROBOT_LEG ="",
-                ANCIENT_ROBOT_RIBS ="",]]
+                WALL_PIG_RUINS = "These runes are not the kind that can stop me.",
+                
+                ANCIENT_HULK ="Calm down, demon! Please calm down!",
+                ANCIENT_ROBOTS_ASSEMBLY ="The forgotten rise.",
+                ANCIENT_ROBOT_CLAW ="Give me five! I'm kidding. Don't touch me.",
+                ANCIENT_ROBOT_HEAD ="There must be a giant guillotine nearby.",
+                ANCIENT_ROBOT_LEG ="I'm glad it won't move.",
+                ANCIENT_ROBOT_RIBS ="I don't want to touch it at all.",
                 INFUSED_IRON = "Some kind of energy was injected into it.",
-                --LIVING_ARTIFACT ="",
+                LIVING_ARTIFACT ="A perfect combine. Pity.",
                 
 
                 OINC="Regular coin.",
@@ -326,19 +334,19 @@ local strings = {
                 PANGOLDEN = "How are you today? Any outcome?",
                 SEDIMENTPUDDLE = "These are not for drink.",
 
-                --GNATMOUND = "",
-                --GNAT = "Don't let them into my fur!",
+                GNATMOUND = "That's new even for me.",
+                GNAT = "Don't let them into my fur!",
 
-                --[[TUBERTREE = "",
-
+                --TUBERTREE = "这可不是普通的树。",
+                --[[
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
-
+                ]]
                 IRON = "Oooh. Almost burned me.",
 
-                CUTNETTLE = "光是闻一闻就能让我的鼻子通气了。",--item]]
+                --CUTNETTLE = "光是闻一闻就能让我的鼻子通气了。",--item
 
                 NETTLE = {--plant
         	        WITHERED = "These dirt make it hurt.",
@@ -349,30 +357,35 @@ local strings = {
                 --[[DUG_NETTLE = "让我想想该如何把它用在我的恶作剧里...",--dug plant
 
                 MEATED_NETTLE = "对我来说没什么用，但还是谢谢啦。",--meat
-                NETTLELOSANGE = "这没有让它好多少。",--roll
+                NETTLELOSANGE = "这没有让它好多少。",--roll]]
 
-                ALLOY = "嗷！！！",
-                HALBERD = "真是把恶毒的武器。",
-                ARMOR_METALPLATE = "真是个可怕的酷刑。",
-                METALPLATEHAT = "我的角要被烤焦了！",
+                ALLOY = "Ahh!!!",
+                HALBERD = "What a vicious weapon.",
+                ARMOR_METALPLATE = "A terrible torture.",
+                METALPLATEHAT = "My horns are burning!",
 
-                BLUNDERBUSS = "War, war never changes.",
-                ]]
+                BLUNDERBUSS = "War never changes.",
+
+                LAWNORNAMENT = {
+                    GENERIC = "",
+                    BURNING = "",
+                	BURNT = "",
+                },
             },
         },
         WURT = {
             --[[
             ANNOUCE_UNDERLEAFCANOPY = "大树挡住了光。",
-            ANNOUCE_ALARMOVER = "鱼人王国的故事还没完呢。",
-            ANNOUCE_BATS = "浮浪噗。这是什么影子？",
-            ANNOUCE_OTHERWORLD_DEED = "这是在哪里？",
-            ANNOUNCE_TOOLCORRODED = "工具化掉了，浮浪噗。", --？？？
-            ANNOUNCE_TURFTOOHARD = "好结实的土层。", 
-            ANNOUNCE_GAS_DAMAGE = "呵——呼，好难闻。", 
+            ANNOUCE_ALARMOVER = "鱼人王国的故事还没完呢。",]]
+            ANNOUCE_BATS = "Florp. What's this shadow of?",
+            --ANNOUCE_OTHERWORLD_DEED = "这是在哪里？",
+            ANNOUNCE_TOOLCORRODED = "Tools melted. Florp.", --？？？
+            --ANNOUNCE_TURFTOOHARD = "好结实的土层。", 
+            --ANNOUNCE_GAS_DAMAGE = "呵——呼，好难闻。", 
             
-            ANNOUNCE_SNEEZE = "呵——呼，哈嚏呦！！！",
-            ANNOUNCE_HAYFEVER = "Glurph...鳃好难受...",
-            ANNOUNCE_HAYFEVER_OFF = "噢！鳃终于舒服了！",]]
+            --ANNOUNCE_SNEEZE = "呵——呼，哈嚏呦！！！",
+            ANNOUNCE_HAYFEVER = "Glurph...gill itchy...",
+            --ANNOUNCE_HAYFEVER_OFF = "噢！鳃终于舒服了！",
 
             ANNOUNCE_PICKPOOP = {"Dirty water!","Glurgh...","No next time!",},
             
@@ -443,14 +456,14 @@ local strings = {
 
                 --WALL_PIG_RUINS = "一堵破墙。",
 
-                --[[ANCIENT_HULK ="金属大怪兽动起来了！",
-                ANCIENT_ROBOTS_ASSEMBLY ="它们正在变成一头更大的怪兽。",
-                ANCIENT_ROBOT_CLAW ="",
-                ANCIENT_ROBOT_HEAD ="",
-                ANCIENT_ROBOT_LEG ="",
-                ANCIENT_ROBOT_RIBS ="",
-                INFUSED_IRON = "",
-                LIVING_ARTIFACT ="",]]
+                --ANCIENT_HULK ="金属大怪兽动起来了！",
+                --ANCIENT_ROBOTS_ASSEMBLY ="它们正在变成一头更大的怪兽。",
+                ANCIENT_ROBOT_CLAW ="No fins? Florp.",
+                --[[ANCIENT_ROBOT_HEAD ="一颗岩石怪兽脑袋。",
+                ANCIENT_ROBOT_LEG ="一只石头鞋子。",
+                ANCIENT_ROBOT_RIBS ="有一条大鱼死在这里了吗？",
+                INFUSED_IRON = "在发光...",]]
+                LIVING_ARTIFACT ="Bring power to mermfolk!",
 
                 OINC="What it for?",
                 OINC10="What is \"Gurrency\"?",
@@ -506,17 +519,17 @@ local strings = {
                 PANGOLDEN = "Don't drink them all!",
                 SEDIMENTPUDDLE = "Water are ... shining?",
 
-                --[[GNATMOUND = "",
-                GNAT = "",
+                GNATMOUND = "Bugs hideout.",
+                GNAT = "Too many!",
 
-                TUBERTREE = "",
-
+                TUBERTREE = "Ms. Wickbottom! How do we cut it down?",
+                --[[
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
                 THUNDERHAT = "",
-                
-                IRON = "Red hard rock.",]]
+                ]]
+                IRON = "Red hard rock.",
 
                 CUTNETTLE = "It into my nose!",
 
@@ -535,6 +548,14 @@ local strings = {
                 HALBERD = "Strange weapon used by Pigfolk.",
                 --ARMOR_METALPLATE = "坚固，但好重。",
                 METALPLATEHAT = "The hat from Ms. Wickerbottom's book!",
+
+                BLUNDERBUSS = "",
+
+                LAWNORNAMENT = {
+                    GENERIC = "",
+                    BURNING = "",
+                	BURNT = "",
+                },
             },
         },
         WALTER = {
@@ -688,11 +709,11 @@ local strings = {
                 PANGOLDEN = "A born gold rusher.",
                 SEDIMENTPUDDLE = "Is that gold in there?",
                 
-                --[[GNATMOUND = "",
+                --GNATMOUND = "里面会住着什么呢？",
                 GNAT = "Cool! But... maybe we should back off a little bit?",
 
                 TUBERTREE = "A parsnip?",
-
+                --[[
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
                 FEATHER_THUNDER = "", 
@@ -717,6 +738,14 @@ local strings = {
                 HALBERD = "一把巨大的斧头！",
                 ARMOR_METALPLATE = "穿上这个就没有东西能伤到我了！",
                 METALPLATEHAT = "看起来真滑稽。",
+
+                BLUNDERBUSS = "",
+
+                LAWNORNAMENT = {
+                    GENERIC = "",
+                    BURNING = "",
+                	BURNT = "",
+                },
                 ]]
             },
         },
@@ -865,10 +894,10 @@ local strings = {
                 PANGOLDEN = "It has an extravagant recipe.",
                 SEDIMENTPUDDLE = "Water isn't the only thing reflecting sunlight here.",
 
-                --[[GNATMOUND = "",
-                GNAT = "",
+                --[[GNATMOUND = "又脏又乱。",
+                GNAT = "它在恼人方面达到了新的高度。",
 
-                TUBERTREE = "",
+                TUBERTREE = "我们需要专门的工具来砍倒它。",
 
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
@@ -894,7 +923,14 @@ local strings = {
                 HALBERD = "I'm not planning on murdering grove of trees.",--Aatrox
                 --ARMOR_METALPLATE = "我还是更喜欢魔法。",
                 --METALPLATEHAT = "很不错，但对于一顶帽子来说着实太重了。",
-                
+
+                BLUNDERBUSS = "",
+
+                LAWNORNAMENT = {
+                    GENERIC = "",
+                    BURNING = "",
+                	BURNT = "",
+                },
             },
         },
         --New Characters
