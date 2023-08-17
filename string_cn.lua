@@ -1,6 +1,32 @@
 
 local strings = {
     CHARACTERS = {
+        --[[
+        --ds
+        GENERIC= {ANNOUNCE_GNATS_DIED="",},--我们真要这么做？
+        WILLOW = {ANNOUNCE_GNATS_DIED="",},
+        WOLFGANG = {ANNOUNCE_GNATS_DIED="",},
+        WENDY = {ANNOUNCE_GNATS_DIED="",},
+        WX78 = {ANNOUNCE_GNATS_DIED="",},
+        WICKERBOTTOM = {ANNOUNCE_GNATS_DIED="",},
+        WOODIE = {ANNOUNCE_GNATS_DIED="",},
+        WAXWELL = {ANNOUNCE_GNATS_DIED="",},
+        WAGSTAFF = {ANNOUNCE_GNATS_DIED="",},
+        --rog
+        WATHGRITHR = {ANNOUNCE_GNATS_DIED="",},
+        WEBBER = {ANNOUNCE_GNATS_DIED="",},
+        --sw
+        WALANI = {ANNOUNCE_GNATS_DIED="",},
+        WARLY = {ANNOUNCE_GNATS_DIED="",},
+        WILBUR = {ANNOUNCE_GNATS_DIED="",},
+        WOODLEGS = {ANNOUNCE_GNATS_DIED="",},
+        --ham
+        WARBUCKS = {ANNOUNCE_GNATS_DIED="",},
+        WORMWOOD = {ANNOUNCE_GNATS_DIED="",},
+        WILBA = {ANNOUNCE_GNATS_DIED="",},
+        WHEELER = {ANNOUNCE_GNATS_DIED="",},
+        ]]
+        --dst
         WINONA = {
             ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--unuse
             ANNOUCE_ALARMOVER = "呼，平安度过。",
@@ -35,7 +61,28 @@ local strings = {
 
             ANNOUNCE_SUITUP = "全副武装！",
 
+            --new
+            --ANNOUNCE_GNATS_DIED="",
+
             DESCRIBE = {
+                GRASS_TALL = {
+                    BURNING = "草着火啦！",
+                    GENERIC = "这草长得...真高。",
+                    PICKED = "所有的工作都完成了。",
+                },        
+                SHEARS = "用于园艺的剪刀。",
+
+                PEAGAWK = {
+                    GENERIC = "时刻保持警惕啊。",
+                    SLEEPING = "它放松了警惕。",
+                },        
+                PEAGAWKFEATHER = "它还在看着我。",
+                PEAGAWK_BUSH = "一株会警惕的灌木丛，真是奇怪！",
+
+                WEEVOLE = "你要是跟床虱打过交道，象鼻虫就根本不算什么。",
+                WEEVOLE_CARAPACE = "可算除干净了。",
+                ARMOR_WEEVOLE = "不是很舒适，将就一下吧。",
+
                 ALOE = "吃下它会好吗？",
                 ALOE_COOKED = "应该不会有问题，尝试一下吧。",
                 ALOE_PLANTED = "一株奇怪的植物。",
@@ -148,12 +195,7 @@ local strings = {
                 GNAT = "离我远点！",
 
                 TUBERTREE = "那是一块巨大的姜？",
-                --[[
-                THUNDERBIRD = "积攒静电过多的典型案例。",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
-                ]]
+                
                 IRON = "制造优秀器具的必需品。",
                 
                 CUTNETTLE = "保持呼吸通畅、提神醒脑。",
@@ -173,13 +215,18 @@ local strings = {
                 HALBERD = "更适合战斗而不是工作。",
                 ARMOR_METALPLATE = "笨重，但防护效果出奇地好。",
                 METALPLATEHAT = "看起来像是殖民者会戴的东西。",
+                SMELTER = "对金属进行加工。",
+                BLUNDERBUSS = "落后而先进的暴力工具。",
 
-                BLUNDERBUSS = "",
+                THUNDERBIRD = "积攒静电过多的典型案例。",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
 
                 LAWNORNAMENT = {
-                    GENERIC = "",
-                    BURNING = "",
-                	BURNT = "",
+                    GENERIC = "好吧，那至少是某人的成果。",
+                    BURNING = "失火了！",
+                	BURNT = "也许下次会更好。",
                 },
             },
         },
@@ -217,7 +264,28 @@ local strings = {
 
             ANNOUNCE_SUITUP = "芜——湖！太好玩辣！",
 
+            --new
+            --ANNOUNCE_GNATS_DIED="",
+
             DESCRIBE = {
+                GRASS_TALL = {
+                    BURNING = "哎呀呀，烧着了。",
+                    GENERIC = "坚固的高草丛，真不错。",
+                    PICKED = "没了，全没了。",
+                },        
+                SHEARS = "咔嚓咔嚓，枝叶落下。",
+
+                PEAGAWK = {
+                    GENERIC = "你肯定看到过很多吧？",
+                    SLEEPING = "哼，咱们闭上眼睛休息会？",
+                },
+                PEAGAWKFEATHER = "小孔雀的羽毛。",
+                PEAGAWK_BUSH = "哼，这点把戏骗不过我。",        
+
+                WEEVOLE = "不要咬我！",
+                WEEVOLE_CARAPACE = "它们残留的盔甲。",
+                ARMOR_WEEVOLE = "要起鸡皮疙瘩了。",
+
                 ALOE = "可以内服也可以外敷，我选择外敷。",
                 ALOE_COOKED = "对凡人们脆弱的身体有好处。",
                 ALOE_PLANTED = "是芦荟，凡人的食物。",
@@ -331,12 +399,7 @@ local strings = {
                 GNAT = "别让它们钻到我的皮毛里！",
 
                 TUBERTREE = "这可不是不同的树。",
-                --[[
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
-                ]]
+                
                 IRON = "呼，差点烫到我了。",
                 
                 CUTNETTLE = "光是闻一闻就能让我的鼻子通气了。",
@@ -356,11 +419,16 @@ local strings = {
                 HALBERD = "真是把恶毒的武器。",
                 ARMOR_METALPLATE = "可怕的酷刑。",
                 METALPLATEHAT = "我的角要被烤焦了！",
-
-                --BLUNDERBUSS = "战争从未改变。",
-
+                SMELTER = "这并没有让它们变得更好。",
+                BLUNDERBUSS = "战争从未改变。",
+                
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
+                
                 LAWNORNAMENT = {
-                    GENERIC = "",
+                    GENERIC = "给寻常的草坪增添一点特色。",
                     BURNING = "",
                 	BURNT = "",
                 },
@@ -400,7 +468,28 @@ local strings = {
 
             ANNOUNCE_SUITUP = "浮浪特 格勒苏 浮路特！",--鱼人守卫战斗台词“为了鱼人的荣耀”
 
+            --new
+            --ANNOUNCE_GNATS_DIED="",
+
             DESCRIBE = {
+                GRASS_TALL = {
+                    BURNING = "火！是火！",
+                    GENERIC = "格勒格……拔不动。",
+                    PICKED = "已经割干净了。",
+                },        
+                SHEARS = "给植物做造型。",
+
+                PEAGAWK = {
+                    GENERIC = "大怪鸟。",
+                    SLEEPING = "大怪鸟睡着了？",
+                },
+                PEAGAWKFEATHER = "上面有大怪鸟的眼睛。",
+                PEAGAWK_BUSH = "漂亮的羽毛灌木。",
+
+                WEEVOLE = "走开走开！",
+                WEEVOLE_CARAPACE = "坚硬的虫壳。",
+                ARMOR_WEEVOLE = "漂亮又舒服。",
+
                 ALOE = "又甜又黏。",
                 ALOE_COOKED = "但这尝起来不像药啊，薇克巴顿女士。",
                 ALOE_PLANTED = "格，没见过的小吃。",
@@ -487,7 +576,7 @@ local strings = {
                 BRAMBLE_BULB="现在它归我了！",
                 BRAMBLE_CORE="坏植物头头！坏！",
 
-                ROOTTRUNK_CHILD = "",
+                ROOTTRUNK_CHILD = "藤蔓缠住了箱子。",
 
                 CHITIN="坚硬的皮。",
 
@@ -514,12 +603,7 @@ local strings = {
                 GNAT = "太多了！",
     
                 TUBERTREE = "薇克巴顿女士！我们该怎么把它砍倒？",
-                --[[
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
-                ]]
+
                 IRON = "红色的硬石头。",
 
                 CUTNETTLE = "它钻进我的鼻子里了！",
@@ -539,8 +623,13 @@ local strings = {
                 HALBERD = "猪人用的奇怪武器。",
                 ARMOR_METALPLATE = "坚固，但好重。",
                 METALPLATEHAT = "是维克巴顿女士书里的帽子！",
-
+                SMELTER = "烫烫烫！",
                 BLUNDERBUSS = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
 
                 LAWNORNAMENT = {
                     GENERIC = "",
@@ -583,7 +672,28 @@ local strings = {
 
             ANNOUNCE_SUITUP = "现在我是钢铁人！",
 
+            --new
+            --ANNOUNCE_GNATS_DIED="",
+
             DESCRIBE = {
+                GRASS_TALL = {
+                    BURNING = "嘿，灌木丛火灾会烧毁雨林！",
+                    GENERIC = "一片茂盛的草地，里面一定有很多虫子。",
+                    PICKED = "过一段时间再来采集吧。",
+                },        
+                SHEARS = "园丁的小帮手。",
+
+                PEAGAWK = {
+                    GENERIC = "哇塞，这有多少只眼睛啊？",
+                    SLEEPING = "沃比，我们也许可以在它睡着的时候采集它的羽毛。",
+                },        
+                PEAGAWKFEATHER = "方法是有效的。",
+                PEAGAWK_BUSH = "这种鸟不会飞，但是会变成灌木丛！",
+
+                WEEVOLE = "嘿！找到你了！",
+                WEEVOLE_CARAPACE = "我们把它收起来吧，可能会有用。",
+                ARMOR_WEEVOLE = "我们真的要穿它吗？",
+
                 ALOE = "芦荟的用途也包括食用。",
                 ALOE_COOKED = "这样应该会更美味。",
                 ALOE_PLANTED = "我认识这个！是芦荟！有很多好用途。",
@@ -697,12 +807,7 @@ local strings = {
                 GNAT = "酷！但...也许我们应该退后一点？",
 
                 TUBERTREE = "这是防风草吗？",
-                --[[
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
-                ]]
+
                 IRON = "那是铁吗？",
                 
                 CUTNETTLE = "嗷！它划到我了。",
@@ -722,8 +827,13 @@ local strings = {
                 HALBERD = "一把巨大的斧头！",
                 ARMOR_METALPLATE = "穿上这个就没有东西能伤到我了！",
                 METALPLATEHAT = "看起来真滑稽。",
-
+                SMELTER = "一口大铁锅，懂吗？铁锅。",
                 BLUNDERBUSS = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
 
                 LAWNORNAMENT = {
                     GENERIC = "",
@@ -766,7 +876,28 @@ local strings = {
 
             ANNOUNCE_SUITUP = "只是时间问题！！！",
 
+            --new
+            --ANNOUNCE_GNATS_DIED="",
+
             DESCRIBE = {
+                GRASS_TALL = {
+                    BURNING = "这可不好。",
+                    GENERIC = "如此坚韧的草确实不常见。",
+                    PICKED = "假以时日，它还会长回来的。",
+                },
+                SHEARS = "我可不会把时间浪费在这上面。",
+
+                PEAGAWK = {
+                    GENERIC = "非礼勿视！",
+                    SLEEPING = "它应该没有在看我了吧？",
+                },
+                PEAGAWKFEATHER = "真是令人难以直视。",
+                PEAGAWK_BUSH = "真是聪明的伪装。",
+
+                WEEVOLE = "我记得它会咬人。",
+                WEEVOLE_CARAPACE = "恶，散发着奇怪的气味。",
+                ARMOR_WEEVOLE = "闻起来不怎么样，但没时间讲究那么多了。",
+
                 ALOE = "这可是好东西。",
                 ALOE_COOKED = "趁热吃吧。",
                 ALOE_PLANTED = "我们摘走它吧，这可能是最后一个了。",
@@ -880,12 +1011,7 @@ local strings = {
                 GNAT = "它在恼人方面达到了新的高度。",
 
                 TUBERTREE = "我们需要专门的工具来砍倒它。",
-                --[[
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
-                ]]
+
                 IRON = "精确钟表的必备材料。",
 
                 CUTNETTLE = "这能让我们保持呼吸顺畅。",
@@ -905,13 +1031,18 @@ local strings = {
                 HALBERD = "我的对手可不是一片树林。",--Aatrox
                 ARMOR_METALPLATE = "我还是更喜欢魔法。",
                 METALPLATEHAT = "很不错，但对于一顶帽子来说着实太重了。",
-
+                SMELTER = "把金属熔化到一起。",
                 BLUNDERBUSS = "",
 
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
+
                 LAWNORNAMENT = {
-                    GENERIC = "",
-                    BURNING = "",
-                	BURNT = "",
+                    GENERIC = "真不错。",
+                    BURNING = "嘿！那是我的草坪！",
+                	BURNT = "我希望还能够退款。",
                 },
             },
         },

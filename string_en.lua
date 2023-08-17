@@ -1,8 +1,33 @@
 
 local strings = {
     CHARACTERS = {
-        WINONA = {
-            --[[
+        --[[
+        --ds
+        GENERIC= {ANNOUNCE_GNATS_DIED="",},--我们真要这么做？
+        WILLOW = {ANNOUNCE_GNATS_DIED="",},
+        WOLFGANG = {ANNOUNCE_GNATS_DIED="",},
+        WENDY = {ANNOUNCE_GNATS_DIED="",},
+        WX78 = {ANNOUNCE_GNATS_DIED="",},
+        WICKERBOTTOM = {ANNOUNCE_GNATS_DIED="",},
+        WOODIE = {ANNOUNCE_GNATS_DIED="",},
+        WAXWELL = {ANNOUNCE_GNATS_DIED="",},
+        WAGSTAFF = {ANNOUNCE_GNATS_DIED="",},
+        --rog
+        WATHGRITHR = {ANNOUNCE_GNATS_DIED="",},
+        WEBBER = {ANNOUNCE_GNATS_DIED="",},
+        --sw
+        WALANI = {ANNOUNCE_GNATS_DIED="",},
+        WARLY = {ANNOUNCE_GNATS_DIED="",},
+        WILBUR = {ANNOUNCE_GNATS_DIED="",},
+        WOODLEGS = {ANNOUNCE_GNATS_DIED="",},
+        --ham
+        WARBUCKS = {ANNOUNCE_GNATS_DIED="",},
+        WORMWOOD = {ANNOUNCE_GNATS_DIED="",},
+        WILBA = {ANNOUNCE_GNATS_DIED="",},
+        WHEELER = {ANNOUNCE_GNATS_DIED="",},
+        ]]
+        --dst
+        WINONA = {--[[
             ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--unuse
             ANNOUCE_ALARMOVER = "呼，平安度过。",
             ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",
@@ -36,7 +61,28 @@ local strings = {
 
             ANNOUNCE_SUITUP = "Fully armed!",
 
+            --new
+            --ANNOUNCE_GNATS_DIED="",
+
             DESCRIBE = {
+                GRASS_TALL = {
+                    BURNING = "A Grass fire!",
+                    GENERIC = "That's some... very tall grass.",
+                    PICKED = "All work is done.",
+                },        
+                SHEARS = "Shears for gardening.",
+
+                PEAGAWK = {
+                    GENERIC = "Always be vigilant.",
+                    SLEEPING = "It let down its guard.",
+                },        
+                PEAGAWKFEATHER = "It's still looking at me.",
+                PEAGAWK_BUSH = "A vigilant bush, how strange!",
+
+                WEEVOLE = "Once you've dealt with bedbugs, weevils aren't so bad.",
+                WEEVOLE_CARAPACE = "It can be regarded as clean.",
+                ARMOR_WEEVOLE = "Not very comfortable, just let it go.",
+                
                 ALOE = "Is it health benefits?",
                 --ALOE_COOKED = "应该不会有问题，尝试一下吧。",
                 ALOE_PLANTED = "A weird plant.",
@@ -149,12 +195,7 @@ local strings = {
                 GNAT = "Get away from me!",
 
                 TUBERTREE = "A giant ginger I guess?",
-                --[[
-                THUNDERBIRD = "A classic case of over much static electricity.",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
-                ]]
+
                 IRON = "Invaluable material for manufacturing useful tools.",
 
                 --CUTNETTLE = "保持呼吸顺畅、提神醒脑。",--item
@@ -172,17 +213,21 @@ local strings = {
 
                 ALLOY = "Proper processing makes it better.",
                 HALBERD = "More suited to combat than to work.",
-                --[[ARMOR_METALPLATE = "笨重，但防护效果出奇地好。",
-                METALPLATEHAT = "看起来像是殖民者会戴的东西。",
+                --ARMOR_METALPLATE = "笨重，但防护效果出奇地好。",
+                --METALPLATEHAT = "看起来像是殖民者会戴的东西。",
+                SMELTER = "Process the metallic material",
+                BLUNDERBUSS = "Backward and advanced tools of violence.",
 
-                BLUNDERBUSS = "",
+                THUNDERBIRD = "A classic case of over much static electricity.",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
 
                 LAWNORNAMENT = {
-                    GENERIC = "",
-                    BURNING = "",
-                	BURNT = "",
+                    GENERIC = "Well, it's someone's work after all.",
+                    BURNING = "It's fire!",
+                	BURNT = "Maybe next time better.",
                 },
-                ]]
             },
         },
         WORTOX = {
@@ -221,7 +266,28 @@ local strings = {
 
             ANNOUNCE_SUITUP = "Wo——Ho! So much fun!",
 
+            --new
+            --ANNOUNCE_GNATS_DIED="",
+
             DESCRIBE = {
+                GRASS_TALL = {
+                    BURNING = "Oops, it's burning.",
+                    GENERIC = "Solid tall grass, really nice.",
+                    PICKED = "Gone, all gone.",
+                },        
+                SHEARS = "Click, click, leaves drop.",
+
+                PEAGAWK = {
+                    GENERIC = "You must have seen a lot, right?",
+                    SLEEPING = "Huh, let's close our eyes and take a break?",
+                },
+                PEAGAWKFEATHER = "Feather of little peacock.",
+                PEAGAWK_BUSH = "Well, this trick can't fool me.",        
+
+                WEEVOLE = "don't bite me!",
+                WEEVOLE_CARAPACE = "What remains of their armor.",
+                ARMOR_WEEVOLE = "I'm getting goosebumps.",
+
                 --ALOE = "可以内服也可以外敷，我选择外敷。",
                 --ALOE_COOKED = "对凡人们脆弱的身体有好处。",
                 --ALOE_PLANTED = "是芦荟，凡人的食物。",
@@ -291,20 +357,20 @@ local strings = {
                 PORKLAND_INTRO_TRUNK = "这堆东西现在更谈不上\"珍贵\"了。",
                 PORKLAND_INTRO_SUITCASE = "这堆东西现在更谈不上\"珍贵\"了。", --ancient rune joke
                 PORKLAND_INTRO_FLAGS = "一场好派对的必需品。",
-                PORKLAND_INTRO_SANDBAG = "对于丢人玩来说太重了。",
+                PORKLAND_INTRO_SANDBAG = "对于丢人玩来说太重了。",]]
 
                 GLOWFLY={
-                    GENERIC="闪亮的小家伙。",
-                    SLEEPING="做个好梦吧。",
+                    --GENERIC="闪亮的小家伙。",
+                    --SLEEPING="做个好梦吧。",
                     DEAD="I'm sorry.",--how to examine it?
                 },
-                GLOWFLY_COCOON="会变成什么样呢？",
+                --GLOWFLY_COCOON="会变成什么样呢？",
                 RABID_BEETLE={
-                    GENERIC="真有精力，来跳支舞吗？",
-                    SLEEPING="那就中场休息。",
+                    --GENERIC="真有精力，来跳支舞吗？",
+                    --SLEEPING="那就中场休息。",
                     DEAD="A pity.",--how to examine it?
                 },
-                TREE_PILLAR="遮天蔽日。",
+                --[[TREE_PILLAR="遮天蔽日。",
                 FLOWER_RAINFOREST="有一种野性的美。",
 
                 BRAMBLESPIKE="这些刺可拦不住我。",
@@ -338,12 +404,7 @@ local strings = {
                 GNAT = "Don't let them into my fur!",
 
                 --TUBERTREE = "这可不是普通的树。",
-                --[[
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
-                ]]
+
                 IRON = "Oooh. Almost burned me.",
 
                 --CUTNETTLE = "光是闻一闻就能让我的鼻子通气了。",--item
@@ -363,14 +424,19 @@ local strings = {
                 HALBERD = "What a vicious weapon.",
                 ARMOR_METALPLATE = "A terrible torture.",
                 METALPLATEHAT = "My horns are burning!",
-
+                SMELTER = "It doesn't make them any better.",
                 BLUNDERBUSS = "War never changes.",
 
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
+                --[[
                 LAWNORNAMENT = {
-                    GENERIC = "",
+                    GENERIC = "给寻常的草坪增添一些特色。",
                     BURNING = "",
                 	BURNT = "",
-                },
+                },]]
             },
         },
         WURT = {
@@ -407,8 +473,29 @@ local strings = {
             ANNOUNCE_NOTHING_FOUND = "Is it too far?",
 
             ANNOUNCE_SUITUP = "Flort Glurtsu flut!",--Merm gurad line "For glory of Mermfolk!" on merm sound
+
+            --new
+            --ANNOUNCE_GNATS_DIED="",
             
             DESCRIBE = {
+                GRASS_TALL = {
+                    BURNING = "Fire! Is fire!",
+                    GENERIC = "Glurgh... can't move.",
+                    PICKED = "It has been cut clean.",
+                },        
+                SHEARS = "Shape the plants.",
+
+                PEAGAWK = {
+                    GENERIC = "Big weird bird.",
+                    SLEEPING = "Is big weird bird sleep?",
+                },
+                PEAGAWKFEATHER = "There are big weird eye on it.",
+                PEAGAWK_BUSH = "Pretty feather bush.",
+
+                WEEVOLE = "go away go away!",
+                WEEVOLE_CARAPACE = "hard shell.",
+                ARMOR_WEEVOLE = "Nice and pretty.",
+
                 ALOE = "Sweet and stick.",
                 ALOE_COOKED = "But it don't taste like medicine. Ms. Wickerbottom.",
                 ALOE_PLANTED = "Grrr, snack never seen.",
@@ -496,7 +583,7 @@ local strings = {
                 BRAMBLE_BULB="Now it's my!",
                 BRAMBLE_CORE="Bad plant boss! Bad!",
 
-                ROOTTRUNK_CHILD = "",
+                ROOTTRUNK_CHILD = "Vines haunt the box.",
 
                 --CHITIN="坚硬的皮。",
                 
@@ -523,12 +610,7 @@ local strings = {
                 GNAT = "Too many!",
 
                 TUBERTREE = "Ms. Wickbottom! How do we cut it down?",
-                --[[
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
-                ]]
+
                 IRON = "Red hard rock.",
 
                 CUTNETTLE = "It into my nose!",
@@ -544,12 +626,17 @@ local strings = {
                 MEATED_NETTLE = "Why?",
                 NETTLELOSANGE = "little spicy.",
 
-                --ALLOY = "石头变得更硬了。",
+                ALLOY = "Rock is harder.",
                 HALBERD = "Strange weapon used by Pigfolk.",
                 --ARMOR_METALPLATE = "坚固，但好重。",
                 METALPLATEHAT = "The hat from Ms. Wickerbottom's book!",
-
+                SMELTER = "Hot! Hot! Hot!",
                 BLUNDERBUSS = "",
+
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
 
                 LAWNORNAMENT = {
                     GENERIC = "",
@@ -589,11 +676,32 @@ local strings = {
             ANNOUNCE_ROOM_STUCK = "We'll be trapped in this room!",
             
             --ANNOUNCE_TAXDAY = "到收取管理费用的日子了。",
-            ANNOUNCE_NOTHING_FOUND = "Mrs.Wheeler! It doesn't work!",
+            ANNOUNCE_NOTHING_FOUND = "Ms.Wheeler! It doesn't work!",
 
             ANNOUNCE_SUITUP = "Now I am Iron man!",
 
+            --new
+            --ANNOUNCE_GNATS_DIED="",
+
             DESCRIBE = {
+                GRASS_TALL = {
+                    BURNING = "Hey! Brush fires will destroy rainforests!",
+                    GENERIC = "A lush patch of grass. Must be a lot of bugs in it.",
+                    PICKED = "Collect again after a while.",
+                },        
+                SHEARS = "Gardener's little helper.",
+
+                PEAGAWK = {
+                    GENERIC = "Wow, how many eyes are there?",
+                    SLEEPING = "Woby, we might be able to gather his feathers while he's asleep.",
+                },        
+                PEAGAWKFEATHER = "method is valid.",
+                PEAGAWK_BUSH = "This bird can't fly, but turns into a bush!",
+
+                WEEVOLE = "Hey! Got you!",
+                WEEVOLE_CARAPACE = "Let's put it away, it might be useful.",
+                ARMOR_WEEVOLE = "Are we really going to wear it?",
+
                 --ALOE = "芦荟的用途也包括食用。",
                 --ALOE_COOKED = "这样应该会更美味。",
                 --ALOE_PLANTED = "我认识这个！是芦荟！有很多好用途。",
@@ -714,11 +822,6 @@ local strings = {
 
                 TUBERTREE = "A parsnip?",
                 --[[
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
-
                 IRON = "那是铁吗？",
 
                 CUTNETTLE = "嗷！它划到我了。",
@@ -737,9 +840,14 @@ local strings = {
                 ALLOY = "是钢铁！看我炼出的钢铁！",
                 HALBERD = "一把巨大的斧头！",
                 ARMOR_METALPLATE = "穿上这个就没有东西能伤到我了！",
-                METALPLATEHAT = "看起来真滑稽。",
+                METALPLATEHAT = "看起来真滑稽。",]]
+                SMELTER = "A lrage iron pot. got it? Iron pot.",
+                --[[BLUNDERBUSS = "",
 
-                BLUNDERBUSS = "",
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
 
                 LAWNORNAMENT = {
                     GENERIC = "",
@@ -784,7 +892,29 @@ local strings = {
 
             ANNOUNCE_SUITUP = "Just matter of TIME!!!",
 
+            --new
+            --ANNOUNCE_GNATS_DIED="",
+
             DESCRIBE = {
+                GRASS_TALL = {
+                    BURNING = "This is not good.",
+                    GENERIC = "Grasses this tough are indeed uncommon.",
+                    PICKED = "Over time, it will grow back.",
+                },
+                SHEARS = "I won't waste my time on this.",
+
+                PEAGAWK = {
+                    GENERIC = "See no evil!",
+                    SLEEPING = "Shouldn't it be looking at me?",
+                },
+                PEAGAWKFEATHER = "It's hard to see.",
+                PEAGAWK_BUSH = "What a clever disguise.",
+
+                TREE_PILLAR = "Thankfully it doesn't completely block the sun.",
+                WEEVOLE = "I remember it biting.",
+                WEEVOLE_CARAPACE = "Eww, exudes a strange smell.",
+                ARMOR_WEEVOLE = "It smell awful, but there's no time to dwell on that much.",
+
                 --ALOE = "这可是好东西。",
                 --ALOE_COOKED = "趁热吃吧。",
                 --ALOE_PLANTED = "我们摘走它吧，这可能是最后一个了。",
@@ -899,11 +1029,6 @@ local strings = {
 
                 TUBERTREE = "我们需要专门的工具来砍倒它。",
 
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
-
                 IRON = "精确钟表的必备材料。",
 
                 CUTNETTLE = "这能让我们保持呼吸顺畅。",--item]]
@@ -923,14 +1048,19 @@ local strings = {
                 HALBERD = "I'm not planning on murdering grove of trees.",--Aatrox
                 --ARMOR_METALPLATE = "我还是更喜欢魔法。",
                 --METALPLATEHAT = "很不错，但对于一顶帽子来说着实太重了。",
-
+                SMELTER = "",
                 BLUNDERBUSS = "",
 
+                THUNDERBIRD = "",
+                THUNDERBIRDNEST = "",
+                FEATHER_THUNDER = "", 
+                THUNDERHAT = "",
+                --[[
                 LAWNORNAMENT = {
-                    GENERIC = "",
-                    BURNING = "",
-                	BURNT = "",
-                },
+                    GENERIC = "真不错。",
+                    BURNING = "嘿！那是我的草坪！",
+                	BURNT = "我希望还能够退款。",
+                },]]
             },
         },
         --New Characters
