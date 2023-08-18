@@ -1,31 +1,168 @@
 
 local strings = {
     CHARACTERS = {
-        --[[
         --ds
-        GENERIC= {ANNOUNCE_GNATS_DIED="",},--我们真要这么做？
-        WILLOW = {ANNOUNCE_GNATS_DIED="",},
-        WOLFGANG = {ANNOUNCE_GNATS_DIED="",},
-        WENDY = {ANNOUNCE_GNATS_DIED="",},
-        WX78 = {ANNOUNCE_GNATS_DIED="",},
-        WICKERBOTTOM = {ANNOUNCE_GNATS_DIED="",},
-        WOODIE = {ANNOUNCE_GNATS_DIED="",},
-        WAXWELL = {ANNOUNCE_GNATS_DIED="",},
-        WAGSTAFF = {ANNOUNCE_GNATS_DIED="",},
+        --真的吗？
+        GENERIC= {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "我闻到了冶炼的气味！",--原台词
+                    DONE = "搞定！",
+                    COOKING_SHORT = "这还需要一点时间。",--烹饪锅
+                    BURNT = "炉子给烧没了。",--烹饪锅
+                },
+            },
+        },
+        WILLOW = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "哦耶！现在我能烧金属了！",--原台词
+                    DONE = "我们什么时候再来一次？",
+                    COOKING_SHORT = "火的工作就快完成了！",--烹饪锅
+                    BURNT = "好吧，这是有一点点过火了。",
+                },
+            },
+        },
+        WOLFGANG = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "沃尔夫冈抬起它毫不费力。",
+                    DONE = "火让金属变成小方块。",--原台词翻译优化
+                    COOKING_SHORT = "快融化了！",--烹饪锅
+                    BURNT = "炉子没了。",
+                },
+            },
+        },
+        WENDY = {
+            --以我的英文水平，英文版可能就不那么好看咯:P
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "灼伤深陷其中的人们...",
+                    DONE = "浴火重生。",
+                    COOKING_SHORT = "它们在地狱的业火中挣扎。",
+                    BURNT = "它燃烧得比我想的更加激烈。",--原台词
+                },
+            },
+        },
+        WX78 = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "你好，朋友",--原台词
+                    DONE = "收到返回值",
+                    COOKING_SHORT = "朋友正以最大功率输出",
+                    BURNT = "遗憾，我的朋友",
+                },
+            },
+        },
+        WICKERBOTTOM = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "金属锻造熔炼工具。",--原台词
+                    DONE = "再冷却，完成！",
+                    COOKING_SHORT = "金属正在融化为液态。",
+                    BURNT = "有人受伤吗？",
+                },
+            },
+        },
+        WOODIE = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "就像一个巨大的糖浆桶。",
+                    DONE = "哼。为一点金属兴师动众。",--原台词
+                    COOKING_SHORT = "我的乖乖！马上就好了！",--烹饪锅
+                    BURNT = "它怎么会烧着呢？！",--科学机器
+                },
+            },
+        },
+        WAXWELL = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "我们终于步入了铁器时代。",--原台词
+                    DONE = "艰难的成果。",
+                    COOKING_SHORT = "看好了！别让火熄灭。",
+                    BURNT = "重返石器时代。",
+                },
+            },
+        },
         --rog
-        WATHGRITHR = {ANNOUNCE_GNATS_DIED="",},
-        WEBBER = {ANNOUNCE_GNATS_DIED="",},
+        WATHGRITHR = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "矮人的工具。",--原台词
+                    DONE = "现在请为我铸造利刃吧！",
+                    COOKING_SHORT = "耐心是优秀战士的必备品质。",
+                    BURNT = "我的角色是战士而不是工匠。",
+                },
+            },
+        },
+        WEBBER = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "用材料制作材料。",
+                    DONE = "完成了！",
+                    COOKING_SHORT = "呀，好烫！",--原台词
+                    BURNT = "全烧光了。",
+                },
+            },
+        },
         --sw
-        WALANI = {ANNOUNCE_GNATS_DIED="",},
-        WARLY = {ANNOUNCE_GNATS_DIED="",},
-        WILBUR = {ANNOUNCE_GNATS_DIED="",},
-        WOODLEGS = {ANNOUNCE_GNATS_DIED="",},
-        --ham
-        WARBUCKS = {ANNOUNCE_GNATS_DIED="",},
-        WORMWOOD = {ANNOUNCE_GNATS_DIED="",},
-        WILBA = {ANNOUNCE_GNATS_DIED="",},
-        WHEELER = {ANNOUNCE_GNATS_DIED="",},
-        ]]
+        WALANI = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "就让它来为我完成全部的冶炼工作。",--原台词
+                    DONE = "做的好，兄弟们。",
+                    COOKING_SHORT = "它把自己烧得通红。",
+                    BURNT = "这就是你急功近利的结果。",
+                },
+            },
+        },
+        WARLY = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "闻起来不是很好。",--原台词
+                    DONE = "新鲜出炉！小心烫。",
+                    COOKING_SHORT = "风味正在熔合。",
+                    BURNT = "我更擅长烹饪食物，而不是金属。",
+                },
+            },
+        },
+        WOODLEGS = {
+            --吐字清晰！求你了！
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "一架冶炼钢铁的炮台。",--原台词
+                    DONE = "她准备好开炮了！",
+                    COOKING_SHORT = "很快就会烧好了。",
+                    BURNT = "炸膛！",
+                },
+            },
+        },
+        --ham-
+        WORMWOOD = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                IRON = "叮当响的石头",
+                SMELTER = {
+                    EMPTY = "煮叮当响石头的锅",
+                    DONE = "好了！",
+                    COOKING_SHORT = "太热了！太热了！",--原台词
+                    BURNT = "全都没了",
+                },
+            },
+        },
         --dst
         WINONA = {
             ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--unuse
@@ -215,7 +352,12 @@ local strings = {
                 HALBERD = "更适合战斗而不是工作。",
                 ARMOR_METALPLATE = "笨重，但防护效果出奇地好。",
                 METALPLATEHAT = "看起来像是殖民者会戴的东西。",
-                SMELTER = "对金属进行加工。",
+                SMELTER = {
+                    EMPTY = "对金属进行加工。",
+                    DONE = "下工！",
+                    COOKING_SHORT = "罗马不是一天建成的。",
+                    BURNT = "忘记了消防守则，是不是？",
+                },
                 BLUNDERBUSS = "落后而先进的暴力工具。",
 
                 THUNDERBIRD = "积攒静电过多的典型案例。",
@@ -228,6 +370,7 @@ local strings = {
                     BURNING = "失火了！",
                 	BURNT = "也许下次会更好。",
                 },
+                SPRINKLER = "自动给我的农场送水。",
             },
         },
         WORTOX = {
@@ -419,7 +562,12 @@ local strings = {
                 HALBERD = "真是把恶毒的武器。",
                 ARMOR_METALPLATE = "可怕的酷刑。",
                 METALPLATEHAT = "我的角要被烤焦了！",
-                SMELTER = "这并没有让它们变得更好。",
+                SMELTER = {
+                    EMPTY = "把讨厌的铁放进去烧。",
+                    DONE = "这并没有让它们变得更好。",
+                    COOKING_SHORT = "它们现在更烫了。",
+                    BURNT = "我不知道它们对石头来说也很烫。",
+                },
                 BLUNDERBUSS = "战争从未改变。",
                 
                 THUNDERBIRD = "",
@@ -429,9 +577,10 @@ local strings = {
                 
                 LAWNORNAMENT = {
                     GENERIC = "给寻常的草坪增添一点特色。",
-                    BURNING = "",
-                	BURNT = "",
+                    BURNING = "草坪上最后的风光。",
+                	BURNT = "化为尘土。",
                 },
+                SPRINKLER = "凡人们自己的呼风唤雨。",
             },
         },
         WURT = {
@@ -623,8 +772,13 @@ local strings = {
                 HALBERD = "猪人用的奇怪武器。",
                 ARMOR_METALPLATE = "坚固，但好重。",
                 METALPLATEHAT = "是维克巴顿女士书里的帽子！",
-                SMELTER = "烫烫烫！",
-                BLUNDERBUSS = "",
+                SMELTER = {
+                    EMPTY = "放什么东西进去？",
+                    DONE = "完成了！",
+                    COOKING_SHORT = "烫烫烫！",
+                    BURNT = "格浪浮，毁掉了。",
+                },
+                BLUNDERBUSS = "可怕的喷火筒！",
 
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
@@ -632,10 +786,11 @@ local strings = {
                 THUNDERHAT = "",
 
                 LAWNORNAMENT = {
-                    GENERIC = "",
-                    BURNING = "",
-                	BURNT = "",
+                    GENERIC = "好看的小树。",
+                    BURNING = "小树着火了！",
+                	BURNT = "再也没有好看的小树了。",
                 },
+                SPRINKLER = "耶！下雨！",
             },
         },
         WALTER = {
@@ -823,12 +978,17 @@ local strings = {
                 MEATED_NETTLE = "这样也只是好了一点点。",
                 NETTLELOSANGE = "呃，又苦又辣。",
 
-                ALLOY = "是钢铁！看我炼出的钢铁！",
+                ALLOY = "是合金！看我炼出的合金！",
                 HALBERD = "一把巨大的斧头！",
                 ARMOR_METALPLATE = "穿上这个就没有东西能伤到我了！",
                 METALPLATEHAT = "看起来真滑稽。",
-                SMELTER = "一口大铁锅，懂吗？铁锅。",
-                BLUNDERBUSS = "",
+                SMELTER = {
+                    EMPTY = "一口大铁锅，懂吗？铁锅。",
+                    DONE = "看看我们炼出了什么！",
+                    COOKING_SHORT = "这里面发生了什么？我想仔细看看。",
+                    BURNT = "烧的有点过了！",
+                },
+                BLUNDERBUSS = "里面在爆炸，酷！",
 
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
@@ -836,10 +996,11 @@ local strings = {
                 THUNDERHAT = "",
 
                 LAWNORNAMENT = {
-                    GENERIC = "",
-                    BURNING = "",
-                	BURNT = "",
+                    GENERIC = "给城市带来更多花样。",
+                    BURNING = "不能在草坪上生火！",
+                	BURNT = "这下可闯大祸了。",
                 },
+                SPRINKLER = "它会帮我们照顾好草坪的！",
             },
         },
         WANDA = {
@@ -1031,8 +1192,13 @@ local strings = {
                 HALBERD = "我的对手可不是一片树林。",--Aatrox
                 ARMOR_METALPLATE = "我还是更喜欢魔法。",
                 METALPLATEHAT = "很不错，但对于一顶帽子来说着实太重了。",
-                SMELTER = "把金属熔化到一起。",
-                BLUNDERBUSS = "",
+                SMELTER = {
+                    EMPTY = "把金属熔化到一起。",
+                    DONE = "完事！",
+                    COOKING_SHORT = "好在这不会花费我太多时间。",
+                    BURNT = "我们有好好使用它吗。",
+                },
+                BLUNDERBUSS = "噢...这可不是个好兆头。",
 
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
@@ -1044,10 +1210,10 @@ local strings = {
                     BURNING = "嘿！那是我的草坪！",
                 	BURNT = "我希望还能够退款。",
                 },
+                SPRINKLER = "节省我宝贵的时间。",
             },
         },
-        --New Characters
-        --[[
+        --New Characters for us
         WAGSTAFF = {
             --戴各种眼镜的台词，可能会用得到。
 
@@ -1068,16 +1234,19 @@ local strings = {
             --启迪皇冠
             --ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "无限的洞察力！我甚至能看到世界的纤维在律动！",
 
-            --单机版那些，放在这里做参考。
-            --ANNOUNCE_PUTONGOGGLES_GOGGLESARMORHAT = "现在我的颅骨已被保护起来以备战斗。", --"My cranium is now safeguarded for combat."
-            --ANNOUNCE_PUTONGOGGLES_GOGGLESHEATHAT = "我透过红线眼镜看这个世界。", --"I see the world through infrared colored glasses."
-            --ANNOUNCE_PUTONGOGGLES_GOGGLESNORMALHAT = "哈！当你能看清这个世界时，才能感受它更多有趣的地方。", --"Ah! The world is so much more interesting when you can see it!"
-            --ANNOUNCE_PUTONGOGGLES_GOGGLESSHOOTHAT = "现在我可以发射破坏性的电磁辐射。", --"Now I can emit destructive spheres of electromagnetic radiation."
+            --ANNOUNCE_GNATS_DIED="",
 
             DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "真棒啊！也许我也可以在这里建一个工厂。",--原台词
+                    DONE = "这就完成了？太妙了！",
+                    COOKING_SHORT = "我迫不及待进一步了解这些金属的性质了。",
+                    BURNT = "冶炼在这里也是一项危险工程。",
+                },
+
                 --我是火学家，我放火
-                LIGHTER =  "她随身携带的奇怪人造物。火是怎么产生的？", --An odd artifact she carries with her. How it work?
-                BERNIE_ACTIVE = "它会与精神攻击产生反应！真迷人！", --"It responds to psychic attacks! Fascinating!"
+                LIGHTER =  "她随身携带的奇怪人造物。火是怎么产生的？",
+                BERNIE_ACTIVE = "它会与精神攻击产生反应！真迷人！",
                 BERNIE_BIG = "不可思议！它表现得就像一个活物！",
                 BERNIE_INACTIVE = {
                     GENERIC= "有些破旧的小熊玩偶，深受我合作伙伴们的喜爱。",
@@ -1409,7 +1578,7 @@ local strings = {
                 },
                 ALTERGUARDIAN_PHASE2SPIKE = "它生成了额外的增生物，用于确保目标位于杀伤范围内。",
                 ALTERGUARDIAN_PHASE3 = "它的结构以及展开到了极限，这是最后的形态了。",
-                ALTERGUARDIAN_PHASE3TRAP = "它在发射出强大的精神干扰脉冲。",--psychic interference for enlightenment?
+                ALTERGUARDIAN_PHASE3TRAP = "它在发射出强大的精神干扰脉冲。",--psychic overload? override? guidance? or interference? for enlightenment
                 ALTERGUARDIAN_PHASE3DEADORB = "残余的结构已经几乎失去了力量。",
                 ALTERGUARDIAN_PHASE3DEAD = "最后的防护措施，可以被轻易破解。",
 
@@ -1422,7 +1591,7 @@ local strings = {
                 },
 
                 MOONSTORM_STATIC = "",
-                MOONSTORM_STATIC_ITEM = "",
+                MOONSTORM_STATIC_ITEM = "这是我们一会会用到的关键道具。",
                 MOONSTORM_SPARK = "",
 
                 BIRD_MUTANT = "别让他们靠近我的机器！",
@@ -1437,7 +1606,7 @@ local strings = {
                 WAGSTAFF_TOOL_4 = "我的概念刷洗器，以投影形态送到这个位面。",
                 WAGSTAFF_TOOL_5 = "我的校准观察机，以投影形态送到这个位面。",
 
-                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",
+                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",--psychic overload? override? guidance? or interference? for enlightenment
 
                 --单机版各种护目镜的台词，放在这里做参考
                 --GOGGLESARMORHAT = "我这么设计以供我在战斗中研究声音的回响。", --"I designed it so I can study sound reverberations while I'm engaged in combat."
@@ -1452,10 +1621,40 @@ local strings = {
                 },
             },
         },
-        WILBA = {},
-        WHEELER = {},
-        WARBUCKS = {},--really?
-        ]]
+        WILBA = {
+            --CNM，猪人语
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "这是个滚烫的机器",--原台词
+                    DONE = "弄完了",
+                    COOKING_SHORT = "金属在里面燃烧！",
+                    BURNT = "它烧焦了",
+                },
+            },
+        },
+        WHEELER = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "它需要一些重金属来炼出更重的。",--原台词
+                    DONE = "传奇冒险家铸造传奇装备，听起来还不错。",
+                    COOKING_SHORT = "很快就会结束。",
+                    BURNT = "从来没有人指责过我不是一个好铁匠。",
+                },
+            },
+        },
+        WARBUCKS = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "我说，这太聪明了！",--原台词
+                    DONE = "我说！我的努力非常值得。",
+                    COOKING_SHORT = "忍耐是一种美德。",
+                    BURNT = "好吧，现在没什么可干的了。",
+                },
+            },
+        },
     }
 }
 

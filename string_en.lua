@@ -1,31 +1,168 @@
 
 local strings = {
     CHARACTERS = {
-        --[[
         --ds
-        GENERIC= {ANNOUNCE_GNATS_DIED="",},--我们真要这么做？
-        WILLOW = {ANNOUNCE_GNATS_DIED="",},
-        WOLFGANG = {ANNOUNCE_GNATS_DIED="",},
-        WENDY = {ANNOUNCE_GNATS_DIED="",},
-        WX78 = {ANNOUNCE_GNATS_DIED="",},
-        WICKERBOTTOM = {ANNOUNCE_GNATS_DIED="",},
-        WOODIE = {ANNOUNCE_GNATS_DIED="",},
-        WAXWELL = {ANNOUNCE_GNATS_DIED="",},
-        WAGSTAFF = {ANNOUNCE_GNATS_DIED="",},
+        --New strings? really?
+        GENERIC= {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "I smelt that!",--original speech
+                    DONE = "It's done!",
+                    COOKING_SHORT = "This is going to take a while.",--ref cookpot
+                    BURNT = "The smelter got smelted.",--ref cookpot
+                },
+            },
+        },
+        WILLOW = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "Oh yeah! Now I can burn metal.",--original speech
+                    DONE = "When are we do this again?",
+                    COOKING_SHORT = "The fire is doing its thing!",--ref cookpot
+                    BURNT = "Okay, that's a liitle bit too far.",
+                },
+            },
+        },
+        WOLFGANG = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "Wolfgang lifted it without difficulty.",
+                    DONE = "Fire make metal bricks.",--original speech
+                    COOKING_SHORT = "Is almost melt!",--ref cookpot
+                    BURNT = "Smelter is dead.",
+                },
+            },
+        },
+        WENDY = {
+            --better someone to help me retranslate them :P
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "Burn who are trapped in it...",
+                    DONE = "Born of fire.",
+                    COOKING_SHORT = "They struggle in the fire and brimstone.",
+                    BURNT = "It blazes with more passion than I know.",--original speech
+                },
+            },
+        },
+        WX78 = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "HELLO, FRIEND",--original speech
+                    DONE = "RECEIVED RETRUN VALUE",
+                    COOKING_SHORT = "FRIEND ARE OUTPIT AT MAXIMUM POWER",
+                    BURNT = "SORRY, FRIEND",
+                },
+            },
+        },
+        WICKERBOTTOM = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "A metalsmithing tool.",--original speech
+                    DONE = "Recooling and done.",
+                    COOKING_SHORT = "The metal is melting into liquid state.",
+                    BURNT = "Is anyone hurt?",
+                },
+            },
+        },
+        WOODIE = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "It's like a giant maple syrup bucket.",
+                    DONE = "Hrumph. A big production for a little metal.",--original speech
+                    COOKING_SHORT = "Oh boy! Here it comes!",--ref cookpot
+                    BURNT = "How did it get burned?!",--same as science machine
+                },
+            },
+        },
+        WAXWELL = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "Finally we're catching up to the Iron Age.",--original speech
+                    --DONE = "艰难的成果。",
+                    --COOKING_SHORT = "看好了！别让火熄灭。",
+                    BURNT = "Back to the Stone Age.",
+                },
+            },
+        },
         --rog
-        WATHGRITHR = {ANNOUNCE_GNATS_DIED="",},
-        WEBBER = {ANNOUNCE_GNATS_DIED="",},
+        WATHGRITHR = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "The tools of dwarves.",--original speech
+                    DONE = "Now make me a sharp edge!",
+                    --COOKING_SHORT = "耐心是优秀战士的必备品质。",
+                    BURNT = "My role is more warrior than artizan.",
+                },
+            },
+        },
+        WEBBER = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "Make material with material.",
+                    DONE = "It's finished.",
+                    COOKING_SHORT = "Yeesh, that's hot!",--original speech
+                    BURNT = "All burned up.",
+                },
+            },
+        },
         --sw
-        WALANI = {ANNOUNCE_GNATS_DIED="",},
-        WARLY = {ANNOUNCE_GNATS_DIED="",},
-        WILBUR = {ANNOUNCE_GNATS_DIED="",},
-        WOODLEGS = {ANNOUNCE_GNATS_DIED="",},
+        WALANI = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "I'll just let that do all the work for me.",--original speech
+                    DONE = "Well done, bro.",
+                    --COOKING_SHORT = "它把自己烧得通红。",
+                    BURNT = "This is what you get for trying too hard.",
+                },
+            },
+        },
+        WARLY = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "'Smelt' bad, if you ask me.",--original speech
+                    DONE = "Fresh out of the oven! Be careful with the scalding.",
+                    COOKING_SHORT = "The flavors are fusing.",
+                    BURNT = "I'm better at cooking food than metal.",
+                },
+            },
+        },
+        WOODLEGS = {
+            --Omg articulate PLZ!
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "A cannon fer makin' metals.",--original speech
+                    DONE = "She's ready ta fire!",
+                    COOKING_SHORT = "Ye'll be done soon 'nuff.",
+                    BURNT = "Blast the bore!",
+                },
+            },
+        },
         --ham
-        WARBUCKS = {ANNOUNCE_GNATS_DIED="",},
-        WORMWOOD = {ANNOUNCE_GNATS_DIED="",},
-        WILBA = {ANNOUNCE_GNATS_DIED="",},
-        WHEELER = {ANNOUNCE_GNATS_DIED="",},
-        ]]
+        WORMWOOD = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                IRON = "Clinky Rock",
+                SMELTER = {
+                    EMPTY = "Clinky rock cooker",
+                    DONE = "Done!",
+                    COOKING_SHORT = "Hot! Hot!",--original speech
+                    BURNT = "Nothing",
+                },
+            },
+        },
         --dst
         WINONA = {--[[
             ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--unuse
@@ -215,7 +352,12 @@ local strings = {
                 HALBERD = "More suited to combat than to work.",
                 --ARMOR_METALPLATE = "笨重，但防护效果出奇地好。",
                 --METALPLATEHAT = "看起来像是殖民者会戴的东西。",
-                SMELTER = "Process the metallic material",
+                SMELTER = {
+                    EMPTY = "Process the metallic material.",
+                    DONE = "knock off!",
+                    COOKING_SHORT = "Rome was not built in a day.",
+                    --BURNT = "忘记了消防守则，是不是？",
+                },
                 BLUNDERBUSS = "Backward and advanced tools of violence.",
 
                 THUNDERBIRD = "A classic case of over much static electricity.",
@@ -228,6 +370,7 @@ local strings = {
                     BURNING = "It's fire!",
                 	BURNT = "Maybe next time better.",
                 },
+                --SPRINKLER = "自动给我的农场送水。",
             },
         },
         WORTOX = {
@@ -355,7 +498,7 @@ local strings = {
                 PORKLAND_INTRO_BASKET = "哼哼，这不一定是坏事。",
                 PORKLAND_INTRO_BALLOON = "哼哼，这不一定是坏事。",
                 PORKLAND_INTRO_TRUNK = "这堆东西现在更谈不上\"珍贵\"了。",
-                PORKLAND_INTRO_SUITCASE = "这堆东西现在更谈不上\"珍贵\"了。", --ancient rune joke
+                PORKLAND_INTRO_SUITCASE = "这堆东西现在更谈不上\"珍贵\"了。",
                 PORKLAND_INTRO_FLAGS = "一场好派对的必需品。",
                 PORKLAND_INTRO_SANDBAG = "对于丢人玩来说太重了。",]]
 
@@ -424,7 +567,12 @@ local strings = {
                 HALBERD = "What a vicious weapon.",
                 ARMOR_METALPLATE = "A terrible torture.",
                 METALPLATEHAT = "My horns are burning!",
-                SMELTER = "It doesn't make them any better.",
+                SMELTER = {
+                    --EMPTY = "把讨厌的铁放进去烧。",
+                    DONE = "It doesn't make them any better.",
+                    --COOKING_SHORT = "它们现在更烫了。",
+                    BURNT = "I didn't know they were hot to stone.",
+                },
                 BLUNDERBUSS = "War never changes.",
 
                 THUNDERBIRD = "",
@@ -434,9 +582,10 @@ local strings = {
                 --[[
                 LAWNORNAMENT = {
                     GENERIC = "给寻常的草坪增添一些特色。",
-                    BURNING = "",
-                	BURNT = "",
+                    BURNING = "草坪上最后的风光。",
+                	BURNT = "化为尘土。",
                 },]]
+                SPRINKLER = "A mortal's own version of rainmaker.",
             },
         },
         WURT = {
@@ -630,8 +779,13 @@ local strings = {
                 HALBERD = "Strange weapon used by Pigfolk.",
                 --ARMOR_METALPLATE = "坚固，但好重。",
                 METALPLATEHAT = "The hat from Ms. Wickerbottom's book!",
-                SMELTER = "Hot! Hot! Hot!",
-                BLUNDERBUSS = "",
+                SMELTER = {
+                    --EMPTY = "放什么东西进去？",
+                    DONE = "Done!",
+                    COOKING_SHORT = "Hot! Hot! Hot!",
+                    BURNT = "Glurph, ruined.",
+                },
+                --BLUNDERBUSS = "可怕的喷火筒！",
 
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
@@ -639,10 +793,11 @@ local strings = {
                 THUNDERHAT = "",
 
                 LAWNORNAMENT = {
-                    GENERIC = "",
-                    BURNING = "",
-                	BURNT = "",
+                    GENERIC = "Pretty small tree.",
+                    BURNING = "Small tree is fire!",
+                	BURNT = "No more pretty small tree.",
                 },
+                SPRINKLER = "Yeah! Rain!",
             },
         },
         WALTER = {
@@ -760,8 +915,7 @@ local strings = {
 
                 OINC="我的零花钱。",
                 OINC10="我的一点小钱。",
-                OINC100="我的一笔巨款。",
-                ]]
+                OINC100="我的一笔巨款。",]]
 
                 --spawner
                 --[[
@@ -841,8 +995,13 @@ local strings = {
                 HALBERD = "一把巨大的斧头！",
                 ARMOR_METALPLATE = "穿上这个就没有东西能伤到我了！",
                 METALPLATEHAT = "看起来真滑稽。",]]
-                SMELTER = "A lrage iron pot. got it? Iron pot.",
-                --[[BLUNDERBUSS = "",
+                SMELTER = {
+                    EMPTY = "A lrage iron pot. got it? Iron pot.",
+                    --DONE = "看看我们炼出了什么！",
+                    --COOKING_SHORT = "这里面发生了什么？我想仔细看看。",
+                    BURNT = "It's uh... extra done!",
+                },
+                BLUNDERBUSS = "It's exploding in there. Cool!",--[[
 
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
@@ -850,11 +1009,11 @@ local strings = {
                 THUNDERHAT = "",
 
                 LAWNORNAMENT = {
-                    GENERIC = "",
-                    BURNING = "",
-                	BURNT = "",
+                    GENERIC = "给城市带来更多花样。",
+                    BURNING = "不能在草坪上生火！",
+                	BURNT = "这下可闯大祸了。",
                 },
-                ]]
+                SPRINKLER = "它会帮我们照顾好草坪的！",]]
             },
         },
         WANDA = {
@@ -1048,8 +1207,13 @@ local strings = {
                 HALBERD = "I'm not planning on murdering grove of trees.",--Aatrox
                 --ARMOR_METALPLATE = "我还是更喜欢魔法。",
                 --METALPLATEHAT = "很不错，但对于一顶帽子来说着实太重了。",
-                SMELTER = "",
-                BLUNDERBUSS = "",
+                SMELTER = {
+                    --EMPTY = "把金属熔化到一起。",
+                    DONE = "Got it!",
+                    --COOKING_SHORT = "好在这不会花费我太多时间。",
+                    BURNT = "We've made the most of it.",
+                },
+                --BLUNDERBUSS = "噢...这可不是个好兆头。",
 
                 THUNDERBIRD = "",
                 THUNDERBIRDNEST = "",
@@ -1060,14 +1224,14 @@ local strings = {
                     GENERIC = "真不错。",
                     BURNING = "嘿！那是我的草坪！",
                 	BURNT = "我希望还能够退款。",
-                },]]
+                },
+                SPRINKLER = "节省我宝贵的时间。",]]
             },
         },
-        --New Characters
-        --[[
+        --New Characters for us
         WAGSTAFF = {
             
-            --line for goggles?
+            --new line for goggles?
 
             --moonstorm, sandstorm and brightshade
             --ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "Ah, let me see where it is...",
@@ -1085,15 +1249,17 @@ local strings = {
             --ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "So that's it. That's... What he saw...",
             --CC hat
             --ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "Unlimited insight! I can even see the fibers of reality is pulsating!",
-
-            --DS for refer
-            --ANNOUNCE_PUTONGOGGLES_GOGGLESARMORHAT = "My cranium is now safeguarded for combat.",
-            --ANNOUNCE_PUTONGOGGLES_GOGGLESHEATHAT = "I see the world through infrared colored glasses.",
-            --ANNOUNCE_PUTONGOGGLES_GOGGLESNORMALHAT = "Ah! The world is so much more interesting when you can see it!",
-            --ANNOUNCE_PUTONGOGGLES_GOGGLESSHOOTHAT = "Now I can emit destructive spheres of electromagnetic radiation.",
             
+            --ANNOUNCE_GNATS_DIED="",
 
             DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "Magnificent! Perhaps I can build a factory here as well.",--original speech
+                    DONE = "Done already? Remarkable!",
+                    COOKING_SHORT = "I can't wait to watch more about the properties of these metals.",
+                    BURNT = "Smelting is a dangerous business in here.",
+                },
+
                 --Im a scientist. i work with science
                 --Im a firentist. i play with fire
                 LIGHTER =  "An odd artifact she carries with her. How it work?",
@@ -1104,7 +1270,7 @@ local strings = {
                     BROKEN = "Still can be fixed.",
                 },
 
-                --wolf
+                --[[wolf
                 DUMBBELL = "一个普通的哑铃。",
                 DUMBBELL_GOLDEN = "一个质量较大的哑铃，使用这里很普遍的材料制成。",
                 DUMBBELL_MARBLE = "一个质量更大的哑铃，我最好不要尝试。",
@@ -1112,7 +1278,7 @@ local strings = {
                 MIGHTY_GYM = {
                     GENERIC = "推动木板可以驱动顶部的结构，不知道有什么功能。",
                     BURNT = "显然它的功能不包括灭火。",
-                },
+                },]]
 
                 DUMBBELL_HEAT = "",
                 DUMBBELL_REDGEM = "",
@@ -1122,8 +1288,8 @@ local strings = {
                 --wendy
                 SMALLGHOST = "A younger poltergeist not affected by the dark fuel.",
                 SISTURN = {
-                    GENERIC = "我为她感到遗憾，小姑娘。",
-                    SOME_FLOWERS = "这里还需要更多的花。",
+                    --GENERIC = "我为她感到遗憾，小姑娘。",
+                    --SOME_FLOWERS = "这里还需要更多的花。",
                     LOTS_OF_FLOWERS = "Our memorial reversed the direction of graviton...",
                 },
 
@@ -1138,25 +1304,25 @@ local strings = {
                 LOST_TOY_42 = "Theoretically, this is a kind of planar projection.",
                 LOST_TOY_43 = "Theoretically, this is a kind of planar projection.",
 
-                GHOSTFLOWER = "年轻鬼魂催生了花朵形的精神体结构，以此向她表示感谢。",
+                GHOSTFLOWER = "The young poltergeist gave to the flower-shaped psychic substance to thank her.",
 
-                GHOSTLYELIXIR_ATTACK = "巧妙地利用了精神体的相互作用，真聪明。",
-                GHOSTLYELIXIR_FASTREGEN = "巧妙地利用了精神体的相互作用，真聪明。",
-                GHOSTLYELIXIR_RETALIATION = "巧妙地利用了精神体的相互作用，真聪明。",
-                GHOSTLYELIXIR_SHIELD = "巧妙地利用了精神体的相互作用，真聪明。",
-                GHOSTLYELIXIR_SLOWREGEN = "巧妙地利用了精神体的相互作用，真聪明。",
-                GHOSTLYELIXIR_SPEED = "巧妙地利用了精神体的相互作用，真聪明。",
+                GHOSTLYELIXIR_ATTACK = "Clever use of the psychic substance interaction.",
+                GHOSTLYELIXIR_FASTREGEN = "Clever use of the psychic substance interaction.",
+                GHOSTLYELIXIR_RETALIATION = "Clever use of the psychic substance interaction.",
+                GHOSTLYELIXIR_SHIELD = "Clever use of the psychic substance interaction.",
+                GHOSTLYELIXIR_SLOWREGEN = "Clever use of the psychic substance interaction.",
+                GHOSTLYELIXIR_SPEED = "Clever use of the psychic substance interaction.",
 
                 --WX
                 WX78_SCANNER_ITEM = "Ah, the scanalyzer J1-M1. I know it well.", --ref ml-77
-                WX78_SCANNER = {
+                --[[WX78_SCANNER = {
                     GENERIC = "看来它运转良好。",
                     HUNTING = "它正在寻找可分析的样本。",
                     SCANNING = "它需要一些时间对样本进行扫描和分析。",
                 },
-                WX78_SCANNER_SUCCEEDED = "分析已经完成，可惜我没有数据存储器。",
+                WX78_SCANNER_SUCCEEDED = "分析已经完成，可惜我没有数据存储器。",]]
 
-                WX78_MODULEREMOVER = "你哪来这么多接口？你是不是拆了...",
+                WX78_MODULEREMOVER = "Where do you get all these interfaces? Did you dismantle...",
 
                 WX78MODULE_BEE = "Standard automaton function extension plug-in, using bionic design.",
                 WX78MODULE_COLD = "Standard automaton function extension plug-in, using bionic design.",
@@ -1176,45 +1342,45 @@ local strings = {
 
                 --Brainlady
                 BOOKSTATION = {
-                    GENERIC = "Wonderful! 无需任何能量物质输入就能自动完成图书的护理修复工作。",
-                    BURNT = "正如我预料的一样，依然可燃。",
+                    GENERIC = "Wonderful! Automatically care and repair without any input.",
+                    BURNT = "Still combustible, just like I expected.",
                 },
-                BOOK_BEES = "我无法翻开它，这些昆虫尾器是如何把书页钉这么死的？",
+                BOOK_BEES = "I can't open it. How do these insect tails nail pages like this?",
                 --BOOK_BIRDS = "I cannot access the knowledge within it. How frustrating!",--same as ds
                 --BOOK_BRIMSTONE = "Oh, I do wish I could access its power.",--same as ds
-                BOOK_ELEMENTAL = "This book is also allowed use as a blunt weapon. Why?",--forge
-                BOOK_FIRE = "它能在作用范围内控制氧化反应，真迷人！",
-                BOOK_FISH = "控制海洋鱼群，超声波？心灵感应？",
+                BOOK_ELEMENTAL = "This book is also allowed use as a blunt weapon. Why?",--forge summoner
+                --BOOK_FIRE = "它能在作用范围内控制氧化反应，真迷人！",
+                --BOOK_FISH = "控制海洋鱼群，超声波？心灵感应？",
                 BOOK_FOSSIL = "I've tried using other books as blunt weapons, but stopped by invisible forces.",--forge
                 --BOOK_GARDENING = "Much more than a collection of facts.",--same as ds
-                BOOK_HORTICULTURE = "您可以再写一本完整版吗？女士？",
-                BOOK_HORTICULTURE_UPGRADED = "看来它的效果与记录的信息量呈正相关。",
+                BOOK_HORTICULTURE = "Can you write another full edition? Madam?",
+                --BOOK_HORTICULTURE_UPGRADED = "看来它的效果与记录的信息量呈正相关。",
                 BOOK_LIGHT = "My attempts to understand this are being thwarted somehow.",  --same as Codex Umbra
-                BOOK_LIGHT_UPGRADED = "这些光线是从哪里射出的？",
+                --BOOK_LIGHT_UPGRADED = "这些光线是从哪里射出的？",
                 BOOK_MOON = "Theoretically, This could safely influence \"that thing\".",
-                BOOK_RAIN = "这将是混沌系统预测的大突破！",
-                BOOK_RESEARCH_STATION = "女士，你是如何让知识扩展自己的？",
-                BOOK_SILVICULTURE = "为什么它无法对一部分植物起效呢？",
+                BOOK_RAIN = "This will be a breakthrough in the prediction of chaotic systems!",
+                --BOOK_RESEARCH_STATION = "女士，你是如何让知识扩展自己的？",
+                --BOOK_SILVICULTURE = "为什么它无法对一部分植物起效呢？",
                 --BOOK_SLEEP = "Is this ink imbued with dark fuel?! Fascinating!",--same as ds
-                BOOK_TEMPERATURE = "对内能的完全控制！真是革命性的技术！",
+                BOOK_TEMPERATURE = "Complete control of internal energy! What a revolutionary!",
                 --BOOK_TENTACLES = "What prevents me from using this?",--same as ds
-                BOOK_WEB = "有趣。它生成的材料能够识别敌我，选择性地展现粘性。",
+                --BOOK_WEB = "有趣。它生成的材料能够识别敌我，选择性地展现粘性。",
 
                 --Canadians
                 --LUCY = "Strange waves of energy are emanating from it.",--same as ds
-                WEREITEM_BEAVER = "He ate them to activate the \"curse\ effect in directed.",
-                WEREITEM_GOOSE = "He ate them to activate the \"curse\ effect in directed.",
-                WEREITEM_MOOSE = "He ate them to activate the \"curse\ effect in directed.",
+                WEREITEM_BEAVER = "He ate them to activate the \"curse\" effect in directed.",
+                WEREITEM_GOOSE = "He ate them to activate the \"curse\" effect in directed.",
+                WEREITEM_MOOSE = "He ate them to activate the \"curse\" effect in directed.",
 
                 LEIF_IDOL = "Burn it out has no doubt angered those possessed trees.",
 
                 WOODCARVEDHAT = "Very delicate wooden crafts.",
                 WALKING_STICK = "Very delicate wooden crafts.",
 
-                --OP character
-                BALLOONS_EMPTY = "看来这是他带进来的。", --ref to ds "Balloons? Here?"
+                ==OP character
+                BALLOONS_EMPTY = "So he brought these in.", --ref to ds "Balloons? Here?"
 
-                BALLOON = "也许这里的大气成分和我们的世界不同。",
+                BALLOON = "Maybe the atmosphere here is different than in home.",--[[
                 BALLOONPARTY = "一个用于庆祝的气球制品。",
                 BALLOONSPEED = {
                     GENERIC = "从理论上将，这能够抵消我身上的负重。",
@@ -1222,7 +1388,7 @@ local strings = {
                 },
 
                 BALLOONHAT = "啊，真是个有趣的小玩具。",
-                BALLOONVEST = "提供浮力，简陋但有用。",
+                BALLOONVEST = "提供浮力，简陋但有用。",]]
 
                 --Maxy
                 --WAXWELLJOURNAL = "My attempts to understand this are being thwarted somehow."--same as ds
@@ -1329,7 +1495,7 @@ local strings = {
                 PORTABLETENT = "",
                 PORTABLETENT_ITEM = "",
 
-                SLINGSHOT = "这些血囊展示出了超强的延展性和弹性。",--plasma sacks
+                SLINGSHOT = "These plasma sacks are extremely stretchable and flexible.",
                 SLINGSHOTAMMO_ROCK = "",
                 SLINGSHOTAMMO_GOLD = "",
                 SLINGSHOTAMMO_MARBLE = "",
@@ -1349,7 +1515,7 @@ local strings = {
                 },
 
                 --Hyuyu
-                WORTOX_SOUL = "有一股无形的力把它约束在这里。", --只有小恶魔能检查
+                WORTOX_SOUL = "There's an invisible force holding it here.", --只有小恶魔能检查
 
                 --Stupid skill tree
                 IPECACSYRUP ="This will undoubtedly cause great damage to my stomach.",
@@ -1405,7 +1571,7 @@ local strings = {
                 },
 
                 POCKETWATCH_WEAPON = {
-                    GENERIC = "黑暗燃料极大的放大了它的杀伤力。",
+                    GENERIC = "Dark fuel greatly amplifies its lethality.",
                 },
 
                 POCKETWATCH_PARTS = "她时间装备的内部元件，真是精妙的结构。",
@@ -1429,7 +1595,7 @@ local strings = {
                 },
                 ALTERGUARDIAN_PHASE2SPIKE = "它生成了额外的增生物，用于确保目标位于杀伤范围内。",
                 ALTERGUARDIAN_PHASE3 = "它的结构以及展开到了极限，这是最后的形态了。",
-                ALTERGUARDIAN_PHASE3TRAP = "它在发射出强大的精神干扰脉冲。",--psychic interference
+                ALTERGUARDIAN_PHASE3TRAP = "它在发射出强大的精神干扰脉冲。",--psychic overload? override? guidance? or interference? for enlightenment
                 ALTERGUARDIAN_PHASE3DEADORB = "残余的结构已经几乎失去了力量。",
                 ALTERGUARDIAN_PHASE3DEAD = "最后的防护措施，可以被轻易破解。",
 
@@ -1442,7 +1608,7 @@ local strings = {
                 },
 
                 MOONSTORM_STATIC = "",
-                MOONSTORM_STATIC_ITEM = "",
+                MOONSTORM_STATIC_ITEM = "这是我们一会会用到的关键道具。",
                 MOONSTORM_SPARK = "",
 
                 BIRD_MUTANT = "别让他们靠近我的机器！",
@@ -1457,15 +1623,14 @@ local strings = {
                 WAGSTAFF_TOOL_4 = "My Conceptual Scrubber, projected onto this plane.",
                 WAGSTAFF_TOOL_5 = "My Calibrated Perceiver, projected onto this plane.",
 
-                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",--psychic interference
+                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",--psychic overload? override? guidance? or interference? for enlightenment
                 --[[
                 --单机版各种护目镜的台词，放在这里做参考
                 GOGGLESARMORHAT = "I designed it so I can study sound reverberations while I'm engaged in combat.",
                 GOGGLESHEATHAT = "I do hope to catch a glimpse of the night creature with these.",
                 GOGGLESNORMALHAT = "Refracted lenses polished to a specific curvature so I can see better.",
-                GOGGLESSHOOTHAT = ""Tiny spheres of static energy make a marvelous flaming projectile.",
+                GOGGLESSHOOTHAT = ""Tiny spheres of static energy make a marvelous flaming projectile.",]]
                 
-
                 MOON_DEVICE = {
                     GENERIC = "完成了，让我们开始吧。",
                     CONSTRUCTION1 = "然后是将其向上引导的能量场...",
@@ -1473,10 +1638,40 @@ local strings = {
                 },
             },
         },
-        WILBA = {},
-        WHEELER = {},
-        WARBUCKS = {},--really?
-        ]]
+        WILBA = {
+            --I HATE hamlet pigman language
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "'TIS FWOOSHY MACHINES",--original speech
+                    DONE = "'TIS DONE",
+                    COOKING_SHORT = "METAL FWOOSH WITHIN!",
+                    BURNT = "'TIS FWOOSHED",
+                },
+            },
+        },
+        WHEELER = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "It takes the heavy metal and makes it heavier.",--original speech
+                    --DONE = "传奇冒险家铸造传奇装备，听起来还不错。",
+                    COOKING_SHORT = "It'll be done in short order.",
+                    BURNT = "No one ever accused me of being a good blacksmith.",
+                },
+            },
+        },
+        WARBUCKS = {
+            --ANNOUNCE_GNATS_DIED="",
+            DESCRIBE = {
+                SMELTER = {
+                    EMPTY = "I say, that's rather clever!",--original speech
+                    DONE = "I say! That was well worth the effort.",
+                    COOKING_SHORT = "Patience is a virtue.",
+                    BURNT = "Well, there's nothing for it now.",
+                },
+            },
+        },
     }
 }
 
