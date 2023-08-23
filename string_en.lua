@@ -1,11 +1,33 @@
 
 local strings = {
+    NAMES = {
+        FARM_PLANT_RADISH = "Radish Plant",
+        KNOWN_RADISH_SEEDS = "Radish Seed",
+        RADISH_SEEDS = "Drip Seed",
+
+        FARM_PLANT_ALOE = "Aloe Plant",
+        KNOWN_ALOE_SEEDS = "Aloe Seed",
+        ALOE_SEEDS = "Orthogon Seed",
+    },
+    UI = {
+        PRESETLEVELDESC = {
+            SURVIVAL_PORKLAND_CLASSIC = "A deeply dangerous jungle?",
+        },
+        COOKBOOK = {
+            FOOD_EFFECTS_ANTIHISTAMINE = "Clear the airway",
+            --FOOD_EFFECTS_SPEED_BOOST = "Accelerates movement",
+        },
+    },
     CHARACTERS = {
         --ds
         --New strings? really?
         GENERIC= {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Fan-tastic.",
+                    LOWFUEL = "It's run out of fuel.",
+                },
                 SMELTER = {
                     EMPTY = "I smelt that!",--original speech
                     DONE = "It's done!",
@@ -17,6 +39,10 @@ local strings = {
         WILLOW = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Fan the flames.",
+                    LOWFUEL = "We need fire the more flames.",
+                },
                 SMELTER = {
                     EMPTY = "Oh yeah! Now I can burn metal.",--original speech
                     DONE = "When are we do this again?",
@@ -28,6 +54,10 @@ local strings = {
         WOLFGANG = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Is cool on Wolfgang skin.",
+                    LOWFUEL = "Hungry little machines can't run fast.",
+                },
                 SMELTER = {
                     EMPTY = "Wolfgang lifted it without difficulty.",
                     DONE = "Fire make metal bricks.",--original speech
@@ -40,6 +70,10 @@ local strings = {
             --better someone to help me retranslate them :P
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Alas the relief it brings is only temporary.",
+                    LOWFUEL = "It gave itself up to give us charity.",
+                },
                 SMELTER = {
                     EMPTY = "Burn who are trapped in it...",
                     DONE = "Born of fire.",
@@ -51,6 +85,10 @@ local strings = {
         WX78 = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "COOLING FAN",
+                    LOWFUEL = "REQUIRE POWER",
+                },
                 SMELTER = {
                     EMPTY = "HELLO, FRIEND",--original speech
                     DONE = "RECEIVED RETRUN VALUE",
@@ -62,6 +100,10 @@ local strings = {
         WICKERBOTTOM = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Restorative.",
+                    LOWFUEL = "It needs fuel to reboot.",
+                },
                 SMELTER = {
                     EMPTY = "A metalsmithing tool.",--original speech
                     DONE = "Recooling and done.",
@@ -73,6 +115,10 @@ local strings = {
         WOODIE = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Yep. That's a nice breeze.",
+                    LOWFUEL = "It needs firewood.",
+                },
                 SMELTER = {
                     EMPTY = "It's like a giant maple syrup bucket.",
                     DONE = "Hrumph. A big production for a little metal.",--original speech
@@ -84,6 +130,10 @@ local strings = {
         WAXWELL = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Ah. Civilization.",
+                    LOWFUEL = "Maintaining a comfortable life comes at a price.",
+                },
                 SMELTER = {
                     EMPTY = "Finally we're catching up to the Iron Age.",--original speech
                     --DONE = "艰难的成果。",
@@ -96,6 +146,10 @@ local strings = {
         WATHGRITHR = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Conquers the heat!",
+                    LOWFUEL = "Heat has return!",
+                },
                 SMELTER = {
                     EMPTY = "The tools of dwarves.",--original speech
                     DONE = "Now make me a sharp edge!",
@@ -107,6 +161,10 @@ local strings = {
         WEBBER = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "That breeze feels nice on our fur.",
+                    LOWFUEL = "No power, no breeze.",
+                },
                 SMELTER = {
                     EMPTY = "Make material with material.",
                     DONE = "It's finished.",
@@ -119,6 +177,10 @@ local strings = {
         WALANI = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "A nice breeze.",
+                    LOWFUEL = "It needs some juice.",
+                },
                 SMELTER = {
                     EMPTY = "I'll just let that do all the work for me.",--original speech
                     DONE = "Well done, bro.",
@@ -130,6 +192,10 @@ local strings = {
         WARLY = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Good ventilation in the kitchen is an must.",
+                    LOWFUEL = "I have to give up my fruitwoods.",
+                },
                 SMELTER = {
                     EMPTY = "'Smelt' bad, if you ask me.",--original speech
                     DONE = "Fresh out of the oven! Be careful with the scalding.",
@@ -142,6 +208,10 @@ local strings = {
             --Omg articulate PLZ!
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "A cool wind blows from thee!",
+                    LOWFUEL = "Thet b'lookin' mor'n a tad low.",
+                },
                 SMELTER = {
                     EMPTY = "A cannon fer makin' metals.",--original speech
                     DONE = "She's ready ta fire!",
@@ -154,6 +224,10 @@ local strings = {
         WORMWOOD = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Wind",
+                    LOWFUEL = "No Wind",
+                },
                 IRON = "Clinky Rock",
                 SMELTER = {
                     EMPTY = "Clinky rock cooker",
@@ -245,9 +319,7 @@ local strings = {
                 RELIC_5 = "镶嵌了许多宝石，一定很值钱。",
 
                 PIG_RUINS_PIG = "未免太过于张扬了。",
-                ]]
-                BASEFAN = "I'm sure bossman would be very interested in it.", --ref wagstaff basefan line
-                --[[
+
                 PIG_SHOP_CITYHALL = {
                     GENERIC = "当官的工作的地方。",
                     BURNING= "没做好消防工作啊。",
@@ -325,7 +397,7 @@ local strings = {
 		        TURF_PLAINS = "That's a chunk of ground.",
                 TURF_DEEPRAINFOREST_NOCANOPY = "That's a chunk of ground.",
                 
-                PANGOLDEN = "Living Metallurgical.",
+                PANGOLDEN = "Living metallurgical.",
                 SEDIMENTPUDDLE = "The metal content is seriously over the limit.",
 
                 --GNATMOUND = "那些虫子就住在这里面。",
@@ -361,9 +433,9 @@ local strings = {
                 BLUNDERBUSS = "Backward and advanced tools of violence.",
 
                 THUNDERBIRD = "A classic case of over much static electricity.",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
+                THUNDERBIRDNEST = "You wouldn't wanna on it without safety boots.",
+                FEATHER_THUNDER = "It's definitely a safety hazard.", 
+                THUNDERHAT = "It forms a faraday cage.",
 
                 LAWNORNAMENT = {
                     GENERIC = "Well, it's someone's work after all.",
@@ -371,6 +443,19 @@ local strings = {
                 	BURNT = "Maybe next time better.",
                 },
                 --SPRINKLER = "自动给我的农场送水。",
+
+                TEA = "",
+                ICEDTEA = "",
+                TEATREE = "",    
+                TEATREE_SAPLING = "",    
+                TEATREE_NUT = ",
+                
+                GASMASKHAT = "",
+
+                BASEFAN = {
+                    ON = "I'm sure bossman would be very interested in it.", --ref wagstaff basefan line
+                    LOWFUEL = "It needs fuel to power itself.",
+                },
             },
         },
         WORTOX = {
@@ -457,8 +542,6 @@ local strings = {
                 RELIC_5 = "很多宝石，但没有魔法。",
 
                 PIG_RUINS_PIG = "笑口常开啊。",
-
-                BASEFAN = "微风拂面，好不快活。",
 
                 PIG_SHOP_CITYHALL = {
                     GENERIC = "朱门酒肉臭。",
@@ -575,10 +658,10 @@ local strings = {
                 },
                 BLUNDERBUSS = "War never changes.",
 
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
+                THUNDERBIRD = "Oh...being closer makes my fur stand on end.",
+                THUNDERBIRDNEST = "Its really likes these hot things.",
+                FEATHER_THUNDER = "Guys, come and feel it.", 
+                THUNDERHAT = "Protect me from the calamity of heaven.",
                 --[[
                 LAWNORNAMENT = {
                     GENERIC = "给寻常的草坪增添一些特色。",
@@ -586,6 +669,20 @@ local strings = {
                 	BURNT = "化为尘土。",
                 },]]
                 SPRINKLER = "A mortal's own version of rainmaker.",
+
+                TEA = "",
+                ICEDTEA = "",
+                TEATREE = "",    
+                TEATREE_SAPLING = "",    
+                TEATREE_NUT = ",
+                
+                GASMASKHAT = "",
+
+                BASEFAN = {
+                    --ON = "微风拂面，好不快活。",
+                    LOWFUEL = "Hey! go on!",
+                },
+
             },
         },
         WURT = {
@@ -670,8 +767,6 @@ local strings = {
                 --RELIC_5 = "不能吃，但闪闪发光。",
 
                 PIG_RUINS_PIG = "I pull out the Pigfolk's teeth!",
-
-                BASEFAN = "Water ran away! florpt!",
 
                 PIG_SHOP_CITYHALL = {
                     GENERIC = "Mermfolk must have one!",
@@ -777,7 +872,7 @@ local strings = {
 
                 ALLOY = "Rock is harder.",
                 HALBERD = "Strange weapon used by Pigfolk.",
-                --ARMOR_METALPLATE = "坚固，但好重。",
+                ARMOR_METALPLATE = "Hard but heavy.",
                 METALPLATEHAT = "The hat from Ms. Wickerbottom's book!",
                 SMELTER = {
                     --EMPTY = "放什么东西进去？",
@@ -787,10 +882,10 @@ local strings = {
                 },
                 --BLUNDERBUSS = "可怕的喷火筒！",
 
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
+                THUNDERBIRD = "Sparky bird.",
+                THUNDERBIRDNEST = "Sparky birds home.",
+                FEATHER_THUNDER = "Grrr... It's prick me.", 
+                THUNDERHAT = "I can call down lightning!",
 
                 LAWNORNAMENT = {
                     GENERIC = "Pretty small tree.",
@@ -798,6 +893,19 @@ local strings = {
                 	BURNT = "No more pretty small tree.",
                 },
                 SPRINKLER = "Yeah! Rain!",
+
+                TEA = "",
+                ICEDTEA = "",
+                TEATREE = "",    
+                TEATREE_SAPLING = "",    
+                TEATREE_NUT = ",
+                
+                GASMASKHAT = "",
+
+                BASEFAN = {
+                    ON = "Water ran away! florpt!",
+                    LOWFUEL = "It's stoped.",
+                },
             },
         },
         WALTER = {
@@ -882,8 +990,6 @@ local strings = {
                 RELIC_5 = "看起来很宝贵。",
 
                 PIG_RUINS_PIG = "看它笑得多开心啊！",
-
-                BASEFAN = "啊，真舒服，沃比你也来吹吹。",
 
                 PIG_SHOP_CITYHALL = {
                     GENERIC = "这一定是他们的政府部门！",
@@ -1001,19 +1107,32 @@ local strings = {
                     --COOKING_SHORT = "这里面发生了什么？我想仔细看看。",
                     BURNT = "It's uh... extra done!",
                 },
-                BLUNDERBUSS = "It's exploding in there. Cool!",--[[
+                BLUNDERBUSS = "It's exploding in there. Cool!",
 
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
+                THUNDERBIRD = "Watch that flickering electric light!",
+                THUNDERBIRDNEST = "This is where they live.",
+                FEATHER_THUNDER = "Does it retain that energy?", 
+                THUNDERHAT = "Don't let me shock you.",
 
-                LAWNORNAMENT = {
+                --[[LAWNORNAMENT = {
                     GENERIC = "给城市带来更多花样。",
                     BURNING = "不能在草坪上生火！",
                 	BURNT = "这下可闯大祸了。",
                 },
                 SPRINKLER = "它会帮我们照顾好草坪的！",]]
+
+                TEA = "It's tea time now! Woby!",
+                ICEDTEA = "It just got better.",
+                TEATREE = "",    
+                TEATREE_SAPLING = "",    
+                TEATREE_NUT = ",
+                
+                GASMASKHAT = "",
+
+                BASEFAN = {
+                    --ON = "啊，真舒服，沃比你也来试试。",
+                    LOWFUEL = "I think it needs some fuel to get back up.",
+                },
             },
         },
         WANDA = {
@@ -1100,8 +1219,6 @@ local strings = {
 
                 PIG_RUINS_PIG = "它在笑什么？",
 
-                BASEFAN = "非常有趣的结构，可惜还不够精细。",
-
                 PIG_SHOP_CITYHALL = {
                     GENERIC = "没错，它在这条街上。",
                     BURNING = "为什么会发生这种事情？",
@@ -1113,7 +1230,7 @@ local strings = {
                 PIG_PALACE = "真漂亮，我们进去吧。",
                 PIGMAN_QUEEN = "一旦你深入了解，就会发现她非常冷血。",
                 PIGMAN_MAYOR = {
-                    GENERIC = "你会继续当选，还是那个谁来着。",
+                    GENERIC = "Yeah. You gonna re-elected. Wait, who are you again?",
                     SLEEPING = "珍惜清闲吧。",
                 },]]
                 APORKALYPSE_CLOCK = "...Very clever idea.", --I have a brilliant pun but I can't translate it :(
@@ -1215,17 +1332,31 @@ local strings = {
                 },
                 --BLUNDERBUSS = "噢...这可不是个好兆头。",
 
-                THUNDERBIRD = "",
-                THUNDERBIRDNEST = "",
-                FEATHER_THUNDER = "", 
-                THUNDERHAT = "",
+                THUNDERBIRD = "It's whole body says \"stay back\".",
+                THUNDERBIRDNEST = "I can't imagine lying on that.",
+                --FEATHER_THUNDER = "一个有趣的小玩意儿。", 
+                THUNDERHAT = "I prefer lightning hit me there.",
                 --[[
                 LAWNORNAMENT = {
                     GENERIC = "真不错。",
                     BURNING = "嘿！那是我的草坪！",
                 	BURNT = "我希望还能够退款。",
+                },]]
+                SPRINKLER = "Save me valuable time.",
+
+                TEA = "It's always tea time, somewhere.",
+                ICEDTEA = "",
+                TEATREE = "",    
+                TEATREE_SAPLING = "",    
+                TEATREE_NUT = ",
+
+                GASMASKHAT = "Gives me more time in the gas.",
+
+                BASEFAN = {
+                    --ON = "非常有趣的结构，可惜还不够精细。",
+                    LOWFUEL = "Should I wind it up or something?",
                 },
-                SPRINKLER = "节省我宝贵的时间。",]]
+
             },
         },
         --New Characters for us
@@ -1235,7 +1366,7 @@ local strings = {
 
             --moonstorm, sandstorm and brightshade
             --ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "Ah, let me see where it is...",
-            --ANNOUNCE_PUTONGOGGLES_DESERTHAT = "透过这样的镜片我能够看清世界。",
+            --ANNOUNCE_PUTONGOGGLES_DESERTHAT = "I can see the world through these lenses.",
             --ANNOUNCE_PUTONGOGGLES_LUNARPLANTHAT = "The warped light acts as the goggles' effect.",
 
             --void
@@ -1246,13 +1377,17 @@ local strings = {
             --ANNOUNCE_PUTONGOGGLES_NUTRIENTSGOGGLESHAT = "Using the focusing effect, I can see tiny nutrients.",
 
             --AF hat
-            --ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "So that's it. That's... What he saw...",
+            --ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "So that's it. That's... what he saw...",
             --CC hat
             --ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "Unlimited insight! I can even see the fibers of reality is pulsating!",
             
             --ANNOUNCE_GNATS_DIED="",
 
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Magnificent! What a marvel of engineering!",
+                    LOWFUEL = "Still not perpetual motion machine.",
+                },
                 SMELTER = {
                     EMPTY = "Magnificent! Perhaps I can build a factory here as well.",--original speech
                     DONE = "Done already? Remarkable!",
@@ -1377,7 +1512,7 @@ local strings = {
                 WOODCARVEDHAT = "Very delicate wooden crafts.",
                 WALKING_STICK = "Very delicate wooden crafts.",
 
-                ==OP character
+                --OP character
                 BALLOONS_EMPTY = "So he brought these in.", --ref to ds "Balloons? Here?"
 
                 BALLOON = "Maybe the atmosphere here is different than in home.",--[[
@@ -1396,17 +1531,17 @@ local strings = {
                 MAGICIAN_CHEST = "Wonderful! Dark fuel created a mini wormhole inside it.",
 
                 --Valkyrie
-                WATHGRITHRHAT = "手工制作的演出道具，出人意料地坚固。",
-                SPEAR_WATHGRITHR = "手工制作的演出道具，出人意料地锋利。",
+                WATHGRITHRHAT = "Handmade props for the show, surprisingly sturdy.",
+                SPEAR_WATHGRITHR = "Handmade props for the show, surprisingly sturdy.",
 
-                BATTLESONG_DURABILITY = "通过特殊调制的声波触发不明力量，有趣。",
-                BATTLESONG_FIRERESISTANCE = "通过特殊调制的声波触发不明力量，有趣。",
-                BATTLESONG_HEALTHGAIN = "通过特殊调制的声波触发不明力量，有趣。",
-                BATTLESONG_SANITYAURA = "通过特殊调制的声波触发不明力量，有趣。",
-                BATTLESONG_SANITYGAIN = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_DURABILITY = "Triggering unknown forces through specially modulated sound waves. Interesting.",
+                BATTLESONG_FIRERESISTANCE = "Triggering unknown forces through specially modulated sound waves. Interesting.",
+                BATTLESONG_HEALTHGAIN = "Triggering unknown forces through specially modulated sound waves. Interesting.",
+                BATTLESONG_SANITYAURA = "Triggering unknown forces through specially modulated sound waves. Interesting.",
+                BATTLESONG_SANITYGAIN = "Triggering unknown forces through specially modulated sound waves. Interesting.",
 
-                BATTLESONG_INSTANT_PANIC = "通过特殊调制的声波触发不明力量，有趣。",
-                BATTLESONG_INSTANT_TAUNT = "通过特殊调制的声波触发不明力量，有趣。",
+                BATTLESONG_INSTANT_PANIC = "Triggering unknown forces through specially modulated sound waves. Interesting.",
+                BATTLESONG_INSTANT_TAUNT = "Triggering unknown forces through specially modulated sound waves. Interesting.",
 
                 --Webby-boy
                 SPIDERDEN_BEDAZZLER = "这些涂鸦会改变生物的习性，有趣。",
@@ -1426,14 +1561,14 @@ local strings = {
                 --Rosie the Riveter
                 SEWING_TAPE = "Did you invent this? This has great potential in the home market.",
                 WINONA_CATAPULT= {
-                    GENERIC = "它是如何进行智能目标识别的呢？",
-                    OFF = "需要电力才能运行。当然。",
+                    GENERIC = "How does it perform intelligent target recognition?",
+                    OFF = "It requires electricity to run. Of course.",
                     BURNING = "",
                     BURNT = "",
                 },
                 WINONA_SPOTLIGHT = {
-                    GENERIC = "它是如何进行智能目标识别的呢？",
-                    OFF = "需要电力才能运行。当然。",
+                    GENERIC = "How does it perform intelligent target recognition?",
+                    OFF = "It requires electricity to run. Of course",
                     BURNING = "",
                     BURNT = "",
                 },
@@ -1476,17 +1611,17 @@ local strings = {
 
                 MONSTERTARTARE = "",
                 FRESHFRUITCREPES = "",
-                FROGFISHBOWL = "它似乎能够在食用者身上生成疏水薄膜。",
+                --FROGFISHBOWL = "它似乎能够在食用者身上生成疏水薄膜。",
                 POTATOTORNADO = "",
-                DRAGONCHILISALAD = "这会极大地放大新陈代谢所产生的热量。",
+                --DRAGONCHILISALAD = "这会极大地放大新陈代谢所产生的热量。",
                 GLOWBERRYMOUSSE = "",
-                VOLTGOATJELLY = "储存了大量电能的胶状物。",
-                NIGHTMAREPIE = "黑暗燃料的食疗效果？我非常感兴趣，但等我去找一下纸笔...",
-                BONESOUP = "看上去非常简单，为什么我做不出来呢？",
+                --VOLTGOATJELLY = "储存了大量电能的胶状物。",
+                --NIGHTMAREPIE = "黑暗燃料的食疗效果？我非常感兴趣，但等我去找一下纸笔...",
+                --BONESOUP = "看上去非常简单，为什么我做不出来呢？",
                 MASHEDPOTATOES = "",
                 POTATOSOUFFLE = "A hearty vegetable meal. Good for the constitution.",
                 MOQUECA = "",
-                GAZPACHO = "带来长久的冷却效果。",
+                --GAZPACHO = "带来长久的冷却效果。",
                 CEVICHE = "",
                 SALSA = "",
                 PEPPERPOPPER = "",
@@ -1520,7 +1655,7 @@ local strings = {
                 --Stupid skill tree
                 IPECACSYRUP ="This will undoubtedly cause great damage to my stomach.",
 
-                --Frog princess
+                --[[Frog princess
                 MERMHAT = "一个实用的伪装！我可以潜入这些生物之中！",
                 MERMTHRONE =
                 {
@@ -1542,7 +1677,7 @@ local strings = {
                 MERMWATCHTOWER_NOKING = "这座要塞因社会组织力的退步而荒废。",
                 MERMKING = "它们已经进步到了封建社会阶段。",
                 MERMGUARD = "为什么这些守卫不使用武器呢？",
-                MERM_PRINCE = "它们的王位继承制度相当随意。",
+                MERM_PRINCE = "它们的王位继承制度相当随意。",]]
 
                 --The only magic girl in town
                 POCKETWATCH_HEAL = {--they should be the same
@@ -1574,10 +1709,10 @@ local strings = {
                     GENERIC = "Dark fuel greatly amplifies its lethality.",
                 },
 
-                POCKETWATCH_PARTS = "她时间装备的内部元件，真是精妙的结构。",
-                POCKETWATCH_DISMANTLER = "一套齐全的五金工具。",
-
-                POCKETWATCH_PORTAL_ENTRANCE =--两个应该是一样的
+                --POCKETWATCH_PARTS = "她时间装备的内部元件，真是精妙的结构。",
+                --POCKETWATCH_DISMANTLER = "一套齐全的五金工具。",
+                --[[
+                POCKETWATCH_PORTAL_ENTRANCE =--they should be the same
                 {
                     GENERIC = "对裂缝的绝妙应用。",
                     DIFFERENTSHARD = "对裂缝的绝妙应用。",
@@ -1607,15 +1742,15 @@ local strings = {
                     INFUSED = "被注入了强大能量的可塑材料。"
                 },
 
-                MOONSTORM_STATIC = "",
+                MOONSTORM_STATIC = "就是它，必须收集到它。",
                 MOONSTORM_STATIC_ITEM = "这是我们一会会用到的关键道具。",
-                MOONSTORM_SPARK = "",
+                MOONSTORM_SPARK = "这也是我们所需要的。",
 
                 BIRD_MUTANT = "别让他们靠近我的机器！",
                 BIRD_MUTANT_SPITTER = "该死的鸟！滚远点！",
 
                 WAGSTAFF_NPC = "啊，这是那时我的投影。",
-                ALTERGUARDIAN_CONTAINED = "从现在开始，我们需要按照时间计划进行。",
+                ALTERGUARDIAN_CONTAINED = "从现在开始，我们需要按照时间计划进行。",]]
 
                 WAGSTAFF_TOOL_1 = "My Reticulating Buffer, projected onto this plane.",
                 WAGSTAFF_TOOL_2 = "My Widget Deflubber, projected onto this plane.",
@@ -1623,25 +1758,23 @@ local strings = {
                 WAGSTAFF_TOOL_4 = "My Conceptual Scrubber, projected onto this plane.",
                 WAGSTAFF_TOOL_5 = "My Calibrated Perceiver, projected onto this plane.",
 
-                MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",--psychic overload? override? guidance? or interference? for enlightenment
+                --MOONSTORM_GOGGLESHAT = "如果有更强大的能源，我还能够屏蔽它的精神干扰。",--psychic overload? override? guidance? or interference? for enlightenment
                 --[[
-                --单机版各种护目镜的台词，放在这里做参考
-                GOGGLESARMORHAT = "I designed it so I can study sound reverberations while I'm engaged in combat.",
-                GOGGLESHEATHAT = "I do hope to catch a glimpse of the night creature with these.",
-                GOGGLESNORMALHAT = "Refracted lenses polished to a specific curvature so I can see better.",
-                GOGGLESSHOOTHAT = ""Tiny spheres of static energy make a marvelous flaming projectile.",]]
-                
                 MOON_DEVICE = {
                     GENERIC = "完成了，让我们开始吧。",
                     CONSTRUCTION1 = "然后是将其向上引导的能量场...",
                     CONSTRUCTION2 = "最后，还需要一个合适的容器...",
-                },
+                },]]
             },
         },
         WILBA = {
             --I HATE hamlet pigman language
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "BLOW WINDS!",
+                    LOWFUEL = "'TIS NEEDING FUELS",
+                },
                 SMELTER = {
                     EMPTY = "'TIS FWOOSHY MACHINES",--original speech
                     DONE = "'TIS DONE",
@@ -1653,6 +1786,10 @@ local strings = {
         WHEELER = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "A plane propeller would be better.",
+                    LOWFUEL = "I need to refuel.",
+                },
                 SMELTER = {
                     EMPTY = "It takes the heavy metal and makes it heavier.",--original speech
                     --DONE = "传奇冒险家铸造传奇装备，听起来还不错。",
@@ -1664,6 +1801,10 @@ local strings = {
         WARBUCKS = {
             --ANNOUNCE_GNATS_DIED="",
             DESCRIBE = {
+                BASEFAN = {
+                    ON = "Ah. A nice cooling breeze.",
+                    LOWFUEL = "Needs a bit of a top-up.",
+                },
                 SMELTER = {
                     EMPTY = "I say, that's rather clever!",--original speech
                     DONE = "I say! That was well worth the effort.",
@@ -1672,7 +1813,7 @@ local strings = {
                 },
             },
         },
-    }
+    },
 }
 
 return strings
