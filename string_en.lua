@@ -1,5 +1,12 @@
 
 local strings = {
+    --[[
+    SCRAPBOOK = {
+        SPECIALINFO = {
+            KEY_TO_CITY = "",
+        },
+    },
+    ]]
     NAMES = {
         FARM_PLANT_RADISH = "Radish Plant",
         KNOWN_RADISH_SEEDS = "Radish Seed",
@@ -10,13 +17,38 @@ local strings = {
         ALOE_SEEDS = "Orthogon Seed",
     },
     UI = {
-        PRESETLEVELDESC = {
-            SURVIVAL_PORKLAND_CLASSIC = "A deeply dangerous jungle?",
-        },
         COOKBOOK = {
             FOOD_EFFECTS_ANTIHISTAMINE = "Clear the airway",
             --FOOD_EFFECTS_SPEED_BOOST = "Accelerates movement",
         },
+        PLANTREGISTRY = {
+            DESCRIPTIONS = {
+                RADISH = "Pepper bland as paper to this. -W",
+                ALOE = "Taste like: not clear. -W",
+            },
+        },
+        CUSTOMIZATIONSCREEN = {
+            PRESETLEVELS = {
+                PORKLAND_DEFAULT = "Hamlet",
+            },
+            PRESETLEVELDESC = {
+                PORKLAND_DEFAULT = "A deeply dangerous jungle?",
+            },
+        },
+        --[[
+        WORLDGEN = {
+            NOUNS_PL = {--ham
+                        "rainforest...","dense foliage...","insects...","carnivorous plants...","cursed temples...","death defining adventure...",
+                        "cobblestones...","shop hours of business...","street life...","piglatin...","leafy canopy...","civilization...","economy...",
+                        "royalty...",
+                        --dst
+                        "expedition...", "wagstaff's gloves...", "wheeler's autobiography", "wilba's etiquette", "warbucks' exploit",
+                        "new queen...", "distant visitor...", "third types of contact...",
+                        "sinful trade...", "utopiga...", "cut off...",
+                        --new
+                        "future...", "highest mountain...", "lowest wetland...", "ancient technology...", "wild vespa...", "golden voyage...",
+                    },
+        },]]
     },
     CHARACTERS = {
         --ds
@@ -27,6 +59,9 @@ local strings = {
                 BASEFAN = {
                     ON = "Fan-tastic.",
                     LOWFUEL = "It's run out of fuel.",
+                },
+                MOONDIAL = {
+                    APORKALYPSE = "There's something in the water.",
                 },
                 SMELTER = {
                     EMPTY = "I smelt that!",--original speech
@@ -43,6 +78,9 @@ local strings = {
                     ON = "Fan the flames.",
                     LOWFUEL = "We need fire the more flames.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "Hey! That's the color of fire.",
+                },
                 SMELTER = {
                     EMPTY = "Oh yeah! Now I can burn metal.",--original speech
                     DONE = "When are we do this again?",
@@ -57,6 +95,9 @@ local strings = {
                 BASEFAN = {
                     ON = "Is cool on Wolfgang skin.",
                     LOWFUEL = "Hungry little machines can't run fast.",
+                },
+                MOONDIAL = {
+                    APORKALYPSE = "Tiny pool is getting scary too.",
                 },
                 SMELTER = {
                     EMPTY = "Wolfgang lifted it without difficulty.",
@@ -74,6 +115,9 @@ local strings = {
                     ON = "Alas the relief it brings is only temporary.",
                     LOWFUEL = "It gave itself up to give us charity.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "It was red with blood.",
+                },
                 SMELTER = {
                     EMPTY = "Burn who are trapped in it...",
                     DONE = "Born of fire.",
@@ -88,6 +132,9 @@ local strings = {
                 BASEFAN = {
                     ON = "COOLING FAN",
                     LOWFUEL = "REQUIRE POWER",
+                },
+                MOONDIAL = {
+                    APORKALYPSE = "SHADOW MAGIC DETECTED",
                 },
                 SMELTER = {
                     EMPTY = "HELLO, FRIEND",--original speech
@@ -104,6 +151,9 @@ local strings = {
                     ON = "Restorative.",
                     LOWFUEL = "It needs fuel to reboot.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "Hmm... It was influenced by third parties.",
+                },
                 SMELTER = {
                     EMPTY = "A metalsmithing tool.",--original speech
                     DONE = "Recooling and done.",
@@ -118,6 +168,9 @@ local strings = {
                 BASEFAN = {
                     ON = "Yep. That's a nice breeze.",
                     LOWFUEL = "It needs firewood.",
+                },
+                MOONDIAL = {
+                    APORKALYPSE = "I felt worse.",
                 },
                 SMELTER = {
                     EMPTY = "It's like a giant maple syrup bucket.",
@@ -134,6 +187,9 @@ local strings = {
                     ON = "Ah. Civilization.",
                     LOWFUEL = "Maintaining a comfortable life comes at a price.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "They are coming.",
+                },
                 SMELTER = {
                     EMPTY = "Finally we're catching up to the Iron Age.",--original speech
                     --DONE = "艰难的成果。",
@@ -148,7 +204,10 @@ local strings = {
             DESCRIBE = {
                 BASEFAN = {
                     ON = "Conquers the heat!",
-                    LOWFUEL = "Heat has return!",
+                    LOWFUEL = "Heat has return.",
+                },
+                MOONDIAL = {
+                    APORKALYPSE = "Hati is almost there!",
                 },
                 SMELTER = {
                     EMPTY = "The tools of dwarves.",--original speech
@@ -164,6 +223,9 @@ local strings = {
                 BASEFAN = {
                     ON = "That breeze feels nice on our fur.",
                     LOWFUEL = "No power, no breeze.",
+                },
+                MOONDIAL = {
+                    APORKALYPSE = "Is that really the moon?",
                 },
                 SMELTER = {
                     EMPTY = "Make material with material.",
@@ -181,6 +243,9 @@ local strings = {
                     ON = "A nice breeze.",
                     LOWFUEL = "It needs some juice.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "I bet it's bad stuff.",
+                },
                 SMELTER = {
                     EMPTY = "I'll just let that do all the work for me.",--original speech
                     DONE = "Well done, bro.",
@@ -195,6 +260,9 @@ local strings = {
                 BASEFAN = {
                     ON = "Good ventilation in the kitchen is an must.",
                     LOWFUEL = "I have to give up my fruitwoods.",
+                },
+                MOONDIAL = {
+                    APORKALYPSE = "Who poured the blood in it?",
                 },
                 SMELTER = {
                     EMPTY = "'Smelt' bad, if you ask me.",--original speech
@@ -212,6 +280,9 @@ local strings = {
                     ON = "A cool wind blows from thee!",
                     LOWFUEL = "Thet b'lookin' mor'n a tad low.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "Thet water be cursed!",
+                },
                 SMELTER = {
                     EMPTY = "A cannon fer makin' metals.",--original speech
                     DONE = "She's ready ta fire!",
@@ -228,6 +299,9 @@ local strings = {
                     ON = "Wind",
                     LOWFUEL = "No Wind",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "Who?",
+                },
                 IRON = "Clinky Rock",
                 SMELTER = {
                     EMPTY = "Clinky rock cooker",
@@ -241,9 +315,9 @@ local strings = {
         WINONA = {--[[
             ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--unuse
             ANNOUCE_ALARMOVER = "呼，平安度过。",
-            ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",
-            ANNOUCE_OTHERWORLD_DEED = "在这里一点用也没有，还不如我在卑诗省的家庭小屋。",
-            ANNOUNCE_TOOLCORRODED = "这些工具的质量太差了。",--unuse
+            ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",]]
+            ANNOUCE_OTHERWORLD_DEED = "I'd rather count on family cabin in BC.",
+            --[[ANNOUNCE_TOOLCORRODED = "这些工具的质量太差了。",--unuse
             ANNOUNCE_TURFTOOHARD = "这里的土层相当瓷实。", 
             ANNOUNCE_GAS_DAMAGE = "咳！瓦斯！咳！有瓦斯！", 
             
@@ -444,22 +518,65 @@ local strings = {
                 },
                 --SPRINKLER = "自动给我的农场送水。",
 
-                TEA = "",
-                ICEDTEA = "",
-                TEATREE = "",    
-                TEATREE_SAPLING = "",    
-                TEATREE_NUT = ",
+                TEA = "A good pot of tea sets the spirit of the day.",
+                ICEDTEA = "What a enjoyment.",
                 
-                GASMASKHAT = "",
+                GASMASKHAT = "Safety first, comfort second.",
 
                 BASEFAN = {
                     ON = "I'm sure bossman would be very interested in it.", --ref wagstaff basefan line
                     LOWFUEL = "It needs fuel to power itself.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "This seems to send some kind of danger signal.",
+                },
+                RAINFORESTTREE = 
+                {
+                	GENERIC = "",
+                	CHOPPED = "",
+        	        BURNING = "",
+                	--BURNT = "变成木炭了。",
+                },
+                RAINFORESTTREE_ROT = "",
+                BURR = "",
+                BURR_SAPLING = "",
+                POG = {
+                    GENERIC = "I'll forgive everything for those eyes.",
+                    --FOLLOWER = "你喜欢我吗？我也喜欢你！",
+                    SLEEPING = "It's sleeping.",
+                    --APORKALYPSE = "停下！冷静一点！",
+                },
+                DUNGBEETLE = {
+        	        GENERIC = "",
+                	UNDUNGED = "",
+                	SLEEPING = "",
+                	DEAD = "",
+                },
+                DUNGBALL = "",
+                DUNGPILE = {
+             	    GENERIC = "",
+             	    PICKED = "",
+                },
+                MANDRAKEMAN = "",
+                SCORPION = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                SNAKE_AMPHIBIOUS = "",
+
+                DISARMING_KIT = "",
+                MAGNIFYING_GLASS = "",
+                GOLDPAN = "",
+                BALLPEIN_HAMMER = "",
+
+                GOLD_DUST = "",
+
+                --GRABBING_VINE = "我看到了一条结实的绳索。",
+                --HANGING_VINE = "我看到了一条结实的绳索。",
             },
         },
-        WORTOX = {
-            --[[
+        WORTOX = {--[[
             ANNOUCE_UNDERLEAFCANOPY = "生长的枝条遮蔽了阳光。",
             ANNOUCE_ALARMOVER = "呦吼！有惊无险！",
             ANNOUCE_BATS = "哼哼！吸血鬼来们了！",]]
@@ -670,23 +787,65 @@ local strings = {
                 },]]
                 SPRINKLER = "A mortal's own version of rainmaker.",
 
-                TEA = "",
-                ICEDTEA = "",
-                TEATREE = "",    
-                TEATREE_SAPLING = "",    
-                TEATREE_NUT = ",
+                TEA = "Mortal's drink.",
+                ICEDTEA = "Cold gives it its flavor.",
                 
-                GASMASKHAT = "",
+                GASMASKHAT = "Keep the gas away from my nose.",
 
                 BASEFAN = {
                     --ON = "微风拂面，好不快活。",
                     LOWFUEL = "Hey! go on!",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "They certainly are coming over us, hyuyu!",
+                },
+                RAINFORESTTREE = 
+                {
+                	GENERIC = "",
+                	CHOPPED = "",
+        	        BURNING = "",
+                	--BURNT = "从里到外全烧焦了！",
+                },
+                --RAINFORESTTREE_ROT = "那上面长的是什么？",
+                BURR = "",
+                BURR_SAPLING = "",
+                POG = {
+                    GENERIC = "Howdy. little chihuahua.",
+                    FOLLOWER = "Good boy.",
+                    SLEEPING = "Sleep sleepy.",
+                    APORKALYPSE = "I don't want to hurt you!",
+                },
+                DUNGBEETLE = {
+        	        GENERIC = "",
+                	UNDUNGED = "",
+                	SLEEPING = "",
+                	DEAD = "",
+                },
+                DUNGBALL = "",
+                DUNGPILE = {
+             	    GENERIC = "",
+             	    PICKED = "",
+                },
+                MANDRAKEMAN = "",
+                SCORPION = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                SNAKE_AMPHIBIOUS = "",
 
+                DISARMING_KIT = "",
+                MAGNIFYING_GLASS = "",
+                GOLDPAN = "",
+                BALLPEIN_HAMMER = "",
+
+                GOLD_DUST = "",
+
+                --GRABBING_VINE = "你好，你想要什么？",
+                --HANGING_VINE = "你好，你想要什么？",
             },
         },
-        WURT = {
-            --[[
+        WURT = {--[[
             ANNOUCE_UNDERLEAFCANOPY = "大树挡住了光。",
             ANNOUCE_ALARMOVER = "鱼人王国的故事还没完呢。",]]
             ANNOUCE_BATS = "Florp. What's this shadow of?",
@@ -894,22 +1053,65 @@ local strings = {
                 },
                 SPRINKLER = "Yeah! Rain!",
 
-                TEA = "",
-                ICEDTEA = "",
-                TEATREE = "",    
-                TEATREE_SAPLING = "",    
-                TEATREE_NUT = ",
+                TEA = "Leaf water.",
+                ICEDTEA = "Cold leaf water.",
                 
-                GASMASKHAT = "",
+                GASMASKHAT = "Bad smell.",
 
                 BASEFAN = {
                     ON = "Water ran away! florpt!",
                     LOWFUEL = "It's stoped.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "Red water?",
+                },
+                RAINFORESTTREE = 
+                {
+                	GENERIC = "",
+                	CHOPPED = "",
+        	        BURNING = "",
+                	BURNT = "Gone.",
+                },
+                RAINFORESTTREE_ROT = "Glorph... feel bad?",
+                BURR = "",
+                BURR_SAPLING = "",
+                POG = {
+                    GENERIC = "Aww, hey doggies!",
+                    FOLLOWER = "Let's go! florp.",
+                    SLEEPING = "Night-night doggie.",
+                    APORKALYPSE = "Doggies... why?",
+                },
+                DUNGBEETLE = {
+        	        GENERIC = "",
+                	UNDUNGED = "",
+                	SLEEPING = "",
+                	DEAD = "",
+                },
+                DUNGBALL = "",
+                DUNGPILE = {
+             	    GENERIC = "",
+             	    PICKED = "",
+                },
+                MANDRAKEMAN = "",
+                SCORPION = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                SNAKE_AMPHIBIOUS = "",
+
+                DISARMING_KIT = "",
+                MAGNIFYING_GLASS = "",
+                GOLDPAN = "",
+                BALLPEIN_HAMMER = "",
+
+                GOLD_DUST = "Shining...",
+
+                GRABBING_VINE = "So long vines.",
+                HANGING_VINE = "So long vines.",
             },
         },
-        WALTER = {
-            --[[
+        WALTER = {--[[
             ANNOUCE_UNDERLEAFCANOPY = "好茂盛的森林，一点光都进不来。",
             ANNOUCE_ALARMOVER = "还会有什么怪物等着我们呢？",
             ANNOUCE_BATS = "这好像不是个好兆头。",
@@ -1123,20 +1325,63 @@ local strings = {
 
                 TEA = "It's tea time now! Woby!",
                 ICEDTEA = "It just got better.",
-                TEATREE = "",    
-                TEATREE_SAPLING = "",    
-                TEATREE_NUT = ",
                 
-                GASMASKHAT = "",
+                GASMASKHAT = "This is so cool.",
 
                 BASEFAN = {
                     --ON = "啊，真舒服，沃比你也来试试。",
                     LOWFUEL = "I think it needs some fuel to get back up.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "What is this?",
+                },
+                RAINFORESTTREE = 
+                {
+                	GENERIC = "",
+                	CHOPPED = "",
+        	        BURNING = "",
+                	BURNT = "",
+                },
+                RAINFORESTTREE_ROT = "",
+                BURR = "",
+                BURR_SAPLING = "",
+                POG = {
+                    --GENERIC = "你也找不到主人了吗？",
+                    FOLLOWER = "Follow me to sweet home.",
+                    SLEEPING = "Have a nice dream.",
+                    --APORKALYPSE = "我们还以为我们会永远是朋友！",
+                },
+                DUNGBEETLE = {
+        	        GENERIC = "",
+                	UNDUNGED = "",
+                	SLEEPING = "",
+                	DEAD = "",
+                },
+                DUNGBALL = "",
+                DUNGPILE = {
+             	    GENERIC = "",
+             	    PICKED = "",
+                },
+                MANDRAKEMAN = "",
+                SCORPION = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                SNAKE_AMPHIBIOUS = "",
+
+                DISARMING_KIT = "",
+                MAGNIFYING_GLASS = "",
+                GOLDPAN = "",
+                BALLPEIN_HAMMER = "",
+
+                GOLD_DUST = "",
+
+                GRABBING_VINE = "What kind of monster up there?",
+                HANGING_VINE = "What kind of monster up there?",
             },
         },
-        WANDA = {
-            --[[
+        WANDA = {--[[
             ANNOUCE_UNDERLEAFCANOPY = "他们潜伏在这里！我需要光！",
             ANNOUCE_ALARMOVER = "我们安全了，暂时。",
             ANNOUCE_BATS = "为什么总有东西不停地找我们麻烦呢？",
@@ -1345,10 +1590,7 @@ local strings = {
                 SPRINKLER = "Save me valuable time.",
 
                 TEA = "It's always tea time, somewhere.",
-                ICEDTEA = "",
-                TEATREE = "",    
-                TEATREE_SAPLING = "",    
-                TEATREE_NUT = ",
+                ICEDTEA = "Right on time, Now I can taste it.",
 
                 GASMASKHAT = "Gives me more time in the gas.",
 
@@ -1356,30 +1598,71 @@ local strings = {
                     --ON = "非常有趣的结构，可惜还不够精细。",
                     LOWFUEL = "Should I wind it up or something?",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "Thanks. Really useful for people who can't look up at the sky.",
+                },
+                RAINFORESTTREE = 
+                {
+                	GENERIC = "",
+                	CHOPPED = "",
+        	        BURNING = "",
+                	BURNT = "",
+                },
+                RAINFORESTTREE_ROT = "",
+                BURR = "",
+                BURR_SAPLING = "",
+                POG = {
+                    --GENERIC = "不要被它们可爱的外表骗了。",
+                    FOLLOWER = "How cute!",
+                    --SLEEPING = "它在休息。",
+                    --APORKALYPSE = "所有的好东西最都会露出獠牙吗？",
+                },
+                DUNGBEETLE = {
+        	        GENERIC = "",
+                	UNDUNGED = "",
+                	SLEEPING = "",
+                	DEAD = "It ends up being part of those.",
+                },
+                --DUNGBALL = "我不会碰它的。",
+                DUNGPILE = {
+                    GENERIC = "It's definitely not worth any of my time.",
+                    PICKED = "Let's just get it over with.",
+                },
+                MANDRAKEMAN = "Stop shouting!",
+                SCORPION = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "Why it's still there?",
+                },
+                SNAKE_AMPHIBIOUS = "Snake. Why did it have to be snake?",
 
+                DISARMING_KIT = "So I can worry about a little less.",
+                MAGNIFYING_GLASS = "Sometimes one of glasses isn't enough.",
+                GOLDPAN = "I dread to think how long this will take.",
+                BALLPEIN_HAMMER = "Delicate work. Delicate is my specialty.",
+ 
+                GOLD_DUST = "I need to collect lot of them.",
+
+                GRABBING_VINE = "I really hope it was just a regular plant.",
+                HANGING_VINE = "I really hope it was just a regular plant.",
             },
         },
         --New Characters for us
         WAGSTAFF = {
-            
             --new line for goggles?
-
             --moonstorm, sandstorm and brightshade
-            --ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "Ah, let me see where it is...",
-            --ANNOUNCE_PUTONGOGGLES_DESERTHAT = "I can see the world through these lenses.",
-            --ANNOUNCE_PUTONGOGGLES_LUNARPLANTHAT = "The warped light acts as the goggles' effect.",
-
+            ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "Ah, let me see where it is...",
+            ANNOUNCE_PUTONGOGGLES_DESERTHAT = "I can see the world through these lenses.",
+            ANNOUNCE_PUTONGOGGLES_LUNARPLANTHAT = "The warped light acts as the goggles' effect.",
             --void
-            --ANNOUNCE_PUTONGOGGLES_VOIDCLOTHHAT = "Void eyes will see the world for me.",
-
+            ANNOUNCE_PUTONGOGGLES_VOIDCLOTHHAT = "Void eyes will see the world for me.",
             --Fram hat
-            --ANNOUNCE_PUTONGOGGLES_PLANTREGISTRYHAT = "This will help me to observe the plants of this world.",
-            --ANNOUNCE_PUTONGOGGLES_NUTRIENTSGOGGLESHAT = "Using the focusing effect, I can see tiny nutrients.",
-
+            ANNOUNCE_PUTONGOGGLES_PLANTREGISTRYHAT = "This will help me to observe the plants of this world.",
+            ANNOUNCE_PUTONGOGGLES_NUTRIENTSGOGGLESHAT = "Using the focusing effect, I can see tiny nutrients.",
             --AF hat
-            --ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "So that's it. That's... what he saw...",
+            ANNOUNCE_PUTONGOGGLES_SKELETONHAT = "So that's it. That's... what he saw...",
             --CC hat
-            --ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "Unlimited insight! I can even see the fibers of reality is pulsating!",
+            ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "Unlimited insight! I can even see the fibers of reality is pulsating!",
             
             --ANNOUNCE_GNATS_DIED="",
 
@@ -1388,14 +1671,22 @@ local strings = {
                     ON = "Magnificent! What a marvel of engineering!",
                     LOWFUEL = "Still not perpetual motion machine.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "That's weird. What happened between them?",
+                },
                 SMELTER = {
                     EMPTY = "Magnificent! Perhaps I can build a factory here as well.",--original speech
                     DONE = "Done already? Remarkable!",
                     COOKING_SHORT = "I can't wait to watch more about the properties of these metals.",
                     BURNT = "Smelting is a dangerous business in here.",
                 },
+                POG = {
+                    GENERIC = "An adorably audacious animal with an insatiable appetite!",
+                    FOLLOWER = "They are so easy to tame.",
+                    SLEEPING = "These animals are having a necessary rest.",
+                    --APORKALYPSE = "它们现在充满了攻击性。",
+                },
 
-                --Im a scientist. i work with science
                 --Im a firentist. i play with fire
                 LIGHTER =  "An odd artifact she carries with her. How it work?",
                 BERNIE_ACTIVE = "It responds to psychic attacks! Fascinating!",
@@ -1415,10 +1706,10 @@ local strings = {
                     BURNT = "显然它的功能不包括灭火。",
                 },]]
 
-                DUMBBELL_HEAT = "",
-                DUMBBELL_REDGEM = "",
-                DUMBBELL_BLUEGEM = "",
-                WOLFGANG_WHISTLE = "",
+                DUMBBELL_HEAT = "Combine exercise with thermal energy storage.",
+                --DUMBBELL_REDGEM = "又一个利用了宝石特性的哑铃，提供化学反应需要的能量。",
+                --DUMBBELL_BLUEGEM = "又一个利用了宝石特性的哑铃，吸收周围的热能。",
+                WOLFGANG_WHISTLE = "It has a very high incentive effect.",
 
                 --wendy
                 SMALLGHOST = "A younger poltergeist not affected by the dark fuel.",
@@ -1544,11 +1835,11 @@ local strings = {
                 BATTLESONG_INSTANT_TAUNT = "Triggering unknown forces through specially modulated sound waves. Interesting.",
 
                 --Webby-boy
-                SPIDERDEN_BEDAZZLER = "这些涂鸦会改变生物的习性，有趣。",
+                --SPIDERDEN_BEDAZZLER = "这些涂鸦会改变生物的习性，有趣。",
 
-                spider_whistle = "它们全都未经训练，也就是说这些是本能反应。",
-                spider_repellent = "这里的蛛形纲生物的竟会有如此有趣的本能反应？",
-                spider_healer_item = "显然是根据这里的蛛形纲生物调制的，但对人类仍有轻微的治疗效果。",
+                --SPIEDER_whistle = "它们全都未经训练，也就是说这些是本能反应。",
+                --SPIEDER_repellent = "这里的蛛形纲生物的竟会有如此有趣的本能反应？",
+                --SPIEDER_healer_item = "显然是根据这里的蛛形纲生物调制的，但对人类仍有轻微的治疗效果。",
 
                 MUTATOR_DROPPER = "These food seems to induce rapid pupation and emergence in arachnids.",
                 MUTATOR_HEALER = "These food seems to induce rapid pupation and emergence in arachnids.",
@@ -1564,27 +1855,27 @@ local strings = {
                     GENERIC = "How does it perform intelligent target recognition?",
                     OFF = "It requires electricity to run. Of course.",
                     BURNING = "",
-                    BURNT = "",
+                    --BURNT = "生产力的进步就这么停滞了。",
                 },
                 WINONA_SPOTLIGHT = {
                     GENERIC = "How does it perform intelligent target recognition?",
                     OFF = "It requires electricity to run. Of course",
                     BURNING = "",
-                    BURNT = "",
+                    --BURNT = "生产力的进步就这么停滞了。",
                 },
                 WINONA_BATTERY_LOW= {
                     GENERIC = "",
                     LOWPOWER = "能源快要耗尽了。",
                     OFF = "",
                     BURNING = "",
-                    BURNT = "",
+                    --BURNT = "生产力的进步就这么停滞了。",
                 },
                 WINONA_BATTERY_HIGH= {
                     GENERIC = "",
                     LOWPOWER = "能源快要耗尽了。",
                     OFF = "",
                     BURNING = "",
-                    BURNT = "",
+                    --BURNT = "生产力的进步就这么停滞了。",
                 },
 
                 --Offend constantly
@@ -1604,10 +1895,10 @@ local strings = {
                     DONE = "",
                 },
 
-                SPICE_CHILI = "",
-                SPICE_GARLIC = "",
-                SPICE_SALT = "",
-                SPICE_SUGAR = "",
+                SPICE_CHILI = "There is a powerful repulsion between them and foods.",
+                SPICE_GARLIC = "There is a powerful repulsion between them and foods.",
+                SPICE_SALT = "There is a powerful repulsion between them and foods.",
+                SPICE_SUGAR = "There is a powerful repulsion between them and foods.",
 
                 MONSTERTARTARE = "",
                 FRESHFRUITCREPES = "",
@@ -1638,7 +1929,7 @@ local strings = {
                 SLINGSHOTAMMO_SLOW = "",
                 SLINGSHOTAMMO_THULECITE = "",
 
-                SLINGSHOTAMMO_POOP = "",
+                SLINGSHOTAMMO_POOP = "This is disgusting.",
 
                 WOBYBIG = {
                     "",
@@ -1775,6 +2066,9 @@ local strings = {
                     ON = "BLOW WINDS!",
                     LOWFUEL = "'TIS NEEDING FUELS",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "CALAMITY OF SO LONG.",
+                },
                 SMELTER = {
                     EMPTY = "'TIS FWOOSHY MACHINES",--original speech
                     DONE = "'TIS DONE",
@@ -1789,6 +2083,9 @@ local strings = {
                 BASEFAN = {
                     ON = "A plane propeller would be better.",
                     LOWFUEL = "I need to refuel.",
+                },
+                MOONDIAL = {
+                    APORKALYPSE = "Obviously not a good thing.",
                 },
                 SMELTER = {
                     EMPTY = "It takes the heavy metal and makes it heavier.",--original speech
@@ -1805,14 +2102,95 @@ local strings = {
                     ON = "Ah. A nice cooling breeze.",
                     LOWFUEL = "Needs a bit of a top-up.",
                 },
+                MOONDIAL = {
+                    APORKALYPSE = "What kind of barbaric witchcraft is this?",
+                },
                 SMELTER = {
                     EMPTY = "I say, that's rather clever!",--original speech
                     DONE = "I say! That was well worth the effort.",
                     COOKING_SHORT = "Patience is a virtue.",
                     BURNT = "Well, there's nothing for it now.",
                 },
+                POG = {
+                    GENERIC = "Rather happy little creature.",
+                    FOLLOWER = "My happy little minions.",
+                    SLEEPING = "Yawn.",
+                    APORKALYPSE = "A wild beast after all.",
+                },
             },
         },
+    },
+    STAGEACTOR = {
+        WAGSTAFF1 = {--we choose to go to the moon
+            "We choose to go to..."
+            "(Electrostatic Noise)",
+            "Not because they are easy,",
+            "but because they are hard.",
+            "Because that goal-",
+            "-will serve to organize and measure the best of our energies and skills,",
+            "because that challenge is one that we are willing to accept,",
+            "one we are unwilling to postpone,",
+            "and one we intend to win, and the others, too.",
+        },
+        WILBA1 = {
+            "TO BE OR NOT TO BE-THAT IS THE QUESTION:",
+            "WHETHER 'TIS NOBLER IN THE MIND TO SUFFER,",
+            "THE SLINGS AND ARROWS OF OUTRAGOUS FORTUNE,",
+            "OR TO TAKE ARMS AGAINST A SEA OF TROUBLES,",
+            "AND, BY OPPOSING, END THEM. TO DIE, TP SLEEP.",
+            "NO MORE; AND BY A SLEEP TO SAY WE END.",
+        },
+        --WHEELER1 =
+        --WARBUCKS1 = 
+    },
+    CHARACTER_ABOUTME = {
+        wagstaff = "This inventor finds himself exactly where he wanted to be.",
+        wheeler = "Wheeler is a globetrotting adventurer and balloon pilot who enjoys every adventure.",
+        wilba = "Wilba was more interested in the wider world outside her kingdom than in royal education or succession the throne.",
+        warbucks = "Whether in the other side of the ocean or in The Constant. The map of empire is Warbucks' medal.",
+    },
+    CHARACTER_BIOS =
+	{
+        wagstaff =
+		{
+            { title = "Birthday", desc = "March 14" },
+            { title = "Favorite Food", desc = "Pumpkin Cookies" },
+			{ title = "Scientific Revolution", desc = "Voxola PR-76 Radio offered revolutionary sound and reception quality for the time, and was promoted by an intense national marketing campaign. Very few units were actually produced, because the factory was destroyed in a fire only days after production began. Voxola founder Robert Wagstaff went missing the night of the fire, and the company declared bankruptcy soon thereafter." },
+		    --{ title = "His past...", desc = "Is yet to be revealed"},
+        },
+        wheeler =
+		{
+            { title = "Birthday", desc = "April 18" },--update
+            { title = "Favorite Food", desc = "Asparagus Soup" },
+            { title = "Thousand Meters Aloft", desc = "Is yet to be revealed"},
+            --{ title = "Her past...", desc = "Is yet to be revealed"},
+		},
+        wilba =
+		{
+            { title = "Birthday", desc = "May 14" },--hamlet release
+            { title = "Favorite Food", desc = "Grilled Watermelon" },
+			{ title = "The Passionate Pig Princess", desc = "Is yet to be revealed"},
+            --{ title = "Her past...", desc = "Is yet to be revealed"},
+		},
+        warbucks =
+		{
+            { title = "Birthday", desc = "October 12" },--columbus arrived in america
+            { title = "Favorite Food", desc = "Fist Full of Jam" },
+            { title = "Manifest Destiny", desc = "Is yet to be revealed"},
+            --{ title = "His past...", desc = "Is yet to be revealed"},
+		},
+    },
+    SKIN_NAMES = {
+        wagstaff_none = "Wagstaff",
+        wheeler_none = "Wheeler",
+        wilba_none = "Wilba",
+        warbucks_none = "Warbucks",
+    },
+    SKIN_DESCRIPTIONS = {
+        wagstaff_none = "Practical attire in the workshop.",
+        wheeler_none = "Common gears for balloon pilots.",
+        wilba_none = "Decorum pig royal dress.",
+        warbucks_none = "The stereotypical image of tropical adventure.",
     },
 }
 
