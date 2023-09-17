@@ -1,12 +1,10 @@
 
 local strings = {
-    --[[
     SCRAPBOOK = {
         SPECIALINFO = {
-            KEY_TO_CITY = "",
+            KEY_TO_CITY = "建造你自己的城镇。",
         },
     },
-    ]]
     NAMES = {
         FARM_PLANT_RADISH = "水萝卜植株",
         KNOWN_RADISH_SEEDS = "水萝卜种子",
@@ -19,7 +17,7 @@ local strings = {
     UI = {
         COOKBOOK = {
             FOOD_EFFECTS_ANTIHISTAMINE = "清理呼吸道",
-            --FOOD_EFFECTS_SPEED_BOOST = "全速前进",
+            FOOD_EFFECTS_SPEED_BOOST = "全速前进",
         },
         PLANTREGISTRY = {
             DESCRIPTIONS = {
@@ -30,9 +28,11 @@ local strings = {
         CUSTOMIZATIONSCREEN = {
             PRESETLEVELS = {
                 PORKLAND_DEFAULT = "猪镇",
+                PORKLAND_PULS = "猪人之国",
             },
             PRESETLEVELDESC = {
                 PORKLAND_DEFAULT = "一片极其危险的丛林？",
+                PORKLAND_PULS = "在一个广袤的高海拔世界中展开史诗级的冒险。",
             },
         },
         --[[
@@ -41,11 +41,10 @@ local strings = {
                         "雨林...","浓密的树叶...","昆虫...","食肉植物...","被诅咒的神庙...","由死亡定义的冒险...",
                         "鹅卵石...","商店营业时间...","街头生活...","猪丁语...","繁茂的树叶...","文明社会...","经济...",
                         "王室成员...",
-                        --dst
-                        "探险队伍...", "瓦格斯塔夫的手套...", "薇勒尔的自传...", "薇尔芭的礼仪...", "沃巴克斯的剥削...",
-                        "新女王...", "远方来客...", "第三类接触...",
-                        "罪恶的贸易...", "猪托邦...", "与世隔绝...",
                         --new
+                        "探险队伍...", "瓦格斯塔夫的手套...", "薇勒尔的自传...", "薇尔芭的礼仪...", "沃巴克斯的剥削...",
+                        "新女王...", "远方来客...", "第三类接触...", 
+                        "罪恶的贸易...", "猪托邦...", "与世隔绝...", "全球化...",
                         "未来...", "最高的山巅...", "最低的湿地...", "古代技术...", "狂野的胡蜂...", "黄金航线...",
                     },
         },]]
@@ -54,7 +53,7 @@ local strings = {
         --ds
         --真的吗？
         GENERIC= {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="接招吧，虫子们！",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "风-趣。",
@@ -72,7 +71,7 @@ local strings = {
             },
         },
         WILLOW = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="没有火我也能对付你们。",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "煽风点火。",
@@ -90,7 +89,7 @@ local strings = {
             },
         },
         WOLFGANG = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="沃尔夫冈的肌肉舒服多了。",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "沃尔夫冈感到很凉快。",
@@ -109,7 +108,7 @@ local strings = {
         },
         WENDY = {
             --以我的英文水平，英文版可能就不那么好看咯:P
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="现在还没轮到我。",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "哎，这只能缓解片刻。",
@@ -127,7 +126,7 @@ local strings = {
             },
         },
         WX78 = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="干扰性肉袋已清除",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "冷却风扇",
@@ -145,7 +144,7 @@ local strings = {
             },
         },
         WICKERBOTTOM = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="我终于摆脱了这些蚊蝇。",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "恢复装置。",
@@ -163,7 +162,7 @@ local strings = {
             },
         },
         WOODIE = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="我的招数多着呢。",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "嗯。一阵微风。",
@@ -172,6 +171,7 @@ local strings = {
                 MOONDIAL = {
                     APORKALYPSE = "我感觉更糟糕了。",
                 },
+                GNAT = "那玩意儿在伐木场里是真的多。",
                 SMELTER = {
                     EMPTY = "就像一个巨大的糖浆桶。",
                     DONE = "哼。为一点金属兴师动众。",--原台词
@@ -181,7 +181,7 @@ local strings = {
             },
         },
         WAXWELL = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="不要烦扰一位绅士。",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "哈，现代文明。",
@@ -200,7 +200,7 @@ local strings = {
         },
         --rog
         WATHGRITHR = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="这就是下场，虫子。",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "驱散高温!",
@@ -218,7 +218,7 @@ local strings = {
             },
         },
         WEBBER = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="我们安全了！",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "微风吹过毛皮的感觉很惬意。",
@@ -237,7 +237,7 @@ local strings = {
         },
         --sw
         WALANI = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="清静了，终于。",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "宜人的微风。",
@@ -255,7 +255,7 @@ local strings = {
             },
         },
         WARLY = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="谢天谢地。",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "厨房必须通风良好。",
@@ -274,7 +274,7 @@ local strings = {
         },
         WOODLEGS = {
             --吐字清晰！求你了！
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="死吧！会飞的鱼饵！",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "凉爽的风向你身上吹来！",
@@ -293,7 +293,7 @@ local strings = {
         },
         --ham-
         WORMWOOD = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="滋滋的家伙们没了",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "风",
@@ -347,7 +347,7 @@ local strings = {
             ANNOUNCE_SUITUP = "全副武装！",
 
             --new
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="我说了离我远点。",
 
             DESCRIBE = {
                 GRASS_TALL = {
@@ -530,8 +530,7 @@ local strings = {
                 MOONDIAL = {
                     APORKALYPSE = "这似乎在传达某种危险的信号。",
                 },
-                RAINFORESTTREE = 
-                {
+                RAINFORESTTREE = {
                 	GENERIC = "",
                 	CHOPPED = "",
         	        BURNING = "",
@@ -539,7 +538,12 @@ local strings = {
                 },
                 RAINFORESTTREE_ROT = "",
                 BURR = "",
-                BURR_SAPLING = "",
+                BURR_SAPLING = {
+                    GENERIC = "",
+                    BURNING = "",
+                    PICKED = "",
+                    WITHERED = "",
+                },
                 POG = {
                     GENERIC = "这双眼睛让我能够原谅它做的一切。",
                     FOLLOWER = "你喜欢我吗？我也喜欢你！",
@@ -574,6 +578,14 @@ local strings = {
 
                 GRABBING_VINE = "我看到了一条结实的绳索。",
                 HANGING_VINE = "我看到了一条结实的绳索。",
+
+                SPIDER_MONKEY_TREE = "",
+                SPIDER_MONKEY_NEST = "",
+                SPIDER_MONKEY = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
             },
         },
         WORTOX = {
@@ -611,7 +623,7 @@ local strings = {
             ANNOUNCE_SUITUP = "芜——湖！太好玩辣！",
 
             --new
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="呼，那可真可怕。",
 
             DESCRIBE = {
                 GRASS_TALL = {
@@ -795,8 +807,7 @@ local strings = {
                 MOONDIAL = {
                     APORKALYPSE = "它们很明显要来找我们了，哼哼。",
                 },
-                RAINFORESTTREE = 
-                {
+                RAINFORESTTREE = {
                 	GENERIC = "",
                 	CHOPPED = "",
         	        BURNING = "",
@@ -804,7 +815,12 @@ local strings = {
                 },
                 RAINFORESTTREE_ROT = "那上面长的是什么？",
                 BURR = "",
-                BURR_SAPLING = "",
+                BURR_SAPLING = {
+                    GENERIC = "",
+                    BURNING = "",
+                    PICKED = "",
+                    WITHERED = "",
+                },
                 POG = {
                     GENERIC = "小吉娃娃，嗨！",
                     FOLLOWER = "好孩子。",
@@ -814,7 +830,7 @@ local strings = {
                 DUNGBEETLE = {
         	        GENERIC = "",
                 	UNDUNGED = "",
-                	SLEEPING = "",
+                	SLEEPING = "我还以为它们会有巨大的呼噜声。",
                 	DEAD = "",
                 },
                 DUNGBALL = "",
@@ -839,6 +855,14 @@ local strings = {
 
                 GRABBING_VINE = "你好，想要什么？",
                 HANGING_VINE = "你好，想要什么？",
+
+                SPIDER_MONKEY_TREE = "",
+                SPIDER_MONKEY_NEST = "",
+                SPIDER_MONKEY = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
             },
         },
         WURT = {
@@ -876,7 +900,7 @@ local strings = {
             ANNOUNCE_SUITUP = "浮浪特 格勒苏 浮路特！",--鱼人守卫战斗台词“为了鱼人的荣耀”
 
             --new
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="虫子不要惹鱼人。",
 
             DESCRIBE = {
                 GRASS_TALL = {
@@ -1060,16 +1084,20 @@ local strings = {
                 MOONDIAL = {
                     APORKALYPSE = "红色的水？",
                 },
-                RAINFORESTTREE = 
-                {
+                RAINFORESTTREE = {
                 	GENERIC = "",
                 	CHOPPED = "",
         	        BURNING = "",
                 	BURNT = "没了。",
                 },
                 RAINFORESTTREE_ROT = "格浪浮……你不舒服吗？",
-                BURR = "",
-                BURR_SAPLING = "",
+                BURR = "全是刺。",
+                BURR_SAPLING = {
+                    GENERIC = "",
+                    BURNING = "",
+                    PICKED = "怎么回事？",
+                    WITHERED = "怎么回事？",
+                },
                 POG = {
                     GENERIC = "嗷，嘿，小狗狗们！",
                     FOLLOWER = "浮浪噗！我们走！",
@@ -1082,10 +1110,10 @@ local strings = {
                 	SLEEPING = "",
                 	DEAD = "",
                 },
-                DUNGBALL = "",
+                DUNGBALL = "脏东西球。",
                 DUNGPILE = {
-             	    GENERIC = "",
-             	    PICKED = "",
+             	    GENERIC = "脏又臭。",
+             	    PICKED = "没有了。",
                 },
                 MANDRAKEMAN = "",
                 SCORPION = {
@@ -1095,15 +1123,23 @@ local strings = {
                 },
                 SNAKE_AMPHIBIOUS = "",
 
-                DISARMING_KIT = "",
-                MAGNIFYING_GLASS = "",
-                GOLDPAN = "",
-                BALLPEIN_HAMMER = "",
+                DISARMING_KIT = "鱼人赢，猪人的陷阱输。",
+                MAGNIFYING_GLASS = "让小东西变大。",
+                GOLDPAN = "捡起水里的东西。",
+                BALLPEIN_HAMMER = "撬走一切！",
 
                 GOLD_DUST = "闪闪闪...",
 
                 GRABBING_VINE = "超长的藤蔓。",
                 HANGING_VINE = "超长的藤蔓。",
+
+                SPIDER_MONKEY_TREE = "",
+                SPIDER_MONKEY_NEST = "",
+                SPIDER_MONKEY = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
             },
         },
         WALTER = {
@@ -1141,7 +1177,7 @@ local strings = {
             ANNOUNCE_SUITUP = "现在我是钢铁人！",
 
             --new
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="哈！这样如何？",
 
             DESCRIBE = {
                 GRASS_TALL = {
@@ -1325,32 +1361,36 @@ local strings = {
                 MOONDIAL = {
                     APORKALYPSE = "这是什么？",
                 },
-                RAINFORESTTREE = 
-                {
+                RAINFORESTTREE = {
                 	GENERIC = "",
                 	CHOPPED = "",
-        	        BURNING = "",
+        	        BURNING = "森林火灾！",
                 	BURNT = "",
                 },
                 RAINFORESTTREE_ROT = "",
                 BURR = "",
-                BURR_SAPLING = "",
+                BURR_SAPLING = {
+                    GENERIC = "",
+                    BURNING = "",
+                    PICKED = "",
+                    WITHERED = "",
+                },
                 POG = {
-                    GENERIC = "你也找不到主人了吗？",
+                    GENERIC = "你也找不到家了吗？",
                     FOLLOWER = "跟我来，我带你们回家。",
                     SLEEPING = "做个好梦。",
                     APORKALYPSE = "我们还以为我们会永远是朋友！",
                 },
                 DUNGBEETLE = {
         	        GENERIC = "",
-                	UNDUNGED = "",
+                	UNDUNGED = "请不要再那么做了。",
                 	SLEEPING = "",
                 	DEAD = "",
                 },
                 DUNGBALL = "",
                 DUNGPILE = {
              	    GENERIC = "",
-             	    PICKED = "",
+             	    PICKED = "噫！",
                 },
                 MANDRAKEMAN = "",
                 SCORPION = {
@@ -1369,6 +1409,14 @@ local strings = {
 
                 GRABBING_VINE = "有什么怪物在上面吗？",
                 HANGING_VINE = "有什么怪物在上面吗？",
+
+                SPIDER_MONKEY_TREE = "这一定得是一只巨大的蜘蛛才能做到！",
+                SPIDER_MONKEY_NEST = "",
+                SPIDER_MONKEY = {
+                    GENERIC = "所以你是蜘蛛和...大脚怪！",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
             },
         },
         WANDA = {
@@ -1406,7 +1454,7 @@ local strings = {
             ANNOUNCE_SUITUP = "只是时间问题！！！",
 
             --new
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="我们何必要走到这一步呢？",
 
             DESCRIBE = {
                 GRASS_TALL = {
@@ -1590,16 +1638,20 @@ local strings = {
                 MOONDIAL = {
                     APORKALYPSE = "多谢。对不会抬头看天的人真的很有用。",
                 },
-                RAINFORESTTREE = 
-                {
-                	GENERIC = "",
-                	CHOPPED = "",
-        	        BURNING = "",
-                	BURNT = "",
+                RAINFORESTTREE = {
+                	GENERIC = "非常好看，然后呢？",
+                	CHOPPED = "现在说什么都已经太晚了。",
+        	        BURNING = "这就是它终结的方式了。",
+                	BURNT = "真可惜。",
                 },
-                RAINFORESTTREE_ROT = "",
-                BURR = "",
-                BURR_SAPLING = "",
+                RAINFORESTTREE_ROT = "这里绝不是一个理想的生活环境。",
+                BURR = "一个充满攻击性的树小孩。",
+                BURR_SAPLING = {
+                    GENERIC = "它还需要很长很长的时间。",
+                    BURNING = "这就是它童年的终结了。",
+                    PICKED = "我对它做了什么？",
+                    WITHERED = "它需要树荫...来创造树荫。",
+                },
                 POG = {
                     GENERIC = "不要被他们可爱的外表骗了。",
                     FOLLOWER = "多可爱啊！",
@@ -1607,9 +1659,9 @@ local strings = {
                     APORKALYPSE = "所有的好东西最都会露出獠牙吗？",
                 },
                 DUNGBEETLE = {
-        	        GENERIC = "",
-                	UNDUNGED = "",
-                	SLEEPING = "",
+        	        GENERIC = "那可真恶心。",
+                	UNDUNGED = "她还会去再找另一个的。",
+                	SLEEPING = "她正在休息。",
                 	DEAD = "它最终会加入其中。",
                 },
                 DUNGBALL = "我不会碰它的。",
@@ -1619,8 +1671,8 @@ local strings = {
                 },
                 MANDRAKEMAN = "别叫了！",
                 SCORPION = {
-                    GENERIC = "",
-                    SLEEPING = "",
+                    GENERIC = "尖诈的生物。",
+                    SLEEPING = "无论是怎样的毒物都有累的时候。",
                     DEAD = "为什么它还在这？",
                 },
                 SNAKE_AMPHIBIOUS = "蛇，为什么非得是蛇呢？",
@@ -1634,6 +1686,14 @@ local strings = {
 
                 GRABBING_VINE = "我真的很希望它只是普通的植物。",
                 HANGING_VINE = "我真的很希望它只是普通的植物。",
+
+                SPIDER_MONKEY_TREE = "",
+                SPIDER_MONKEY_NEST = "",
+                SPIDER_MONKEY = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
             },
         },
         --New Characters for us
@@ -1653,7 +1713,7 @@ local strings = {
             --启迪皇冠
             ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "无限的洞察力！我甚至能看到世界的纤维在律动！",
 
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="哈！我找到了它们的弱点！",
 
             DESCRIBE = {
                 BASEFAN = {
@@ -2049,7 +2109,7 @@ local strings = {
         },
         WILBA = {
             --CNM，猪人语
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="打倒麻烦",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "吹吧！风啊！",
@@ -2067,7 +2127,7 @@ local strings = {
             },
         },
         WHEELER = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="敌机坠毁，棒！",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "要是用飞机的螺旋桨当叶片就更好了。",
@@ -2085,7 +2145,7 @@ local strings = {
             },
         },
         WARBUCKS = {
-            --ANNOUNCE_GNATS_DIED="",
+            ANNOUNCE_GNATS_DIED="呸！下地狱吧！",
             DESCRIBE = {
                 BASEFAN = {
                     ON = "啊. 一阵舒爽的冷风。",
