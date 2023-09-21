@@ -551,15 +551,15 @@ local strings = {
                     APORKALYPSE = "停下！冷静一点！",
                 },
                 DUNGBEETLE = {
-        	        GENERIC = "",
-                	UNDUNGED = "",
-                	SLEEPING = "",
-                	DEAD = "",
+        	        GENERIC = "无论你看到过多少次，都是很难接受。",
+                	UNDUNGED = "看上去像是痛失所爱。",
+                	SLEEPING = "休息是必须的。",
+                	DEAD = "她死了吗？",
                 },
-                DUNGBALL = "",
+                DUNGBALL = "我绝对不会去碰它。",
                 DUNGPILE = {
-             	    GENERIC = "",
-             	    PICKED = "",
+             	    GENERIC = "呃，恶心。",
+             	    PICKED = "我以为已经结束了...",
                 },
                 MANDRAKEMAN = "",
                 SCORPION = {
@@ -567,7 +567,7 @@ local strings = {
                     SLEEPING = "",
                     DEAD = "",
                 },
-                SNAKE_AMPHIBIOUS = "",
+                SNAKE_AMPHIBIOUS = "邪恶的生物，离我远点！",
 
                 DISARMING_KIT = "",
                 MAGNIFYING_GLASS = "",
@@ -828,15 +828,15 @@ local strings = {
                     APORKALYPSE = "我不想伤害你们！",
                 },
                 DUNGBEETLE = {
-        	        GENERIC = "",
-                	UNDUNGED = "",
+        	        GENERIC = "那是...粪便吗？",
+                	UNDUNGED = "请不要再那么做了。",
                 	SLEEPING = "我还以为它们会有巨大的呼噜声。",
-                	DEAD = "",
+                	DEAD = "对不起，女士。",
                 },
-                DUNGBALL = "",
+                DUNGBALL = "为什么会有人喜欢它？",
                 DUNGPILE = {
-             	    GENERIC = "",
-             	    PICKED = "",
+             	    GENERIC = "臭气熏天...",
+             	    PICKED = "还在？",
                 },
                 MANDRAKEMAN = "",
                 SCORPION = {
@@ -1105,10 +1105,10 @@ local strings = {
                     APORKALYPSE = "小狗狗...为什么？",
                 },
                 DUNGBEETLE = {
-        	        GENERIC = "",
-                	UNDUNGED = "",
-                	SLEEPING = "",
-                	DEAD = "",
+        	        GENERIC = "漂亮，但很臭。",
+                	UNDUNGED = "还是很臭。",
+                	SLEEPING = "只是睡着了。",
+                	DEAD = "不动了。",
                 },
                 DUNGBALL = "脏东西球。",
                 DUNGPILE = {
@@ -1382,14 +1382,14 @@ local strings = {
                     APORKALYPSE = "我们还以为我们会永远是朋友！",
                 },
                 DUNGBEETLE = {
-        	        GENERIC = "",
-                	UNDUNGED = "请不要再那么做了。",
-                	SLEEPING = "",
-                	DEAD = "",
+        	        GENERIC = "我需要一个很大的瓶子才能装下她！",
+                	UNDUNGED = "她没和那个粪球在一起，好时机！",
+                	SLEEPING = "她在睡觉。",
+                	DEAD = "你好？",
                 },
-                DUNGBALL = "",
+                DUNGBALL = "她是怎么做到...算了。",
                 DUNGPILE = {
-             	    GENERIC = "",
+             	    GENERIC = "这是什么巨大的生物留下的？",
              	    PICKED = "噫！",
                 },
                 MANDRAKEMAN = "",
@@ -1662,7 +1662,7 @@ local strings = {
         	        GENERIC = "那可真恶心。",
                 	UNDUNGED = "她还会去再找另一个的。",
                 	SLEEPING = "她正在休息。",
-                	DEAD = "它最终会加入其中。",
+                	DEAD = "她最终会加入其中。",
                 },
                 DUNGBALL = "我不会碰它的。",
                 DUNGPILE = {
@@ -2069,7 +2069,7 @@ local strings = {
                    DEAD = "剩余的结构应该还足够进行一次重组。",
                 },
                 ALTERGUARDIAN_PHASE2SPIKE = "它生成了额外的增生物，用于确保目标位于杀伤范围内。",
-                ALTERGUARDIAN_PHASE3 = "它的结构以及展开到了极限，这是最后的形态了。",
+                ALTERGUARDIAN_PHASE3 = "它的结构已经展开到了极限，这是最后的形态了。",
                 ALTERGUARDIAN_PHASE3TRAP = "它在发射出强大的精神干扰脉冲。",--psychic overload? override? guidance? or interference? for enlightenment
                 ALTERGUARDIAN_PHASE3DEADORB = "残余的结构已经几乎失去了力量。",
                 ALTERGUARDIAN_PHASE3DEAD = "最后的防护措施，可以被轻易破解。",
@@ -2105,6 +2105,9 @@ local strings = {
                     CONSTRUCTION1 = "然后是将其向上引导的能量场...",
                     CONSTRUCTION2 = "最后，还需要一个合适的容器...",
                 },
+
+                LUNARRIFT_PORTAL = "这只是小小的副作用，一切都在掌控之中。",
+                SHADOWRIFT_PORTAL = "奇怪，它不该是这样的...",
             },
         },
         WILBA = {
@@ -2152,7 +2155,7 @@ local strings = {
                     LOWFUEL = "需要添把火。",
                 },
                 MOONDIAL = {
-                    APORKALYPSE = "这是什么野蛮的巫术？",
+                    APORKALYPSE = "这是哪门子野蛮的巫术？",
                 },
                 SMELTER = {
                     EMPTY = "我说，这太聪明了！",--原台词
@@ -2195,7 +2198,7 @@ local strings = {
     CHARACTER_ABOUTME = {
         wagstaff = "这位发明家发现自己正身处他最想去的地方。",
         wheeler = "薇勒尔是一位环球冒险家和热气球飞行员，她享受每一次探险。",
-        wilba = "比起皇室教育和继承皇位， 薇尔芭更向往猪镇外的广阔天地。",
+        wilba = "比起礼仪和皇位，薇尔芭更向往猪镇外的广阔天地。",
         warbucks = "无论在大洋彼岸还是永恒领域，帝国的版图就是沃巴克斯的勋章。",
     },
     CHARACTER_BIOS =

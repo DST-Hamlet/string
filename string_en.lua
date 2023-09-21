@@ -550,24 +550,24 @@ local strings = {
                     SLEEPING = "It's sleeping.",
                     --APORKALYPSE = "停下！冷静一点！",
                 },
-                DUNGBEETLE = {
-        	        GENERIC = "",
-                	UNDUNGED = "",
-                	SLEEPING = "",
-                	DEAD = "",
+                --[[DUNGBEETLE = {
+        	        GENERIC = "无论你看到过多少次，都是很难接受。",
+                	UNDUNGED = "看上去像是痛失所爱。",
+                	SLEEPING = "休息是必须的。",
+                	DEAD = "她死了吗？",
                 },
-                DUNGBALL = "",
+                DUNGBALL = "我绝对不会去碰它。",
                 DUNGPILE = {
-             	    GENERIC = "",
-             	    PICKED = "",
-                },
+             	    GENERIC = "呃，恶心。",
+             	    PICKED = "我以为已经结束了？",
+                },]]
                 MANDRAKEMAN = "",
                 SCORPION = {
                     GENERIC = "",
                     SLEEPING = "",
                     DEAD = "",
                 },
-                SNAKE_AMPHIBIOUS = "",
+                SNAKE_AMPHIBIOUS = "Stay away from me, you vicious creature!",
 
                 DISARMING_KIT = "",
                 MAGNIFYING_GLASS = "",
@@ -832,15 +832,15 @@ local strings = {
                     APORKALYPSE = "I don't want to hurt you!",
                 },
                 DUNGBEETLE = {
-        	        GENERIC = "",
-                	UNDUNGED = "",
+        	        GENERIC = "Is that... poop?",
+                	UNDUNGED = "Please stop do that.",
                 	--SLEEPING = "我还以为它们会有巨大的呼噜声。",
-                	DEAD = "",
+                	--DEAD = "对不起，女士。",
                 },
-                DUNGBALL = "",
+                DUNGBALL = "Why would anyone like it?",
                 DUNGPILE = {
-             	    GENERIC = "",
-             	    PICKED = "",
+             	    --GENERIC = "臭气熏天...",
+             	    PICKED = "Still there?",
                 },
                 MANDRAKEMAN = "",
                 SCORPION = {
@@ -1110,10 +1110,10 @@ local strings = {
                     APORKALYPSE = "Doggies... why?",
                 },
                 DUNGBEETLE = {
-        	        GENERIC = "",
-                	UNDUNGED = "",
-                	SLEEPING = "",
-                	DEAD = "",
+        	        --GENERIC = "漂亮，但很臭。",
+                	--UNDUNGED = "还是很臭。",
+                	--SLEEPING = "只是睡着了。",
+                	DEAD = "Don't move.",
                 },
                 DUNGBALL = "Crud ball.",
                 DUNGPILE = {
@@ -1392,14 +1392,14 @@ local strings = {
                     --APORKALYPSE = "我们还以为我们会永远是朋友！",
                 },
                 DUNGBEETLE = {
-        	        GENERIC = "",
-                	--UNDUNGED = "请不要再那么做了。",
-                	SLEEPING = "",
-                	DEAD = "",
+        	        GENERIC = "I need a very huge bottle to hold her!",
+                	UNDUNGED = "She's not with that dung ball. Good timing.",
+                	--SLEEPING = "她在睡觉。",
+                	--DEAD = "你好？",
                 },
-                DUNGBALL = "",
+                DUNGBALL = "How did she... nevermind.",
                 DUNGPILE = {
-             	    GENERIC = "",
+             	    GENERIC = "What giant creature left this?",
              	    PICKED = "Eww!",
                 },
                 MANDRAKEMAN = "",
@@ -1423,7 +1423,7 @@ local strings = {
                 SPIDER_MONKEY_TREE = "It would have to be a giant spider to do that!",
                 SPIDER_MONKEY_NEST = "",
                 SPIDER_MONKEY = {
-                    GENERIC = "So you are that giant spider and... big foot!",
+                    GENERIC = "So you are that giant spider and... biig foot!",
                     SLEEPING = "",
                     DEAD = "",
                 },
@@ -1433,23 +1433,23 @@ local strings = {
             ANNOUCE_UNDERLEAFCANOPY = "他们潜伏在这里！我需要光！",
             ANNOUCE_ALARMOVER = "我们安全了，暂时。",
             ANNOUCE_BATS = "为什么总有东西不停地找我们麻烦呢？",
-            ANNOUCE_OTHERWORLD_DEED = "这个地址实在太远了。",
-            ANNOUNCE_TOOLCORRODED = "呃，它不是为了在这种环境下使用而设计的。", --？？？
-            ANNOUNCE_TURFTOOHARD = "这还不知道要浪费我多少时间呢。", 
+            ANNOUCE_OTHERWORLD_DEED = "这个地址实在太远了。",]]
+            ANNOUNCE_TOOLCORRODED = "Well, it's not designed to be used in this environment.", --？？？
+            --[[ANNOUNCE_TURFTOOHARD = "这还不知道要浪费我多少时间呢。", 
             ANNOUNCE_GAS_DAMAGE = "咳咳！嗬——咳咳咳！", 
             
             ANNOUNCE_SNEEZE = "阿嚏！",
             ANNOUNCE_HAYFEVER = "这些植物除了到处撒粉没别的事干了吗？",
-            ANNOUNCE_HAYFEVER_OFF = "呼哈！终于结束了！",	
+            ANNOUNCE_HAYFEVER_OFF = "呼哈！终于结束了！",	]]
 
-            ANNOUNCE_PICKPOOP = {"为什么我要做这种事？","我一定是哪根筋搭错了。","(Retching)",},
+            ANNOUNCE_PICKPOOP = {"Why would I do that?","There must be something wrong with my mind.","(Retching)",},
 
-            ANNOUNCE_TOO_HUMID = {"穿%s真是自讨不快。","这鬼天气...真不该穿%s的。"},
-            ANNOUNCE_DEHUMID = "哈，感觉好多了。",
+            --ANNOUNCE_TOO_HUMID = {"穿%s真是自讨不快。","这鬼天气...真不该穿%s的。"},
+            ANNOUNCE_DEHUMID = "Ah, much better.",
 
-            ANNOUNCE_PUGALISK_INVULNERABLE = {"不是这里，位置不对。", "这里是打不穿的。", "在哪里...它在哪里？",},
+            ANNOUNCE_PUGALISK_INVULNERABLE = {"Not here. Wrong place.", "You can't get through here.", "Where... where is it?",},
 
-            ANNOUNCE_MYSTERY_FOUND = "嘿，这里真的有什么东西。",
+            --[[ANNOUNCE_MYSTERY_FOUND = "嘿，这里真的有什么东西。",
             ANNOUNCE_MYSTERY_NOREWARD = "真是在浪费时间。",
 
             ANNOUNCE_MYSTERY_DOOR_FOUND = "Over here! 暗门在这里。",]]
@@ -1673,7 +1673,7 @@ local strings = {
         	        GENERIC = "That's gross.",
                 	--UNDUNGED = "她还会去再找另一个的。",
                 	--SLEEPING = "她正在休息。",
-                	DEAD = "It ends up being part of those.",
+                	DEAD = "She ends up being part of those.",
                 },
                 --DUNGBALL = "我不会碰它的。",
                 DUNGPILE = {
@@ -2062,15 +2062,15 @@ local strings = {
 
                 --POCKETWATCH_PARTS = "她时间装备的内部元件，真是精妙的结构。",
                 --POCKETWATCH_DISMANTLER = "一套齐全的五金工具。",
-                --[[
+                
                 POCKETWATCH_PORTAL_ENTRANCE =--they should be the same
                 {
-                    GENERIC = "对裂缝的绝妙应用。",
-                    DIFFERENTSHARD = "对裂缝的绝妙应用。",
+                    GENERIC = "Excellent application of rifts.",
+                    DIFFERENTSHARD = "Excellent application of rifts.",
                 },
-                POCKETWATCH_PORTAL_EXIT = "对裂缝的绝妙应用。",
+                POCKETWATCH_PORTAL_EXIT = "Excellent application of rifts.",
 
-                --EotS
+                --[[EotS
                 ALTERGUARDIAN_PHASE1 = {
                     GENERIC = "自动防御机制被触发了，正如预想的一样。",
                     DEAD = "不要放松警惕，它还有备用武装。",
@@ -2080,7 +2080,7 @@ local strings = {
                    DEAD = "剩余的结构应该还足够进行一次重组。",
                 },
                 ALTERGUARDIAN_PHASE2SPIKE = "它生成了额外的增生物，用于确保目标位于杀伤范围内。",
-                ALTERGUARDIAN_PHASE3 = "它的结构以及展开到了极限，这是最后的形态了。",
+                ALTERGUARDIAN_PHASE3 = "它的结构已经展开到了极限，这是最后的形态了。",
                 ALTERGUARDIAN_PHASE3TRAP = "它在发射出强大的精神干扰脉冲。",--psychic overload? override? guidance? or interference? for enlightenment
                 ALTERGUARDIAN_PHASE3DEADORB = "残余的结构已经几乎失去了力量。",
                 ALTERGUARDIAN_PHASE3DEAD = "最后的防护措施，可以被轻易破解。",
@@ -2116,6 +2116,9 @@ local strings = {
                     CONSTRUCTION1 = "然后是将其向上引导的能量场...",
                     CONSTRUCTION2 = "最后，还需要一个合适的容器...",
                 },]]
+
+                LUNARRIFT_PORTAL = "It's just a tiny side-effect. Everything is under control.",
+                SHADOWRIFT_PORTAL = "Strange. That's not it's supposed lead...",
             },
         },
         WILBA = {
@@ -2182,7 +2185,7 @@ local strings = {
     },
     STAGEACTOR = {
         WAGSTAFF1 = {--we choose to go to the moon
-            "We choose to go to..."
+            "We choose to go to...",
             "(Electrostatic Noise)",
             "Not because they are easy,",
             "but because they are hard.",
@@ -2206,7 +2209,7 @@ local strings = {
     CHARACTER_ABOUTME = {
         wagstaff = "This inventor finds himself exactly where he wanted to be.",
         wheeler = "Wheeler is a globetrotting adventurer and balloon pilot who enjoys every adventure.",
-        wilba = "Wilba was more interested in the wider world outside her kingdom than in royal education or succession the throne.",
+        wilba = "Wilba was more interested in the wider world outside her kingdom than in royal education or throne.",
         warbucks = "Whether in the other side of the ocean or in The Constant. The map of empire is Warbucks' medal.",
     },
     CHARACTER_BIOS =
@@ -2215,7 +2218,7 @@ local strings = {
 		{
             { title = "Birthday", desc = "March 14" },
             { title = "Favorite Food", desc = "Pumpkin Cookies" },
-			{ title = "Scientific Revolution", desc = "Voxola PR-76 Radio offered revolutionary sound and reception quality for the time, and was promoted by an intense national marketing campaign. Very few units were actually produced, because the factory was destroyed in a fire only days after production began. Voxola founder Robert Wagstaff went missing the night of the fire, and the company declared bankruptcy soon thereafter." },
+			{ title = "Revolutionary", desc = "Voxola PR-76 Radio offered revolutionary sound and reception quality for the time, and was promoted by an intense national marketing campaign. Very few units were actually produced, because the factory was destroyed in a fire only days after production began. Voxola founder Robert Wagstaff went missing the night of the fire, and the company declared bankruptcy soon thereafter." },
 		    --{ title = "His past...", desc = "Is yet to be revealed"},
         },
         wheeler =
