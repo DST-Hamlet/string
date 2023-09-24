@@ -571,7 +571,7 @@ local strings = {
 
                 DISARMING_KIT = "",
                 MAGNIFYING_GLASS = "",
-                GOLDPAN = "",
+                GOLDPAN = "将金属分离出来。",
                 BALLPEIN_HAMMER = "",
 
                 GOLD_DUST = "",
@@ -848,7 +848,7 @@ local strings = {
 
                 DISARMING_KIT = "",
                 MAGNIFYING_GLASS = "",
-                GOLDPAN = "",
+                GOLDPAN = "一个大漏勺，为了黄金和荣耀。",
                 BALLPEIN_HAMMER = "",
 
                 GOLD_DUST = "",
@@ -1243,7 +1243,7 @@ local strings = {
 
                 WALL_PIG_RUINS = "古人...古猪们建造了它。",
 
-                ANCIENT_HULK ="战争机器人！流言是真的！",
+                ANCIENT_HULK ="战争机器人！流言是真的！",--shoul't use "robot" because the word invent in 1920
                 ANCIENT_ROBOTS_ASSEMBLY ="它们在自行组装！最终会变成什么样呢？",
                 ANCIENT_ROBOT_CLAW ="它可以被装在WX身上吗？",
                 ANCIENT_ROBOT_HEAD ="一个巨大的机器人头！",
@@ -1402,7 +1402,7 @@ local strings = {
 
                 DISARMING_KIT = "",
                 MAGNIFYING_GLASS = "",
-                GOLDPAN = "",
+                GOLDPAN = "准备好了吗？沃比！",
                 BALLPEIN_HAMMER = "",
 
                 GOLD_DUST = "",

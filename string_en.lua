@@ -852,7 +852,7 @@ local strings = {
 
                 DISARMING_KIT = "",
                 MAGNIFYING_GLASS = "",
-                GOLDPAN = "",
+                GOLDPAN = "A big slotted spoon, for gold and glory.",
                 BALLPEIN_HAMMER = "",
 
                 GOLD_DUST = "",
@@ -960,7 +960,7 @@ local strings = {
                     BURNING= "It must be Pigfolk!",
                 },
                 PIG_PALACE = "Mermfolk must have one!!!",
-                PIGMAN_QUEEN = "She no Quenn, flort!!",--ref pigking
+                PIGMAN_QUEEN = "She no Queen, flort!!",--ref pigking
                 PIGMAN_MAYOR = {
                     GENERIC = "Glurp! A little big Pigfolk.",
                     SLEEPING = "No sleeping you nasty Pigfolk!",
@@ -1248,7 +1248,7 @@ local strings = {
 
                 WALL_PIG_RUINS = "古人...古猪们建造了它。",]]
 
-                ANCIENT_HULK ="War automation! It's real!",
+                ANCIENT_HULK ="War automation! It's real!",--shoul't use "robot" because the word invent in 1920
                 --[[ANCIENT_ROBOTS_ASSEMBLY ="它们在自行组装！最终会变成什么样呢？",
                 ANCIENT_ROBOT_CLAW ="它可以被装在WX身上吗？",
                 ANCIENT_ROBOT_HEAD ="一个巨大的机器人头！",]]
@@ -1412,7 +1412,7 @@ local strings = {
 
                 DISARMING_KIT = "",
                 MAGNIFYING_GLASS = "",
-                GOLDPAN = "",
+                GOLDPAN = "Are you ready? Woby.",
                 BALLPEIN_HAMMER = "",
 
                 GOLD_DUST = "",
