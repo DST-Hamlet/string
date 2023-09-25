@@ -28,7 +28,7 @@ local strings = {
         CUSTOMIZATIONSCREEN = {
             PRESETLEVELS = {
                 PORKLAND_DEFAULT = "猪镇",
-                PORKLAND_PULS = "猪人之国",
+                PORKLAND_PULS = "云端国度",
             },
             PRESETLEVELDESC = {
                 PORKLAND_DEFAULT = "一片极其危险的丛林？",
@@ -574,7 +574,7 @@ local strings = {
                 GOLDPAN = "将金属分离出来。",
                 BALLPEIN_HAMMER = "",
 
-                GOLD_DUST = "",
+                GOLD_DUST = "黄金！我的好运气来了！",
 
                 GRABBING_VINE = "我看到了一条结实的绳索。",
                 HANGING_VINE = "我看到了一条结实的绳索。",
@@ -851,7 +851,7 @@ local strings = {
                 GOLDPAN = "一个大漏勺，为了黄金和荣耀。",
                 BALLPEIN_HAMMER = "",
 
-                GOLD_DUST = "",
+                GOLD_DUST = "很多凡人试图用它填补灵魂的空虚。",
 
                 GRABBING_VINE = "你好，想要什么？",
                 HANGING_VINE = "你好，想要什么？",
@@ -1405,7 +1405,7 @@ local strings = {
                 GOLDPAN = "准备好了吗？沃比！",
                 BALLPEIN_HAMMER = "",
 
-                GOLD_DUST = "",
+                GOLD_DUST = "再小的金子也是金子。",
 
                 GRABBING_VINE = "有什么怪物在上面吗？",
                 HANGING_VINE = "有什么怪物在上面吗？",

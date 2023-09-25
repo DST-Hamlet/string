@@ -28,7 +28,7 @@ local strings = {
         CUSTOMIZATIONSCREEN = {
             PRESETLEVELS = {
                 PORKLAND_DEFAULT = "Hamlet",
-                PORKLAND_PULS = "Pork Land",
+                PORKLAND_PULS = "Beyond Sky",
             },
             PRESETLEVELDESC = {
                 PORKLAND_DEFAULT = "A deeply dangerous jungle?",
@@ -574,7 +574,7 @@ local strings = {
                 GOLDPAN = "",
                 BALLPEIN_HAMMER = "",
 
-                GOLD_DUST = "",
+                --GOLD_DUST = "黄金！我的好运气来了！",
 
                 --GRABBING_VINE = "我看到了一条结实的绳索。",
                 --HANGING_VINE = "我看到了一条结实的绳索。",
@@ -855,7 +855,7 @@ local strings = {
                 GOLDPAN = "A big slotted spoon, for gold and glory.",
                 BALLPEIN_HAMMER = "",
 
-                GOLD_DUST = "",
+                --GOLD_DUST = "很多凡人试图用它填补灵魂的空虚。",
 
                 --GRABBING_VINE = "你好，你想要什么？",
                 --HANGING_VINE = "你好，你想要什么？",
@@ -1415,7 +1415,7 @@ local strings = {
                 GOLDPAN = "Are you ready? Woby.",
                 BALLPEIN_HAMMER = "",
 
-                GOLD_DUST = "",
+                --GOLD_DUST = "再小的金子也是金子。",
 
                 GRABBING_VINE = "What kind of monster up there?",
                 HANGING_VINE = "What kind of monster up there?",
