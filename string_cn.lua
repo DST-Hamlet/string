@@ -43,7 +43,7 @@ local strings = {
                         "王室成员...",
                         --new
                         "探险队伍...", "瓦格斯塔夫的手套...", "薇勒尔的自传...", "薇尔芭的礼仪...", "沃巴克斯的剥削...",
-                        "新女王...", "远方来客...", "第三类接触...", 
+                        "女王...", "“月亮”...", "第三类接触...", 
                         "罪恶的贸易...", "猪托邦...", "与世隔绝...", "全球化...",
                         "未来...", "最高的山巅...", "最低的湿地...", "古代技术...", "狂野的胡蜂...", "黄金航线...",
                     },
@@ -604,6 +604,8 @@ local strings = {
                 	DEAD = "",
                 },
                 PIKO_ORANGE = "",
+
+                
             },
         },
         WORTOX = {
@@ -815,7 +817,7 @@ local strings = {
 
                 TEA = "凡人们的饮料。",
                 ICEDTEA = "温度使它别具风味。",
-                TEATREE = "",    
+                TEATREE = "松鼠王国的根基。",    
                 TEATREE_SAPLING = "",    
                 TEATREE_NUT = "",
                 TEATREE_NUT_COOKED = "",
@@ -827,7 +829,7 @@ local strings = {
                     LOWFUEL = "嘿！继续转啊！",
                 },
                 MOONDIAL = {
-                    APORKALYPSE = "它们很明显要来找我们了，哼哼。",
+                    APORKALYPSE = "它们很明显要来找我们了，哼哼。",--首字母大写呦~
                 },
                 RAINFORESTTREE = {
                 	GENERIC = "",
@@ -866,12 +868,12 @@ local strings = {
                     SLEEPING = "",
                     DEAD = "",
                 },
-                SNAKE_AMPHIBIOUS = "",
+                SNAKE_AMPHIBIOUS = "你要教唆我吃下禁果吗？",
 
                 DISARMING_KIT = "好吧好吧，我就先忍一忍。",
-                MAGNIFYING_GLASS = "",
+                MAGNIFYING_GLASS = "连侏儒也能变成巨人。",
                 GOLDPAN = "一个大漏勺，为了黄金和荣耀。",
-                BALLPEIN_HAMMER = "",
+                BALLPEIN_HAMMER = "战利品在召唤！",
 
                 GOLD_DUST = "很多凡人试图用它填补灵魂的空虚。",
 
@@ -879,7 +881,7 @@ local strings = {
                 HANGING_VINE = "你好，想要什么？",
 
                 SPIDER_MONKEY_TREE = "",
-                SPIDER_MONKEY_NEST = "",
+                SPIDER_MONKEY_NEST = "它应该在这吗？",
                 SPIDER_MONKEY = {
                     GENERIC = "",
                     SLEEPING = "你会拥有什样的梦境？",
@@ -891,14 +893,16 @@ local strings = {
             	    SLEEPING = "它的精神回到了漆黑的天空。",--或者深渊？
                 	DEAD = "不听恶魔劝，吃亏在眼前。",
                 },
-                VAMPIREBATCAVE = "",
+                VAMPIREBATCAVE = "嗜血生物的领土。",
 
                 PIKO = {
-                	GENERIC = "",
-                	SLEEPING = "",
-                	DEAD = "",
+                	GENERIC = "惹谁都不能惹松鼠。",
+                	SLEEPING = "做着巨大松果的美梦呢。",
+                	DEAD = "两腿一蹬，驾鹤西去。",
                 },
                 PIKO_ORANGE = "",
+
+                
             },
         },
         WURT = {
@@ -1110,10 +1114,10 @@ local strings = {
 
                 TEA = "叶子水。",
                 ICEDTEA = "凉叶子水。",
-                TEATREE = "",    
-                TEATREE_SAPLING = "",    
-                TEATREE_NUT = "",
-                TEATREE_NUT_COOKED = "",
+                TEATREE = "有奇怪的叶子。",    
+                TEATREE_SAPLING = "树宝宝。",    
+                TEATREE_NUT = "浮浪噗。好大的味道。",
+                TEATREE_NUT_COOKED = "嘎嘣，嘎嘣，嘎嘣脆。",
                 
                 GASMASKHAT = "不好闻。",
 
@@ -1125,7 +1129,7 @@ local strings = {
                     APORKALYPSE = "红色的水？",
                 },
                 RAINFORESTTREE = {
-                	GENERIC = "",
+                	GENERIC = "大大大花。",
                 	CHOPPED = "",
         	        BURNING = "",
                 	BURNT = "没了。",
@@ -1174,7 +1178,7 @@ local strings = {
                 HANGING_VINE = "超长的藤蔓。",
 
                 SPIDER_MONKEY_TREE = "",
-                SPIDER_MONKEY_NEST = "",
+                SPIDER_MONKEY_NEST = "一大团黏糊糊。",
                 SPIDER_MONKEY = {
                     GENERIC = "韦伯小伙子怎么想？",
                     SLEEPING = "",
@@ -1194,6 +1198,8 @@ local strings = {
                 	DEAD = "",
                 },
                 PIKO_ORANGE = "",
+
+                
             },
         },
         WALTER = {
@@ -1405,10 +1411,10 @@ local strings = {
 
                 TEA = "喝茶时间到！沃比！",
                 ICEDTEA = "它反而变得更好喝了。",
-                TEATREE = "",    
-                TEATREE_SAPLING = "",    
-                TEATREE_NUT = "",
-                TEATREE_NUT_COOKED = "",
+                TEATREE = "嘿，树上是不是有松鼠！",
+                TEATREE_SAPLING = "离一个温馨的松鼠之家还差点时日。",
+                TEATREE_NUT = "妈妈以前曾试过让我吃这个。",
+                TEATREE_NUT_COOKED = "这样尝起来其实还不错。",
                 
                 GASMASKHAT = "这实在是太帅了。",
 
@@ -1420,15 +1426,15 @@ local strings = {
                     APORKALYPSE = "这是什么？",
                 },
                 RAINFORESTTREE = {
-                	GENERIC = "",
-                	CHOPPED = "",
+                	GENERIC = "热带树，大自然的鬼斧神工！",
+                	CHOPPED = "我们借走了一些木头。",
         	        BURNING = "森林火灾！",
-                	BURNT = "",
+                	BURNT = "这就是为什么消防安全很重要。",
                 },
                 RAINFORESTTREE_ROT = "它看起来不像是健康的样子。",
                 BURR = "谁是发芽最快的种子呀？",
                 BURR_SAPLING = {
-                    GENERIC = "",
+                    GENERIC = "总有一天它会长成参天大树。",
                     BURNING = "森林火灾！",
                     PICKED = "这是谁干的？",
                     WITHERED = "我不知道它还会这样。",
@@ -1450,18 +1456,18 @@ local strings = {
              	    GENERIC = "这是什么巨大的生物留下的？",
              	    PICKED = "噫！",
                 },
-                MANDRAKEMAN = "",
+                MANDRAKEMAN = "沃比！那边的大萝卜有一张脸！",
                 SCORPION = {
-                    GENERIC = "",
+                    GENERIC = "我的陷阱在哪里？",
                     SLEEPING = "",
-                    DEAD = "",
+                    DEAD = "嗷...我们弄死它了。",
                 },
                 SNAKE_AMPHIBIOUS = "",
 
-                DISARMING_KIT = "",
+                DISARMING_KIT = "探险活动，酷！",
                 MAGNIFYING_GLASS = "这样我就能更好地观察那些小家伙。",
                 GOLDPAN = "准备好了吗？沃比！",
-                BALLPEIN_HAMMER = "",
+                BALLPEIN_HAMMER = "我现在能把那些可爱的小雕像带回家了。",
 
                 GOLD_DUST = "再小的金子也是金子。",
 
@@ -1489,6 +1495,8 @@ local strings = {
                 	DEAD = "",
                 },
                 PIKO_ORANGE = "",
+
+                
             },
         },
         WANDA = {
@@ -1506,7 +1514,7 @@ local strings = {
 
             ANNOUNCE_PICKPOOP = {"为什么我要做这种事？","我一定是哪根筋搭错了。","呕。",},
 
-            ANNOUNCE_TOO_HUMID = {"穿%s真是自讨不快。","这鬼天气...真不该穿%s的。"},
+            ANNOUNCE_TOO_HUMID = {"穿%s真是自讨不快。","这鬼天气...真不该穿%s的。","嗷，麻烦呐。",},
             ANNOUNCE_DEHUMID = "哈，感觉好多了。",
 
             ANNOUNCE_PUGALISK_INVULNERABLE = {"不是这里，位置不对。", "这里是打不穿的。", "在哪里...它在哪里？",},
@@ -1732,7 +1740,7 @@ local strings = {
                     GENERIC = "不要被他们可爱的外表骗了。",
                     FOLLOWER = "多可爱啊！",
                     SLEEPING = "它在休息。",
-                    APORKALYPSE = "所有的好东西最都会露出獠牙吗？",
+                    APORKALYPSE = "所有美好事物最都会露出獠牙吗？",
                 },
                 DUNGBEETLE = {
         	        GENERIC = "那可真恶心。",
@@ -1751,7 +1759,7 @@ local strings = {
                     SLEEPING = "无论是怎样的毒物都有累的时候。",
                     DEAD = "为什么它还在这？",
                 },
-                SNAKE_AMPHIBIOUS = "蛇，为什么非得是蛇呢？",
+                SNAKE_AMPHIBIOUS = "蛇，为什么非得是蛇呢？",--夺宝奇兵
 
                 DISARMING_KIT = "这样我就能少担心点事了。",
                 MAGNIFYING_GLASS = "有时候一片眼镜远远不够。",
@@ -1764,7 +1772,7 @@ local strings = {
                 HANGING_VINE = "我真的很希望它只是普通的植物。",
 
                 SPIDER_MONKEY_TREE = "",
-                SPIDER_MONKEY_NEST = "它应该在这吗？",
+                SPIDER_MONKEY_NEST = "我以为它们全都在时间之初就毁灭了。",
                 SPIDER_MONKEY = {
                     GENERIC = "",
                     SLEEPING = "",
@@ -1772,18 +1780,20 @@ local strings = {
                 },
 
                 VAMPIREBAT = {
-        	        GENERIC = "",
+        	        GENERIC = "嗷，麻烦呐。总有怪物纠缠着我不放。",
             	    SLEEPING = "",
                 	DEAD = "",
                 },
-                VAMPIREBATCAVE = "",
+                VAMPIREBATCAVE = "进去那里是自讨不快。",
 
                 PIKO = {
-                	GENERIC = "",
+                	GENERIC = "它最好不要动乱我的东西。",
                 	SLEEPING = "",
                 	DEAD = "",
                 },
                 PIKO_ORANGE = "",
+
+                
             },
         },
         --New Characters for us
@@ -1803,7 +1813,7 @@ local strings = {
             --启迪皇冠
             ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "无限的洞察力！我甚至能看到世界的纤维在律动！",
             --WARBIS
-            ANNOUNCE_PUTONGOGGLES_WAGPUNKHAT = "Warbis, you up?",--Engage heads up display.
+            ANNOUNCE_PUTONGOGGLES_WAGPUNKHAT = "W.A.R.B.I.S. 你醒了吗？",--Engage heads up display.
 
             ANNOUNCE_GNATS_DIED="哈！我找到了它们的弱点！",
 
@@ -2022,14 +2032,14 @@ local strings = {
                 --沃利
                 SPICEPACK = "这提供了一个优秀的抑菌环境。",
 
-                PORTABLEBLENDER_ITEM = "",
+                PORTABLEBLENDER_ITEM = "将食材打磨成粉末状。",
                 PORTABLECOOKPOT_ITEM = {
-                    GENERIC = "",
-                    DONE = "",
-
-                    COOKING_LONG = "",
-                    COOKING_SHORT = "",
-                    EMPTY = "",
+                    GENERIC = "一个可爱的便携式烹饪锅。",
+                    COOKING_LONG = "等待的时间里我会背圆周率的数字。",--和普通锅一样
+			        COOKING_SHORT = "必须使用高温来烹饪。",--和普通锅一样
+			        DONE = "谢谢你，厨师。",
+			        EMPTY = "需要烹饪的食材。",--和普通锅一样
+			        BURNT = "呸。热能被过度的使用了。",--和普通锅一样
                 },
                 PORTABLESPICER_ITEM= {
                     GENERIC = "为什么我不能直接用手呢？",
