@@ -520,10 +520,10 @@ local strings = {
 
                 TEA = "A good pot of tea sets the spirit of the day.",
                 ICEDTEA = "What a enjoyment.",
-                TEATREE = "",
+                TEATREE = "Enough to whole workshop's tea supply.",
                 TEATREE_SAPLING = "",
                 TEATREE_NUT = "",
-                TEATREE_NUT_COOKED = "",
+                --TEATREE_NUT_COOKED = "拯救我的鼻子于水火之中。",
                 
                 GASMASKHAT = "Safety first, comfort second.",
 
@@ -821,10 +821,10 @@ local strings = {
 
                 TEA = "Mortal's drink.",
                 ICEDTEA = "Cold gives it its flavor.",
-                --TEATREE = "松鼠王国的根基。",  
-                TEATREE_SAPLING = "",    
+                --TEATREE = "松鼠王国的根基。",
+                TEATREE_SAPLING = "",
                 TEATREE_NUT = "",
-                TEATREE_NUT_COOKED = "",
+                --TEATREE_NUT_COOKED = "非常好坚果，使我的鼻子通畅。",
                 
                 GASMASKHAT = "Keep the gas away from my nose.",
 
@@ -1169,7 +1169,7 @@ local strings = {
                     SLEEPING = "",
                     DEAD = "",
                 },
-                SNAKE_AMPHIBIOUS = "",
+                SNAKE_AMPHIBIOUS = "Snakefolk with beautiful coat.",
 
                 DISARMING_KIT = "Mermfolk one, pigfolk trap zero.",
                 MAGNIFYING_GLASS = "Make small things bigger.",
@@ -1466,19 +1466,19 @@ local strings = {
              	    PICKED = "Eww!",
                 },
                 --MANDRAKEMAN = "沃比！那边的大萝卜有一张脸！",
-                SCORPION = {
-                    --GENERIC = "我的陷阱在哪里？",
-                    SLEEPING = "",
-                    --DEAD = "嗷...我们弄死它了。",
-                },
-                SNAKE_AMPHIBIOUS = "",
+                --[[SCORPION = {
+                    GENERIC = "我的陷阱在哪里？",
+                    SLEEPING = "它睡着了，好机会。",
+                    DEAD = "嗷...我们弄死它了。",
+                },]]
+                --SNAKE_AMPHIBIOUS = "这种蛇有剧毒，一定要及时就医！",
 
                 --DISARMING_KIT = "探险活动，酷！",
                 --MAGNIFYING_GLASS = "这样我就能更好地观察那些小家伙。",
                 GOLDPAN = "Are you ready? Woby.",
                 --BALLPEIN_HAMMER = "我现在能把那些可爱的小雕像带回家了。",
 
-                --GOLD_DUST = "再小的金子也是金子。",
+                GOLD_DUST = "Smallest gold are still gold.",
 
                 GRABBING_VINE = "What kind of monster up there?",
                 HANGING_VINE = "What kind of monster up there?",
@@ -1498,12 +1498,12 @@ local strings = {
                 },
                 VAMPIREBATCAVE = "吸血鬼的巢穴。",]]
 
-                PIKO = {
-                	GENERIC = "",
-                	SLEEPING = "",
-                	DEAD = "",
-                },
-                PIKO_ORANGE = "",
+                --[[PIKO = {
+                	GENERIC = "我想知道它们平时都在做什么？",
+                	SLEEPING = "它睡着了。",
+                	DEAD = "可怜的小家伙。",
+                },]]
+                --PIKO_ORANGE = "我一定要捉到它！",
 
                 
             },
@@ -1781,27 +1781,27 @@ local strings = {
                 GRABBING_VINE = "I really hope it was just a regular plant.",
                 HANGING_VINE = "I really hope it was just a regular plant.",
 
-                SPIDER_MONKEY_TREE = "",
-                --SPIDER_MONKEY_NEST = "我以为它们全都在时间之初就毁灭了。",
+                SPIDER_MONKEY_TREE = "A particularly bad colorful tree.",
+                SPIDER_MONKEY_NEST = "I thought they were all destroyed at the beginning of time.",
                 SPIDER_MONKEY = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "I'm not stupid, it's definitely a made-up creature.",
+                    SLEEPING = "Enjoy your dreams.",
+                    DEAD = "Dust to dust.",
                 },
 
                 VAMPIREBAT = {
         	        GENERIC = "Oh botheration, monsters haunt me all the time.",
-            	    SLEEPING = "",
-                	DEAD = "",
+            	    SLEEPING = "How cozy.",
+                	DEAD = "It learned the lesson.",
                 },
                 --VAMPIREBATCAVE = "进去那里是自讨不快。",
 
                 PIKO = {
                 	--GENERIC = "它最好不要动乱我的东西。",
-                	SLEEPING = "",
-                	DEAD = "",
+                	SLEEPING = "It's kind of cute if they just quiet.",
+                	DEAD = "They are quiet... forever.",
                 },
-                PIKO_ORANGE = "",
+                --PIKO_ORANGE = "这是稀有毛色吗？",
 
                 
             },

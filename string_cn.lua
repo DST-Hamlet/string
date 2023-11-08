@@ -520,10 +520,10 @@ local strings = {
 
                 TEA = "一壶好茶精神一整天。",
                 ICEDTEA = "真是一种享受。",
-                TEATREE = "",    
+                TEATREE = "足以撑起一个车间的茶水供应。",
                 TEATREE_SAPLING = "",    
                 TEATREE_NUT = "",
-                TEATREE_NUT_COOKED = "",
+                TEATREE_NUT_COOKED = "拯救我的鼻子于水火之中。",
                 
                 GASMASKHAT = "安全至上，舒适就别管了。",
 
@@ -817,10 +817,10 @@ local strings = {
 
                 TEA = "凡人们的饮料。",
                 ICEDTEA = "温度使它别具风味。",
-                TEATREE = "松鼠王国的根基。",    
-                TEATREE_SAPLING = "",    
+                TEATREE = "松鼠王国的根基。",
+                TEATREE_SAPLING = "",
                 TEATREE_NUT = "",
-                TEATREE_NUT_COOKED = "",
+                TEATREE_NUT_COOKED = "非常好坚果，使我的鼻子通畅。",
                 
                 GASMASKHAT = "让毒气远离我的鼻子。",
 
@@ -1165,7 +1165,7 @@ local strings = {
                     SLEEPING = "",
                     DEAD = "",
                 },
-                SNAKE_AMPHIBIOUS = "",
+                SNAKE_AMPHIBIOUS = "蛇换上了漂亮的外衣。",
 
                 DISARMING_KIT = "鱼人赢，猪人的陷阱输。",
                 MAGNIFYING_GLASS = "让小东西变大。",
@@ -1459,10 +1459,10 @@ local strings = {
                 MANDRAKEMAN = "沃比！那边的大萝卜有一张脸！",
                 SCORPION = {
                     GENERIC = "我的陷阱在哪里？",
-                    SLEEPING = "",
+                    SLEEPING = "它睡着了，好机会。",
                     DEAD = "嗷...我们弄死它了。",
                 },
-                SNAKE_AMPHIBIOUS = "",
+                SNAKE_AMPHIBIOUS = "这种蛇有剧毒，一定要及时就医！",
 
                 DISARMING_KIT = "探险活动，酷！",
                 MAGNIFYING_GLASS = "这样我就能更好地观察那些小家伙。",
@@ -1490,11 +1490,11 @@ local strings = {
                 VAMPIREBATCAVE = "吸血鬼的巢穴。",
 
                 PIKO = {
-                	GENERIC = "",
-                	SLEEPING = "",
-                	DEAD = "",
+                	GENERIC = "我想知道它们平时都在做什么？",
+                	SLEEPING = "它睡着了。",
+                	DEAD = "可怜的小家伙。",
                 },
-                PIKO_ORANGE = "",
+                PIKO_ORANGE = "我一定要捉到它！",
 
                 
             },
@@ -1771,27 +1771,27 @@ local strings = {
                 GRABBING_VINE = "我真的很希望它只是普通的植物。",
                 HANGING_VINE = "我真的很希望它只是普通的植物。",
 
-                SPIDER_MONKEY_TREE = "",
+                SPIDER_MONKEY_TREE = "一棵特别糟糕的树。",
                 SPIDER_MONKEY_NEST = "我以为它们全都在时间之初就毁灭了。",
                 SPIDER_MONKEY = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "显然是胡编乱造的生物，我不傻。",
+                    SLEEPING = "享受你的美梦吧。",
+                    DEAD = "尘归尘，土归土。",
                 },
 
                 VAMPIREBAT = {
         	        GENERIC = "嗷，麻烦呐。总有怪物纠缠着我不放。",
-            	    SLEEPING = "",
-                	DEAD = "",
+            	    SLEEPING = "多惬意啊。",
+                	DEAD = "它尝到教训了。",
                 },
                 VAMPIREBATCAVE = "进去那里是自讨不快。",
 
                 PIKO = {
                 	GENERIC = "它最好不要动乱我的东西。",
-                	SLEEPING = "",
-                	DEAD = "",
+                	SLEEPING = "如果它们能安静下来，还是挺可爱的。",
+                	DEAD = "它们...永远安静了。",
                 },
-                PIKO_ORANGE = "",
+                PIKO_ORANGE = "这是稀有毛色吗？",
 
                 
             },
