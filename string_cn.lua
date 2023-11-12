@@ -312,7 +312,7 @@ local strings = {
             },
         },
         --dst
-        WINONA = {
+        WINONA = {--真的会有人常玩薇诺娜吗？
             ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--unuse
             ANNOUCE_ALARMOVER = "呼，平安度过。",
             ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",
@@ -866,7 +866,7 @@ local strings = {
                 SCORPION = {
                     GENERIC = "我们井水不犯河水，好吗？",
                     SLEEPING = "",
-                    DEAD = "",
+                    DEAD = "它迎来了自己的终结。",
                 },
                 SNAKE_AMPHIBIOUS = "你要教唆我吃下禁果吗？",
 
@@ -1126,19 +1126,19 @@ local strings = {
                     LOWFUEL = "它停下来了。",
                 },
                 MOONDIAL = {
-                    APORKALYPSE = "红色的水？",
+                    APORKALYPSE = "格浪浮……红色的水？",
                 },
                 RAINFORESTTREE = {
                 	GENERIC = "大大大花。",
-                	CHOPPED = "",
-        	        BURNING = "",
+                	CHOPPED = "大大大花被砍倒了。",
+        	        BURNING = "格勒格！！大大大花起火了！",
                 	BURNT = "没了。",
                 },
                 RAINFORESTTREE_ROT = "格浪浮……你不舒服吗？",
                 BURR = "全是刺。",
                 BURR_SAPLING = {
-                    GENERIC = "",
-                    BURNING = "",
+                    GENERIC = "它还是个宝宝。",
+                    BURNING = "它在燃烧。",
                     PICKED = "怎么回事？",
                     WITHERED = "怎么回事？",
                 },
@@ -1161,13 +1161,13 @@ local strings = {
                 },
                 MANDRAKEMAN = "尖叫个不停。",
                 SCORPION = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "尖锐地吓人，浮浪噗。",
+                    SLEEPING = "晚安，浮浪噗。",
+                    DEAD = "晚安，直到永远，浮浪噗。",
                 },
                 SNAKE_AMPHIBIOUS = "蛇换上了漂亮的外衣。",
 
-                DISARMING_KIT = "鱼人赢，猪人的陷阱输。",
+                DISARMING_KIT = "鱼人赢，猪人陷阱输。",
                 MAGNIFYING_GLASS = "让小东西变大。",
                 GOLDPAN = "捡起水里的东西。",
                 BALLPEIN_HAMMER = "撬走一切！",
@@ -1177,27 +1177,27 @@ local strings = {
                 GRABBING_VINE = "超长的藤蔓。",
                 HANGING_VINE = "超长的藤蔓。",
 
-                SPIDER_MONKEY_TREE = "",
+                SPIDER_MONKEY_TREE = "蜘蛛人占领了那里。",
                 SPIDER_MONKEY_NEST = "一大团黏糊糊。",
                 SPIDER_MONKEY = {
-                    GENERIC = "韦伯小伙子怎么想？",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "格勒...韦伯小伙子怎么想？",
+                    SLEEPING = "它在做蜘蛛...或猴子的梦。",
+                    DEAD = "再见...",
                 },
 
                 VAMPIREBAT = {
-        	        GENERIC = "",
-            	    SLEEPING = "",
-                	DEAD = "",
+        	        GENERIC = "格浪！走开！",
+            	    SLEEPING = "安静...",
+                	DEAD = "为什么和鱼人作对。",
                 },
-                VAMPIREBATCAVE = "",
+                VAMPIREBATCAVE = "闻起来臭臭的。",
 
                 PIKO = {
-                	GENERIC = "",
-                	SLEEPING = "",
-                	DEAD = "",
+                	GENERIC = "小松鼠，嗨！",
+                	SLEEPING = "好好睡！",
+                	DEAD = "格勒普！动起来！",
                 },
-                PIKO_ORANGE = "",
+                PIKO_ORANGE = "你好。今天过得如何？",
 
                 
             },

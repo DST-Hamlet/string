@@ -312,7 +312,7 @@ local strings = {
             },
         },
         --dst
-        WINONA = {--[[
+        WINONA = {--[[--Does anyone really play as Winona much?
             ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--unuse
             ANNOUCE_ALARMOVER = "呼，平安度过。",
             ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",]]
@@ -870,7 +870,7 @@ local strings = {
                 SCORPION = {
                     GENERIC = "We don't have to fight each other, okay?",
                     SLEEPING = "",
-                    DEAD = "",
+                    --DEAD = "它迎来了自己的终结。",
                 },
                 --SNAKE_AMPHIBIOUS = "你要教唆我吃下禁果吗？",
 
@@ -1130,21 +1130,21 @@ local strings = {
                     LOWFUEL = "It's stoped.",
                 },
                 MOONDIAL = {
-                    APORKALYPSE = "Red water?",
+                    APORKALYPSE = "Glorph... red water?",
                 },
                 RAINFORESTTREE = {
                 	GENERIC = "A big big flower.",
-                	CHOPPED = "",
-        	        BURNING = "",
+                	CHOPPED = "Big big flower were chop down.",
+        	        BURNING = "Glurgh!! Big big flower on fire!",
                 	BURNT = "Gone.",
                 },
                 RAINFORESTTREE_ROT = "Glorph... feel bad?",
                 --BURR = "全是刺。",
                 BURR_SAPLING = {
-                    GENERIC = "",
-                    BURNING = "",
-                    --PICKED = "怎么回事？",
-                    --WITHERED = "怎么回事？",
+                    GENERIC = "It's a baby for now.",
+                    BURNING = "Are burning.",
+                    PICKED = "What's going on?",
+                    WITHERED = "What's going on?",
                 },
                 POG = {
                     GENERIC = "Aww, hey doggies!",
@@ -1156,7 +1156,7 @@ local strings = {
         	        --GENERIC = "漂亮，但很臭。",
                 	--UNDUNGED = "还是很臭。",
                 	--SLEEPING = "只是睡着了。",
-                	DEAD = "Don't move.",
+                	DEAD = "It not moving anymore.",
                 },
                 DUNGBALL = "Crud ball.",
                 DUNGPILE = {
@@ -1165,9 +1165,9 @@ local strings = {
                 },
                 MANDRAKEMAN = "Always scream.",
                 SCORPION = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "Sharp and scary, florp.",
+                    SLEEPING = "Good night, florp.",
+                    DEAD = "Good night forever, florp.",
                 },
                 SNAKE_AMPHIBIOUS = "Snakefolk with beautiful coat.",
 
@@ -1181,27 +1181,27 @@ local strings = {
                 GRABBING_VINE = "So long vines.",
                 HANGING_VINE = "So long vines.",
 
-                SPIDER_MONKEY_TREE = "",
+                SPIDER_MONKEY_TREE = "Spiderfolk take over there.",
                 --SPIDER_MONKEY_NEST = "一大团黏糊糊。",
                 SPIDER_MONKEY = {
-                    GENERIC = "What would Webby-boy think?",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "Grrr... What would Webby-boy think?",
+                    SLEEPING = "It dreaming of spider... or monkey things.",
+                    DEAD = "Bye...",
                 },
 
                 VAMPIREBAT = {
-        	        GENERIC = "",
-            	    SLEEPING = "",
-                	DEAD = "",
+        	        GENERIC = "Grrr! Back off!",
+            	    SLEEPING = "Quiet...",
+                	DEAD = "Why against mermfolk.",
                 },
-                VAMPIREBATCAVE = "",
+                VAMPIREBATCAVE = "It smell stink.",
 
                 PIKO = {
-                	GENERIC = "",
-                	SLEEPING = "",
-                	DEAD = "",
+                	GENERIC = "Hi! squirrel.",
+                	SLEEPING = "Sleep tight!",
+                	DEAD = "Glurp! Hold on!",
                 },
-                PIKO_ORANGE = "",
+                PIKO_ORANGE = "Hello. How are you today?",
 
                 
             },
