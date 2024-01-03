@@ -13,6 +13,8 @@ local strings = {
         FARM_PLANT_ALOE = "Aloe Plant",
         KNOWN_ALOE_SEEDS = "Aloe Seed",
         ALOE_SEEDS = "Orthogon Seed",
+
+        --"火烈鸟","Flamingo","Floodmingo","Floatmingo","Flatmingo","Flaimingo","高跷鸟"
     },
     UI = {
         COOKBOOK = {
@@ -28,11 +30,11 @@ local strings = {
         CUSTOMIZATIONSCREEN = {
             PRESETLEVELS = {
                 PORKLAND_DEFAULT = "Hamlet",
-                PORKLAND_PULS = "Beyond Sky",
+                PORKLAND_PULS = "Above the Cloud",
             },
             PRESETLEVELDESC = {
                 PORKLAND_DEFAULT = "A deeply dangerous jungle?",
-                PORKLAND_PULS = "A vast, high-altitude world with epic adventure.",
+                PORKLAND_PULS = "A vast high-altitude world, with ton of original content.",
             },
         },
         --[[
@@ -42,10 +44,10 @@ local strings = {
                         "cobblestones...","shop hours of business...","street life...","piglatin...","leafy canopy...","civilization...","economy...",
                         "royalty...",
                         --new
-                        "expedition...", "wagstaff's gloves...", "wheeler's autobiography", "wilba's etiquette", "warbucks' exploit",
+                        "expedition...", "wagstaff's gloves...", "wheeler's autobiography...", "wilba's etiquette...", "warbucks' exploit...",
                         "queen...", "the \"moon\"...", "third types of contact...",
                         "sinful trade...", "utopiga...", "cut off...", "globalize...",
-                        "our future...", "highest mountain...", "lowest wetland...", "ancient technology...", "wild vespa...", "golden voyage...",
+                        "our future...", "ultraviolet light...", "acidoid...", "ancient technology...", "golden voyage...",
                     },
         },]]
     },
@@ -521,9 +523,9 @@ local strings = {
                 TEA = "A good pot of tea sets the spirit of the day.",
                 ICEDTEA = "What a enjoyment.",
                 TEATREE = "Enough to whole workshop's tea supply.",
-                TEATREE_SAPLING = "",
-                TEATREE_NUT = "",
-                --TEATREE_NUT_COOKED = "拯救我的鼻子于水火之中。",
+                TEATREE_SAPLING = "Our tea supply for next season.",
+                --TEATREE_NUT = "拯救我的鼻子于水火之中。",
+                TEATREE_NUT_COOKED = "Heat enhances its effects.",
                 
                 GASMASKHAT = "Safety first, comfort second.",
 
@@ -535,16 +537,16 @@ local strings = {
                     APORKALYPSE = "This seems to send some kind of danger signal.",
                 },
                 RAINFORESTTREE = {
-                	GENERIC = "",
-                	CHOPPED = "",
+                	--GENERIC = "它们的叶子是粉色的。",
+                	--CHOPPED = "看看这年轮，它一定很老了。",
         	        BURNING = "Evrything live in that tree is in trouble.",
                 	--BURNT = "变成木炭了。",
                 },
                 RAINFORESTTREE_ROT = "Suffer by tumor.",
-                BURR = "",
+                --BURR = "厚重的盔甲使它免受外界伤害。",
                 BURR_SAPLING = {
-                    GENERIC = "",
-                    BURNING = "",
+                    GENERIC = "A tiny rainforest tree.",
+                    BURNING = "Willow! Stop!",
                     PICKED = "This burden was too much for it.",
                     WITHERED = "This burden was too much for it.",
                 },
@@ -567,9 +569,9 @@ local strings = {
                 },]]
                 --MANDRAKEMAN = "即使是我也忍受不了这个。",
                 SCORPION = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "I don't like you.",
+                    SLEEPING = "Don't wake it.",
+                    --DEAD = "呼，这下我不用时刻绷紧神经了。",
                 },
                 SNAKE_AMPHIBIOUS = "Stay away from me, you vicious creature!",
 
@@ -583,7 +585,7 @@ local strings = {
                 --GRABBING_VINE = "我看到了一条结实的绳索。",
                 --HANGING_VINE = "我看到了一条结实的绳索。",
 
-                SPIDER_MONKEY_TREE = "",
+                SPIDER_MONKEY_TREE = "They treat this tree like a spindle.",
                 --SPIDER_MONKEY_NEST = "我是不是不该在这？",
                 SPIDER_MONKEY = {
                     GENERIC = "",
@@ -599,13 +601,41 @@ local strings = {
                 VAMPIREBATCAVE = "",
 
                 PIKO = {
+                	--GENERIC = "叫人讨厌不起来的小偷。",
+                	SLEEPING = "",
+                	DEAD = "",
+                },
+                PIKO_ORANGE = {
                 	GENERIC = "",
                 	SLEEPING = "",
                 	DEAD = "",
                 },
-                PIKO_ORANGE = "",
 
-                
+                PIGHOUSE_CITY = {
+        	        --GENERIC = "很难想象样的座房屋是由猪完成的。",
+        	        BURNING = "",
+		        },
+                PIGHOUSE_MINE = {
+        	        GENERIC = "A mine house for miner.",
+        	        BURNING = "",
+		        },
+                PIGHOUSE_FARM = {
+        	        GENERIC = "A farm house for farmer.",
+        	        BURNING = "",
+                },
+
+                VENUS_STALK = "",--手杖
+                --WALKINGSTICK = "脱水后就会变成一根耐用的拐杖。",--捕蝇草茎
+                ADULT_FLYTRAP = {--利齿捕蝇草
+        	        GENERIC = "",
+        	        SLEEPING = "",
+        	        DEAD = "",
+                },
+                MEAN_FLYTRAP = {--幼苗
+        	        GENERIC = "",
+        	        SLEEPING = "",
+        	        DEAD = "",
+                },
             },
         },
         WORTOX = {--[[
@@ -723,9 +753,9 @@ local strings = {
 
                 OINC="Regular coin.",
                 OINC10="Still regular coin.",
-                --[[OINC100="有钱能使鬼推磨，但他们毕竟只是猪。",
+                OINC100="Money makes the world go round.",
 
-                --spawner
+                --[[spawner
                 
                 PORKLAND_INTRO_BASKET = "哼哼，这不一定是坏事。",
                 PORKLAND_INTRO_BALLOON = "哼哼，这不一定是坏事。",
@@ -820,11 +850,11 @@ local strings = {
                 SPRINKLER = "A mortal's own version of rainmaker.",
 
                 TEA = "Mortal's drink.",
-                ICEDTEA = "Cold gives it its flavor.",
+                ICEDTEA = "Cold gives it flavor.",
                 --TEATREE = "松鼠王国的根基。",
-                TEATREE_SAPLING = "",
-                TEATREE_NUT = "",
-                --TEATREE_NUT_COOKED = "非常好坚果，使我的鼻子通畅。",
+                --TEATREE_SAPLING = "未来可期。",
+                --TEATREE_NUT = "非常好坚果，使我的鼻子通畅。",
+                --TEATREE_NUT_COOKED = "这真的会让它变得更好吗？",
                 
                 GASMASKHAT = "Keep the gas away from my nose.",
 
@@ -833,15 +863,15 @@ local strings = {
                     LOWFUEL = "Hey! go on!",
                 },
                 MOONDIAL = {
-                    APORKALYPSE = "They certainly are coming over us, hyuyu!",--Capital letter, sweety~
+                    APORKALYPSE = "They certainly are coming over us, hyuyu!",--first letter, sweety~
                 },
                 RAINFORESTTREE = {
-                	GENERIC = "",
-                	CHOPPED = "",
-        	        BURNING = "",
+                	GENERIC = "Nice hair cut, tree.",
+                	--CHOPPED = "抱歉，借你的木头一用。",
+        	        --BURNING = "火焰吞噬了它。",
                 	--BURNT = "从里到外全烧焦了！",
                 },
-                --RAINFORESTTREE_ROT = "是什么魔鬼在困扰你？",
+                RAINFORESTTREE_ROT = "The dry leaves rustle in the wind.",--Erlkönig
                 --BURR = "它在等待开始自己的旅程。",
                 BURR_SAPLING = {
                     GENERIC = "Newborn kid.",
@@ -869,10 +899,10 @@ local strings = {
                 MANDRAKEMAN = "It's full of prank juice... maybe too much.",
                 SCORPION = {
                     GENERIC = "We don't have to fight each other, okay?",
-                    SLEEPING = "",
+                    SLEEPING = "Just sleep well.",
                     --DEAD = "它迎来了自己的终结。",
                 },
-                --SNAKE_AMPHIBIOUS = "你要教唆我吃下禁果吗？",
+                SNAKE_AMPHIBIOUS = "Did you bring me an apple?",
 
                 DISARMING_KIT = "Well well, I'm just gonna suck it up.",
                 MAGNIFYING_GLASS = "Even dwarf can be a giant.",
@@ -884,12 +914,12 @@ local strings = {
                 --GRABBING_VINE = "你好，你想要什么？",
                 --HANGING_VINE = "你好，你想要什么？",
 
-                SPIDER_MONKEY_TREE = "",
+                SPIDER_MONKEY_TREE = "Wrapped in thick blanket.",
                 --SPIDER_MONKEY_NEST = "它应该在这吗？",
                 SPIDER_MONKEY = {
-                    GENERIC = "",
+                    GENERIC = "Gloria of the spiders",
                     --SLEEPING = "你会拥有什样的梦境？",
-                    DEAD = "",
+                    DEAD = "All right, farewell.",
                 },
 
                 VAMPIREBAT = {
@@ -904,9 +934,37 @@ local strings = {
                 	--SLEEPING = "做着巨大松果的美梦呢。",
                 	DEAD = "That's not what dhyana's supposed to be.",
                 },
-                PIKO_ORANGE = "",
+                PIKO_ORANGE = {
+                	GENERIC = "Hey, hey, I got nothing on my hand.",
+                	--SLEEPING = "做着巨大松果的美梦呢。",
+                	DEAD = "That's not what dhyana's supposed to be.",
+                },
 
-                
+                PIGHOUSE_CITY = {
+        	        GENERIC = "Knock Knock.",
+        	        --BURNING = "哇哦，这可不妙。",
+		        },
+                PIGHOUSE_MINE = {
+        	        GENERIC = "Anyone noticed that their mine look the same as their farm?",
+        	        BURNING = "How these stones burn?",
+		        },
+                PIGHOUSE_FARM = {
+        	        GENERIC = "Anyone noticed that their farm look the same as their mine?",
+        	        BURNING = "How these stones burn?",
+                },
+
+                --[[VENUS_STALK = "真有冒险者的格调。",--手杖
+                WALKINGSTICK = "我猜凡人也不会吃这个。",--捕蝇草茎
+                ADULT_FLYTRAP = {--利齿捕蝇草
+        	        GENERIC = "你想过离开那个地方吗？",
+        	        SLEEPING = "现在即使靠近它也安全的。",
+        	        DEAD = "它死了。",
+                },
+                MEAN_FLYTRAP = {--幼苗
+        	        GENERIC = "以引诱无辜的小生命为生。",
+        	        SLEEPING = "睡吧。",
+        	        DEAD = "它死了。",
+                },]]
             },
         },
         WURT = {
@@ -1178,8 +1236,8 @@ local strings = {
 
                 GOLD_DUST = "Shining...",
 
-                GRABBING_VINE = "So long vines.",
-                HANGING_VINE = "So long vines.",
+                GRABBING_VINE = "They're on top here.",
+                HANGING_VINE = "They're on top here.",
 
                 SPIDER_MONKEY_TREE = "Spiderfolk take over there.",
                 --SPIDER_MONKEY_NEST = "一大团黏糊糊。",
@@ -1201,9 +1259,37 @@ local strings = {
                 	SLEEPING = "Sleep tight!",
                 	DEAD = "Glurp! Hold on!",
                 },
-                PIKO_ORANGE = "Hello. How are you today?",
+                PIKO_ORANGE = {
+                	GENERIC = "Hello. How are you today?",
+                	SLEEPING = "Sleep tight!",
+                	DEAD = "Glurp! Hold on!",
+                },
 
-                
+                PIGHOUSE_CITY = {
+        	        GENERIC = "Not wet! How stupid pigfolk.",
+        	        BURNING = "Burn! Burn!",
+		        },
+                PIGHOUSE_MINE = {
+        	        GENERIC = "Where pigfolk plant snacks.",
+        	        BURNING = "Pigfolk can mess up even with stone.",
+		        },
+                PIGHOUSE_FARM = {
+        	        GENERIC = "Where pigfolk dig stone.",
+        	        BURNING = "Pigfolk can mess up even with stone.",
+                },
+
+                VENUS_STALK = "A dry stick.",--手杖
+                --WALKINGSTICK = "里面好像有很多水。",--捕蝇草茎
+                ADULT_FLYTRAP = {--利齿捕蝇草
+        	        GENERIC = "Plant eat meat? Why?",
+        	        SLEEPING = "Sleeping?",
+        	        DEAD = "That's plant, florp.",
+                },
+                MEAN_FLYTRAP = {--幼苗
+        	        GENERIC = "They're like living...",
+        	        SLEEPING = "They... sleep?",
+        	        DEAD = "That's plant, florp.",
+                },
             },
         },
         WALTER = {--[[
@@ -1323,13 +1409,13 @@ local strings = {
                 --spawner
                 --[[
                 PORKLAND_INTRO_BASKET = "第一次气球旅行就这么结束了。",
-                PORKLAND_INTRO_BALLOON = "真可惜，没有坚持更久。",
-                PORKLAND_INTRO_TRUNK = "至少我们可以排除麦斯威尔先生。",
-                PORKLAND_INTRO_SUITCASE = "至少我们可以排除麦斯威尔先生。",
-                PORKLAND_INTRO_FLAGS = "传递信号的旗帜。",
-                PORKLAND_INTRO_SANDBAG = "薇勒尔女士，它有什么用？",
+                PORKLAND_INTRO_BALLOON = "真可惜，没有坚持更久。",]]
+                PORKLAND_INTRO_TRUNK = "At least we can exclude Mr. Maxwell.",
+                PORKLAND_INTRO_SUITCASE = "At least we can exclude Mr. Maxwell.",
+                --PORKLAND_INTRO_FLAGS = "传递信号的旗帜。",
+                PORKLAND_INTRO_SANDBAG = "Ms. Wheeler. What's this used for?",
                 
-                GLOWFLY={
+                --[[GLOWFLY={
                     GENERIC="哇哦，看看它们发出的光！",
                     SLEEPING="它在睡觉。",
                     DEAD="喔，死掉了。",--how to examine it?
@@ -1341,19 +1427,15 @@ local strings = {
                     DEAD="喔，死掉了。",--how to examine it?
                 },
                 TREE_PILLAR="这么大的树，哪怕是海狸人也啃不完吧。",
-                FLOWER_RAINFOREST="哦！这就是丛林探险故事中的那种花。",
+                FLOWER_RAINFOREST="哦！这就是丛林探险故事中的那种花。",]]
                 
-                BRAMBLESPIKE="没事，我会小心的，威尔逊先生。",]]
-                BRAMBLE_BULB="I am the great southern plantkiller.",
-                --BRAMBLE_CORE="蔓生在丛林深处的畸形怪花。",
+                BRAMBLESPIKE="It's all right. I'll be careful, Mr. Wilson.",
+                BRAMBLE_BULB="I am the great southern plantkiller.",--terraria plantera
+                BRAMBLE_CORE="The overgrown monstrosity of the jungle's depths.",--terraria plantera
 
                 ROOTTRUNK_CHILD = "Just like Mr. Maxwell's magic!",
 
                 CHITIN="Watch these patterns! Woby!",
-                
-                BRAMBLESPIKE="It's all right. I'll be careful, Mr. Wilson.",
-                BRAMBLE_BULB="I'm the great southern plantkiller",
-                BRAMBLE_CORE="A overgrown monstrosity of the jungle's depths.",
 
                 TURF_PIGRUINS = "A patch of ground.", --unuse
                 TURF_RAINFOREST = "A patch of ground.", 
@@ -1503,9 +1585,37 @@ local strings = {
                 	SLEEPING = "它睡着了。",
                 	DEAD = "可怜的小家伙。",
                 },]]
-                --PIKO_ORANGE = "我一定要捉到它！",
-
+                --[[PIKO_ORANGE = {
+                    GENERIC = "我一定要捉到它！",
+                    SLEEPING = "它睡着了。",
+                    DEAD = "可怜的小家伙。",
+                },]]
                 
+                PIGHOUSE_CITY = {
+        	        GENERIC = "Community service is a must for a Pinetree Pioneer.",
+        	        BURNING = "Is anyone in there? Help them!",
+		        },
+                PIGHOUSE_MINE = {
+        	        GENERIC = "I have a feeling Wurt's not gonna like there",
+        	        --BURNING = "消防员！消防员！",
+		        },
+                PIGHOUSE_FARM = {
+        	        GENERIC = "I have a feeling Wurt's not gonna like there",
+        	        --BURNING = "可怜的农民们。",
+                },
+
+                VENUS_STALK = "Now I get a wood leg too.",--手杖
+                WALKINGSTICK = "I think that's their stomach in here.",--捕蝇草茎
+                --[[ADULT_FLYTRAP = {--利齿捕蝇草
+        	        GENERIC = "一棵货真价实的食人花！而且会跑！",
+        	        SLEEPING = "食人花居然也需要睡觉。",
+        	        DEAD = "它还会再长回来吗？",
+                },
+                MEAN_FLYTRAP = {--幼苗
+        	        GENERIC = "我真想把它们移植到我们的草坪上去。",
+        	        SLEEPING = "食人花居然也需要睡觉。",
+        	        DEAD = "它还会再长回来吗？",
+                },]]
             },
         },
         WANDA = {--[[
@@ -1801,14 +1911,42 @@ local strings = {
                 	SLEEPING = "It's kind of cute if they just quiet.",
                 	DEAD = "They are quiet... forever.",
                 },
-                --PIKO_ORANGE = "这是稀有毛色吗？",
+                PIKO_ORANGE = {
+                	--GENERIC = "这是稀有毛色吗？",
+                	SLEEPING = "It's kind of cute if they just quiet.",
+                	DEAD = "They are quiet... forever.",
+                },
 
-                
+                PIGHOUSE_CITY = {
+        	        GENERIC = "I really hope this is I finally get back to the right time.",
+        	        --BURNING = "我想它也到时候了。",
+		        },
+                PIGHOUSE_MINE = {
+        	        GENERIC = "I'm sure I've seen it in... Oh, that's the other one.",
+        	        --BURNING = "我想它也到时候了。",
+		        },
+                PIGHOUSE_FARM = {
+        	        GENERIC = "I'm sure I've seen it in... Oh, that's the other one.",
+        	        --BURNING = "我想它也到时候了。",
+                },
+
+                --VENUS_STALK = "好吧，我会带上。",--手杖
+                --WALKINGSTICK = "离能用还早着呢。",--捕蝇草茎
+                ADULT_FLYTRAP = {--利齿捕蝇草
+        	        GENERIC = "This is an obvious trap.",
+        	        --SLEEPING = "我们直接走过去吧。",
+        	        --DEAD = "连根拔起。",
+                },
+                --[[MEAN_FLYTRAP = {--幼苗
+        	        GENERIC = "我不喜欢这株草的样子。",
+        	        SLEEPING = "它在睡觉。",
+        	        DEAD = "它不会继续长大了。",
+                },]]
             },
         },
         --New Characters for us
         WAGSTAFF = {
-            --new line for goggles?
+            --[[new line for goggles?
             --moonstorm, sandstorm and brightshade
             ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "Ah, let me see where it is...",
             ANNOUNCE_PUTONGOGGLES_DESERTHAT = "I can see the world through these lenses.",
@@ -1823,7 +1961,7 @@ local strings = {
             --CC hat
             ANNOUNCE_PUTONGOGGLES_ALTERGUARDIANHAT = "Unlimited insight! I can even see the fibers of reality is pulsating!",
             --WARBIS
-            ANNOUNCE_PUTONGOGGLES_WAGPUNKHAT = "W.A.R.B.I.S. you up?",--Engage heads up display.
+            ANNOUNCE_PUTONGOGGLES_WAGPUNKHAT = "W.A.R.B.I.S. you up?",--Engage heads up display.]]
             
             ANNOUNCE_GNATS_DIED="Ha! I found their weakness!",
 
@@ -1856,6 +1994,7 @@ local strings = {
                     GENERIC= "A slightly worn bear doll, loved by my coagents.",
                     BROKEN = "Still can be fixed.",
                 },
+                WILLOW_EMBER = "Crude extracted almost destroyed it.",--only_used_by_willow
 
                 --[[wolf
                 DUMBBELL = "一个普通的哑铃。",
@@ -1995,6 +2134,20 @@ local strings = {
                 BATTLESONG_INSTANT_PANIC = "Triggering unknown forces through specially modulated sound waves. Interesting.",
                 BATTLESONG_INSTANT_TAUNT = "Triggering unknown forces through specially modulated sound waves. Interesting.",
 
+                BATTLESONG_INSTANT_REVIVE = "Triggering unknown forces through specially modulated sound waves. Interesting.",
+
+                --WATHGRITHR_IMPROVEDHAT = "它达到了防御和重量的完美平衡。",
+                --SPEAR_WATHGRITHR_LIGHTNING = "这是为通电而设计的，对吗？",
+
+                BATTLESONG_CONTAINER = "It refused to let ordinary paper in.",
+
+                --SADDLE_WATHGRITHR = "观赏价值远大于实用价值。",
+
+                --WATHGRITHR_SHIELD = "皮毛夹层赋予了它额外的韧性。",
+
+                BATTLESONG_SHADOWALIGNED = "Triggering dark energy...",
+                BATTLESONG_LUNARALIGNED = "That's the reward for your curiosity. Go try it.",
+
                 --Webby-boy
                 --SPIDERDEN_BEDAZZLER = "这些涂鸦会改变生物的习性，有趣。",
 
@@ -2097,7 +2250,7 @@ local strings = {
                 },
 
                 --Hyuyu
-                WORTOX_SOUL = "There's an invisible force holding it here.", --只有小恶魔能检查
+                WORTOX_SOUL = "There's an invisible force holding it here.", --only_used_by_wortox
 
                 --Stupid skill tree
                 IPECACSYRUP ="This will undoubtedly cause great damage to my stomach.",
@@ -2213,8 +2366,47 @@ local strings = {
                     CONSTRUCTION2 = "最后，还需要一个合适的容器...",
                 },]]
 
-                LUNARRIFT_PORTAL = "It's just a tiny side-effect. Everything is under control.",
+                --Rift wagstaff stuff
+                LUNARRIFT_PORTAL = "It's just slight structural fracturing. Everything is under control.",
                 SHADOWRIFT_PORTAL = "Strange. That's not it's supposed lead...",
+
+                MUTATEDDEERCLOPS = "It greatly amplifies the host's ability to absorb heat.",
+                MUTATEDWARG = "It's not just hypnotizing them, also mutating them.",
+                MUTATEDBEARGER = "It's mimicking this creature's hunting behavior. Why?",
+            
+                --LUNARFROG = "居住环境让它们成为了最优秀的宿主。",
+            
+                DEERCLOPSCORPSE =
+                {
+                    GENERIC  = "It would be an excellent physical anchor.",
+                    BURNING  = "Hope we meet another one soon.",
+                    --REVIVING = "裂隙实体接管了这具尸体。",
+                },
+            
+                WARGCORPSE =
+                {
+                    GENERIC  = "I'm ready for precious data.",
+                    BURNING  = "For the best? Keep your curiosity alive.",
+                    REVIVING = "The alter began.",
+                },
+            
+                BEARGERCORPSE =
+                {
+                    GENERIC  = "A possible host. Let's see if it can attract to Rift entity.",
+                    --BURNING  = "你们正在浪费珍贵的潜在研究样本。",
+                    REVIVING = "The host is being modified into a suitable form.",
+                },
+
+                --WAGPUNKHAT = "精确计算敌人的弱点。",
+                ARMORWAGPUNK = "Difference engine at the forefront of the times.",
+                WAGSTAFF_MACHINERY = "Progress waits for no one!",
+                WAGPUNK_BITS = "General purpose machine parts.",
+                --WAGPUNKBITS_KIT = "我们的精力应该放在更重要的工作上。",
+
+                WAGSTAFF_MUTATIONS_NOTE = "Hah! My notes is here.",
+
+                --SECURITY_PULSE_CAGE = "我想我必须亲自跑一趟了。",
+                --SECURITY_PULSE_CAGE_FULL = "抓到了！",
             },
         },
         WILBA = {
@@ -2226,7 +2418,7 @@ local strings = {
                     LOWFUEL = "'TIS NEEDING FUELS",
                 },
                 MOONDIAL = {
-                    APORKALYPSE = "CALAMITY OF SO LONG.",
+                    APORKALYPSE = "CALAMITY OF SO LONG",
                 },
                 SMELTER = {
                     EMPTY = "'TIS FWOOSHY MACHINES",--original speech
