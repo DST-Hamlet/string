@@ -601,16 +601,16 @@ local strings = {
                 },
                 VAMPIREBATCAVE = "",
 
-                PIKO = {
-                	--GENERIC = "叫人讨厌不起来的小偷。",
-                	SLEEPING = "",
-                	DEAD = "",
+                --[[PIKO = {
+                	GENERIC = "叫人讨厌不起来的小偷。",
+                	SLEEPING = "为捣更多乱养精蓄锐。",
+                	DEAD = "死了。",
                 },
                 PIKO_ORANGE = {
-                	GENERIC = "",
-                	SLEEPING = "",
-                	DEAD = "",
-                },
+                	GENERIC = "它几乎什么都吃。",
+                	SLEEPING = "为捣更多乱养精蓄锐。",
+                	DEAD = "死了。",
+                },]]
 
                 PIGHOUSE_CITY = {
         	        --GENERIC = "很难想象样的座房屋是由猪完成的。",

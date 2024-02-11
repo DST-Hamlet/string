@@ -603,13 +603,13 @@ local strings = {
 
                 PIKO = {
                 	GENERIC = "一个叫人讨厌不起来的小偷。",
-                	SLEEPING = "",
-                	DEAD = "",
+                	SLEEPING = "为捣更多乱养精蓄锐。",
+                	DEAD = "死了。",
                 },
                 PIKO_ORANGE = {
-                	GENERIC = "",
-                	SLEEPING = "",
-                	DEAD = "",
+                	GENERIC = "它几乎什么都吃。",
+                	SLEEPING = "为捣更多乱养精蓄锐。",
+                	DEAD = "死了。",
                 },
 
                 PIGHOUSE_CITY = {
