@@ -70,6 +70,8 @@ local strings = {
                     COOKING_SHORT = "这还需要一点时间。",--烹饪锅
                     BURNT = "冶炼炉被冶炼了。",--烹饪锅
                 },
+                PIG_RUINS_SOW = "一个精湛的本地工艺品。",
+                PIG_RUINS_MUSHROOM = "惟妙惟肖的展示了...他们喜欢的东西。",
             },
         },
         WILLOW = {
@@ -88,6 +90,8 @@ local strings = {
                     COOKING_SHORT = "火的工作就快完成了！",--烹饪锅
                     BURNT = "好吧，这是有一点点过火了。",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WOLFGANG = {
@@ -106,10 +110,12 @@ local strings = {
                     COOKING_SHORT = "快融化了！",--烹饪锅
                     BURNT = "炉子没了。",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WENDY = {
-            --以我的英文水平，英文版可能就不那么好看咯:P
+            --英文版可能就不那么好看咯:P
             ANNOUNCE_GNATS_DIED="现在还没轮到我。",
             DESCRIBE = {
                 BASEFAN = {
@@ -125,6 +131,8 @@ local strings = {
                     COOKING_SHORT = "它们在地狱的业火中挣扎。",
                     BURNT = "它燃烧得比我想的更加激烈。",--原台词
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WX78 = {
@@ -143,6 +151,8 @@ local strings = {
                     COOKING_SHORT = "朋友正以最大功率输出",
                     BURNT = "遗憾，我的朋友",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WICKERBOTTOM = {
@@ -161,6 +171,8 @@ local strings = {
                     COOKING_SHORT = "金属正在熔化为液态。",
                     BURNT = "有人受伤吗？",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WOODIE = {
@@ -180,6 +192,8 @@ local strings = {
                     COOKING_SHORT = "我的乖乖！马上就好了！",--烹饪锅
                     BURNT = "它怎么会烧着呢？！",--科学机器
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WAXWELL = {
@@ -198,6 +212,8 @@ local strings = {
                     COOKING_SHORT = "看好了！别让火熄灭。",
                     BURNT = "重返石器时代。",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         --rog
@@ -217,6 +233,8 @@ local strings = {
                     COOKING_SHORT = "耐心是优秀战士的必备品质。",
                     BURNT = "我的角色是战士而不是工匠。",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WEBBER = {
@@ -235,6 +253,8 @@ local strings = {
                     COOKING_SHORT = "呀，好烫！",--原台词
                     BURNT = "全烧光了。",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         --sw
@@ -254,6 +274,8 @@ local strings = {
                     COOKING_SHORT = "它把自己烧得通红。",
                     BURNT = "这就是你急功近利的结果。",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WARLY = {
@@ -272,6 +294,8 @@ local strings = {
                     COOKING_SHORT = "风味正在熔合。",
                     BURNT = "我更擅长烹饪食物，而不是金属。",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WOODLEGS = {
@@ -291,6 +315,8 @@ local strings = {
                     COOKING_SHORT = "很快就会烧好了。",
                     BURNT = "炸膛！",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         --ham-
@@ -311,6 +337,8 @@ local strings = {
                     COOKING_SHORT = "太热了！太热了！",--原台词
                     BURNT = "全都没了",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         --dst
@@ -391,8 +419,11 @@ local strings = {
                 RELIC_3 = "终究是文物，没准猪人会想要。",
                 PIG_RUINS_HEAD = "一定有什么办法把中间那部分卸下来。",
 
-                RELIC_4 = "这个看起来不太一样，也许她很特殊。",
-                RELIC_5 = "镶嵌了许多宝石，一定很值钱。",
+                RELIC_4 = "也许她很特殊。",
+                PIG_RUINS_SOW = "这个看起来不太一样，我们把它带回去吧。",--蓝母猪建筑
+
+                RELIC_5 = "小心别把它碰坏了。",
+                PIG_RUINS_MUSHROOM = "镶嵌了许多宝石，一定很值钱。",--宝石松露建筑
 
                 PIG_RUINS_PIG = "未免太过于张扬了。",
 
@@ -637,6 +668,8 @@ local strings = {
         	        SLEEPING = "",
         	        DEAD = "",
                 },
+
+                CORKBOAT = "它绝对通过不了安全性测试。",
                 --[[
                 DECO_CHAIR_CLASSIC  = "",
                 DECO_CHAIR_CORNER   = "",
@@ -801,6 +834,8 @@ local strings = {
 		        ROUND_DOOR = "",
 		        PLATE_DOOR = "",
                 ]]
+                PIG_RUINS_ARTICHOKE = "看来它们是真的很喜欢洋蓟。",
+                ANTQUEEN_THRONE = "女王的宝库。",
             },
         },
         WORTOX = {
@@ -881,7 +916,10 @@ local strings = {
                 PIG_RUINS_HEAD = "别人有伞，它有大头！",
 
                 RELIC_4 = "看上去就非常皇家。",
-                RELIC_5 = "很多宝石，但没有魔法。",
+                PIG_RUINS_SOW = "嘿，她是谁？",--蓝母猪建筑
+
+                RELIC_5 = "这会是一个有趣的纪念品。",
+                PIG_RUINS_MUSHROOM = "很多宝石，但没有魔法。",--宝石松露建筑
 
                 PIG_RUINS_PIG = "笑口常开啊。",
 
@@ -1127,6 +1165,8 @@ local strings = {
         	        SLEEPING = "睡吧。",
         	        DEAD = "它死了。",
                 },
+
+                CORKBOAT = "飘忽不定，摇摇欲坠。",
                 --[[
                 DECO_CHAIR_CLASSIC  = "",
                 DECO_CHAIR_CORNER   = "",
@@ -1134,7 +1174,7 @@ local strings = {
                 DECO_CHAIR_HORNED   = "",
                 DECO_CHAIR_FOOTREST = "",
                 DECO_CHAIR_LOUNGE   = "",
-                DECO_CHAIR_MASSAGER = "这是哪门子笑话。",--电椅
+                DECO_CHAIR_MASSAGER = "这是哪门子笑话？",--电椅
                 DECO_CHAIR_STUFFED  = "",
                 DECO_CHAIR_ROCKING  = "",
                 DECO_CHAIR_OTTOMAN  = "",
@@ -1291,6 +1331,8 @@ local strings = {
 		        ROUND_DOOR = "",
 		        PLATE_DOOR = "",
                 ]]
+                PIG_RUINS_ARTICHOKE = "一棵巨型蔬菜。",
+                ANTQUEEN_THRONE = "猜猜看底下有什么？",
             },
         },
         WURT = {
@@ -1370,8 +1412,11 @@ local strings = {
                 RELIC_3 = "战利品！",
                 PIG_RUINS_HEAD = "巨大的猪人脸。",
 
-                RELIC_4 = "一个不一样的猪人，为什么？",
+                RELIC_4 = "猪人才不是蓝色的...",
+                PIG_RUINS_SOW = "一个不一样的猪人。",--蓝母猪建筑
+
                 RELIC_5 = "不能吃，但闪闪发光。",
+                PIG_RUINS_MUSHROOM = "石头做的食物。",--宝石松露建筑
 
                 PIG_RUINS_PIG = "看我把猪人的牙齿拿走！",
 
@@ -1617,6 +1662,8 @@ local strings = {
         	        SLEEPING = "它们...睡觉？",
         	        DEAD = "这才像植物，浮浪噗。",
                 },
+
+                CORKBOAT = "为什么不用游的？浮浪噗。",
                 --[[
                 DECO_CHAIR_CLASSIC  = "",
                 DECO_CHAIR_CORNER   = "",
@@ -1728,28 +1775,28 @@ local strings = {
                 SWINGING_LIGHT_BASIC_METAL = "",
                 SWINGING_LIGHT_TOPHAT = "",
                 SWINGING_LIGHT_DERBY = "",
-                SWINGING_LIGHT1 = "",
+                SWINGING_LIGHT1 = "",]]
 
-                RUG_ROUND = "",
-                RUG_SQUARE = "",
-                RUG_OVAL = "",
-                RUG_RECTANGLE = "",
-                RUG_FUR = "",
-                RUG_HEDGEHOG = "",
-                RUG_PORCUPUSS = "",
-                RUG_HOOFPRINT = "",
-                RUG_OCTAGON = "",
-                RUG_SWIRL = "",
-                RUG_CATCOON = "",
-                RUG_RUBBERMAT = "",
-                RUG_WEB = "",
-                RUG_METAL = "",
-                RUG_WORMHOLE = "",
-                RUG_BRAID = "",
-                RUG_BEARD = "",
-                RUG_NAILBED = "",
-                RUG_CRIME = "",
-                RUG_TILES = "",
+                RUG_ROUND = "没有沼泽的味道。",
+                RUG_SQUARE = "没有沼泽的味道。",
+                RUG_OVAL = "没有沼泽的味道。",
+                RUG_RECTANGLE = "没有沼泽的味道。",
+                RUG_FUR = "没有沼泽的味道。",
+                RUG_HEDGEHOG = "没有沼泽的味道。",
+                RUG_PORCUPUSS = "没有沼泽的味道。",
+                RUG_HOOFPRINT = "没有沼泽的味道。",
+                RUG_OCTAGON = "没有沼泽的味道。",
+                RUG_SWIRL = "没有沼泽的味道。",
+                RUG_CATCOON = "没有沼泽的味道。",
+                RUG_RUBBERMAT = "没有沼泽的味道。",
+                RUG_WEB = "没有沼泽的味道。",
+                RUG_METAL = "没有沼泽的味道。",
+                RUG_WORMHOLE = "没有沼泽的味道。",
+                RUG_BRAID = "没有沼泽的味道。",
+                RUG_BEARD = "没有沼泽的味道。",
+                RUG_NAILBED = "没有沼泽的味道。",
+                RUG_CRIME = "没有沼泽的味道。",
+                RUG_TILES = "没有沼泽的味道。",--[[
 
                 SHELVES_WOOD = "",
                 SHELVES_CINDERBLOCKS = "",
@@ -1781,6 +1828,8 @@ local strings = {
 		        ROUND_DOOR = "",
 		        PLATE_DOOR = "",
                 ]]
+                PIG_RUINS_ARTICHOKE = "到处都是这个形状。",
+                ANTQUEEN_THRONE = "蚁人老大的椅子。",
             },
         },
         WALTER = {
@@ -1860,8 +1909,11 @@ local strings = {
                 RELIC_3 = "一个巨大的鼻子。",
                 PIG_RUINS_HEAD = "沃比！它比你还要大！",
 
-                RELIC_4 = "非常有皇家风范。",
+                RELIC_4 = "薇尔芭说不定认识她。",
+                PIG_RUINS_SOW = "非常有皇家风范。",--蓝母猪建筑
+
                 RELIC_5 = "看起来很宝贵。",
+                PIG_RUINS_MUSHROOM = "哇哦，一个石雕的...蘑菇？",--宝石松露建筑
 
                 PIG_RUINS_PIG = "看它笑得多开心啊！",
 
@@ -2107,6 +2159,8 @@ local strings = {
         	        SLEEPING = "食人花居然也需要睡觉。",
         	        DEAD = "它还会再长回来吗？",
                 },
+
+                CORKBOAT = "雨林漂流，哦耶！",
                 --[[
                 DECO_CHAIR_CLASSIC  = "",
                 DECO_CHAIR_CORNER   = "",
@@ -2271,6 +2325,8 @@ local strings = {
 		        ROUND_DOOR = "",
 		        PLATE_DOOR = "",
                 ]]
+                PIG_RUINS_ARTICHOKE = "这是笋还是什么？",
+                ANTQUEEN_THRONE = "沃比！从那上面下来！",
             },
         },
         WANDA = {
@@ -2351,7 +2407,10 @@ local strings = {
                 PIG_RUINS_HEAD = "巨大的石头猪脸。",
 
                 RELIC_4 = "我们快去领赏吧。",
-                RELIC_5 = "就是它，我能用它换取丰厚的奖励。",
+                PIG_RUINS_SOW = "这一个采用了独特的配色。",--蓝母猪建筑
+
+                RELIC_5 = "真是个奇怪的造型。",
+                PIG_RUINS_MUSHROOM = "就是它，我能用它换取丰厚的奖励。",--宝石松露建筑
 
                 PIG_RUINS_PIG = "它在笑什么？",
 
@@ -2598,6 +2657,8 @@ local strings = {
         	        DEAD = "它不会继续长大了。",
                 },
                 
+                CORKBOAT = "这就是我们和冰冷水面之间的唯一阻隔了？",
+
                 DECO_CHAIR_CLASSIC  = "经典，永不过时。",
                 DECO_CHAIR_CORNER   = "也该适当的休息一下了。",
                 DECO_CHAIR_BENCH    = "也该适当的休息一下了。",
@@ -2761,6 +2822,8 @@ local strings = {
 		        ROUND_DOOR = "",
 		        PLATE_DOOR = "",
                 ]]
+                PIG_RUINS_ARTICHOKE = "被雕刻成蔬菜的石头。",
+                ANTQUEEN_THRONE = "让我们看看她藏着什么宝贝。",
             },
         },
         --New Characters for us
@@ -2798,6 +2861,8 @@ local strings = {
                     COOKING_SHORT = "我迫不及待进一步了解这些金属的性质了。",
                     BURNT = "冶炼在这里也是一项危险工程。",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
                 POG = {
                     GENERIC = "一只胆大又可爱的生物，有着永不满足的食欲！",
                     FOLLOWER = "驯服它们真是太容易了。",
@@ -3191,7 +3256,7 @@ local strings = {
 
                 MUTATEDDEERCLOPS = "它极大的放大了宿主的吸热能力。",
                 MUTATEDWARG = "它不止催眠它们，还在变异它们。",
-                MUTATEDBEARGER = "它在模仿这个生物的寻猎行为。为什么？",
+                MUTATEDBEARGER = "它在模仿这个生物的寻猎行为。为什么？",--obviously because the new designer didn't know about it
             
                 LUNARFROG = "居住环境让它们成为了最优秀的宿主。",
             
@@ -3213,7 +3278,7 @@ local strings = {
                 {
                     GENERIC  = "一个可能的宿主，让我们看看它能不能吸引裂隙实体。",
                     BURNING  = "你们正在浪费珍贵的潜在研究样本。",
-                    REVIVING = "宿主正在被改造为适宜的形态。",
+                    REVIVING = "宿主正在被改造为“适宜的”形态。",
                 },
 
                 WAGPUNKHAT = "精确计算敌人的弱点。",
@@ -3245,6 +3310,8 @@ local strings = {
                     COOKING_SHORT = "金属在里面燃烧！",
                     BURNT = "它烧焦了",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WHEELER = {
@@ -3263,6 +3330,8 @@ local strings = {
                     COOKING_SHORT = "很快就会结束。",
                     BURNT = "从来没有人指责过我不是一个好铁匠。",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
         WARBUCKS = {
@@ -3287,6 +3356,8 @@ local strings = {
                     SLEEPING = "打哈欠。",
                     APORKALYPSE = "终究是未开化的野兽。",
                 },
+                --PIG_RUINS_SOW = "",
+                --PIG_RUINS_MUSHROOM = "",
             },
         },
     },
