@@ -72,6 +72,12 @@ local strings = {
                 },
                 PIG_RUINS_SOW = "一个精湛的本地工艺品。",
                 PIG_RUINS_MUSHROOM = "惟妙惟肖的展示了...他们喜欢的东西。",
+                PIG_RUINS_ANT = "一尊抽象的昆虫或者别的什么东西。",
+                PIKO_ORANGE = {
+                	GENERIC = "出于某些原因我渴望喝茶。",--原台词
+                	SLEEPING = "它可能梦见了树。",--和piko一样
+                	DEAD = "我感觉有点难过。",--和piko一样
+                },
             },
         },
         WILLOW = {
@@ -92,6 +98,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "奇怪的小家伙。",--原台词
+                	SLEEPING = "我打赌我现在可以抓到它。",--和piko一样
+                	DEAD = "还是跑得不够快。",--和piko一样
+                },
             },
         },
         WOLFGANG = {
@@ -112,6 +124,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "渺小，软弱的橙色绒毛。",--原台词
+                    SLEEPING = "渺小橙色绒毛现在在睡觉。",--和piko一样
+                	DEAD = "渺小橙色绒毛死去的那部分。",--和piko一样
+                },
             },
         },
         WENDY = {
@@ -133,6 +151,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "你的存在只是为了取悦他人。",--原台词
+                	SLEEPING = "睡着的它多么天真啊。",--和piko一样
+                	DEAD = "即使是这么天真也得死。",--和piko一样
+                },
             },
         },
         WX78 = {
@@ -153,6 +177,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "有特殊外观的肉质机器",--原台词
+                	SLEEPING = "处于睡眠模式",--和piko一样
+                	DEAD = "机能终止",--和piko一样
+                },
             },
         },
         WICKERBOTTOM = {
@@ -173,6 +203,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "一个有趣的哺乳动物毛球。",--原台词
+                	SLEEPING = "它睡着了。",--和piko一样
+                	DEAD = "它的逝去让我感到一丝悲伤。",--和piko一样
+                },
             },
         },
         WOODIE = {
@@ -194,6 +230,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "它们和我们一样都喜欢树。",--原台词
+                	SLEEPING = "疲倦地睡着了。",--和piko一样
+                	DEAD = "可怜的小东西...",--和piko一样
+                },
             },
         },
         WAXWELL = {
@@ -214,6 +256,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "真有趣。",--原台词
+                	SLEEPING = "小坏蛋睡着了。",--和piko一样
+                	DEAD = "它已经消灭了。",--和piko一样
+                },
             },
         },
         --rog
@@ -235,6 +283,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "它可是肉做的啊！",--原台词
+                	SLEEPING = "它很不明智的睡着了。",--和piko一样
+                	DEAD = "它倒下了。",--和piko一样
+                },
             },
         },
         WEBBER = {
@@ -255,6 +309,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "我想知道他会喜欢茶会吗。",--原台词
+                	SLEEPING = "跑来跑去一定把他累坏了。",--和piko一样
+                	DEAD = "哦。我挺喜欢他的。",--和piko一样
+                },
             },
         },
         --sw
@@ -276,6 +336,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "噢，我懂了。",--原台词
+                	SLEEPING = "小家伙，我希望我可以像你一样酣睡。",--和piko一样
+                	DEAD = "不！小家伙！",--和piko一样
+                },
             },
         },
         WARLY = {
@@ -296,6 +362,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "我更喜欢英式早餐。",--原台词
+                	SLEEPING = "毫无疑问，它会梦到坚果。",--和piko一样
+                	DEAD = "不幸的结局。",--和piko一样
+                },
             },
         },
         WOODLEGS = {
@@ -317,6 +389,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "是的，这是一只有益的动物。",--原台词
+                	SLEEPING = "趁它睡觉时抓住它。",--和piko一样
+                	DEAD = "它现在死无对证。",--和piko一样
+                },
             },
         },
         --ham-
@@ -339,6 +417,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "毛茸茸的捕食者",--原台词
+                	SLEEPING = "它睡着了。嘘...",--和piko一样
+                	DEAD = "啊...",--和piko一样
+                },
             },
         },
         --dst
@@ -424,6 +508,8 @@ local strings = {
 
                 RELIC_5 = "小心别把它碰坏了。",
                 PIG_RUINS_MUSHROOM = "镶嵌了许多宝石，一定很值钱。",--宝石松露建筑
+
+                --PIG_RUINS_ANT = "",
 
                 PIG_RUINS_PIG = "未免太过于张扬了。",
 
@@ -920,6 +1006,8 @@ local strings = {
 
                 RELIC_5 = "这会是一个有趣的纪念品。",
                 PIG_RUINS_MUSHROOM = "很多宝石，但没有魔法。",--宝石松露建筑
+
+                --PIG_RUINS_ANT = "",
 
                 PIG_RUINS_PIG = "笑口常开啊。",
 
@@ -1418,6 +1506,8 @@ local strings = {
                 RELIC_5 = "不能吃，但闪闪发光。",
                 PIG_RUINS_MUSHROOM = "石头做的食物。",--宝石松露建筑
 
+                --PIG_RUINS_ANT = "",
+
                 PIG_RUINS_PIG = "看我把猪人的牙齿拿走！",
 
                 PIG_SHOP_CITYHALL = {
@@ -1914,6 +2004,8 @@ local strings = {
 
                 RELIC_5 = "看起来很宝贵。",
                 PIG_RUINS_MUSHROOM = "哇哦，一个石雕的...蘑菇？",--宝石松露建筑
+
+                --PIG_RUINS_ANT = "",
 
                 PIG_RUINS_PIG = "看它笑得多开心啊！",
 
@@ -2412,6 +2504,8 @@ local strings = {
                 RELIC_5 = "真是个奇怪的造型。",
                 PIG_RUINS_MUSHROOM = "就是它，我能用它换取丰厚的奖励。",--宝石松露建筑
 
+                --PIG_RUINS_ANT = "",
+
                 PIG_RUINS_PIG = "它在笑什么？",
 
                 PIG_SHOP_CITYHALL = {
@@ -2863,6 +2957,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "有股茶味。大概是因为它很靠近茶树吧？",--原台词
+                	SLEEPING = "很显然，它因为整天的疾跑和偷窃而累了。",--和piko一样
+                	DEAD = "刚刚死掉。",--和piko一样
+                },
                 POG = {
                     GENERIC = "一只胆大又可爱的生物，有着永不满足的食欲！",
                     FOLLOWER = "驯服它们真是太容易了。",
@@ -3312,6 +3412,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "它有一条最漂亮的尾巴",--原台词
+                	SLEEPING = "啊 睡得很安稳！",--和piko一样
+                	DEAD = "这是你最后一次偷薇尔芭的东西了",--和piko一样
+                },
             },
         },
         WHEELER = {
@@ -3332,6 +3438,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "有一种奇怪的咖啡因味。",--原台词
+                	SLEEPING = "至少它在睡觉时不会去偷东西。",--和piko一样
+                	DEAD = "哎。它只是想偷个东西而已。",--和piko一样
+                },
             },
         },
         WARBUCKS = {
@@ -3358,6 +3470,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "我突然萌生了一股想来杯茶的冲动。",--原台词
+                	SLEEPING = "啊！现在不那么可怕了。",--和piko一样
+                	DEAD = "喝茶时间到了吗？",--和piko一样
+                },
             },
         },
     },

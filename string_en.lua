@@ -72,6 +72,12 @@ local strings = {
                 },
                 PIG_RUINS_SOW = "A superb local art craft.",
                 PIG_RUINS_MUSHROOM = "A vivid display of... their love.",
+                PIG_RUINS_ANT = "An abstract insect or something.",
+                PIKO_ORANGE = {
+                	GENERIC = "For some reason I'm craving tea.",--original speech
+                	SLEEPING = "Probably dreaming of trees.",--same as piko
+                	DEAD = "I feel kinda bad.",--same as piko
+                },
             },
         },
         WILLOW = {
@@ -92,6 +98,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "Squirrelly little guy.",--original speech
+                	SLEEPING = "I bet I could catch it now.",--same as piko
+                	DEAD = "Didn't run fast enough.",--same as piko
+                },
             },
         },
         WOLFGANG = {
@@ -112,6 +124,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "Tiny, weak orange fluff.",--original speech
+                	SLEEPING = "Tiny orange fluff is sleep time.",--same as piko
+                	DEAD = "Is tiny orange fluff dead part.",--same as piko
+                },
             },
         },
         WENDY = {
@@ -133,6 +151,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "You exist to amuse others.",--original speech
+                	SLEEPING = "Such a innocent sleep.",--same as piko
+                	DEAD = "Even the innocent must die.",--same as piko
+                },
             },
         },
         WX78 = {
@@ -153,6 +177,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "MEAT MACHINE WITH BREWING PROPERTIES",--original speech
+                	SLEEPING = "IN SLEEP MODE",--same as piko
+                	DEAD = "NONFUNCTIONING",--same as piko
+                },
             },
         },
         WICKERBOTTOM = {
@@ -173,6 +203,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "An amusingly named mammalian fuzzball.",--original speech
+                	SLEEPING = "It is asleep.",--same as piko
+                	DEAD = "I feel a touch of grief at its passing.",--same as piko
+                },
             },
         },
         WOODIE = {
@@ -194,6 +230,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "They like trees almost as much as us.",--original speech
+                	SLEEPING = "All tuckered out.",--same as piko
+                	DEAD = "Poor little critter...",--same as piko
+                },
             },
         },
         WAXWELL = {
@@ -214,6 +256,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "How amusing.",--original speech
+                	SLEEPING = "The pest is asleep.",--same as piko
+                	DEAD = "It has been exterminated.",--same as piko
+                },
             },
         },
         --rog
@@ -235,6 +283,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "It is made of meat!",--original speech
+                	SLEEPING = "It slumbers unwisely.",--same as piko
+                	DEAD = "It has fallen.",--same as piko
+                },
             },
         },
         WEBBER = {
@@ -255,6 +309,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "I wonder if he likes tea parties.",--original speech
+                	SLEEPING = "All that running around must have worn him out.",--same as piko
+                	DEAD = "Aww. I liked him.",--same as piko
+                },
             },
         },
         --sw
@@ -276,6 +336,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "Oh, I get it.",--original speech
+                	SLEEPING = "I wish I could join you, buddy.",--same as piko
+                	DEAD = "No! Little buddy!",--same as piko
+                },
             },
         },
         WARLY = {
@@ -296,6 +362,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "I prefer English Breakfast.",--original speech
+                	SLEEPING = "Dreaming of nuts, no doubt.",--same as piko
+                	DEAD = "An unfortunate end.",--same as piko
+                },
             },
         },
         WOODLEGS = {
@@ -317,6 +389,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "Aye, 'tis a useful brood.",--original speech
+                	SLEEPING = "Grabbin' some shuteye.",--same as piko
+                	DEAD = "Tells no tales.",--same as piko
+                },
             },
         },
         --ham
@@ -339,6 +417,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "Fluffy Nabber",--original speech
+                	SLEEPING = "Sleeping. Shh...",--same as piko
+                	DEAD = "Aw...",--same as piko
+                },
             },
         },
         --dst
@@ -424,6 +508,8 @@ local strings = {
 
                 RELIC_5 = "小心别把它碰坏了。",
                 PIG_RUINS_MUSHROOM = "镶嵌了许多宝石，一定很值钱。",--宝石松露建筑
+
+                --PIG_RUINS_ANT = "",
 
                 PIG_RUINS_PIG = "未免太过于张扬了。",
 
@@ -921,6 +1007,8 @@ local strings = {
                 --[[
                 RELIC_5 = "这会是一个有趣的纪念品。",
                 PIG_RUINS_MUSHROOM = "很多宝石，但没有魔法。",--宝石松露建筑
+
+                --PIG_RUINS_ANT = "",
 
                 PIG_RUINS_PIG = "笑口常开啊。",
 
@@ -1421,6 +1509,8 @@ local strings = {
                 RELIC_5 = "Can't ate, but shining.",
                 PIG_RUINS_MUSHROOM = "Stone for food?",--宝石松露建筑
 
+                --PIG_RUINS_ANT = "",
+
                 PIG_RUINS_PIG = "I pull out the Pigfolk's teeth!",
 
                 PIG_SHOP_CITYHALL = {
@@ -1917,6 +2007,8 @@ local strings = {
 
                 RELIC_5 = "看起来很宝贵。",
                 PIG_RUINS_MUSHROOM = "哇哦，一个石雕的...蘑菇？",--宝石松露建筑
+
+                --PIG_RUINS_ANT = "",
 
                 PIG_RUINS_PIG = "看它笑得多开心啊！",
 
@@ -2417,6 +2509,8 @@ local strings = {
                 RELIC_5 = "真是个奇怪的造型。",
                 PIG_RUINS_MUSHROOM = "就是它，我能用它换取丰厚的奖励。",--宝石松露建筑
 
+                --PIG_RUINS_ANT = "",
+
                 PIG_RUINS_PIG = "它在笑什么？",
 
                 PIG_SHOP_CITYHALL = {
@@ -2868,6 +2962,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "Smells of tea. Perhaps a consequence of its proximity to tea trees?",--original speech
+                	SLEEPING = "Evidently, tired from a day of scurrying. And stealing.",--same as piko
+                	DEAD = "Recently demised.",--same as piko
+                },
                 POG = {
                     GENERIC = "An adorably audacious animal with an insatiable appetite!",--original speech
                     FOLLOWER = "They are so easy to tame.",
@@ -3317,6 +3417,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "OF MOST EXCELLENT FANCY TAILS",--original speech
+                	SLEEPING = "O GENTLE SLEEP!",--same as piko
+                	DEAD = "HATH STOLEN LAST O' WILBA STUFFS",--same as piko
+                },
             },
         },
         WHEELER = {
@@ -3337,6 +3443,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "Has a strangely caffeinated smell.",--original speech
+                	SLEEPING = "At least it doesn't steal in its sleep.",--same as piko
+                	DEAD = "Sad. It only wanted to steal things.",--same as piko
+                },
             },
         },
         WARBUCKS = {
@@ -3363,6 +3475,12 @@ local strings = {
                 },
                 --PIG_RUINS_SOW = "",
                 --PIG_RUINS_MUSHROOM = "",
+                --PIG_RUINS_ANT = "",
+                PIKO_ORANGE = {
+                	GENERIC = "I'm suddenly stricken with a urge for tea.",--original speech
+                	SLEEPING = "Ah! Not so squirrelly now.",--same as piko
+                	DEAD = "Is it tea time yet?",--same as piko
+                },
             },
         },
     },
