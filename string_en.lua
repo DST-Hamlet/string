@@ -426,7 +426,7 @@ local strings = {
             },
         },
         --dst
-        WINONA = {--[[--Does anyone really play as Winona much?
+        WINONA = {--[[--Does anyone really play Winona lot?
             ANNOUCE_UNDERLEAFCANOPY = "树把光线都挡住了！我什么都看不见！",--unuse
             ANNOUCE_ALARMOVER = "呼，平安度过。",
             ANNOUCE_BATS = "蝙蝠！好像是冲着我来的！",]]
@@ -922,6 +922,51 @@ local strings = {
                 ]]
                 PIG_RUINS_ARTICHOKE = "So they really like artichokes.",
                 --ANTQUEEN_THRONE = "女王的宝库。",
+
+                HIPPOPOTAMOOSE = "",
+                HIPPO_ANTLER = "",
+
+                FROG_POISON = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                FROGLEGS_POISON = "",
+                FROGLEGS_POISON_COOKED = "",
+
+                BILL = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                BILL_QUILL = "",
+
+                LILYPAD = "",
+                LOTUS = "",
+                LOTUS_FLOWER = "",
+                LOTUS_FLOWER_COOKED = "",
+
+                --from IA
+                ANTIVENOM = "Bleh, tastes like castor oil.",
+                VENOMGLAND = "Haha, gross.",
+	            POISONBALM = "What'd the bean sprout whip up now?",
+
+		        SNAKESKIN = "The texture feels incredible. I got some ideas for this.",
+                SNAKEOIL = "Riiight. I don't buy it.",
+	            SNAKESKINHAT = "Snake-powered storm protection.",
+		        ARMOR_SNAKESKIN = "Practical.",
+
+                COFFEEBEANS = "I should toss them over a fire.",
+	            COFFEEBEANS_COOKED = "Ah, the smell of coffee beans in the morning!",
+                COFFEE = "Essential for any hard worker!",
+
+                BOAT_LOGRAFT = "I could do better...",
+                BOAT_ROW = "If I wanna move, I gotta put my back into it.",
+		        BOAT_CARGO = "It's my big, bouyant toolbox.",
+
+                BOATREPAIRKIT = "Who needs glue? My tape is sticky enough.",
+                BOAT_TORCH = "This torch is a little light. Ha!",
+                SAIL_SNAKESKIN = "Just watch those scales catch the wind!",
             },
         },
         WORTOX = {--[[
@@ -1424,6 +1469,51 @@ local strings = {
                 ]]
                 --PIG_RUINS_ARTICHOKE = "一棵巨型蔬菜。",
                 ANTQUEEN_THRONE = "Guess what's down there?",
+
+                HIPPOPOTAMOOSE = "",
+                HIPPO_ANTLER = "",
+
+                FROG_POISON = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                FROGLEGS_POISON = "",
+                FROGLEGS_POISON_COOKED = "",
+
+                BILL = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                BILL_QUILL = "",
+
+                LILYPAD = "",
+                LOTUS = "",
+                LOTUS_FLOWER = "",
+                LOTUS_FLOWER_COOKED = "",
+
+                --from IA
+                ANTIVENOM = "A potent cure does reassure.",
+		        VENOMGLAND = "Now to land this gland in a brew.",
+		        POISONBALM = "Hyuyu, someone's getting crafty!",
+
+		        SNAKESKIN = "I prefer fur to scales.",
+		        SNAKEOIL = "Hyuyu, mortals find such fun ways to deceive one another.",
+		        SNAKESKINHAT = "If only it had horn holes.",
+		        ARMOR_SNAKESKIN = "To keep my impish fur slick.",
+
+                COFFEEBEANS = "Beans from a fiery bush we picked.",
+		        COFFEEBEANS_COOKED = "The fire brings out the magic within.",
+		        COFFEE = "Sure to put a pep in someone's step!",
+
+                BOAT_LOGRAFT = "It's not so strong, but I don't have long.",
+		        BOAT_ROW = "Gently down the merry stream!",
+		        BOAT_CARGO = "I dislike being burdened while traveling.",
+
+                BOATREPAIRKIT = "To keep those boats afloat.",
+                BOAT_TORCH = "A light to lead me through the night.",
+                SAIL_SNAKESKIN = "The stripes complement the colour, I say, I say.",--this one edited, snake skin in hamlet r not red
             },
         },
         WURT = {
@@ -1764,7 +1854,7 @@ local strings = {
                 DECO_CHAIR_HORNED   = "",
                 DECO_CHAIR_FOOTREST = "",
                 DECO_CHAIR_LOUNGE   = "",
-                DECO_CHAIR_MASSAGER = "",
+                DECO_CHAIR_MASSAGER = "Many strange colorful rope.",
                 DECO_CHAIR_STUFFED  = "",
                 DECO_CHAIR_ROCKING  = "",
                 DECO_CHAIR_OTTOMAN  = "",
@@ -1923,6 +2013,51 @@ local strings = {
                 ]]
                 PIG_RUINS_ARTICHOKE = "This plant everywhere.",
                 ANTQUEEN_THRONE = "Antfolk boss' sit.",
+
+                HIPPOPOTAMOOSE = "Smart scale-less like water.",
+                HIPPO_ANTLER = "",
+
+                FROG_POISON = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                FROGLEGS_POISON = "",
+                FROGLEGS_POISON_COOKED = "",
+
+                BILL = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                BILL_QUILL = "",
+
+                LILYPAD = "",
+                LOTUS = "",
+                LOTUS_FLOWER = "",
+                LOTUS_FLOWER_COOKED = "",
+
+                --from IA
+                ANTIVENOM = "Can help when I feel bad.",
+		        VENOMGLAND = "Glargh!....ugly tasting medicine.",
+		        POISONBALM = "It helps with sick.",
+
+		        SNAKESKIN = "Is a nice skin.",
+		        SNAKEOIL = "Is best medicine!",
+		        SNAKESKINHAT = "At least their scales pretty.",
+		        ARMOR_SNAKESKIN = "Why scale-less scared of water?",
+
+                COFFEEBEANS = "Yummy snacks!",
+		        COFFEEBEANS_COOKED = "No longer yummy, flort!",
+		        COFFEE = "Flurph... this make head hurt.",
+
+                BOAT_LOGRAFT = "Is a small boat.",
+		        BOAT_ROW = "It good enough.",
+		        BOAT_CARGO = "It has room for treasures!",
+
+                BOATREPAIRKIT = "Why repair? Let water in, florpt!",
+                BOAT_TORCH = "It torch for boat.",
+                SAIL_SNAKESKIN = "It sail made of colourful scales.",--this one edited, snake skin in hamlet r not red
             },
         },
         WALTER = {--[[
@@ -2423,11 +2558,56 @@ local strings = {
                 ]]
                 --PIG_RUINS_ARTICHOKE = "这是笋还是什么？",
                 ANTQUEEN_THRONE = "Woby! Get off that!",
+
+                HIPPOPOTAMOOSE = "So it will be a... a hippo... hippopotalope!",--jackalope
+                HIPPO_ANTLER = "That'll make a decent bugle.",--same as beefalo
+
+                FROG_POISON = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                FROGLEGS_POISON = "",
+                FROGLEGS_POISON_COOKED = "",
+
+                BILL = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                BILL_QUILL = "",
+
+                LILYPAD = "",
+                LOTUS = "",
+                LOTUS_FLOWER = "",
+                LOTUS_FLOWER_COOKED = "",
+
+                --from IA
+                ANTIVENOM = "It's bitter, so it's good for you!",
+		        VENOMGLAND = "It's brimming with venom... Haha...",
+		        POISONBALM = "I'll gladly take a balm over a syrup...",
+
+		        SNAKESKIN = "It's slick. We might be able to use this for something.",
+		        SNAKEOIL = "Come on, even a child wouldn't fall for this...",
+		        SNAKESKINHAT = "Can I make Woby a little, matching one?",
+		        ARMOR_SNAKESKIN = "Wearing hunted animal skins, that's some real survivor stuff!",
+
+                COFFEEBEANS = "I wish these were cocoa beans.",
+		        COFFEEBEANS_COOKED = "Smells great!",
+		        COFFEE = "Mom would kill me if she caught me drinking this.",
+
+                BOAT_LOGRAFT = "Just like the ones we used to make to cross rivers!",
+		        BOAT_ROW = "We're getting better at carving boats.",
+		        BOAT_CARGO = "You can fit almost all your camping goods in there!",
+
+                BOATREPAIRKIT = "I'll need to maintain Woby's boat as well.",
+                BOAT_TORCH = "It's important to have good visibility while sailing.",
+                SAIL_SNAKESKIN = "The snakes wouldn't end up like this if they didn't try to eat me!",
             },
         },
-        WANDA = {--[[
-            ANNOUCE_UNDERLEAFCANOPY = "他们潜伏在这里！我需要光！",
-            ANNOUCE_ALARMOVER = "我们安全了，暂时。",
+        WANDA = {
+            ANNOUCE_UNDERLEAFCANOPY = "They're lurking here! I need light!",
+            ANNOUCE_ALARMOVER = "We are safe, for now.",--[[
             ANNOUCE_BATS = "为什么总有东西不停地找我们麻烦呢？",
             ANNOUCE_OTHERWORLD_DEED = "这个地址实在太远了。",]]
             ANNOUNCE_TOOLCORRODED = "Well, it's not designed to be used in this environment.", --？？？
@@ -2910,23 +3090,68 @@ local strings = {
                 SHELVES_PALLET = "A good place to stack my work.",
                 SHELVES_BASIC = "A good place to stack my work.",
                 SHELVES_FLOATING = "A good place to stack my work.",
-                SHELVES_METAL = "A good place to stack my work.",--[[
+                SHELVES_METAL = "A good place to stack my work.",
 
-                WOOD_DOOR = "",
-		        STONE_DOOR = "",
-		        ORGANIC_DOOR = "",
-		        IRON_DOOR = "",
-		        PILLAR_DOOR = "",
-		        CURTAIN_DOOR = "",
-		        ROUND_DOOR = "",
-		        PLATE_DOOR = "",
-                ]]
+                WOOD_DOOR = "To another room.",
+		        STONE_DOOR = "To another room.",
+		        ORGANIC_DOOR = "To another room.",
+		        IRON_DOOR = "To another room.",
+		        PILLAR_DOOR = "To another room.",
+		        CURTAIN_DOOR = "To another room.",
+		        ROUND_DOOR = "To another room.",
+		        PLATE_DOOR = "To another room.",
+
                 --PIG_RUINS_ARTICHOKE = "被雕刻成蔬菜的石头。",
                 --ANTQUEEN_THRONE = "让我们看看她藏着什么宝贝。",
+
+                HIPPOPOTAMOOSE = "",
+                --HIPPO_ANTLER = "质量上乘的钟表装饰。",
+
+                FROG_POISON = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                FROGLEGS_POISON = "",
+                FROGLEGS_POISON_COOKED = "",
+
+                BILL = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                BILL_QUILL = "",
+
+                LILYPAD = "",
+                LOTUS = "",
+                LOTUS_FLOWER = "",
+                LOTUS_FLOWER_COOKED = "",
+
+                --from IA
+                ANTIVENOM = "It's simply a must-have around here.",
+		        VENOMGLAND = "I suppose I could ingest it as it is, it'd be better than poison...",
+		        POISONBALM = "What a quick alternative to the classic antidote medicine!",
+
+		        SNAKESKIN = "Whew... It's not attached to a snake this time around.",
+		        SNAKEOIL = "So many timelines and I've still not figured out what this is for.",
+		        SNAKESKINHAT = "If it keeps me from dying to wetness-induced pneumonia, I'll be happy.",
+		        ARMOR_SNAKESKIN = "I suppose this is a good use for those nasty snakes.",
+
+                COFFEEBEANS = "A quick roasting will get me something good to sip on.",
+		        COFFEEBEANS_COOKED = "I could pop these in my mouth or take the time to boil them.",
+		        COFFEE = "Perfect for those long nights at the workshop back home.",
+
+                BOAT_LOGRAFT = "I don't have time. If it floats, it's enough.",
+		        BOAT_ROW = "Rowing takes forever! Surely I can install something on it?",
+		        BOAT_CARGO = "I'll save so much time if I don't have to go back to fetch my things!",
+
+                BOATREPAIRKIT = "Repairing takes a lot shorter than building a whole new boat from the scratch.",
+                BOAT_TORCH = "This will keep me safe, nice and hands-free.",
+                SAIL_SNAKESKIN = "There's no need to make a flag if the sail is colorful. Not that I need one.",
             },
         },
         --New Characters for us
-        WAGSTAFF = {
+        WAGSTAFF = {--right i'm just partial wagstaff
             --[[new line for goggles?
             --moonstorm, sandstorm and brightshade
             ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "Ah, let me see where it is...",
@@ -3375,7 +3600,7 @@ local strings = {
                 WARGCORPSE =
                 {
                     GENERIC  = "I'm ready for precious data.",
-                    BURNING  = "For the best? Keep your curiosity alive.",
+                    BURNING  = "For the best? Keep your curiosity alive.",--wilson speech
                     REVIVING = "The alter began.",
                 },
             

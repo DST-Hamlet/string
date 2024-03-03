@@ -922,6 +922,51 @@ local strings = {
                 ]]
                 PIG_RUINS_ARTICHOKE = "看来它们是真的很喜欢洋蓟。",
                 ANTQUEEN_THRONE = "女王的宝库。",
+
+                HIPPOPOTAMOOSE = "",
+                HIPPO_ANTLER = "",
+
+                FROG_POISON = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                FROGLEGS_POISON = "",
+                FROGLEGS_POISON_COOKED = "",
+
+                BILL = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                BILL_QUILL = "",
+
+                LILYPAD = "",
+                LOTUS = "",
+                LOTUS_FLOWER = "",
+                LOTUS_FLOWER_COOKED = "",
+
+                --from IA
+                ANTIVENOM = "噫，尝起来像麻油。",
+	            VENOMGLAND = "哈哈，真恶心。",
+                POISONBALM = "豆芽这次又弄了什么？",
+
+		        SNAKESKIN = "这种材质感觉很坚固。我有一些想法。",
+                SNAKEOIL = "对对对，我才不买这个账。",
+	            SNAKESKINHAT = "蛇动力风暴防护。",
+		        ARMOR_SNAKESKIN = "很实用。",
+
+                COFFEEBEANS = "我应该把它们扔到火上。",
+	            COFFEEBEANS_COOKED = "啊，早上的咖啡豆的香味！",
+                COFFEE = "对于任何努力工作的人来说都是必不可少的！",
+
+                BOAT_LOGRAFT = "我还能做到更好...",
+                BOAT_ROW = "如果我想移动，我得使出全力。",
+                BOAT_CARGO = "我的水上大工具箱。",
+    
+                BOATREPAIRKIT = "谁还需要胶水？我的胶带就够了。",
+                BOAT_TORCH = "这样的火炬足够亮眼。哈！",
+                SAIL_SNAKESKIN = "看那些鳞片随风飘荡！",
             },
         },
         WORTOX = {
@@ -1421,6 +1466,51 @@ local strings = {
                 ]]
                 PIG_RUINS_ARTICHOKE = "一棵巨型蔬菜。",
                 ANTQUEEN_THRONE = "猜猜看底下有什么？",
+
+                HIPPOPOTAMOOSE = "",
+                HIPPO_ANTLER = "",
+
+                FROG_POISON = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                FROGLEGS_POISON = "",
+                FROGLEGS_POISON_COOKED = "",
+
+                BILL = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                BILL_QUILL = "",
+
+                LILYPAD = "",
+                LOTUS = "",
+                LOTUS_FLOWER = "",
+                LOTUS_FLOWER_COOKED = "",
+
+                --from IA
+                ANTIVENOM = "放心管好的治疗方案。",
+		        VENOMGLAND = "现在用它开始酿造吧。",
+		        POISONBALM = "哼哼，有人耍把戏了！",
+
+		        SNAKESKIN = "比起鳞片我更喜欢毛皮。",
+		        SNAKEOIL = "哼哼，凡人们欺骗彼此的方法真好玩。",
+		        SNAKESKINHAT = "要是有放角的洞就好了。",
+		        ARMOR_SNAKESKIN = "保持我的恶魔毛皮浓密柔润。",
+
+                COFFEEBEANS = "我们从火热的灌木丛中采摘的豆子。",
+		        COFFEEBEANS_COOKED = "火会激发出内在的魔力。",
+		        COFFEE = "一定能为某人的步伐注入动力！",
+
+                BOAT_LOGRAFT = "不怎么坚固，不过我也不需要。",
+		        BOAT_ROW = "顺着欢快的小溪缓缓而下！",
+		        BOAT_CARGO = "我不喜欢旅行时背负重担。",
+
+                BOATREPAIRKIT = "保证船浮在水面上。",
+                BOAT_TORCH = "一束指引我穿越黑夜的光。",
+                SAIL_SNAKESKIN = "花纹与颜色正搭，哇哦。",--this one edited, snake skin in hamlet r not red
             },
         },
         WURT = {
@@ -1761,7 +1851,7 @@ local strings = {
                 DECO_CHAIR_HORNED   = "",
                 DECO_CHAIR_FOOTREST = "",
                 DECO_CHAIR_LOUNGE   = "",
-                DECO_CHAIR_MASSAGER = "",--电椅
+                DECO_CHAIR_MASSAGER = "好多奇怪的彩绳子。",--电椅
                 DECO_CHAIR_STUFFED  = "",
                 DECO_CHAIR_ROCKING  = "",
                 DECO_CHAIR_OTTOMAN  = "",
@@ -1920,6 +2010,51 @@ local strings = {
                 ]]
                 PIG_RUINS_ARTICHOKE = "到处都是这个形状。",
                 ANTQUEEN_THRONE = "蚁人老大的椅子。",
+
+                HIPPOPOTAMOOSE = "聪明的无磷生物喜欢水。",
+                HIPPO_ANTLER = "",
+
+                FROG_POISON = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                FROGLEGS_POISON = "",
+                FROGLEGS_POISON_COOKED = "",
+
+                BILL = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                BILL_QUILL = "",
+
+                LILYPAD = "",
+                LOTUS = "",
+                LOTUS_FLOWER = "",
+                LOTUS_FLOWER_COOKED = "",
+
+                --from IA
+                ANTIVENOM = "不舒服的时候很有用。",
+		        VENOMGLAND = "格辣格！...难吃的药。",
+		        POISONBALM = "对生病很有用。",
+
+		        SNAKESKIN = "好看的皮肤。",
+		        SNAKEOIL = "包治百病！",
+		        SNAKESKINHAT = "至少它们的鳞片很漂亮。",
+		        ARMOR_SNAKESKIN = "为什么无鳞生物要怕水？",
+
+                COFFEEBEANS = "美味的零食！",
+		        COFFEEBEANS_COOKED = "不好吃了，浮浪特！",
+		        COFFEE = "浮勒浮...让脑袋疼。",
+
+                BOAT_LOGRAFT = "一艘小船。",
+		        BOAT_ROW = "够好了。",
+		        BOAT_CARGO = "有装宝藏的地方！",
+
+                BOATREPAIRKIT = "为什么要修？让船进水，浮浪噗的！",
+                BOAT_TORCH = "给船用的火炬。",
+                SAIL_SNAKESKIN = "彩色鳞片做成的帆。",--this one edited, snake skin in hamlet r not red
             },
         },
         WALTER = {
@@ -2419,6 +2554,51 @@ local strings = {
                 ]]
                 PIG_RUINS_ARTICHOKE = "这是笋还是什么？",
                 ANTQUEEN_THRONE = "沃比！从那上面下来！",
+
+                HIPPOPOTAMOOSE = "那么这就是...是河...鹿角河马！",--jackalope
+                HIPPO_ANTLER = "那个可以做一只响亮的号角。",--same as beefalo
+
+                FROG_POISON = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                FROGLEGS_POISON = "",
+                FROGLEGS_POISON_COOKED = "",
+
+                BILL = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                BILL_QUILL = "",
+
+                LILYPAD = "",
+                LOTUS = "",
+                LOTUS_FLOWER = "",
+                LOTUS_FLOWER_COOKED = "",
+
+                --from IA
+                ANTIVENOM = "是苦的，所以对身体有好处！",
+		        VENOMGLAND = "这可太恶“毒”了...哈哈...",
+		        POISONBALM = "幸好它是软膏而不是糖浆...",
+
+		        SNAKESKIN = "很光滑。我们也许可以用这个做点什么。",
+		        SNAKEOIL = "得了吧，小孩子都不会上当的...",
+		        SNAKESKINHAT = "我能个小的给沃比戴吗？",
+		        ARMOR_SNAKESKIN = "穿着打猎来的动物皮，这才像求生者该干的！",
+
+                COFFEEBEANS = "我希望这些是可可豆。",
+		        COFFEEBEANS_COOKED = "闻起来好极了！",
+		        COFFEE = "如果妈妈发现我喝这个，她会杀了我。",
+
+                BOAT_LOGRAFT = "就像我们以前过河时造的一样！",
+		        BOAT_ROW = "我们越来越擅长造船了。",
+		        BOAT_CARGO = "你几乎可以把所有的露营用品都放上去！",
+
+                BOATREPAIRKIT = "我还得把沃比的小船维护好。",
+                BOAT_TORCH = "航行时保持良好的能见度是很重要的。",
+                SAIL_SNAKESKIN = "如果蛇没想吃我，就不会变成这样！",
             },
         },
         WANDA = {
@@ -2905,23 +3085,68 @@ local strings = {
                 SHELVES_PALLET = "一个堆我作品的好地方。",
                 SHELVES_BASIC = "一个堆我作品的好地方。",
                 SHELVES_FLOATING = "一个堆我作品的好地方。",
-                SHELVES_METAL = "一个堆我作品的好地方。",--[[
+                SHELVES_METAL = "一个堆我作品的好地方。",
 
-                WOOD_DOOR = "",
-		        STONE_DOOR = "",
-		        ORGANIC_DOOR = "",
-		        IRON_DOOR = "",
-		        PILLAR_DOOR = "",
-		        CURTAIN_DOOR = "",
-		        ROUND_DOOR = "",
-		        PLATE_DOOR = "",
-                ]]
+                WOOD_DOOR = "通往另一个房间。",
+		        STONE_DOOR = "通往另一个房间。",
+		        ORGANIC_DOOR = "通往另一个房间。",
+		        IRON_DOOR = "通往另一个房间。",
+		        PILLAR_DOOR = "通往另一个房间。",
+		        CURTAIN_DOOR = "通往另一个房间。",
+		        ROUND_DOOR = "通往另一个房间。",
+		        PLATE_DOOR = "通往另一个房间。",
+
                 PIG_RUINS_ARTICHOKE = "被雕刻成蔬菜的石头。",
                 ANTQUEEN_THRONE = "让我们看看她藏着什么宝贝。",
+
+                HIPPOPOTAMOOSE = "",
+                HIPPO_ANTLER = "质量上乘的钟表装饰。",
+
+                FROG_POISON = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                FROGLEGS_POISON = "",
+                FROGLEGS_POISON_COOKED = "",
+
+                BILL = {
+                    GENERIC = "",
+                    SLEEPING = "",
+                    DEAD = "",
+                },
+                BILL_QUILL = "",
+
+                LILYPAD = "",
+                LOTUS = "",
+                LOTUS_FLOWER = "",
+                LOTUS_FLOWER_COOKED = "",
+
+                --from IA
+                ANTIVENOM = "这可是这里的必备品。",
+		        VENOMGLAND = "我想我可以把它原封不动地吞下去，总比中毒好...",
+		        POISONBALM = "传统解毒剂的便捷替代品！",
+
+		        SNAKESKIN = "唷...现在它没有附在蛇身上。",
+		        SNAKEOIL = "走过这么多时间线，我还是搞不懂它有什么用。",
+		        SNAKESKINHAT = "只要它能免死于潮湿引发的肺炎，就足够了。",
+		        ARMOR_SNAKESKIN = "我想以那些讨厌的蛇来说这是个好用途了。",
+
+                COFFEEBEANS = "快速烘烤会让我喝到一些美味的东西。",
+		        COFFEEBEANS_COOKED = "我可以把它们放进嘴里，或者花时间把它们煮沸。",
+		        COFFEE = "非常适合在家里的工作室度过漫长的夜晚。",
+
+                BOAT_LOGRAFT = "我时间不多。只要能浮起来就够了。",
+		        BOAT_ROW = "划船太费时间了！我应该能在上面装点东西吧？",
+		        BOAT_CARGO = "如果不用来回搬我的东西，能节省很多时间！",
+
+                BOATREPAIRKIT = "修理比从头开始建造一艘新船要快得多。",
+                BOAT_TORCH = "这能让我安全，舒适并空出双手。",
+                SAIL_SNAKESKIN = "如果帆是彩色的，就没有必要做旗了。不过我也用不到。",
             },
         },
         --New Characters for us
-        WAGSTAFF = {
+        WAGSTAFF = {--对我就是偏爱老瓦
             --[[戴各种眼镜的台词，可能会用得到。
             --星象、沙漠、亮茄头盔，话说让老瓦自己的眼镜免疫风沙应该更好吧
             ANNOUNCE_PUTONGOGGLES_MOONSTORM_GOGGLESHAT = "啊，让我看看在哪里...",
@@ -3370,7 +3595,7 @@ local strings = {
                 WARGCORPSE =
                 {
                     GENERIC  = "我准备好收集珍贵的数据了。",
-                    BURNING  = "最好的安排？保持你的好奇心啊。",--wilson
+                    BURNING  = "最好的安排？保持你的好奇心啊。",--wilson speech
                     REVIVING = "转化开始了。",
                 },
             
