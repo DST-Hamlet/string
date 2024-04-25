@@ -462,6 +462,11 @@ local strings = {
 
             --new
             ANNOUNCE_GNATS_DIED="I warned get away from me.",
+            --ANNOUNCE from Island Adventure
+            ANNOUNCE_BOAT_DAMAGED = "I should tape these holes up.",
+            ANNOUNCE_BOAT_SINKING = "I don't think tape will be enough now.",
+            ANNOUNCE_BOAT_SINKING_IMMINENT = "That's a lotta damage!",
+            ANNOUNCE_WAVE_BOOST = "Whoo nelly!",
 
             DESCRIBE = {
                 GRASS_TALL = {
@@ -742,8 +747,8 @@ local strings = {
         	        BURNING = "",
                 },
 
-                VENUS_STALK = "",--手杖
-                --WALKINGSTICK = "脱水后就会变成一根耐用的拐杖。",--捕蝇草茎
+                VENUS_STALK = "",--捕蝇草茎
+                --WALKINGSTICK = "脱水后就会变成一根耐用的拐杖。",--手杖
                 ADULT_FLYTRAP = {--利齿捕蝇草
         	        GENERIC = "",
         	        SLEEPING = "",
@@ -755,7 +760,7 @@ local strings = {
         	        DEAD = "",
                 },
 
-                CORKBOAT = "它绝对通过不了安全性测试。",
+                --CORKBOAT = "它绝对通过不了安全性测试。",
                 --[[
                 DECO_CHAIR_CLASSIC  = "",
                 DECO_CHAIR_CORNER   = "",
@@ -836,16 +841,16 @@ local strings = {
                 DECO_WALLORNAMENT_NO_SMOKING        = "",
                 DECO_WALLORNAMENT_BLACK_CAT         = "",
 
-                WINDOW_ROUND_CURTAINS_NAILS = "",
-                WINDOW_ROUND_BURLAP         = "",
-                WINDOW_SMALL_PEAKED         = "",
-                WINDOW_LARGE_SQUARE         = "",
-                WINDOW_TALL                 = "",
-                WINDOW_LARGE_SQUARE_CURTAIN = "",
-                WINDOW_TALL_CURTAIN         = "",
-                WINDOW_SMALL_PEAKED_CURTAIN = "",
-                WINDOW_GREENHOUSE           = "",
-                WINDOW_ROUND                = "",
+                WINDOW_ROUND_CURTAINS_NAILS = "让阳光照进房间里可是非常重要的。",
+                WINDOW_ROUND_BURLAP         = "让阳光照进房间里可是非常重要的。",
+                WINDOW_SMALL_PEAKED         = "让阳光照进房间里可是非常重要的。",
+                WINDOW_LARGE_SQUARE         = "让阳光照进房间里可是非常重要的。",
+                WINDOW_TALL                 = "让阳光照进房间里可是非常重要的。",
+                WINDOW_LARGE_SQUARE_CURTAIN = "让阳光照进房间里可是非常重要的。",
+                WINDOW_TALL_CURTAIN         = "让阳光照进房间里可是非常重要的。",
+                WINDOW_SMALL_PEAKED_CURTAIN = "让阳光照进房间里可是非常重要的。",
+                WINDOW_GREENHOUSE           = "让阳光照进房间里可是非常重要的。",
+                WINDOW_ROUND                = "让阳光照进房间里可是非常重要的。",
 
                 DECO_WOOD_CORNERBEAM = "",
                 DECO_MARBLE_CORNERBEAM = "",
@@ -923,7 +928,7 @@ local strings = {
                 PIG_RUINS_ARTICHOKE = "So they really like artichokes.",
                 --ANTQUEEN_THRONE = "女王的宝库。",
 
-                HIPPOPOTAMOOSE = "",
+                --HIPPOPOTAMOOSE = "日洗澡也没有让他们好闻一点。",
                 HIPPO_ANTLER = "",
 
                 FROG_POISON = {
@@ -941,12 +946,22 @@ local strings = {
                 },
                 BILL_QUILL = "",
 
-                LILYPAD = "",
+                --LILYPAD = "我从未见过这么大的睡莲！",
                 LOTUS = "",
                 LOTUS_FLOWER = "",
                 LOTUS_FLOWER_COOKED = "",
 
-                --from IA
+                --[[PUGALISK = "怪物！我会让你知道你惹错了人！",
+                PUGALISK_CORPSE = "它还有一部分被埋在地下。",--Petrifying Bones
+                PUGALISK_FOUNTAIN = "没有人可以拒绝永葆年轻。",--Fountain of Youth
+                PUGALISK_RUINS_PILLAR = "摇摇欲坠。",--Teetering Pillar
+                PUGALISK_SKULL = "我们打败了它的证明。",
+                PUGALISK_TRAP_DOOR = "可能是竖井的井盖。",]]
+
+                SNAKE_BONE = "",
+                SNAKEBONESOUP = "",
+
+                --DESCRIBE from Island Adventure
                 ANTIVENOM = "Bleh, tastes like castor oil.",
                 VENOMGLAND = "Haha, gross.",
 	            POISONBALM = "What'd the bean sprout whip up now?",
@@ -967,6 +982,8 @@ local strings = {
                 BOATREPAIRKIT = "Who needs glue? My tape is sticky enough.",
                 BOAT_TORCH = "This torch is a little light. Ha!",
                 SAIL_SNAKESKIN = "Just watch those scales catch the wind!",
+
+                VINE = "It's strong! I can tie stuff up with this.",
             },
         },
         WORTOX = {--[[
@@ -1006,6 +1023,11 @@ local strings = {
 
             --new
             ANNOUNCE_GNATS_DIED="Whew, that horrible.",
+            --ANNOUNCE from Island Adventure
+            ANNOUNCE_BOAT_DAMAGED = "Oh dear, this water bodes ill.",
+	        ANNOUNCE_BOAT_SINKING = "I'm up to my tail in water!",
+	        ANNOUNCE_BOAT_SINKING_IMMINENT = "Into the drink I go, hyuyu!",
+	        ANNOUNCE_WAVE_BOOST = "Hyuyu!",
 
             DESCRIBE = {
                 GRASS_TALL = {
@@ -1289,8 +1311,8 @@ local strings = {
         	        BURNING = "How these stones burn?",
                 },
 
-                --[[VENUS_STALK = "真有冒险者的格调。",--手杖
-                WALKINGSTICK = "我猜凡人也不会吃这个。",--捕蝇草茎
+                --[[VENUS_STALK = "我猜凡人也不会吃这个。",--捕蝇草茎
+                WALKINGSTICK = "真有冒险者的格调。",--手杖
                 ADULT_FLYTRAP = {--利齿捕蝇草
         	        GENERIC = "你想过离开那个地方吗？",
         	        SLEEPING = "现在即使靠近它也安全的。",
@@ -1304,16 +1326,16 @@ local strings = {
 
                 CORKBOAT = "Hither and thither, in a wayward course.",
                 --[[
-                DECO_CHAIR_CLASSIC  = "",
-                DECO_CHAIR_CORNER   = "",
-                DECO_CHAIR_BENCH    = "",
-                DECO_CHAIR_HORNED   = "",
-                DECO_CHAIR_FOOTREST = "",
-                DECO_CHAIR_LOUNGE   = "",
+                DECO_CHAIR_CLASSIC  = "板凳没有扁担长。",
+                DECO_CHAIR_CORNER   = "板凳没有扁担长。",
+                DECO_CHAIR_BENCH    = "板凳没有扁担长。",
+                DECO_CHAIR_HORNED   = "板凳没有扁担长。",
+                DECO_CHAIR_FOOTREST = "板凳没有扁担长。",
+                DECO_CHAIR_LOUNGE   = "板凳没有扁担长。",
                 DECO_CHAIR_MASSAGER = "这是哪门子笑话？",
-                DECO_CHAIR_STUFFED  = "",
-                DECO_CHAIR_ROCKING  = "",
-                DECO_CHAIR_OTTOMAN  = "",
+                DECO_CHAIR_STUFFED  = "板凳没有扁担长。",
+                DECO_CHAIR_ROCKING  = "板凳没有扁担长。",
+                DECO_CHAIR_OTTOMAN  = "板凳没有扁担长。",
 
                 DECO_LAMP_FRINGE       = "",
                 DECO_LAMP_STAINGLASS   = "",
@@ -1459,7 +1481,7 @@ local strings = {
                 SHELVES_METAL = "",
 
                 WOOD_DOOR = "",
-		        STONE_DOOR = "",
+		        STONE_DOOR = "石室饰石寺。",
 		        ORGANIC_DOOR = "",
 		        IRON_DOOR = "",
 		        PILLAR_DOOR = "",
@@ -1488,12 +1510,22 @@ local strings = {
                 },
                 BILL_QUILL = "",
 
-                LILYPAD = "",
-                LOTUS = "",
-                LOTUS_FLOWER = "",
-                LOTUS_FLOWER_COOKED = "",
+                --LILYPAD = "小船池中过，浮萍让道开。",
+                LOTUS = "Lovely flower from water.",
+                --LOTUS_FLOWER = "凡人现在连花都要吃了。",
+                LOTUS_FLOWER_COOKED = "*Crunch* It's still connected!",
 
-                --from IA
+                PUGALISK = "Hyuyu! A googly eye contest?",
+                PUGALISK_CORPSE = "",--Petrifying Bones
+                PUGALISK_FOUNTAIN = "",--Fountain of Youth
+                PUGALISK_RUINS_PILLAR = "",--Teetering Pillar
+                PUGALISK_SKULL = "",
+                PUGALISK_TRAP_DOOR = "",
+
+                SNAKE_BONE = "",
+                SNAKEBONESOUP = "",
+
+                --DESCRIBE from Island Adventure
                 ANTIVENOM = "A potent cure does reassure.",
 		        VENOMGLAND = "Now to land this gland in a brew.",
 		        POISONBALM = "Hyuyu, someone's getting crafty!",
@@ -1514,6 +1546,8 @@ local strings = {
                 BOATREPAIRKIT = "To keep those boats afloat.",
                 BOAT_TORCH = "A light to lead me through the night.",
                 SAIL_SNAKESKIN = "The stripes complement the colour, I say, I say.",--this one edited, snake skin in hamlet r not red
+
+                VINE = "It's a fine vine of mine.",
             },
         },
         WURT = {
@@ -1551,7 +1585,12 @@ local strings = {
             ANNOUNCE_SUITUP = "Flort Glurtsu flut!",--Merm gurad line "For glory of Mermfolk!" on merm sound
 
             --new
-            ANNOUNCE_GNATS_DIED="Bugs shouldn't mess with Mermfolk.",
+            ANNOUNCE_GNATS_DIED = "Bugs shouldn't mess with Mermfolk.",
+            --ANNOUNCE from Island Adventure
+            ANNOUNCE_BOAT_DAMAGED = "My boat don't look good.",
+	        ANNOUNCE_BOAT_SINKING = "Boat gets wet!",
+	        ANNOUNCE_BOAT_SINKING_IMMINENT = "Need to find land quick!",
+	        ANNOUNCE_WAVE_BOOST = "Splish splash!",
             
             DESCRIBE = {
                 GRASS_TALL = {
@@ -1751,7 +1790,7 @@ local strings = {
                 	BURNT = "Gone.",
                 },
                 RAINFORESTTREE_ROT = "Glorph... feel bad?",
-                --BURR = "全是刺。",
+                BURR = "All pointed.",
                 BURR_SAPLING = {
                     GENERIC = "It's a baby for now.",
                     BURNING = "Are burning.",
@@ -1795,7 +1834,7 @@ local strings = {
                 HANGING_VINE = "They're on top here.",
 
                 SPIDER_MONKEY_TREE = "Spiderfolk take over there.",
-                --SPIDER_MONKEY_NEST = "一大团黏糊糊。",
+                SPIDER_MONKEY_NEST = "Mass of gooops.",
                 SPIDER_MONKEY = {
                     GENERIC = "Grrr... What would Webby-boy think?",
                     SLEEPING = "It dreaming of spider... or monkey things.",
@@ -1833,8 +1872,8 @@ local strings = {
         	        BURNING = "Pigfolk can mess up even with stone.",
                 },
 
-                VENUS_STALK = "A dry stick.",--手杖
-                --WALKINGSTICK = "里面好像有很多水。",--捕蝇草茎
+                VENUS_STALK = "Many water in it.",--捕蝇草茎
+                WALKINGSTICK = "A dry stick.",--手杖
                 ADULT_FLYTRAP = {--利齿捕蝇草
         	        GENERIC = "Plant eat meat? Why?",
         	        SLEEPING = "Sleeping?",
@@ -1910,10 +1949,10 @@ local strings = {
                 DECO_TABLE_DIY     = "",
                 DECO_TABLE_RAW     = "",
                 DECO_TABLE_CRATE   = "",
-                DECO_TABLE_CHESS   = "",
+                DECO_TABLE_CHESS   = "",]]
 
-                DECO_ANTIQUITIES_WALLFISH           = "",    
-                DECO_ANTIQUITIES_BEEFALO            = "",
+                DECO_ANTIQUITIES_WALLFISH           = "Not real.",    
+                DECO_ANTIQUITIES_BEEFALO            = "Not real.",--[[
                 DECO_WALLORNAMENT_PHOTO             = "",
                 DECO_WALLORNAMENT_FULLLENGTH_MIRROR = "",
                 DECO_WALLORNAMENT_EMBROIDERY_HOOP   = "",
@@ -2026,18 +2065,28 @@ local strings = {
                 FROGLEGS_POISON_COOKED = "",
 
                 BILL = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "Bird mouth?",
+                    SLEEPING = "Nap.",
+                    DEAD = "Hello? You good?",
                 },
-                BILL_QUILL = "",
+                BILL_QUILL = "Scale-less got other things.",
 
-                LILYPAD = "",
-                LOTUS = "",
-                LOTUS_FLOWER = "",
-                LOTUS_FLOWER_COOKED = "",
+                LILYPAD = "Afloat leaf.",
+                LOTUS = "Fancy flower in the pool.",
+                LOTUS_FLOWER = "Fancy flower.",
+                LOTUS_FLOWER_COOKED = "Filar snacks!",
 
-                --from IA
+                PUGALISK = "It has rocky scales!",
+                PUGALISK_CORPSE = "",--Petrifying Bones
+                PUGALISK_FOUNTAIN = "What water?",--Fountain of Youth
+                PUGALISK_RUINS_PILLAR = "",--Teetering Pillar
+                PUGALISK_SKULL = "",
+                PUGALISK_TRAP_DOOR = "",
+
+                SNAKE_BONE = "",
+                SNAKEBONESOUP = "",
+
+                --DESCRIBE from Island Adventure
                 ANTIVENOM = "Can help when I feel bad.",
 		        VENOMGLAND = "Glargh!....ugly tasting medicine.",
 		        POISONBALM = "It helps with sick.",
@@ -2058,6 +2107,8 @@ local strings = {
                 BOATREPAIRKIT = "Why repair? Let water in, florpt!",
                 BOAT_TORCH = "It torch for boat.",
                 SAIL_SNAKESKIN = "It sail made of colourful scales.",--this one edited, snake skin in hamlet r not red
+
+                VINE = "Thick sticks!",
             },
         },
         WALTER = {--[[
@@ -2095,7 +2146,12 @@ local strings = {
             ANNOUNCE_SUITUP = "Now I am Iron man!",
 
             --new
-            ANNOUNCE_GNATS_DIED="Ha! How about that?",
+            ANNOUNCE_GNATS_DIED = "Ha! How about that?",
+            --ANNOUNCE from Island Adventure
+            ANNOUNCE_BOAT_DAMAGED = "I wonder if there's a badge for boat maintenance.",
+	        ANNOUNCE_BOAT_SINKING = "We may need to repair this soon, haha...",
+	        ANNOUNCE_BOAT_SINKING_IMMINENT = "I-I don't think I can swim my way back!",
+	        ANNOUNCE_WAVE_BOOST = "Woohoo!",
 
             DESCRIBE = {
                 GRASS_TALL = {
@@ -2378,8 +2434,8 @@ local strings = {
         	        --BURNING = "可怜的农民们。",
                 },
 
-                VENUS_STALK = "Now I get a wood leg too.",--手杖
-                WALKINGSTICK = "I think that's their stomach in here.",--捕蝇草茎
+                VENUS_STALK = "I think that's their stomach are.",--捕蝇草茎
+                WALKINGSTICK = "Now I get a wood leg too.",--手杖
                 --[[ADULT_FLYTRAP = {--利齿捕蝇草
         	        GENERIC = "一棵货真价实的食人花！而且会跑！",
         	        SLEEPING = "食人花居然也需要睡觉。",
@@ -2577,12 +2633,22 @@ local strings = {
                 },
                 BILL_QUILL = "",
 
-                LILYPAD = "",
-                LOTUS = "",
+                --LILYPAD = "看看它有多大！我真想站上去看看！",
+                LOTUS = "Sis Walani says that's edible...",
                 LOTUS_FLOWER = "",
-                LOTUS_FLOWER_COOKED = "",
+                LOTUS_FLOWER_COOKED = "Woby! Look these holes!",
 
-                --from IA
+                --PUGALISK = "是蛇怪！当心它的眼睛！",
+                PUGALISK_CORPSE = "",--Petrifying Bones
+                PUGALISK_FOUNTAIN = "It'll Woby stay with us forever!",--Fountain of Youth
+                --PUGALISK_RUINS_PILLAR = "它恐怕坚持不了多久了。",--Teetering Pillar
+                PUGALISK_SKULL = "",
+                --PUGALISK_TRAP_DOOR = "这画的是什么怪物？",
+
+                SNAKE_BONE = "",
+                SNAKEBONESOUP = "",
+
+                --DESCRIBE from Island Adventure
                 ANTIVENOM = "It's bitter, so it's good for you!",
 		        VENOMGLAND = "It's brimming with venom... Haha...",
 		        POISONBALM = "I'll gladly take a balm over a syrup...",
@@ -2603,6 +2669,8 @@ local strings = {
                 BOATREPAIRKIT = "I'll need to maintain Woby's boat as well.",
                 BOAT_TORCH = "It's important to have good visibility while sailing.",
                 SAIL_SNAKESKIN = "The snakes wouldn't end up like this if they didn't try to eat me!",
+
+                VINE = "Foraged vines, perfect for kindling and crafting.",
             },
         },
         WANDA = {
@@ -2641,6 +2709,11 @@ local strings = {
 
             --new
             --ANNOUNCE_GNATS_DIED="我们何必要走到这一步呢？",
+            --ANNOUNCE from Island Adventure
+            ANNOUNCE_BOAT_DAMAGED = "My boat's damaged...",
+	        ANNOUNCE_BOAT_SINKING = "Ack! This doesn't seem seaworthy at all anymore!",
+	        ANNOUNCE_BOAT_SINKING_IMMINENT = "I'm not meeting my end drowning in the middle of nowhere!",
+	        ANNOUNCE_WAVE_BOOST = "Wh-whoa!",
 
             DESCRIBE = {
                 GRASS_TALL = {
@@ -2923,8 +2996,8 @@ local strings = {
         	        --BURNING = "我想它也到时候了。",
                 },
 
-                --VENUS_STALK = "好吧，我会带上。",--手杖
-                --WALKINGSTICK = "离能用还早着呢。",--捕蝇草茎
+                --VENUS_STALK = "离能用还早着呢。",--捕蝇草茎
+                --WALKINGSTICK = "好吧，我会带上。",--手杖
                 ADULT_FLYTRAP = {--利齿捕蝇草
         	        GENERIC = "This is an obvious trap.",
         	        --SLEEPING = "我们直接走过去吧。",
@@ -2972,28 +3045,28 @@ local strings = {
                 
                 DECO_CHAISE = "It's time for a proper break.",
                 --[[
-                DECO_PLANTHOLDER_BASIC        = "",
-                DECO_PLANTHOLDER_WIP          = "",
-                DECO_PLANTHOLDER_FANCY        = "",
-                DECO_PLANTHOLDER_BONSAI       = "",
-                DECO_PLANTHOLDER_DISHGARDEN   = "",
-                DECO_PLANTHOLDER_PHILODENDRON = "",
-                DECO_PLANTHOLDER_ORCHID       = "",
-                DECO_PLANTHOLDER_DRACEANA     = "",
-                DECO_PLANTHOLDER_XEROGRAPHICA = "",
-                DECO_PLANTHOLDER_BIRDCAGE     = "",
-                DECO_PLANTHOLDER_PALM         = "",
-                DECO_PLANTHOLDER_ZZ           = "",
-                DECO_PLANTHOLDER_FERNSTAND    = "",
-                DECO_PLANTHOLDER_FERN         = "",
-                DECO_PLANTHOLDER_TERRARIUM    = "",
-                DECO_PLANTHOLDER_PLANTPET     = "",
-                DECO_PLANTHOLDER_TRAPS        = "",
-                DECO_PLANTHOLDER_PITCHERS     = "",
-                DECO_PLANTHOLDER_MARBLE       = "",
+                DECO_PLANTHOLDER_BASIC        = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_WIP          = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_FANCY        = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_BONSAI       = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_DISHGARDEN   = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_PHILODENDRON = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_ORCHID       = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_DRACEANA     = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_XEROGRAPHICA = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_BIRDCAGE     = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_PALM         = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_ZZ           = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_FERNSTAND    = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_FERN         = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_TERRARIUM    = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_PLANTPET     = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_TRAPS        = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_PITCHERS     = "即使是工作室也需要一点格调。",
+                DECO_PLANTHOLDER_MARBLE       = "即使是工作室也需要一点格调。",
 
-                DECO_PLANTHOLDER_WINTERFEASTTREEOFSADNESS = "",
-                DECO_PLANTHOLDER_WINTERFEASTTREE = "",
+                DECO_PLANTHOLDER_WINTERFEASTTREEOFSADNESS = "又到这个季节了。",
+                DECO_PLANTHOLDER_WINTERFEASTTREE = "又到这个季节了。",
 
                 DECO_TABLE_ROUND   = "",
                 DECO_TABLE_BANKER  = "",
@@ -3071,26 +3144,26 @@ local strings = {
                 RUG_CRIME = "Is't already happened?",
                 RUG_TILES = "",]]
 
-                SHELVES_WOOD = "A good place to stack my work.",
-                SHELVES_CINDERBLOCKS = "A good place to stack my work.",
-                SHELVES_MARBLE = "A good place to stack my work.",
-                SHELVES_MIDCENTURY = "A good place to stack my work.",
-                SHELVES_GLASS = "A good place to stack my work.",
-                SHELVES_LADDER = "A good place to stack my work.",
-                SHELVES_HUTCH = "A good place to stack my work.",
-                SHELVES_INDUSTRIAL = "A good place to stack my work.",
-                SHELVES_ADJUSTABLE = "A good place to stack my work.",
-                SHELVES_WALLMOUNT = "A good place to stack my work.",
-                SHELVES_AFRAME = "A good place to stack my work.",
-                SHELVES_CRATES = "A good place to stack my work.",
-                SHELVES_FRIDGE = "A good place to stack my work.",
-                SHELVES_HOOKS = "A good place to stack my work.",
-                SHELVES_PIPE = "A good place to stack my work.",
-                SHELVES_HATTREE = "A good place to stack my work.",
-                SHELVES_PALLET = "A good place to stack my work.",
-                SHELVES_BASIC = "A good place to stack my work.",
-                SHELVES_FLOATING = "A good place to stack my work.",
-                SHELVES_METAL = "A good place to stack my work.",
+                SHELVES_WOOD = "A good place to stack my creation.",
+                SHELVES_CINDERBLOCKS = "A good place to stack my creation.",
+                SHELVES_MARBLE = "A good place to stack my creation.",
+                SHELVES_MIDCENTURY = "A good place to stack my creation.",
+                SHELVES_GLASS = "A good place to stack my creation.",
+                SHELVES_LADDER = "A good place to stack my creation.",
+                SHELVES_HUTCH = "A good place to stack my creation.",
+                SHELVES_INDUSTRIAL = "A good place to stack my creation.",
+                SHELVES_ADJUSTABLE = "A good place to stack my creation.",
+                SHELVES_WALLMOUNT = "A good place to stack my creation.",
+                SHELVES_AFRAME = "A good place to stack my creation.",
+                SHELVES_CRATES = "A good place to stack my creation.",
+                SHELVES_FRIDGE = "A good place to stack my creation.",
+                SHELVES_HOOKS = "A good place to stack my creation.",
+                SHELVES_PIPE = "A good place to stack my creation.",
+                SHELVES_HATTREE = "A good place to stack my creation.",
+                SHELVES_PALLET = "A good place to stack my creation.",
+                SHELVES_BASIC = "A good place to stack my creation.",
+                SHELVES_FLOATING = "A good place to stack my creation.",
+                SHELVES_METAL = "A good place to stack my creation.",
 
                 WOOD_DOOR = "To another room.",
 		        STONE_DOOR = "To another room.",
@@ -3112,22 +3185,32 @@ local strings = {
                     SLEEPING = "",
                     DEAD = "",
                 },
-                FROGLEGS_POISON = "",
-                FROGLEGS_POISON_COOKED = "",
+                --FROGLEGS_POISON = "这个可不能吃。",
+                --FROGLEGS_POISON_COOKED = "烤过之后它就安全...了吗？",
 
                 BILL = {
-                    GENERIC = "",
+                    --GENERIC = "住手！那些花我还要用！",
                     SLEEPING = "",
-                    DEAD = "",
+                    --DEAD = "我不得不亲手给它送钟。",
                 },
-                BILL_QUILL = "",
+                --BILL_QUILL = "嗯...我会给它找个好用途的。",
 
-                LILYPAD = "",
-                LOTUS = "",
+                --LILYPAD = "我想这条近路抄不得。",
+                --LOTUS = "那花苞看起来很眼熟...",
                 LOTUS_FLOWER = "",
                 LOTUS_FLOWER_COOKED = "",
 
-                --from IA
+                --[[PUGALISK = "我们终于还是要有一战！",
+                PUGALISK_CORPSE = "它的一部分卡在那下面了。",--Petrifying Bones
+                PUGALISK_FOUNTAIN = "噢...就这样放在这里，唾手可得。",--Fountain of Youth
+                PUGALISK_RUINS_PILLAR = "希望我走过它下面的时候不要倒下来。",--Teetering Pillar
+                PUGALISK_SKULL = "一个天然的优秀魔法容器。",
+                PUGALISK_TRAP_DOOR = "你不会想知道那下面有什么的。",]]
+
+                --SNAKE_BONE = "我怀疑这是否值得我浪费时间。",
+                SNAKEBONESOUP = "",
+
+                --DESCRIBE from Island Adventure
                 ANTIVENOM = "It's simply a must-have around here.",
 		        VENOMGLAND = "I suppose I could ingest it as it is, it'd be better than poison...",
 		        POISONBALM = "What a quick alternative to the classic antidote medicine!",
@@ -3148,6 +3231,8 @@ local strings = {
                 BOATREPAIRKIT = "Repairing takes a lot shorter than building a whole new boat from the scratch.",
                 BOAT_TORCH = "This will keep me safe, nice and hands-free.",
                 SAIL_SNAKESKIN = "There's no need to make a flag if the sail is colorful. Not that I need one.",
+
+                VINE = "It's a vine. I won't take the time to get sentimental about it.",
             },
         },
         --New Characters for us
