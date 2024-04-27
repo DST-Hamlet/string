@@ -747,18 +747,19 @@ local strings = {
         	        BURNING = "",
                 },
 
-                VENUS_STALK = "",--捕蝇草茎
-                WALKINGSTICK = "脱水后就会变成一根耐用的拐杖。",--手杖
+                VENUS_STALK = "就建材来说有点太水了。",--捕蝇草茎
+                WALKINGSTICK = "脱水后就变成了一根耐用的拐杖。",--手杖
                 ADULT_FLYTRAP = {--利齿捕蝇草
-        	        GENERIC = "",
-        	        SLEEPING = "",
-        	        DEAD = "",
+        	        GENERIC = "只会等着食物喂到嘴里的家伙。",
+        	        SLEEPING = "它在休息。",
+        	        DEAD = "我想它早就死了。",
                 },
                 MEAN_FLYTRAP = {--幼苗
-        	        GENERIC = "",
-        	        SLEEPING = "",
-        	        DEAD = "",
+        	        GENERIC = "对食物的渴望永不满足。",
+        	        SLEEPING = "它在休息。",
+        	        DEAD = "它死了。",
                 },
+                NECTAR_POD = "蜂蜜的半成品。",
 
                 CORKBOAT = "它绝对通过不了任何安全性测试。",
                 --[[
@@ -957,9 +958,10 @@ local strings = {
                 PUGALISK_RUINS_PILLAR = "摇摇欲坠。",--Teetering Pillar
                 PUGALISK_SKULL = "我们打败了它的证明。",
                 PUGALISK_TRAP_DOOR = "可能是竖井的井盖。",
+                BONESTAFF = "这绝对是一个巨大的安全隐患。",--icestaff
 
-                SNAKE_BONE = "",
-                SNAKEBONESOUP = "",
+                SNAKE_BONE = "我应该能拿它做点什么...",
+                SNAKEBONESOUP = "这样烹饪说白了就是自欺欺人。",
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "噫，尝起来像麻油。",
@@ -1320,6 +1322,7 @@ local strings = {
         	        SLEEPING = "睡吧。",
         	        DEAD = "它死了。",
                 },
+                NECTAR_POD = "小蜜蜂的食物。",
 
                 CORKBOAT = "飘忽不定，摇摇欲坠。",
                 
@@ -1513,14 +1516,15 @@ local strings = {
                 LOTUS_FLOWER_COOKED = "藕断丝连。",
 
                 PUGALISK = "哼哼！干瞪眼比赛吗？",
-                PUGALISK_CORPSE = "",--Petrifying Bones
+                PUGALISK_CORPSE = "哎你怎么不动了？",--Petrifying Bones
                 PUGALISK_FOUNTAIN = "这是一个诱人的陷阱。",--Fountain of Youth
-                PUGALISK_RUINS_PILLAR = "",--Teetering Pillar
-                PUGALISK_SKULL = "",
-                PUGALISK_TRAP_DOOR = "",
+                PUGALISK_RUINS_PILLAR = "恶魔不立于危柱下。",--Teetering Pillar
+                PUGALISK_SKULL = "我已经有不少好点子了。",
+                PUGALISK_TRAP_DOOR = "当心脚下哦。",
+                BONESTAFF = "一二三，木头人！",
 
-                SNAKE_BONE = "",
-                SNAKEBONESOUP = "",
+                SNAKE_BONE = "里面已经没有魔法了。",
+                SNAKEBONESOUP = "凡人们总喜欢把食物打扮得花里胡哨。",
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "放心管好的治疗方案。",
@@ -1881,6 +1885,7 @@ local strings = {
         	        SLEEPING = "它们...睡觉？",
         	        DEAD = "这才像植物，浮浪噗。",
                 },
+                NECTAR_POD = "花朵汁。",
 
                 CORKBOAT = "为什么不用游的？浮浪噗。",
                 --[[
@@ -2074,14 +2079,15 @@ local strings = {
                 LOTUS_FLOWER_COOKED = "长丝的零食！",
 
                 PUGALISK = "岩石一样坚固的鳞片！",
-                PUGALISK_CORPSE = "",--Petrifying Bones
-                PUGALISK_FOUNTAIN = "这是什么水？",--Fountain of Youth
-                PUGALISK_RUINS_PILLAR = "",--Teetering Pillar
-                PUGALISK_SKULL = "",
-                PUGALISK_TRAP_DOOR = "",
+                PUGALISK_CORPSE = "它留在下面了。",--Petrifying Bones
+                PUGALISK_FOUNTAIN = "格勒噗...是水？",--Fountain of Youth
+                PUGALISK_RUINS_PILLAR = "猪人的糟柱子。",--Teetering Pillar
+                PUGALISK_SKULL = "像石头...",
+                PUGALISK_TRAP_DOOR = "一张脸？",
+                BONESTAFF = "让背鳍发凉，浮浪噗。",
 
-                SNAKE_BONE = "",
-                SNAKEBONESOUP = "",
+                SNAKE_BONE = "大骨头。",
+                SNAKEBONESOUP = "格浪，恶心。",
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "不舒服的时候很有用。",
@@ -2442,6 +2448,7 @@ local strings = {
         	        SLEEPING = "食人花居然也需要睡觉。",
         	        DEAD = "它还会再长回来吗？",
                 },
+                NECTAR_POD = "我知道！蜜蜂会用它们来酿蜂蜜。",
 
                 CORKBOAT = "雨林漂流，哦耶！",
                 --[[
@@ -2634,15 +2641,16 @@ local strings = {
                 LOTUS_FLOWER = "",
                 LOTUS_FLOWER_COOKED = "沃比！看看这些孔！",
 
-                PUGALISK = "是蛇怪！当心它的眼睛！",
-                PUGALISK_CORPSE = "",--Petrifying Bones
+                PUGALISK = "是蛇怪！不要直视它的眼睛！",
+                PUGALISK_CORPSE = "是你先动的手，请不要怪我！",--Petrifying Bones
                 PUGALISK_FOUNTAIN = "有了它沃比就能一直陪我们了！",--Fountain of Youth
                 PUGALISK_RUINS_PILLAR = "它恐怕坚持不了多久了。",--Teetering Pillar
-                PUGALISK_SKULL = "",
+                PUGALISK_SKULL = "蛇怪的脑袋。",
                 PUGALISK_TRAP_DOOR = "这画的是什么怪物？",
+                BONESTAFF = "我忍不住想看它的眼睛...",
 
-                SNAKE_BONE = "",
-                SNAKEBONESOUP = "",
+                SNAKE_BONE = "真是块巨大的骨头。",
+                SNAKEBONESOUP = "希望你们没什么“脊”口。",
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "是苦的，所以对身体有好处！",
@@ -3003,6 +3011,7 @@ local strings = {
         	        SLEEPING = "它在睡觉。",
         	        DEAD = "它不会继续长大了。",
                 },
+                NECTAR_POD = "还不是蜂蜜，我来的太早了。",
                 
                 CORKBOAT = "这就是我们和冰冷水面之间的唯一阻隔了？",
 
@@ -3201,9 +3210,10 @@ local strings = {
                 PUGALISK_RUINS_PILLAR = "希望我走过它下面的时候不要倒下来。",--Teetering Pillar
                 PUGALISK_SKULL = "一个天然的优秀魔法容器。",
                 PUGALISK_TRAP_DOOR = "你不会想知道那下面有什么的。",
+                BONESTAFF = "定住所有拦我路的敌人。",
 
-                SNAKE_BONE = "我怀疑这是否值得我浪费时间。",
-                SNAKEBONESOUP = "",
+                SNAKE_BONE = "对于钟表来说有点太大了。",
+                SNAKEBONESOUP = "我怀疑这是否值得我浪费时间。",
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "这可是这里的必备品。",
