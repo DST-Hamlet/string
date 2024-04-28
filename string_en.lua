@@ -23,7 +23,7 @@ local strings = {
         },
         PLANTREGISTRY = {
             DESCRIPTIONS = {
-                RADISH = "Pepper bland as paper with this. -W",
+                RADISH = "It’s totally rad. -W",
                 ALOE = "Taste like: not clear. -W",
             },
         },
@@ -963,6 +963,10 @@ local strings = {
                 --SNAKE_BONE = "我应该能拿它做点什么...",
                 --SNAKEBONESOUP = "这样烹饪说白了就是自欺欺人。",
 
+                --ANTCHEST = "这就是魔法发生的地方。",
+                --CORKCHEST = "这样我们就不用担心丢东西了。",
+                --CORK = "这应该不怎么禁用。",
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "Bleh, tastes like castor oil.",
                 VENOMGLAND = "Haha, gross.",
@@ -1529,6 +1533,10 @@ local strings = {
                 SNAKE_BONE = "There's no magic in it anymore.",
                 --SNAKEBONESOUP = "凡人们总喜欢把食物打扮得花里胡哨。",
 
+                ANTCHEST = "They must bee nice.",
+                --CORKCHEST = "看我给它打个结。",
+                --CORK = "一点也不重。",
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "A potent cure does reassure.",
 		        VENOMGLAND = "Now to land this gland in a brew.",
@@ -2091,6 +2099,10 @@ local strings = {
 
                 SNAKE_BONE = "Big bones.",
                 SNAKEBONESOUP = "Grrr, Gross.",
+
+                ANTCHEST = "Turn flower juice to honey!",
+                CORKCHEST = "Guard my things.",
+                CORK = "Can it be used to make a campfire?",--LOG.GENERIC
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "Can help when I feel bad.",
@@ -2656,6 +2668,10 @@ local strings = {
                 --SNAKE_BONE = "真是块巨大的骨头。",
                 SNAKEBONESOUP = "What a spicy spine.",
 
+                --ANTCHEST = "这些蚂蚁们也懂得如何酿蜜！",
+                --CORKCHEST = "妈妈不想让我动什么东西的时候也会这么做。",
+                CORK = "Also a firewood!",--LOG.GENERIC
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "It's bitter, so it's good for you!",
 		        VENOMGLAND = "It's brimming with venom... Haha...",
@@ -3219,6 +3235,10 @@ local strings = {
 
                 SNAKE_BONE = "It's too big for a clock.",
                 --SNAKEBONESOUP = "我怀疑这是否值得我浪费时间。",
+
+                --ANTCHEST = "哇哦，我本来还想加速时间来着。",
+                --CORKCHEST = "免得那些小狗烦乱我的东西。",
+                CORK = "It came from a tree, as you'd expect.",--LOG.GENERIC
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "It's simply a must-have around here.",

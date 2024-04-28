@@ -23,7 +23,7 @@ local strings = {
         },
         PLANTREGISTRY = {
             DESCRIPTIONS = {
-                RADISH = "相比之下辣椒像纸一样没味。——W",
+                RADISH = "全都是红色的。——W",
                 ALOE = "味道：尚不明确。——W",
             },
         },
@@ -963,6 +963,10 @@ local strings = {
                 SNAKE_BONE = "我应该能拿它做点什么...",
                 SNAKEBONESOUP = "这样烹饪说白了就是自欺欺人。",
 
+                ANTCHEST = "这就是魔法发生的地方。",
+                CORKCHEST = "这样我们就不用担心丢东西了。",
+                CORK = "这应该不怎么禁用。",
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "噫，尝起来像麻油。",
 	            VENOMGLAND = "哈哈，真恶心。",
@@ -1525,6 +1529,10 @@ local strings = {
 
                 SNAKE_BONE = "里面已经没有魔法了。",
                 SNAKEBONESOUP = "凡人们总喜欢把食物打扮得花里胡哨。",
+
+                ANTCHEST = "真是群好蚂蚁。",
+                CORKCHEST = "看我给它打个结。",
+                CORK = "一点也不重。",
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "放心管好的治疗方案。",
@@ -2089,6 +2097,10 @@ local strings = {
                 SNAKE_BONE = "大骨头。",
                 SNAKEBONESOUP = "格浪，恶心。",
 
+                ANTCHEST = "把花朵汁变成蜜糖！",
+                CORKCHEST = "看好我的东西。",
+                CORK = "它也能搭个营火吗？",--LOG.GENERIC
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "不舒服的时候很有用。",
 		        VENOMGLAND = "格辣格！...难吃的药。",
@@ -2652,6 +2664,10 @@ local strings = {
                 SNAKE_BONE = "真是块巨大的骨头。",
                 SNAKEBONESOUP = "希望你们没什么“脊”口。",
 
+                ANTCHEST = "这些蚂蚁们也懂得如何酿蜜！",
+                CORKCHEST = "妈妈不想让我动什么东西的时候也会这么做。",
+                CORK = "也一种柴火！",--LOG.GENERIC
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "是苦的，所以对身体有好处！",
 		        VENOMGLAND = "这可太恶“毒”了...哈哈...",
@@ -3214,6 +3230,10 @@ local strings = {
 
                 SNAKE_BONE = "对于钟表来说有点太大了。",
                 SNAKEBONESOUP = "我怀疑这是否值得我浪费时间。",
+
+                ANTCHEST = "哇哦，我本来还想加速时间来着。",
+                CORKCHEST = "免得那些小狗烦乱我的东西。",
+                CORK = "如你所料，它是树上下来的。",--LOG.GENERIC
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "这可是这里的必备品。",
