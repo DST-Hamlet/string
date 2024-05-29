@@ -717,7 +717,7 @@ local strings = {
                 },
 
                 VAMPIREBAT = {
-        	        GENERIC = "",
+        	        GENERIC = "灾厄的使者。",
             	    SLEEPING = "",
                 	DEAD = "",
                 },
@@ -762,14 +762,14 @@ local strings = {
                 NECTAR_POD = "蜂蜜的半成品。",
 
                 CORKBOAT = "它绝对通过不了任何安全性测试。",
-                --[[
-                DECO_CHAIR_CLASSIC  = "",
+
+                --[[DECO_CHAIR_CLASSIC  = "",
                 DECO_CHAIR_CORNER   = "",
                 DECO_CHAIR_BENCH    = "",
                 DECO_CHAIR_HORNED   = "",
                 DECO_CHAIR_FOOTREST = "",
                 DECO_CHAIR_LOUNGE   = "",
-                DECO_CHAIR_MASSAGER = "",
+                DECO_CHAIR_MASSAGER = "真是个冷血的用途。",
                 DECO_CHAIR_STUFFED  = "",
                 DECO_CHAIR_ROCKING  = "",
                 DECO_CHAIR_OTTOMAN  = "",
@@ -793,11 +793,11 @@ local strings = {
                 DECO_LAMP_EDISON       = "",
                 DECO_LAMP_ADJUSTABLE   = "",
                 DECO_LAMP_RIGHTANGLES  = "",
-                DECO_LAMP_HOOFSPA      = "",
+                DECO_LAMP_HOOFSPA      = "",]]
 
-                DECO_CHAISE = "",
+                DECO_CHAISE = "来一杯茶，我能坐上一整天。",
 
-                DECO_PLANTHOLDER_BASIC        = "",
+                --[[DECO_PLANTHOLDER_BASIC        = "",
                 DECO_PLANTHOLDER_WIP          = "",
                 DECO_PLANTHOLDER_FANCY        = "",
                 DECO_PLANTHOLDER_BONSAI       = "",
@@ -818,16 +818,16 @@ local strings = {
                 DECO_PLANTHOLDER_MARBLE       = "",
 
                 DECO_PLANTHOLDER_WINTERFEASTTREEOFSADNESS = "",
-                DECO_PLANTHOLDER_WINTERFEASTTREE = "",
+                DECO_PLANTHOLDER_WINTERFEASTTREE = "",]]
 
-                DECO_TABLE_ROUND   = "",
-                DECO_TABLE_BANKER  = "",
-                DECO_TABLE_DIY     = "",
-                DECO_TABLE_RAW     = "",
-                DECO_TABLE_CRATE   = "",
-                DECO_TABLE_CHESS   = "",
+                DECO_TABLE_ROUND   = "高级不高级我不在乎，我关心结实不结实。",
+                DECO_TABLE_BANKER  = "高级不高级我不在乎，我关心结实不结实。",
+                DECO_TABLE_DIY     = "高级不高级我不在乎，我关心结实不结实。",
+                DECO_TABLE_RAW     = "高级不高级我不在乎，我关心结实不结实。",
+                DECO_TABLE_CRATE   = "高级不高级我不在乎，我关心结实不结实。",
+                DECO_TABLE_CHESS   = "高级不高级我不在乎，我关心结实不结实。",
 
-                DECO_ANTIQUITIES_WALLFISH           = "",    
+                --[[DECO_ANTIQUITIES_WALLFISH           = "",    
                 DECO_ANTIQUITIES_BEEFALO            = "",
                 DECO_WALLORNAMENT_PHOTO             = "",
                 DECO_WALLORNAMENT_FULLLENGTH_MIRROR = "",
@@ -930,27 +930,27 @@ local strings = {
                 ANTQUEEN_THRONE = "女王的宝库。",
 
                 HIPPOPOTAMOOSE = "整日洗澡也没有让他们好闻一点。",
-                HIPPO_ANTLER = "",
+                HIPPO_ANTLER = "这大概能做成奢侈品什么的。",
 
                 FROG_POISON = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "他们的皮肤下面充斥着恶毒之物。",
+                    SLEEPING = "休息一下。",
+                    DEAD = "唉，他死了。",
                 },
-                FROGLEGS_POISON = "",
-                FROGLEGS_POISON_COOKED = "",
+                FROGLEGS_POISON = "这可能会对我们有害。",
+                FROGLEGS_POISON_COOKED = "这样的加工...",
 
                 BILL = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "哇哦，你可真扎人。",
+                    SLEEPING = "休息一下。",
+                    DEAD = "唉，他死了。",
                 },
-                BILL_QUILL = "",
+                BILL_QUILL = "我想我可以把它用到...",
 
                 LILYPAD = "我从未见过这么大的睡莲！",
-                LOTUS = "",
-                LOTUS_FLOWER = "",
-                LOTUS_FLOWER_COOKED = "",
+                LOTUS = "真是棵漂亮的水生植物。",
+                LOTUS_FLOWER = "真漂亮！",
+                LOTUS_FLOWER_COOKED = "尝起来脆脆的。",
 
                 PUGALISK = "怪物！我会让你知道你惹错了人！",
                 PUGALISK_CORPSE = "它还有一部分被埋在地下。",--Petrifying Bones
@@ -1407,20 +1407,20 @@ local strings = {
                 DECO_WALLORNAMENT_GEARS_ART         = "",
                 DECO_WALLORNAMENT_CAPE              = "",
                 DECO_WALLORNAMENT_NO_SMOKING        = "",
-                DECO_WALLORNAMENT_BLACK_CAT         = "",
+                DECO_WALLORNAMENT_BLACK_CAT         = "",]]
 
-                WINDOW_ROUND_CURTAINS_NAILS = "",
-                WINDOW_ROUND_BURLAP         = "",
-                WINDOW_SMALL_PEAKED         = "",
-                WINDOW_LARGE_SQUARE         = "",
-                WINDOW_TALL                 = "",
-                WINDOW_LARGE_SQUARE_CURTAIN = "",
-                WINDOW_TALL_CURTAIN         = "",
-                WINDOW_SMALL_PEAKED_CURTAIN = "",
-                WINDOW_GREENHOUSE           = "",
-                WINDOW_ROUND                = "",
+                WINDOW_ROUND_CURTAINS_NAILS = "透过它我能看到外面的世界。",
+                WINDOW_ROUND_BURLAP         = "透过它我能看到外面的世界。",
+                WINDOW_SMALL_PEAKED         = "透过它我能看到外面的世界。",
+                WINDOW_LARGE_SQUARE         = "透过它我能看到外面的世界。",
+                WINDOW_TALL                 = "透过它我能看到外面的世界。",
+                WINDOW_LARGE_SQUARE_CURTAIN = "透过它我能看到外面的世界。",
+                WINDOW_TALL_CURTAIN         = "透过它我能看到外面的世界。",
+                WINDOW_SMALL_PEAKED_CURTAIN = "透过它我能看到外面的世界。",
+                WINDOW_GREENHOUSE           = "透过它我能看到外面的世界。",
+                WINDOW_ROUND                = "透过它我能看到外面的世界。",
 
-                DECO_WOOD_CORNERBEAM = "",
+                --[[DECO_WOOD_CORNERBEAM = "",
                 DECO_MARBLE_CORNERBEAM = "",
                 DECO_WOOD       = "",
                 DECO_MILLINERY  = "",
@@ -1496,23 +1496,23 @@ local strings = {
                 PIG_RUINS_ARTICHOKE = "一棵巨型蔬菜。",
                 ANTQUEEN_THRONE = "猜猜看底下有什么？",
 
-                HIPPOPOTAMOOSE = "",
-                HIPPO_ANTLER = "",
+                HIPPOPOTAMOOSE = "远看还以为是个肥胖的恶魔。",
+                HIPPO_ANTLER = "我知道有个家伙很喜欢这些东西。",
 
                 FROG_POISON = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "说什么我也不会亲你的。",
+                    SLEEPING = "做个湿哒哒的美梦吧。",
+                    DEAD = "我很抱歉！真的抱歉！",
                 },
-                FROGLEGS_POISON = "",
-                FROGLEGS_POISON_COOKED = "",
+                FROGLEGS_POISON = "我决定还是不要尝试了。",
+                FROGLEGS_POISON_COOKED = "没准烤一烤凡人就能吃了？",
 
                 BILL = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "哼哼！他像陀螺一样旋转！",
+                    SLEEPING = "它停转了。",
+                    DEAD = "它彻底停转了。",
                 },
-                BILL_QUILL = "",
+                BILL_QUILL = "一根足够长的牙签。",
 
                 LILYPAD = "小船池中过，浮萍让道开。",
                 LOTUS = "出淤泥而不染。",
@@ -1958,8 +1958,8 @@ local strings = {
                 DECO_TABLE_BANKER  = "",
                 DECO_TABLE_DIY     = "",
                 DECO_TABLE_RAW     = "",
-                DECO_TABLE_CRATE   = "",
-                DECO_TABLE_CHESS   = "",]]
+                DECO_TABLE_CRATE   = "",]]
+                DECO_TABLE_CHESS   = "薇克女士！棋子摆好了！",
 
                 DECO_ANTIQUITIES_WALLFISH           = "不是真的。",    
                 DECO_ANTIQUITIES_BEEFALO            = "不是真的。",--[[
@@ -2064,15 +2064,15 @@ local strings = {
                 ANTQUEEN_THRONE = "蚁人老大的椅子。",
 
                 HIPPOPOTAMOOSE = "聪明的无磷生物喜欢水。",
-                HIPPO_ANTLER = "",
+                HIPPO_ANTLER = "分叉的角。",
 
                 FROG_POISON = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "你好吗？",
+                    SLEEPING = "安安，小青蛙。",
+                    DEAD = "它去了天上的大沼泽。",
                 },
-                FROGLEGS_POISON = "",
-                FROGLEGS_POISON_COOKED = "",
+                FROGLEGS_POISON = "可怜的小青蛙...",
+                FROGLEGS_POISON_COOKED = "格勒格...不忍直视。",
 
                 BILL = {
                     GENERIC = "鸟嘴巴？",
@@ -2158,7 +2158,7 @@ local strings = {
             ANNOUNCE_TAXDAY = "到收取管理费用的日子了。",
             ANNOUNCE_NOTHING_FOUND = "薇勒尔女士！它不管用了！",
 
-            ANNOUNCE_SUITUP = "现在我是钢铁人！",
+            ANNOUNCE_SUITUP = "我就是金属人！",
 
             --new
             ANNOUNCE_GNATS_DIED="哈！这样如何？",
@@ -2534,27 +2534,27 @@ local strings = {
                 DECO_WALLORNAMENT_FULLLENGTH_MIRROR = "",
                 DECO_WALLORNAMENT_EMBROIDERY_HOOP   = "",
                 DECO_WALLORNAMENT_MOSAIC            = "",
-                DECO_WALLORNAMENT_WREATH            = "",
-                DECO_WALLORNAMENT_AXE               = "",
-                DECO_WALLORNAMENT_HUNT              = "",
+                DECO_WALLORNAMENT_WREATH            = "",]]
+                DECO_WALLORNAMENT_AXE               = "它看起来好像露西！",
+                --[[DECO_WALLORNAMENT_HUNT              = "",
                 DECO_WALLORNAMENT_PERIODIC_TABLE    = "",
                 DECO_WALLORNAMENT_GEARS_ART         = "",
                 DECO_WALLORNAMENT_CAPE              = "",
                 DECO_WALLORNAMENT_NO_SMOKING        = "",
-                DECO_WALLORNAMENT_BLACK_CAT         = "",
+                DECO_WALLORNAMENT_BLACK_CAT         = "",]]
 
-                WINDOW_ROUND_CURTAINS_NAILS = "",
-                WINDOW_ROUND_BURLAP         = "",
-                WINDOW_SMALL_PEAKED         = "",
-                WINDOW_LARGE_SQUARE         = "",
-                WINDOW_TALL                 = "",
-                WINDOW_LARGE_SQUARE_CURTAIN = "",
-                WINDOW_TALL_CURTAIN         = "",
-                WINDOW_SMALL_PEAKED_CURTAIN = "",
-                WINDOW_GREENHOUSE           = "",
-                WINDOW_ROUND                = "",
+                WINDOW_ROUND_CURTAINS_NAILS = "我们能出去玩吗？",
+                WINDOW_ROUND_BURLAP         = "我们能出去玩吗？",
+                WINDOW_SMALL_PEAKED         = "我们能出去玩吗？",
+                WINDOW_LARGE_SQUARE         = "我们能出去玩吗？",
+                WINDOW_TALL                 = "我们能出去玩吗？",
+                WINDOW_LARGE_SQUARE_CURTAIN = "我们能出去玩吗？",
+                WINDOW_TALL_CURTAIN         = "我们能出去玩吗？",
+                WINDOW_SMALL_PEAKED_CURTAIN = "我们能出去玩吗？",
+                WINDOW_GREENHOUSE           = "我们能出去玩吗？",
+                WINDOW_ROUND                = "我们能出去玩吗？",
 
-                DECO_WOOD_CORNERBEAM = "",
+                --[[DECO_WOOD_CORNERBEAM = "",
                 DECO_MARBLE_CORNERBEAM = "",
                 DECO_WOOD       = "",
                 DECO_MILLINERY  = "",
@@ -2634,23 +2634,23 @@ local strings = {
                 HIPPO_ANTLER = "那个可以做一只响亮的号角。",--same as beefalo
 
                 FROG_POISON = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "越漂亮的生物越有毒。",
+                    SLEEPING = "不要碰它。沃比。",
+                    DEAD = "不要碰它。沃比。",
                 },
-                FROGLEGS_POISON = "",
-                FROGLEGS_POISON_COOKED = "",
+                FROGLEGS_POISON = "我觉得它有剧毒。",
+                FROGLEGS_POISON_COOKED = "这样就安全了吗？",
 
                 BILL = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "伙计们！看看这奇异的生物！",
+                    SLEEPING = "睡大觉...",
+                    DEAD = "真可惜，我还想交一个新朋友。",
                 },
-                BILL_QUILL = "",
+                BILL_QUILL = "这刺可真长啊。",
 
                 LILYPAD = "看看它有多大！我真想站上去看看！",
                 LOTUS = "瓦拉尼大姐说那个可以吃...",
-                LOTUS_FLOWER = "",
+                LOTUS_FLOWER = "一朵飘在水里的花。",
                 LOTUS_FLOWER_COOKED = "沃比！看看这些孔！",
 
                 PUGALISK = "是蛇怪！不要直视它的眼睛！",
@@ -3086,13 +3086,13 @@ local strings = {
                 DECO_PLANTHOLDER_MARBLE       = "即使是工作室也需要一点格调。",
 
                 DECO_PLANTHOLDER_WINTERFEASTTREEOFSADNESS = "又到这个季节了。",
-                DECO_PLANTHOLDER_WINTERFEASTTREE = "又到这个季节了。",--[[
+                DECO_PLANTHOLDER_WINTERFEASTTREE = "又到这个季节了。",
 
-                DECO_TABLE_ROUND   = "",
-                DECO_TABLE_BANKER  = "",
-                DECO_TABLE_DIY     = "",
-                DECO_TABLE_RAW     = "",
-                DECO_TABLE_CRATE   = "",]]
+                DECO_TABLE_ROUND   = "一张桌子。奇迹永不停止。",
+                DECO_TABLE_BANKER  = "一张桌子。奇迹永不停止。",
+                DECO_TABLE_DIY     = "一张桌子。奇迹永不停止。",
+                DECO_TABLE_RAW     = "一张桌子。奇迹永不停止。",
+                DECO_TABLE_CRATE   = "一张桌子。奇迹永不停止。",
                 DECO_TABLE_CHESS   = "可惜我现在没空玩这个。",
                 
                 DECO_ANTIQUITIES_WALLFISH           = "保持在它们最漂亮的时候。",    
@@ -3197,28 +3197,28 @@ local strings = {
                 PIG_RUINS_ARTICHOKE = "被雕刻成蔬菜的石头。",
                 ANTQUEEN_THRONE = "让我们看看她藏着什么宝贝。",
 
-                HIPPOPOTAMOOSE = "",
+                HIPPOPOTAMOOSE = "它们在浪费时间上很有一套。",
                 HIPPO_ANTLER = "质量上乘的钟表装饰。",
 
                 FROG_POISON = {
-                    GENERIC = "",
-                    SLEEPING = "",
-                    DEAD = "",
+                    GENERIC = "你们永远别想追上我。",
+                    SLEEPING = "看他睡得多香。",
+                    DEAD = "你我之间只能留一个。",
                 },
                 FROGLEGS_POISON = "这个可不能吃。",
                 FROGLEGS_POISON_COOKED = "烤过之后它就安全...了吗？",
 
                 BILL = {
                     GENERIC = "住手！那些花我还要用！",
-                    SLEEPING = "",
+                    SLEEPING = "只是在睡觉。",
                     DEAD = "我不得不亲手给它送钟。",
                 },
                 BILL_QUILL = "嗯...我会给它找个好用途的。",
 
                 LILYPAD = "我想这条近路抄不得。",
                 LOTUS = "那花苞看起来很眼熟...",
-                LOTUS_FLOWER = "",
-                LOTUS_FLOWER_COOKED = "",
+                LOTUS_FLOWER = "我希望今天的晚饭不止这些。",
+                LOTUS_FLOWER_COOKED = "它最好值得我花时间烤熟它。",
 
                 PUGALISK = "我们终于还是要有一战！",
                 PUGALISK_CORPSE = "它的一部分卡在那下面了。",--Petrifying Bones
