@@ -27,6 +27,9 @@ local strings = {
                 ALOE = "味道：尚不明确。——W",
             },
         },
+        CRAFTING_FILTERS = {
+            ENVIRONMENT_PROTECTION = "环境防护",
+        },
         CUSTOMIZATIONSCREEN = {
             PRESETLEVELS = {
                 PORKLAND_DEFAULT = "猪镇",
@@ -44,6 +47,7 @@ local strings = {
             FROG_POISON_SETTING = "箭毒蛙",
             PUGALISK_FOUNTAIN = "不老泉",
             VAMPIREBAT = "吸血蝙蝠袭击",
+            POG = "哈巴狸",
         },
         --[[
         WORLDGEN = {
@@ -560,6 +564,7 @@ local strings = {
                 ANCIENT_ROBOT_RIBS ="我猜是机器框架。",
                 INFUSED_IRON = "这不是自然金属能有的纹路。",
                 LIVING_ARTIFACT ="WX似乎对我们穿它这件事感到困惑。",
+                ROCK_BASALT = "天然的石砖。",
 
                 OINC="这算是工资吗？",
                 OINC10="一点小积蓄，不要浪费。",
@@ -778,17 +783,17 @@ local strings = {
 
                 CORKBOAT = "它绝对通过不了任何安全性测试。",
 
-                --[[DECO_CHAIR_CLASSIC  = "",
-                DECO_CHAIR_CORNER   = "",
-                DECO_CHAIR_BENCH    = "",
-                DECO_CHAIR_HORNED   = "",
-                DECO_CHAIR_FOOTREST = "",
-                DECO_CHAIR_LOUNGE   = "",
+                DECO_CHAIR_CLASSIC  = "一把舒适的椅子。",
+                DECO_CHAIR_CORNER   = "一把舒适的椅子。",
+                DECO_CHAIR_BENCH    = "一把舒适的椅子。",
+                DECO_CHAIR_HORNED   = "一把舒适的椅子。",
+                DECO_CHAIR_FOOTREST = "一把舒适的椅子。",
+                DECO_CHAIR_LOUNGE   = "一把舒适的椅子。",
                 DECO_CHAIR_MASSAGER = "真是个冷血的用途。",
-                DECO_CHAIR_STUFFED  = "",
-                DECO_CHAIR_ROCKING  = "",
-                DECO_CHAIR_OTTOMAN  = "",
-
+                DECO_CHAIR_STUFFED  = "一把舒适的椅子。",
+                DECO_CHAIR_ROCKING  = "一把舒适的椅子。",
+                DECO_CHAIR_OTTOMAN  = "一把舒适的椅子。",
+                --[[
                 DECO_LAMP_FRINGE       = "",
                 DECO_LAMP_STAINGLASS   = "",
                 DECO_LAMP_DOWNBRIDGE   = "",
@@ -830,10 +835,10 @@ local strings = {
                 DECO_PLANTHOLDER_PLANTPET     = "",
                 DECO_PLANTHOLDER_TRAPS        = "",
                 DECO_PLANTHOLDER_PITCHERS     = "",
-                DECO_PLANTHOLDER_MARBLE       = "",
+                DECO_PLANTHOLDER_MARBLE       = "",]]
 
-                DECO_PLANTHOLDER_WINTERFEASTTREEOFSADNESS = "",
-                DECO_PLANTHOLDER_WINTERFEASTTREE = "",]]
+                DECO_PLANTHOLDER_WINTERFEASTTREEOFSADNESS = "我们应该美滋滋地来一杯热巧克力。",
+                DECO_PLANTHOLDER_WINTERFEASTTREE = "我们应该美滋滋地来一杯热巧克力。",
 
                 DECO_TABLE_ROUND   = "高级不高级我不在乎，我关心结实不结实。",
                 DECO_TABLE_BANKER  = "高级不高级我不在乎，我关心结实不结实。",
@@ -876,9 +881,9 @@ local strings = {
                 DECO_MARBLE     = "",
 
                 DECO_RUINS_BEAM_ROOM ="",
-		        DECO_CAVE_BEAM_ROOM = "",
-                DECO_CAVE_BAT_BURROW = "",--that hole
-                DECO_RUINS_BEAM_ROOM_BLUE = "",        
+		        DECO_CAVE_BEAM_ROOM = "",]]
+                DECO_CAVE_BAT_BURROW = "噫，闻起来臭死了。",
+                --[[DECO_RUINS_BEAM_ROOM_BLUE = "",        
 
                 SWINGING_LIGHT_BASIC_BULB = "",
                 SWINGING_LIGHT_FLORAL_BLOOMER = "",
@@ -888,7 +893,6 @@ local strings = {
                 SWINGING_LIGHT_FLORAL_BULB = "",
                 SWINGING_LIGHT_PENDANT_CHERRIES = "",
                 SWINGING_LIGHT_FLORAL_SCALLOP = "",
-                SWINGING_LIGHT_FLORAL_BLOOMER = "",
                 SWINGING_LIGHT_BASIC_METAL = "",
                 SWINGING_LIGHT_TOPHAT = "",
                 SWINGING_LIGHT_DERBY = "",
@@ -1027,10 +1031,178 @@ local strings = {
         	        ON = "只有夜里才需要开灯。", --off
     	        },
 
+                --[[RECONSTRUCTION_PROJECT = 
+                {
+                    SCAFFOLD = "",
+                    RUBBLE = "",
+                },]]
+                PIG_SHOP_DELI =
+                {
+                    GENERIC = "我可以在这里先吃一顿快餐。",
+                    BURNING = "那我缺的午餐从哪里补啊？",
+                },
+		        --[[PIG_SHOP_FLORIST = 
+		        {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_GENERAL = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_HOOFSPA = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_PRODUCE = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_ARCANE = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_WEAPONS = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_HATSHOP = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_ACADEMY = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_TINKER =
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+
+                PIGMAN_BEAUTICIAN = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },]]
+		        PIGMAN_ROYALGUARD = 
+		        {
+			        GENERIC = "本地的执法人员。",
+			        SLEEPING = "永远不要放松警惕。",
+		        },
+		        --[[PIGMAN_COLLECTOR = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_BANKER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_MINER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_MECHANIC = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_FARMER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_FLORIST = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_STOREOWNER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_ERUDITE = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_HATMAKER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_PROFESSOR = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_HUNTER =
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },]]
+
+                PIGGHOST = "那是一只猪吗？",
+                ANCIENT_REMNANT = "我们驾驭了末日的证明。",
+                ARMORVORTEXCLOAK = "麦斯威尔一定爱死它了。",
+
+                PROP_DOOR = "一扇门。",
+
+                ROCK_FLIPPABLE = "那底下可能会有些有用的东西。",
+
+                --CANDLEHAT = "",
+                --CORK_BAT = "",
+
+                --ANTMASKHAT = "",
+                ANTSUIT = "入乡随俗呗。",
+
+                --BUGREPELLENT = "",
+                --GASCLOUD = "",
+
+                --HOGUSPORKUSATOR = "",
+
+                --DISGUISEHAT = "",
+
+                --PITHHAT = "",
+                --BATHAT = "",
+
+                --[[PIG_RUINS_ENTRANCE = "",
+                PIG_RUINS_EXIT = "",
+                PIG_RUINS_ENTRANCE2 = "",
+                PIG_RUINS_EXIT2 = "",
+                PIG_RUINS_ENTRANCE3 = "",
+                PIG_RUINS_ENTRANCE4 = "",    
+                PIG_RUINS_EXIT4 = "",
+                PIG_RUINS_ENTRANCE5 = "",        
+                PIG_RUINS_ENTRANCE_SMALL = "",
+
+                DECO_RUINS_FOUNTAIN = "",
+                DECO_RUINS_ENDSWELL = "",
+
+                PIG_RUINS_DART_TRAP = "",
+                PIG_RUINS_SPEAR_TRAP = "",
+                PIG_RUINS_SPEAR_TRAP_TRIGGERED = "",
+                PIG_RUINS_SPEAR_TRAP_BROKEN = "",
+                PIG_RUINS_PRESSURE_PLATE = "",--unused
+                PIG_RUINS_DART_STATUE = "",
+
+                SMASHINGPOT = "",]]
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "噫，尝起来像麻油。",
 	            VENOMGLAND = "哈哈，真恶心。",
-                POISONBALM = "豆芽这次又弄了什么？",
+                POISONBALM = "豆芽菜这次又弄了什么？",
 
 		        SNAKESKIN = "这种材质感觉很坚固。我有一些想法。",
                 SNAKEOIL = "对对对，我才不买这个账。",
@@ -1052,6 +1224,8 @@ local strings = {
                 VINE = "真坚固！我能用它来绑东西。",
 
                 TOUCAN = "看那只鸟的嘴！",
+
+                OBSIDIAN = "一块热压岩石。",
             },
         },
         WORTOX = {
@@ -1180,6 +1354,7 @@ local strings = {
                 ANCIENT_ROBOT_RIBS ="我一点都不想碰它。",--scalded by iron
                 INFUSED_IRON = "某种力量被注入到了其中。",
                 LIVING_ARTIFACT ="多么完美的结合，可惜。",
+                ROCK_BASALT = "本恶魔不会那么容易被困住。",
 
                 OINC="普通的硬币。",
                 OINC10="依然是普通的货币。",
@@ -1405,7 +1580,7 @@ local strings = {
                 DECO_CHAIR_HORNED   = "板凳没有扁担长。",
                 DECO_CHAIR_FOOTREST = "板凳没有扁担长。",
                 DECO_CHAIR_LOUNGE   = "板凳没有扁担长。",
-                DECO_CHAIR_MASSAGER = "这算哪门子笑话？",--电椅
+                DECO_CHAIR_MASSAGER = "这算哪门子烂笑话？",--电椅
                 DECO_CHAIR_STUFFED  = "板凳没有扁担长。",
                 DECO_CHAIR_ROCKING  = "板凳没有扁担长。",
                 DECO_CHAIR_OTTOMAN  = "板凳没有扁担长。",
@@ -1509,7 +1684,6 @@ local strings = {
                 SWINGING_LIGHT_FLORAL_BULB = "",
                 SWINGING_LIGHT_PENDANT_CHERRIES = "",
                 SWINGING_LIGHT_FLORAL_SCALLOP = "",
-                SWINGING_LIGHT_FLORAL_BLOOMER = "",
                 SWINGING_LIGHT_BASIC_METAL = "",
                 SWINGING_LIGHT_TOPHAT = "",
                 SWINGING_LIGHT_DERBY = "",
@@ -1530,9 +1704,9 @@ local strings = {
                 RUG_WEB = "",
                 RUG_METAL = "",
                 RUG_WORMHOLE = "",
-                RUG_BRAID = "",
+                RUG_BRAID = "",]]
                 RUG_BEARD = "呃呃呃。",
-                RUG_NAILBED = "",
+                --[[RUG_NAILBED = "",
                 RUG_CRIME = "",
                 RUG_TILES = "",
 
@@ -1557,15 +1731,15 @@ local strings = {
                 SHELVES_FLOATING = "",
                 SHELVES_METAL = "",
 
-                WOOD_DOOR = "",
+                WOOD_DOOR = "",]]
 		        STONE_DOOR = "石室饰石寺。",
-		        ORGANIC_DOOR = "",
-		        IRON_DOOR = "",
-		        PILLAR_DOOR = "",
-		        CURTAIN_DOOR = "",
-		        ROUND_DOOR = "",
-		        PLATE_DOOR = "",
-                ]]
+		        --ORGANIC_DOOR = "",
+		        --IRON_DOOR = "",
+		        --PILLAR_DOOR = "",
+		        --CURTAIN_DOOR = "",
+		        --ROUND_DOOR = "",
+		        --PLATE_DOOR = "",
+
                 PIG_RUINS_ARTICHOKE = "一棵巨型蔬菜。",
                 ANTQUEEN_THRONE = "猜猜看底下有什么？",
 
@@ -1648,6 +1822,174 @@ local strings = {
         	        ON = "这显然是一盏灯。", --off
     	        },
 
+                --[[RECONSTRUCTION_PROJECT = 
+                {
+                    SCAFFOLD = "",
+                    RUBBLE = "",
+                },]]
+                PIG_SHOP_DELI =
+                {
+                    GENERIC = "它们提供的熟食属实不对我的胃口。",
+                    BURNING = "这批食物有点熟过头了。",
+                },
+		        --[[PIG_SHOP_FLORIST = 
+		        {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_GENERAL = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_HOOFSPA = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_PRODUCE = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_ARCANE = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_WEAPONS = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_HATSHOP = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_ACADEMY = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_TINKER =
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+
+                PIGMAN_BEAUTICIAN = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },]]
+		        PIGMAN_ROYALGUARD = 
+		        {
+			        GENERIC = "放轻松，小猪。",
+			        SLEEPING = "偷个懒没什么大不了的，对吧。",
+		        },
+		        --[[PIGMAN_COLLECTOR = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_BANKER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_MINER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_MECHANIC = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_FARMER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_FLORIST = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_STOREOWNER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_ERUDITE = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_HATMAKER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_PROFESSOR = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_HUNTER =
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },]]
+
+                PIGGHOST = "小猪从未看起来这么美味过。",
+                ANCIENT_REMNANT = "被撕下的现实碎片。",
+                ARMORVORTEXCLOAK = "在这个位面你能看到的只有黑暗。",
+
+                PROP_DOOR = "这会把我带到什么地方呢？",
+
+                ROCK_FLIPPABLE = "我们应该把它翻个面看看。",
+
+                --[[CANDLEHAT = "",
+                CORK_BAT = "",
+
+                ANTMASKHAT = "",
+                ANTSUIT = "",
+
+                BUGREPELLENT = "",
+                GASCLOUD = "",
+
+                HOGUSPORKUSATOR = "",
+
+                DISGUISEHAT = "",
+
+                PITHHAT = "",
+                BATHAT = "",]]
+
+                --[[PIG_RUINS_ENTRANCE = "",
+                PIG_RUINS_EXIT = "",
+                PIG_RUINS_ENTRANCE2 = "",
+                PIG_RUINS_EXIT2 = "",
+                PIG_RUINS_ENTRANCE3 = "",
+                PIG_RUINS_ENTRANCE4 = "",    
+                PIG_RUINS_EXIT4 = "",
+                PIG_RUINS_ENTRANCE5 = "",        
+                PIG_RUINS_ENTRANCE_SMALL = "",
+
+                DECO_RUINS_FOUNTAIN = "",
+                DECO_RUINS_ENDSWELL = "",
+
+                PIG_RUINS_DART_TRAP = "",
+                PIG_RUINS_SPEAR_TRAP = "",
+                PIG_RUINS_SPEAR_TRAP_TRIGGERED = "",
+                PIG_RUINS_SPEAR_TRAP_BROKEN = "",
+                PIG_RUINS_PRESSURE_PLATE = "",--unused
+                PIG_RUINS_DART_STATUE = "",
+
+                SMASHINGPOT = "",]]
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "放心管好的治疗方案。",
 		        VENOMGLAND = "现在用它开始酿造吧。",
@@ -1673,6 +2015,8 @@ local strings = {
                 VINE = "弯弯蔓蔓。",
 
                 TOUCAN = "哼哼，这家伙的大部分是喙。",
+
+                OBSIDIAN = "它又红又亮，像我一样！",
             },
         },
         WURT = {
@@ -1801,6 +2145,7 @@ local strings = {
                 ANCIENT_ROBOT_RIBS ="有一条大鱼死在这里了吗？",
                 INFUSED_IRON = "在发光...",
                 LIVING_ARTIFACT ="为鱼人带来强大的力量！",
+                ROCK_BASALT = "石头。",
 
                 OINC="这有什么用？",
                 OINC10="什么是“钱”？",
@@ -2019,18 +2364,18 @@ local strings = {
                 NECTAR_POD = "花朵汁。",
 
                 CORKBOAT = "为什么不用游的？浮浪噗。",
-                --[[
-                DECO_CHAIR_CLASSIC  = "",
-                DECO_CHAIR_CORNER   = "",
-                DECO_CHAIR_BENCH    = "",
-                DECO_CHAIR_HORNED   = "",
-                DECO_CHAIR_FOOTREST = "",
-                DECO_CHAIR_LOUNGE   = "",
+                
+                DECO_CHAIR_CLASSIC  = "用来坐的地方。",
+                DECO_CHAIR_CORNER   = "用来坐的地方。",
+                DECO_CHAIR_BENCH    = "用来坐的地方。",
+                DECO_CHAIR_HORNED   = "用来坐的地方。",
+                DECO_CHAIR_FOOTREST = "用来坐的地方。",
+                DECO_CHAIR_LOUNGE   = "用来坐的地方。",
                 DECO_CHAIR_MASSAGER = "好多奇怪的彩绳子。",--电椅
-                DECO_CHAIR_STUFFED  = "",
-                DECO_CHAIR_ROCKING  = "",
-                DECO_CHAIR_OTTOMAN  = "",
-
+                DECO_CHAIR_STUFFED  = "用来坐的地方。",
+                DECO_CHAIR_ROCKING  = "用来坐的地方。",
+                DECO_CHAIR_OTTOMAN  = "用来坐的地方。",
+                --[[
                 DECO_LAMP_FRINGE       = "",
                 DECO_LAMP_STAINGLASS   = "",
                 DECO_LAMP_DOWNBRIDGE   = "",
@@ -2130,7 +2475,6 @@ local strings = {
                 SWINGING_LIGHT_FLORAL_BULB = "",
                 SWINGING_LIGHT_PENDANT_CHERRIES = "",
                 SWINGING_LIGHT_FLORAL_SCALLOP = "",
-                SWINGING_LIGHT_FLORAL_BLOOMER = "",
                 SWINGING_LIGHT_BASIC_METAL = "",
                 SWINGING_LIGHT_TOPHAT = "",
                 SWINGING_LIGHT_DERBY = "",
@@ -2269,6 +2613,175 @@ local strings = {
         	        ON = "格勒普...石头做的？", --off
     	        },
 
+                --[[RECONSTRUCTION_PROJECT = 
+                {
+                    SCAFFOLD = "",
+                    RUBBLE = "",
+                },]]
+                PIG_SHOP_DELI =
+                {
+                    GENERIC = "连海带都没有。",
+                    BURNING = "看看猪人还吃什么？",
+                },
+		        --[[PIG_SHOP_FLORIST = 
+		        {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_GENERAL = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_HOOFSPA = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },]]
+                PIG_SHOP_PRODUCE = 
+                {
+        	        GENERIC = "这才是真的食物。",
+        	        --BURNING = "",
+		        },
+                --[[PIG_SHOP_ARCANE = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_WEAPONS = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_HATSHOP = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_ACADEMY = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_TINKER =
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+
+                PIGMAN_BEAUTICIAN = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },]]
+		        PIGMAN_ROYALGUARD = 
+		        {
+			        GENERIC = "把自己裹在铁罐里的猪人。",
+			        SLEEPING = "鱼人的守卫永不松懈！",
+		        },
+		        --[[PIGMAN_COLLECTOR = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_BANKER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_MINER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_MECHANIC = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_FARMER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_FLORIST = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_STOREOWNER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_ERUDITE = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_HATMAKER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_PROFESSOR = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_HUNTER =
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },]]
+
+                PIGGHOST = "格浪浮，别过来！",
+                ANCIENT_REMNANT = "全碎了。",
+                ARMORVORTEXCLOAK = "吓人的斗篷...",
+
+                PROP_DOOR = "到那边去。",
+
+                ROCK_FLIPPABLE = "一块平石头。",
+
+                --[[CANDLEHAT = "",
+                CORK_BAT = "",
+
+                ANTMASKHAT = "",
+                ANTSUIT = "",
+
+                BUGREPELLENT = "",
+                GASCLOUD = "",
+
+                HOGUSPORKUSATOR = "",
+
+                DISGUISEHAT = "",
+
+                PITHHAT = "",
+                BATHAT = "",]]
+
+                --[[PIG_RUINS_ENTRANCE = "",
+                PIG_RUINS_EXIT = "",
+                PIG_RUINS_ENTRANCE2 = "",
+                PIG_RUINS_EXIT2 = "",
+                PIG_RUINS_ENTRANCE3 = "",
+                PIG_RUINS_ENTRANCE4 = "",    
+                PIG_RUINS_EXIT4 = "",
+                PIG_RUINS_ENTRANCE5 = "",        
+                PIG_RUINS_ENTRANCE_SMALL = "",
+
+                DECO_RUINS_FOUNTAIN = "",
+                DECO_RUINS_ENDSWELL = "",
+
+                PIG_RUINS_DART_TRAP = "",
+                PIG_RUINS_SPEAR_TRAP = "",
+                PIG_RUINS_SPEAR_TRAP_TRIGGERED = "",
+                PIG_RUINS_SPEAR_TRAP_BROKEN = "",
+                PIG_RUINS_PRESSURE_PLATE = "",--unused
+                PIG_RUINS_DART_STATUE = "",
+
+                SMASHINGPOT = "",]]
+ 
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "不舒服的时候很有用。",
 		        VENOMGLAND = "格辣格！...难吃的药。",
@@ -2294,6 +2807,8 @@ local strings = {
                 VINE = "大棒棒！",
 
                 TOUCAN = "为什么它需要那么大的喙，浮浪噗？",
+
+                OBSIDIAN = "它好烫！",
             },
         },
         WALTER = {
@@ -2422,6 +2937,7 @@ local strings = {
                 ANCIENT_ROBOT_RIBS ="一只机器蚂蚁？",
                 INFUSED_IRON = "这些纹路闪烁着诡异的光。",
                 LIVING_ARTIFACT ="无坚不摧的机械盔甲！",
+                ROCK_BASALT = "机器人创造的石头。",
 
                 OINC="我的零花钱。",
                 OINC10="我的一点小钱。",
@@ -2552,8 +3068,8 @@ local strings = {
                 },
                 POG = {
                     GENERIC = "你也找不到家了吗？",
-                    FOLLOWER = "跟我来，我带你们回家。",
-                    SLEEPING = "做个好梦。",
+                    FOLLOWER = "跟我一起去甜蜜的家吧。",
+                    SLEEPING = "祝你有个好梦。",
                     APORKALYPSE = "我们还以为我们会永远是朋友！",
                 },
                 DUNGBEETLE = {
@@ -2640,18 +3156,18 @@ local strings = {
                 NECTAR_POD = "我知道！蜜蜂会用它们来酿蜂蜜。",
 
                 CORKBOAT = "雨林漂流，哦耶！",
+                
+                DECO_CHAIR_CLASSIC  = "不许咬它，沃比！",
+                DECO_CHAIR_CORNER   = "不许咬它，沃比！",
+                DECO_CHAIR_BENCH    = "不许咬它，沃比！",
+                DECO_CHAIR_HORNED   = "不许咬它，沃比！",
+                DECO_CHAIR_FOOTREST = "不许咬它，沃比！",
+                DECO_CHAIR_LOUNGE   = "不许咬它，沃比！",
+                DECO_CHAIR_MASSAGER = "不许咬它，沃比！",--电椅
+                DECO_CHAIR_STUFFED  = "不许咬它，沃比！",
+                DECO_CHAIR_ROCKING  = "不许咬它，沃比！",
+                DECO_CHAIR_OTTOMAN  = "不许咬它，沃比！",
                 --[[
-                DECO_CHAIR_CLASSIC  = "",
-                DECO_CHAIR_CORNER   = "",
-                DECO_CHAIR_BENCH    = "",
-                DECO_CHAIR_HORNED   = "",
-                DECO_CHAIR_FOOTREST = "",
-                DECO_CHAIR_LOUNGE   = "",
-                DECO_CHAIR_MASSAGER = "",--电椅
-                DECO_CHAIR_STUFFED  = "",
-                DECO_CHAIR_ROCKING  = "",
-                DECO_CHAIR_OTTOMAN  = "",
-
                 DECO_LAMP_FRINGE       = "",
                 DECO_LAMP_STAINGLASS   = "",
                 DECO_LAMP_DOWNBRIDGE   = "",
@@ -2751,7 +3267,6 @@ local strings = {
                 SWINGING_LIGHT_FLORAL_BULB = "",
                 SWINGING_LIGHT_PENDANT_CHERRIES = "",
                 SWINGING_LIGHT_FLORAL_SCALLOP = "",
-                SWINGING_LIGHT_FLORAL_BLOOMER = "",
                 SWINGING_LIGHT_BASIC_METAL = "",
                 SWINGING_LIGHT_TOPHAT = "",
                 SWINGING_LIGHT_DERBY = "",
@@ -2772,9 +3287,9 @@ local strings = {
                 RUG_WEB = "",
                 RUG_METAL = "",
                 RUG_WORMHOLE = "",
-                RUG_BRAID = "",
+                RUG_BRAID = "",]]
                 RUG_BEARD = "那是个...很猎奇的藏品。",
-                RUG_NAILBED = "",
+                --[[RUG_NAILBED = "",
                 RUG_CRIME = "",
                 RUG_TILES = "",
 
@@ -2890,6 +3405,174 @@ local strings = {
         	        ON = "是路灯。", --off
     	        },
 
+                --[[RECONSTRUCTION_PROJECT = 
+                {
+                    SCAFFOLD = "",
+                    RUBBLE = "",
+                },]]
+                PIG_SHOP_DELI =
+                {
+                    GENERIC = "熟食店！我们应该给沃尔夫冈也买一点。",
+                    BURNING = "太可惜了，我真的很喜欢它们的火腿。",
+                },
+		        --[[PIG_SHOP_FLORIST = 
+		        {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_GENERAL = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_HOOFSPA = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_PRODUCE = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+		        },
+                PIG_SHOP_ARCANE = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_WEAPONS = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_HATSHOP = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_ACADEMY = 
+                {
+        	        GENERIC = "",
+        	        BURNING = "",
+                },
+                PIG_SHOP_TINKER =
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+
+                PIGMAN_BEAUTICIAN = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },]]
+		        PIGMAN_ROYALGUARD = 
+		        {
+			        GENERIC = "它负责保护城镇。",
+			        SLEEPING = "嘿！别偷懒！",
+		        },
+		        PIGMAN_COLLECTOR = 
+		        {
+			        GENERIC = "一位收藏家！您介意向我和沃比展示您的奇物吗？",
+			        SLEEPING = "先生，不要在地上睡觉！",
+		        },
+		        --[[PIGMAN_BANKER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_MINER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_MECHANIC = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_FARMER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_FLORIST = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_STOREOWNER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_ERUDITE = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },
+		        PIGMAN_HATMAKER = 
+		        {
+			        GENERIC = "",
+			        SLEEPING = "",
+		        },]]
+		        PIGMAN_PROFESSOR = 
+		        {
+			        GENERIC = "他的眼镜告诉我他很博学。",
+			        SLEEPING = "教授？你还好吗？",
+		        },
+		        PIGMAN_HUNTER =
+		        {
+			        GENERIC = "日安，猎人先生。",
+			        SLEEPING = "他一定是累坏了。",
+		        },
+
+                PIGGHOST = "沃比！你看得到那个吗？",
+                ANCIENT_REMNANT = "可怜的暗影怪兽就只剩下这点东西了。",
+                ARMORVORTEXCLOAK = "哈哈！我们看起来很恐怖！",
+
+                PROP_DOOR = "我们走！沃比！",
+
+                ROCK_FLIPPABLE = "猜猜看下面有什么？",
+
+                --[[CANDLEHAT = "",
+                CORK_BAT = "",
+
+                ANTMASKHAT = "",
+                ANTSUIT = "",
+
+                BUGREPELLENT = "",
+                GASCLOUD = "",
+
+                HOGUSPORKUSATOR = "",
+
+                DISGUISEHAT = "",
+
+                PITHHAT = "",
+                BATHAT = "",]]
+
+                --[[PIG_RUINS_ENTRANCE = "",
+                PIG_RUINS_EXIT = "",
+                PIG_RUINS_ENTRANCE2 = "",
+                PIG_RUINS_EXIT2 = "",
+                PIG_RUINS_ENTRANCE3 = "",
+                PIG_RUINS_ENTRANCE4 = "",    
+                PIG_RUINS_EXIT4 = "",
+                PIG_RUINS_ENTRANCE5 = "",        
+                PIG_RUINS_ENTRANCE_SMALL = "",
+
+                DECO_RUINS_FOUNTAIN = "",
+                DECO_RUINS_ENDSWELL = "",
+
+                PIG_RUINS_DART_TRAP = "",
+                PIG_RUINS_SPEAR_TRAP = "",
+                PIG_RUINS_SPEAR_TRAP_TRIGGERED = "",
+                PIG_RUINS_SPEAR_TRAP_BROKEN = "",
+                PIG_RUINS_PRESSURE_PLATE = "",--unused
+                PIG_RUINS_DART_STATUE = "",
+
+                SMASHINGPOT = "",]]
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "是苦的，所以对身体有好处！",
 		        VENOMGLAND = "这可太恶“毒”了...哈哈...",
@@ -2915,6 +3598,8 @@ local strings = {
                 VINE = "采摘的藤蔓，非常适合生火和制作。",
 
                 TOUCAN = "可以，这个肯定不常见。",
+
+                OBSIDIAN = "我最好小心点别被这个割伤了。",
             },
         },
         WANDA = {
@@ -3043,6 +3728,7 @@ local strings = {
                 ANCIENT_ROBOT_RIBS ="一具巨大的肋骨。",
                 INFUSED_IRON = "如果能够用在我的怀表上...",
                 LIVING_ARTIFACT ="就是这样！完美的利用方式！",
+                ROCK_BASALT = "一块再普通不过的石头。",
 
                 OINC="希望这能值得我付出的时间。",
                 OINC10="买点什么好呢？",
@@ -3175,7 +3861,7 @@ local strings = {
                     GENERIC = "不要被他们可爱的外表骗了。",
                     FOLLOWER = "多可爱啊！",
                     SLEEPING = "它在休息。",
-                    APORKALYPSE = "所有美好事物最都会露出獠牙吗？",
+                    APORKALYPSE = "所有美好事物最终都会露出獠牙吗？",
                 },
                 DUNGBEETLE = {
         	        GENERIC = "那可真恶心。",
@@ -3235,14 +3921,14 @@ local strings = {
                 
                 PIGHOUSE_CITY = {
         	        GENERIC = "我真希望这是我终于回到了正确的时间。",
-        	        BURNING = "我想它也到时候了。",
+        	        BURNING = "噢，见鬼！",
 		        },
                 PIGHOUSE_MINE = {
-        	        GENERIC = "我肯定见过...哦，那是另一个。",
-        	        BURNING = "我想它也到时候了。",
+        	        GENERIC = "工人居住的地方。",
+        	        BURNING = "这是怎么发生的？",
 		        },
                 PIGHOUSE_FARM = {
-        	        GENERIC = "我肯定见过...哦，那是另一个。",
+        	        GENERIC = "我想知道他们在种些什么？",
         	        BURNING = "我想它也到时候了。",
                 },
 
@@ -3372,7 +4058,6 @@ local strings = {
                 SWINGING_LIGHT_FLORAL_BULB = "确保不留有能让他们躲藏的角落。",
                 SWINGING_LIGHT_PENDANT_CHERRIES = "确保不留有能让他们躲藏的角落。",
                 SWINGING_LIGHT_FLORAL_SCALLOP = "确保不留有能让他们躲藏的角落。",
-                SWINGING_LIGHT_FLORAL_BLOOMER = "确保不留有能让他们躲藏的角落。",
                 SWINGING_LIGHT_BASIC_METAL = "确保不留有能让他们躲藏的角落。",
                 SWINGING_LIGHT_TOPHAT = "确保不留有能让他们躲藏的角落。",
                 SWINGING_LIGHT_DERBY = "确保不留有能让他们躲藏的角落。",
@@ -3511,10 +4196,262 @@ local strings = {
         	        ON = "我好奇这是不是为了节约燃料？", --off
     	        },
 
+                RECONSTRUCTION_PROJECT = 
+                {
+                    SCAFFOLD = "或许是时候把它修好了。",
+                    RUBBLE = "全都坏了。",
+                },
+                PIG_SHOP_DELI =
+                {
+                    GENERIC = "真不错，这样我就不用自己花时间烹饪了。",
+                    BURNING = "这有点烧过头了。",
+                },
+		        PIG_SHOP_FLORIST = 
+		        {
+        	        GENERIC = "真不错，一家植物店！",
+        	        BURNING = "它就像火绒箱一样一点就着。",
+		        },
+                PIG_SHOP_GENERAL = 
+                {
+        	        GENERIC = "都是些普通的东西。",
+        	        BURNING = "那些有用的东西全浪费了！",
+		        },
+                PIG_SHOP_HOOFSPA = 
+                {
+        	        GENERIC = "放慢节奏休息一下也不错。",
+        	        BURNING = "噢天啊。",
+		        },
+                PIG_SHOP_PRODUCE = 
+                {
+        	        GENERIC = "啊哈，新鲜的肉和蔬菜。",
+        	        BURNING = "即使是他们卖的冰也无济于事。",
+		        },
+                PIG_SHOP_ARCANE = 
+                {
+        	        GENERIC = "我想知道他们中是否有人尝试过时间魔法？",
+        	        BURNING = "我早该想到的。",
+                },
+                PIG_SHOP_WEAPONS = 
+                {
+        	        GENERIC = "一个很好的权宜之计。",
+        	        BURNING = "如果他们使用魔法，这事就不会发生了。",
+                },
+                PIG_SHOP_HATSHOP = 
+                {
+        	        GENERIC = "一顶漂亮的帽子足矣让人心情变好！",
+        	        BURNING = "噢...真可惜。",
+                },
+                PIG_SHOP_ACADEMY = 
+                {
+        	        GENERIC = "研究过去世界的学堂。",
+        	        BURNING = "灰飞烟灭。",
+                },
+                PIG_SHOP_TINKER =
+                {
+                    GENERIC = "一座工坊，我们可以好好交流一下心得。",
+                    BURNING = "唉，真可惜。",
+                },
+
+                PIGMAN_BEAUTICIAN = 
+		        {
+			        GENERIC = "真可惜它对我没用。",
+			        SLEEPING = "最好别吵醒它。",
+		        },
+		        PIGMAN_ROYALGUARD = 
+		        {
+			        GENERIC = "真是漂亮的盔甲！",
+			        SLEEPING = "嘿，你应该在守卫的！",
+		        },
+		        PIGMAN_COLLECTOR = 
+		        {
+			        GENERIC = "有时候，我也象是个收藏家。",
+			        SLEEPING = "漫长的一天？",
+		        },
+		        PIGMAN_BANKER = 
+		        {
+			        GENERIC = "哈，有钱人。",
+			        SLEEPING = "在睡觉。",
+		        },
+		        PIGMAN_MINER = 
+		        {
+			        GENERIC = "我想说他们工作很努力，但我得很努力骗过自己。",
+			        SLEEPING = "你没有家可以回去睡吗？",
+		        },
+		        PIGMAN_MECHANIC = 
+		        {
+			        GENERIC = "他们在这儿！",
+			        SLEEPING = "嘿，快醒醒！我们需要你！",
+		        },
+		        PIGMAN_FARMER = 
+		        {
+			        GENERIC = "所以这就是搞定所有食物的人！",
+			        SLEEPING = "要保持体力。",
+		        },
+		        PIGMAN_FLORIST = 
+		        {
+			        GENERIC = "植物对我来说太慢了。",
+			        SLEEPING = "她会梦到神奇的花朵吗？",
+		        },
+		        PIGMAN_STOREOWNER = 
+		        {
+			        GENERIC = "服务行业的人值得尊重。",
+			        SLEEPING = "我不该打扰你的。",
+		        },
+		        PIGMAN_ERUDITE = 
+		        {
+			        GENERIC = "你管那叫魔法？",
+			        SLEEPING = "也许我该叫醒它...",
+		        },
+		        PIGMAN_HATMAKER = 
+		        {
+			        GENERIC = "我想知道他们能不能用噩梦燃料工作？",
+			        SLEEPING = "看起来很舒服。",
+		        },
+		        PIGMAN_PROFESSOR = 
+		        {
+			        GENERIC = "哇哦，你看起来需要一些帮助。",
+			        SLEEPING = "只是睡着了，谢天谢地。",
+		        },
+		        PIGMAN_HUNTER =
+		        {
+			        GENERIC = "我想知道你猎些什么？",
+			        SLEEPING = "一定经历了很漫长的一天。",
+		        },
+
+                PIGGHOST = "一个邋遢的灵魂。",
+                ANCIENT_REMNANT = "嗯...我对暗影有一个新理论。",
+                ARMORVORTEXCLOAK = "用破碎的时空保护自己。",
+
+                PROP_DOOR = "尽管走吧，有什么可怕的呢？",
+
+                ROCK_FLIPPABLE = "尽管翻开吧，有什么可怕的呢？",
+
+                --[[CANDLEHAT = "",
+                CORK_BAT = "",
+
+                ANTMASKHAT = "",
+                ANTSUIT = "",
+
+                BUGREPELLENT = "",
+                GASCLOUD = "",
+
+                HOGUSPORKUSATOR = "",
+
+                DISGUISEHAT = "",
+
+                PITHHAT = "",
+                BATHAT = "",]]
+
+                --[[PIG_RUINS_ENTRANCE = "",
+                PIG_RUINS_EXIT = "",
+                PIG_RUINS_ENTRANCE2 = "",
+                PIG_RUINS_EXIT2 = "",
+                PIG_RUINS_ENTRANCE3 = "",
+                PIG_RUINS_ENTRANCE4 = "",    
+                PIG_RUINS_EXIT4 = "",
+                PIG_RUINS_ENTRANCE5 = "",        
+                PIG_RUINS_ENTRANCE_SMALL = "",
+
+                DECO_RUINS_FOUNTAIN = "",
+                DECO_RUINS_ENDSWELL = "",
+
+                PIG_RUINS_DART_TRAP = "",
+                PIG_RUINS_SPEAR_TRAP = "",
+                PIG_RUINS_SPEAR_TRAP_TRIGGERED = "",
+                PIG_RUINS_SPEAR_TRAP_BROKEN = "",
+                PIG_RUINS_PRESSURE_PLATE = "",--unused
+                PIG_RUINS_DART_STATUE = "",
+
+                SMASHINGPOT = "",
+
+                ANTMAN = "",
+                ANTMASKHAT = "",
+                ANTSUIT = "",
+                ANTMAN_WARRIOR = "",
+                
+                PHEROMONESTONE = "",
+                PIG_RUINS_TORCH_WALL = "",
+                PIG_RUINS_TORCH = "",
+
+                ANTCOMBHOME = "",
+                SECURITYCONTRACT = "",
+
+                PLAYERHOUSE_CITY = "",
+                JELLYBUG = "",
+                JELLYBUG_COOKED = "",
+                SLUGBUG = "",
+                SLUGBUG_COOKED = "",
+
+                BANDITMAP = "",
+                BANDITTREASURE = "",
+
+                ROCK_ANTCAVE = "",
+                ANT_CAVE_LANTERN = "",
+
+                PLAYER_HOUSE_COTTAGE = "",
+                PLAYER_HOUSE_VILLA = "",
+                PLAYER_HOUSE_TUDOR = "",
+                PLAYER_HOUSE_MANOR = "",            
+                PLAYER_HOUSE_GOTHIC = "",              
+                PLAYER_HOUSE_BRICK = "",
+                PLAYER_HOUSE_TURRET = "",
+
+                PLAYER_HOUSE_COTTAGE_CRAFT = "",
+                PLAYER_HOUSE_VILLA_CRAFT = "",
+                PLAYER_HOUSE_TUDOR_CRAFT = "",
+                PLAYER_HOUSE_GOTHIC_CRAFT = "",
+                PLAYER_HOUSE_TURRET_CRAFT = "",
+                PLAYER_HOUSE_BRICK_CRAFT = "",
+                PLAYER_HOUSE_MANOR_CRAFT = "",
+
+                CLIPPINGS = "",
+
+                DEED = "",
+                CONSTRUCTION_PERMIT = "",
+                DEMOLITION_PERMIT = "",
+
+                BANDITHAT = "",
+                PIGBANDIT = "",
+
+                PIG_RUINS_CREEPING_VINES = "",---???
+
+                WALLCRACK_RUINS = "",
+
+                PIG_SHOP_BANK = 
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+ 	            PIGMAN_USHER = 
+                {
+                    GENERIC = "",
+                    SLEEPING = "",
+                },
+                PIGMAN_ROYALGUARD_2 = 
+                {
+                    GENERIC = "",
+                    SLEEPING = "",
+                },
+                PIG_SHOP_ANTIQUITIES = 
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+
+                HEDGE = 
+                {
+        	        GENERIC = "",
+        	        SHAVEABLE = "",
+        	        BURNING = "",
+        	        BURNT = "",
+                },
+                TOPIARY = "",
+                ]]
+
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "这可是这里的必备品。",
 		        VENOMGLAND = "我想我可以直接吞下去，总比中毒好...",
-		        POISONBALM = "传统解毒剂的便捷替代品！",
+		        POISONBALM = "传统解毒剂的快速替代品！",
 
 		        SNAKESKIN = "唷...现在它没有附在蛇身上。",
 		        SNAKEOIL = "走过这么多时间线，我还是搞不懂它有什么用。",
@@ -3536,6 +4473,8 @@ local strings = {
                 VINE = "只是一根藤蔓。我才不会花时间去多愁善感。",
 
                 TOUCAN = "它这么长的嘴到底有什么用？",
+
+                OBSIDIAN = "如果我有足够锋利的切割工具，这个可以做一块手表水晶。",
             },
         },
         --New Characters for us
@@ -3583,9 +4522,9 @@ local strings = {
                 },
                 POG = {
                     GENERIC = "一只胆大又可爱的生物，有着永不满足的食欲！",
-                    FOLLOWER = "驯服它们真是太容易了。",
-                    SLEEPING = "生物正在进行必要的休息。",
-                    APORKALYPSE = "它们现在充满了攻击性。",
+                    FOLLOWER = "它们很容易驯服。",
+                    SLEEPING = "这些动物正在进行必要的休息。",
+                    APORKALYPSE = "异常的气候使它们充满攻击性。",
                 },
                 --我是火学家，我放火
                 LIGHTER =  "她随身携带的奇怪人造物。火是怎么产生的？",
