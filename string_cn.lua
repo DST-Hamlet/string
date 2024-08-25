@@ -29,6 +29,17 @@ local strings = {
         },
         CRAFTING_FILTERS = {
             ENVIRONMENT_PROTECTION = "环境防护",
+            HOME_MISC = "杂项",
+            HOME_COLUMN = "柱子",
+            HOME_RUG = "地毯",
+            HOME_HANGINGLAMP = "吊饰",
+            HOME_LAMP = "灯",
+            HOME_PLANTHOLDER = "盆栽",
+            HOME_FURNITURE = "家具",
+            HOME_WALL_DECORATION = "装饰品",
+            HOME_WALLPAPER = "墙纸",
+            HOME_FLOOR = "地板",
+            HOME_DOOR = "门",
         },
         CUSTOMIZATIONSCREEN = {
             PRESETLEVELS = {
@@ -48,6 +59,10 @@ local strings = {
             PUGALISK_FOUNTAIN = "不老泉",
             VAMPIREBAT = "吸血蝙蝠袭击",
             POG = "哈巴狸",
+            THUNDERBIRD_SETTING = "雷鸟",
+            THUNDERBIRDNEST = "雷鸟巢",
+            BRAMBLES = "荆棘",
+            PIGBANDIT = "蒙面猪人",
         },
         --[[
         WORLDGEN = {
@@ -485,6 +500,14 @@ local strings = {
                     GENERIC = "这扇门不好用了。",
                     LOCKED = "我需要一把正确的钥匙。",
                 },
+                --[[SHOP = {
+                    CANTPAY = "",
+                    GENERIC = "",
+                },
+                --ACTIONFAIL from Island Adventure
+                REPAIRBOAT = {
+                    GENERIC = "",
+                },]]
             },
 
             DESCRIBE = {
@@ -1197,7 +1220,105 @@ local strings = {
                 PIG_RUINS_PRESSURE_PLATE = "",--unused
                 PIG_RUINS_DART_STATUE = "",
 
-                SMASHINGPOT = "",]]
+                SMASHINGPOT = "",
+
+                ANTMAN = "",
+                ANTMASKHAT = "",
+                ANTSUIT = "",
+                ANTMAN_WARRIOR = "",
+                
+                PHEROMONESTONE = "",
+                PIG_RUINS_TORCH_WALL = "",
+                PIG_RUINS_TORCH = "",
+
+                ANTCOMBHOME = "",
+                SECURITYCONTRACT = "",
+
+                PLAYERHOUSE_CITY = "",
+                JELLYBUG = "",
+                JELLYBUG_COOKED = "",
+                SLUGBUG = "",
+                SLUGBUG_COOKED = "",
+
+                BANDITMAP = "",
+                BANDITTREASURE = "",
+
+                ROCK_ANTCAVE = "",
+                ANT_CAVE_LANTERN = "",
+
+                PLAYER_HOUSE_COTTAGE = "",
+                PLAYER_HOUSE_VILLA = "",
+                PLAYER_HOUSE_TUDOR = "",
+                PLAYER_HOUSE_MANOR = "",            
+                PLAYER_HOUSE_GOTHIC = "",              
+                PLAYER_HOUSE_BRICK = "",
+                PLAYER_HOUSE_TURRET = "",
+
+                PLAYER_HOUSE_COTTAGE_CRAFT = "",
+                PLAYER_HOUSE_VILLA_CRAFT = "",
+                PLAYER_HOUSE_TUDOR_CRAFT = "",
+                PLAYER_HOUSE_GOTHIC_CRAFT = "",
+                PLAYER_HOUSE_TURRET_CRAFT = "",
+                PLAYER_HOUSE_BRICK_CRAFT = "",
+                PLAYER_HOUSE_MANOR_CRAFT = "",
+
+                CLIPPINGS = "",
+
+                DEED = "",
+                CONSTRUCTION_PERMIT = "",
+                DEMOLITION_PERMIT = "",
+
+                BANDITHAT = "",
+                PIGBANDIT = "",
+
+                PIG_RUINS_CREEPING_VINES = "",---???
+
+                WALLCRACK_RUINS = "",
+
+                PIG_SHOP_BANK = 
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+ 	            PIGMAN_USHER = 
+                {
+                    GENERIC = "",
+                    SLEEPING = "",
+                },
+                PIGMAN_ROYALGUARD_2 = 
+                {
+                    GENERIC = "",
+                    SLEEPING = "",
+                },
+                PIG_SHOP_ANTIQUITIES = 
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+
+                HEDGE = 
+                {
+        	        GENERIC = "",
+        	        SHAVEABLE = "",
+        	        BURNING = "",
+        	        BURNT = "",
+                },
+                TOPIARY = "",
+
+                TRINKET_GIFTSHOP_1 = "",
+                TRINKET_GIFTSHOP_3 = "",
+                TRINKET_GIFTSHOP_4 = "",
+
+                KEY_TO_CITY = "",
+
+                GUMMY_CAKE = "",
+                HARDSHELL_TACOS = "",
+                FEIJOADA = "",
+
+                HEDGE_BLOCK_ITEM = "",
+                HEDGE_CONE_ITEM = "",
+                HEDGE_LAYERED_ITEM = "",
+                ]]
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "噫，尝起来像麻油。",
@@ -1226,6 +1347,28 @@ local strings = {
                 TOUCAN = "看那只鸟的嘴！",
 
                 OBSIDIAN = "一块热压岩石。",
+
+                TUNACAN = "在海上发现的东西太疯狂了。",
+
+                BAMBOO = "轻巧结实。我需要更多这个。",
+                FABRIC = "很高兴我不用为此撕了我的衣服。",
+                OX_HORN = "一个纪念品，纪念我差点被串起来的那次。",
+                OX_FLUTE = "让我看看我能不能吹奏这个，我一直在练习。",
+                CUTLASS = "大鼻子上的切口很干净。",
+                COCONADE =
+	            {
+		            BURNING = "小心爆炸！",
+		            GENERIC = "这确实很有创意，我只能这么说。",
+	            },
+                TRAWLNETDROPPED = 
+	            {
+		            SOON = "哦，天哪，它正在下沉。",
+		            SOONISH = "在我失去网子之前，最好确保那是空的。",
+		            GENERIC = "看看这些！",
+	            },
+		        TRAWLNET = "我想知道我能用它捞出什么？",
+
+                LAVAPOOL = "炽热的熔岩，站后点！",
             },
         },
         WORTOX = {
@@ -1275,6 +1418,14 @@ local strings = {
                     GENERIC = "哎呀，我进不去。",
                     LOCKED = "它只是不能从这一侧打开。",
                 },
+                --[[SHOP = {
+                    CANTPAY = "",
+                    GENERIC = "",
+                },
+                --ACTIONFAIL from Island Adventure
+                REPAIRBOAT = {
+                    GENERIC = "",
+                },]]
             },
 
             DESCRIBE = {
@@ -1988,7 +2139,105 @@ local strings = {
                 PIG_RUINS_PRESSURE_PLATE = "",--unused
                 PIG_RUINS_DART_STATUE = "",
 
-                SMASHINGPOT = "",]]
+                SMASHINGPOT = "",
+
+                ANTMAN = "",
+                ANTMASKHAT = "",
+                ANTSUIT = "",
+                ANTMAN_WARRIOR = "",
+                
+                PHEROMONESTONE = "",
+                PIG_RUINS_TORCH_WALL = "",
+                PIG_RUINS_TORCH = "",
+
+                ANTCOMBHOME = "",
+                SECURITYCONTRACT = "",
+
+                PLAYERHOUSE_CITY = "",
+                JELLYBUG = "",
+                JELLYBUG_COOKED = "",
+                SLUGBUG = "",
+                SLUGBUG_COOKED = "",
+
+                BANDITMAP = "",
+                BANDITTREASURE = "",
+
+                ROCK_ANTCAVE = "",
+                ANT_CAVE_LANTERN = "",
+
+                PLAYER_HOUSE_COTTAGE = "",
+                PLAYER_HOUSE_VILLA = "",
+                PLAYER_HOUSE_TUDOR = "",
+                PLAYER_HOUSE_MANOR = "",            
+                PLAYER_HOUSE_GOTHIC = "",              
+                PLAYER_HOUSE_BRICK = "",
+                PLAYER_HOUSE_TURRET = "",
+
+                PLAYER_HOUSE_COTTAGE_CRAFT = "",
+                PLAYER_HOUSE_VILLA_CRAFT = "",
+                PLAYER_HOUSE_TUDOR_CRAFT = "",
+                PLAYER_HOUSE_GOTHIC_CRAFT = "",
+                PLAYER_HOUSE_TURRET_CRAFT = "",
+                PLAYER_HOUSE_BRICK_CRAFT = "",
+                PLAYER_HOUSE_MANOR_CRAFT = "",
+
+                CLIPPINGS = "",
+
+                DEED = "",
+                CONSTRUCTION_PERMIT = "",
+                DEMOLITION_PERMIT = "",
+
+                BANDITHAT = "",
+                PIGBANDIT = "",
+
+                PIG_RUINS_CREEPING_VINES = "",---???
+
+                WALLCRACK_RUINS = "",
+
+                PIG_SHOP_BANK = 
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+ 	            PIGMAN_USHER = 
+                {
+                    GENERIC = "",
+                    SLEEPING = "",
+                },
+                PIGMAN_ROYALGUARD_2 = 
+                {
+                    GENERIC = "",
+                    SLEEPING = "",
+                },
+                PIG_SHOP_ANTIQUITIES = 
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+
+                HEDGE = 
+                {
+        	        GENERIC = "",
+        	        SHAVEABLE = "",
+        	        BURNING = "",
+        	        BURNT = "",
+                },
+                TOPIARY = "",
+
+                TRINKET_GIFTSHOP_1 = "",
+                TRINKET_GIFTSHOP_3 = "",
+                TRINKET_GIFTSHOP_4 = "",
+
+                KEY_TO_CITY = "",
+
+                GUMMY_CAKE = "",
+                HARDSHELL_TACOS = "",
+                FEIJOADA = "",
+
+                HEDGE_BLOCK_ITEM = "",
+                HEDGE_CONE_ITEM = "",
+                HEDGE_LAYERED_ITEM = "",
+                ]]
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "放心管好的治疗方案。",
@@ -2017,6 +2266,28 @@ local strings = {
                 TOUCAN = "哼哼，这家伙的大部分是喙。",
 
                 OBSIDIAN = "它又红又亮，像我一样！",
+
+                TUNACAN = "看起来它唯独没保存最好的那部分。",
+
+                BAMBOO = "竹竿，结实而纤细。",
+		        FABRIC = "让我可爱的小脑袋休息一下。",
+                OX_HORN = "哼，我的更好。",
+		        OX_FLUTE = "它演奏了一首让全世界为之哭泣的歌曲。",
+                CUTLASS = "这比其他的都要好！",
+                COCONADE =
+		        {
+			        BURNING = "是时候了，一不做二不休！",
+			        GENERIC = "凡人农产品的新用途。",
+		        },
+                TRAWLNETDROPPED = 
+		        {
+			        SOON = "很快它就会沉入深海。",
+			        SOONISH = "在大海吞没它之前，我要收回我的渔获。",
+			        GENERIC = "现在拖网浮在水面上。",
+		        },
+                TRAWLNET = "哦，我们是在寻宝吗？",
+
+                LAVAPOOL = "我才不要伸脚进去。",
             },
         },
         WURT = {
@@ -2066,6 +2337,14 @@ local strings = {
                     GENERIC = "进不去。",
                     LOCKED = "打不开。",
                 },
+                --[[SHOP = {
+                    CANTPAY = "",
+                    GENERIC = "",
+                },
+                --ACTIONFAIL from Island Adventure
+                REPAIRBOAT = {
+                    GENERIC = "",
+                },]]
             },
 
             DESCRIBE = {
@@ -2779,8 +3058,105 @@ local strings = {
                 PIG_RUINS_PRESSURE_PLATE = "",--unused
                 PIG_RUINS_DART_STATUE = "",
 
-                SMASHINGPOT = "",]]
- 
+                SMASHINGPOT = "",
+
+                ANTMAN = "",
+                ANTMASKHAT = "",
+                ANTSUIT = "",
+                ANTMAN_WARRIOR = "",
+                
+                PHEROMONESTONE = "",
+                PIG_RUINS_TORCH_WALL = "",
+                PIG_RUINS_TORCH = "",
+
+                ANTCOMBHOME = "",
+                SECURITYCONTRACT = "",
+
+                PLAYERHOUSE_CITY = "",
+                JELLYBUG = "",
+                JELLYBUG_COOKED = "",
+                SLUGBUG = "",
+                SLUGBUG_COOKED = "",
+
+                BANDITMAP = "",
+                BANDITTREASURE = "",
+
+                ROCK_ANTCAVE = "",
+                ANT_CAVE_LANTERN = "",
+
+                PLAYER_HOUSE_COTTAGE = "",
+                PLAYER_HOUSE_VILLA = "",
+                PLAYER_HOUSE_TUDOR = "",
+                PLAYER_HOUSE_MANOR = "",            
+                PLAYER_HOUSE_GOTHIC = "",              
+                PLAYER_HOUSE_BRICK = "",
+                PLAYER_HOUSE_TURRET = "",
+
+                PLAYER_HOUSE_COTTAGE_CRAFT = "",
+                PLAYER_HOUSE_VILLA_CRAFT = "",
+                PLAYER_HOUSE_TUDOR_CRAFT = "",
+                PLAYER_HOUSE_GOTHIC_CRAFT = "",
+                PLAYER_HOUSE_TURRET_CRAFT = "",
+                PLAYER_HOUSE_BRICK_CRAFT = "",
+                PLAYER_HOUSE_MANOR_CRAFT = "",
+
+                CLIPPINGS = "",
+
+                DEED = "",
+                CONSTRUCTION_PERMIT = "",
+                DEMOLITION_PERMIT = "",
+
+                BANDITHAT = "",
+                PIGBANDIT = "",
+
+                PIG_RUINS_CREEPING_VINES = "",---???
+
+                WALLCRACK_RUINS = "",
+
+                PIG_SHOP_BANK = 
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+ 	            PIGMAN_USHER = 
+                {
+                    GENERIC = "",
+                    SLEEPING = "",
+                },
+                PIGMAN_ROYALGUARD_2 = 
+                {
+                    GENERIC = "",
+                    SLEEPING = "",
+                },
+                PIG_SHOP_ANTIQUITIES = 
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+
+                HEDGE = 
+                {
+        	        GENERIC = "",
+        	        SHAVEABLE = "",
+        	        BURNING = "",
+        	        BURNT = "",
+                },
+                TOPIARY = "",
+
+                TRINKET_GIFTSHOP_1 = "",
+                TRINKET_GIFTSHOP_3 = "",
+                TRINKET_GIFTSHOP_4 = "",
+
+                KEY_TO_CITY = "",
+
+                GUMMY_CAKE = "",
+                HARDSHELL_TACOS = "",
+                FEIJOADA = "",
+
+                HEDGE_BLOCK_ITEM = "",
+                HEDGE_CONE_ITEM = "",
+                HEDGE_LAYERED_ITEM = "",
+                ]]
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "不舒服的时候很有用。",
@@ -2809,6 +3185,28 @@ local strings = {
                 TOUCAN = "为什么它需要那么大的喙，浮浪噗？",
 
                 OBSIDIAN = "它好烫！",
+
+                TUNACAN = "是鱼鱼在里面吗？",
+
+                BAMBOO = "一些竹子，浮浪噗。",
+		        FABRIC = "是软的。",
+                OX_HORN = "真是个尖角！",
+		        OX_FLUTE = "造雨，浮浪特！",
+                CUTLASS = "格勒格...",
+                COCONADE =
+		        {
+			        BURNING = "那个不安全！",
+			        GENERIC = "会爆炸的球。",
+		        },
+                TRAWLNETDROPPED = 
+		        {
+			        SOON = "它会沉的，浮浪噗的。",
+			        SOONISH = "它沉了。",
+			        GENERIC = "里面有宝藏吗？",
+		        },
+                TRAWLNET = "是为鱼儿们准备的。",
+
+                LAVAPOOL = "太热了不能游泳，浮浪噗！",
             },
         },
         WALTER = {
@@ -2858,6 +3256,14 @@ local strings = {
                     GENERIC = "我该怎么进去？",
                     LOCKED = "他们不准我进去。",
                 },
+                --[[SHOP = {
+                    CANTPAY = "",
+                    GENERIC = "",
+                },
+                --ACTIONFAIL from Island Adventure
+                REPAIRBOAT = {
+                    GENERIC = "",
+                },]]
             },
 
             DESCRIBE = {
@@ -3571,7 +3977,105 @@ local strings = {
                 PIG_RUINS_PRESSURE_PLATE = "",--unused
                 PIG_RUINS_DART_STATUE = "",
 
-                SMASHINGPOT = "",]]
+                SMASHINGPOT = "",
+
+                ANTMAN = "",
+                ANTMASKHAT = "",
+                ANTSUIT = "",
+                ANTMAN_WARRIOR = "",
+                
+                PHEROMONESTONE = "",
+                PIG_RUINS_TORCH_WALL = "",
+                PIG_RUINS_TORCH = "",
+
+                ANTCOMBHOME = "",
+                SECURITYCONTRACT = "",
+
+                PLAYERHOUSE_CITY = "",
+                JELLYBUG = "",
+                JELLYBUG_COOKED = "",
+                SLUGBUG = "",
+                SLUGBUG_COOKED = "",
+
+                BANDITMAP = "",
+                BANDITTREASURE = "",
+
+                ROCK_ANTCAVE = "",
+                ANT_CAVE_LANTERN = "",
+
+                PLAYER_HOUSE_COTTAGE = "",
+                PLAYER_HOUSE_VILLA = "",
+                PLAYER_HOUSE_TUDOR = "",
+                PLAYER_HOUSE_MANOR = "",            
+                PLAYER_HOUSE_GOTHIC = "",              
+                PLAYER_HOUSE_BRICK = "",
+                PLAYER_HOUSE_TURRET = "",
+
+                PLAYER_HOUSE_COTTAGE_CRAFT = "",
+                PLAYER_HOUSE_VILLA_CRAFT = "",
+                PLAYER_HOUSE_TUDOR_CRAFT = "",
+                PLAYER_HOUSE_GOTHIC_CRAFT = "",
+                PLAYER_HOUSE_TURRET_CRAFT = "",
+                PLAYER_HOUSE_BRICK_CRAFT = "",
+                PLAYER_HOUSE_MANOR_CRAFT = "",
+
+                CLIPPINGS = "",
+
+                DEED = "",
+                CONSTRUCTION_PERMIT = "",
+                DEMOLITION_PERMIT = "",
+
+                BANDITHAT = "",
+                PIGBANDIT = "",
+
+                PIG_RUINS_CREEPING_VINES = "",---???
+
+                WALLCRACK_RUINS = "",
+
+                PIG_SHOP_BANK = 
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+ 	            PIGMAN_USHER = 
+                {
+                    GENERIC = "",
+                    SLEEPING = "",
+                },
+                PIGMAN_ROYALGUARD_2 = 
+                {
+                    GENERIC = "",
+                    SLEEPING = "",
+                },
+                PIG_SHOP_ANTIQUITIES = 
+                {
+                    GENERIC = "",
+                    BURNING = "",
+                },
+
+                HEDGE = 
+                {
+        	        GENERIC = "",
+        	        SHAVEABLE = "",
+        	        BURNING = "",
+        	        BURNT = "",
+                },
+                TOPIARY = "",
+
+                TRINKET_GIFTSHOP_1 = "",
+                TRINKET_GIFTSHOP_3 = "",
+                TRINKET_GIFTSHOP_4 = "",
+
+                KEY_TO_CITY = "",
+
+                GUMMY_CAKE = "",
+                HARDSHELL_TACOS = "",
+                FEIJOADA = "",
+
+                HEDGE_BLOCK_ITEM = "",
+                HEDGE_CONE_ITEM = "",
+                HEDGE_LAYERED_ITEM = "",
+                ]]
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "是苦的，所以对身体有好处！",
@@ -3600,6 +4104,28 @@ local strings = {
                 TOUCAN = "可以，这个肯定不常见。",
 
                 OBSIDIAN = "我最好小心点别被这个割伤了。",
+
+                TUNACAN = "不是自己抓住的就会失去乐趣。",
+
+                BAMBOO = "热带材料！",
+                FABRIC = "这会是一条很棒的童子军领巾。",
+                OX_HORN = "不，不是一个像样的军号。",
+                OX_FLUTE = "能够控制自然是非常美妙的。",
+                CUTLASS = "这是一把真正的海盗剑！太好了！！",
+                COCONADE =
+		        {
+			        BURNING = "快跑！",
+			        GENERIC = "对，一个会爆炸的椰子。",
+		        },
+                TRAWLNETDROPPED = 
+		        {
+			        SOON = "那个要沉了。",
+			        SOONISH = "那个很快就要沉了。",
+			        GENERIC = "看看它是不是捕到了什么有趣的东西。",
+		        },
+		        TRAWLNET = "用手工编织网捕鱼，这才是求生该做的。",
+
+                LAVAPOOL = "是的，用那个烤暖没问题。",
             },
         },
         WANDA = {
@@ -3649,6 +4175,14 @@ local strings = {
                     GENERIC = "这里现在不欢迎我们。",
                     LOCKED = "我一定是把钥匙落在哪里...",
                 },
+                --[[SHOP = {
+                    CANTPAY = "",
+                    GENERIC = "",
+                },
+                --ACTIONFAIL from Island Adventure
+                REPAIRBOAT = {
+                    GENERIC = "",
+                },]]
             },
 
             DESCRIBE = {
@@ -4446,6 +4980,20 @@ local strings = {
         	        BURNT = "",
                 },
                 TOPIARY = "",
+
+                TRINKET_GIFTSHOP_1 = "",
+                TRINKET_GIFTSHOP_3 = "",
+                TRINKET_GIFTSHOP_4 = "",
+
+                KEY_TO_CITY = "",
+
+                GUMMY_CAKE = "",
+                HARDSHELL_TACOS = "",
+                FEIJOADA = "",
+
+                HEDGE_BLOCK_ITEM = "",
+                HEDGE_CONE_ITEM = "",
+                HEDGE_LAYERED_ITEM = "",
                 ]]
 
                 --DESCRIBE from Island Adventure
@@ -4475,6 +5023,28 @@ local strings = {
                 TOUCAN = "它这么长的嘴到底有什么用？",
 
                 OBSIDIAN = "如果我有足够锋利的切割工具，这个可以做一块手表水晶。",
+
+                TUNACAN = "嗯，这顿午餐被用时间隔离容器装起来了。",
+
+                BAMBOO = "稍后我能想到更多用法。",
+                FABRIC = "我好想念布...",
+                OX_HORN = "我应该把它收起来，以便以后进行一些高级工艺。",
+                OX_FLUTE = "这比等着下雨快多了。",
+                CUTLASS = "它确实很锋利，要是我能给它施加暗影魔法就好了...",
+                COCONADE =
+		        {
+			        BURNING = "要爆炸了，快！",
+			        GENERIC = "这似乎是个坏主意...",
+		        },
+                TRAWLNETDROPPED = 
+		        {
+			        SOON = "它马上就会沉下去，要不了多少时间。",
+			        SOONISH = "我最好在它自沉之前清空它。",
+			        GENERIC = "现在检查一下这是否值得。",
+		        },
+		        TRAWLNET = "至少这比我自己去钓宝贝要快。",
+
+                LAVAPOOL = "这似乎是一种快速烧伤自己的方法。",
             },
         },
         --New Characters for us
