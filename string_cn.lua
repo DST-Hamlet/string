@@ -1,19 +1,29 @@
 
 local strings = {
+    ACTIONS = {
+        USE_LIVING_ARTIFACT = "使用",
+        SEARCH_MYSTERY = "搜索",
+    },
     SCRAPBOOK = {
         SPECIALINFO = {
             KEY_TO_CITY = "建造你自己的城镇。",
         },
     },
     NAMES = {
+        COI = "高原鲤鱼",
+        COI_COOKED = "熟高原鲤鱼",
+
         FARM_PLANT_RADISH = "水萝卜植株",
         KNOWN_RADISH_SEEDS = "水萝卜种子",
         RADISH_SEEDS = "水滴状种子",
 
         FARM_PLANT_ALOE = "芦荟植株",
         KNOWN_ALOE_SEEDS = "芦荟种子",
-        ALOE_SEEDS = "矩形种子",
+        ALOE_SEEDS = "软籽荚",
 
+        GRAVITY = "坠落", --卡海
+        SQUISH = "挤压", --室内卡海
+        NOOXYGEN = "窒息",--海洋生物卡陆地
         --"火烈鸟","Flamingo","Floodmingo","Floatmingo","Flatmingo","Flaimingo","高跷鸟"
     },
     UI = {
@@ -23,7 +33,7 @@ local strings = {
         },
         PLANTREGISTRY = {
             DESCRIPTIONS = {
-                RADISH = "全都是红色的。——W",
+                RADISH = "这根萝卜有水肿。——W",
                 ALOE = "味道：尚不明确。——W",
             },
         },
@@ -50,6 +60,9 @@ local strings = {
                 PORKLAND_DEFAULT = "一片极其危险的丛林？",
                 PORKLAND_PULS = "一个广袤的高海拔世界，包含大量原创内容。",
             },
+            TASKSETNAMES = {
+                PORKLAND = "猪镇",
+            },
             HIPPOPOTAMOOSE_SETTING = "河鹿",
             HIPPOPOTAMOOSE = "河鹿",
             BILL_SETTING = "鸭嘴豪猪",
@@ -63,6 +76,8 @@ local strings = {
             THUNDERBIRDNEST = "雷鸟巢",
             BRAMBLES = "荆棘",
             PIGBANDIT = "蒙面猪人",
+            ROC_SETTING = "友善的大鹏",
+            GIANTGRUB_SETTING = "巨型蛆虫",
         },
         --[[
         WORLDGEN = {
@@ -83,6 +98,13 @@ local strings = {
         --真的吗？
         GENERIC= {
             ANNOUNCE_GNATS_DIED="接招吧，虫子们！",
+            ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "最好有一面放大镜。",--1 to 10
+                    SEARCHFORAWHILE = "我没有工具也能做到...",--10 to 50
+                    CLOSETOSUCCESS = "有志者事竟成！",--50 plus
+                },
+            },
             DESCRIBE = {
                 BASEFAN = {
                     ON = "风-趣。",
@@ -105,10 +127,21 @@ local strings = {
                 	SLEEPING = "它可能梦见了树。",--和piko一样
                 	DEAD = "我感觉有点难过。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "我现在要吃上一整天。",
+                COI_COOKED = "烤得恰到好处。",
             },
         },
         WILLOW = {
             ANNOUNCE_GNATS_DIED="没有火我也能对付你们。",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "煽风点火。",
@@ -131,10 +164,21 @@ local strings = {
                 	SLEEPING = "我打赌我现在可以抓到它。",--和piko一样
                 	DEAD = "还是跑得不够快。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "作为水里生活的东西，已经很漂亮了。",
+                COI_COOKED = "火让它变得更漂亮了。",
             },
         },
         WOLFGANG = {
             ANNOUNCE_GNATS_DIED="沃尔夫冈的肌肉舒服多了。",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "沃尔夫冈感到很凉快。",
@@ -157,11 +201,22 @@ local strings = {
                     SLEEPING = "渺小橙色绒毛现在在睡觉。",--和piko一样
                 	DEAD = "渺小橙色绒毛死去的那部分。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "好看的鱼。",
+                COI_COOKED = "沃尔夫冈一口吞下好看的鱼！",
             },
         },
         WENDY = {
             --英文版可能就不那么好看咯:P
             ANNOUNCE_GNATS_DIED="现在还没轮到我。",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "哎，这只能缓解片刻。",
@@ -184,10 +239,21 @@ local strings = {
                 	SLEEPING = "睡着的它多么天真啊。",--和piko一样
                 	DEAD = "即使是这么天真也得死。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "这么漂亮几乎都不舍得吃了。几乎。",
+                COI_COOKED = "生活迫使我们彼此伤害。",
             },
         },
         WX78 = {
             ANNOUNCE_GNATS_DIED="干扰性肉袋已清除",
+            ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "需要视觉增强附件",--1 to 10
+                    SEARCHFORAWHILE = "看好了，肉体生物们",--10 to 50
+                    CLOSETOSUCCESS = "我拒绝失败",--50 plus
+                },
+            },
             DESCRIBE = {
                 BASEFAN = {
                     ON = "冷却风扇",
@@ -210,10 +276,21 @@ local strings = {
                 	SLEEPING = "处于睡眠模式",--和piko一样
                 	DEAD = "机能终止",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "这个有机物对颜色犹豫不决",
+                COI_COOKED = "缺少插件...薯条",
             },
         },
         WICKERBOTTOM = {
             ANNOUNCE_GNATS_DIED="我终于摆脱了这些蚊蝇。",
+            ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "这些狭缝对我的眼睛来说太小了。",--1 to 10
+                    SEARCHFORAWHILE = "仔细一些还是有可能的。",--10 to 50
+                    CLOSETOSUCCESS = "我必须先完成这件事...",--50 plus
+                },
+            },
             DESCRIBE = {
                 BASEFAN = {
                     ON = "恢复装置。",
@@ -236,10 +313,21 @@ local strings = {
                 	SLEEPING = "它睡着了。",--和piko一样
                 	DEAD = "它的逝去让我感到一丝悲伤。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "一种漂亮的高原锦鲤变种。",
+                COI_COOKED = "烤得真好。",
             },
         },
         WOODIE = {
             ANNOUNCE_GNATS_DIED="我的招数多着呢。",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "嗯。一阵微风。",
@@ -263,10 +351,21 @@ local strings = {
                 	SLEEPING = "疲倦地睡着了。",--和piko一样
                 	DEAD = "可怜的小东西...",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "抱歉伙计，你那点胡子还是跟我的没法比。",
+                COI_COOKED = "再见了伙计。",
             },
         },
         WAXWELL = {
             ANNOUNCE_GNATS_DIED="不要烦扰一位绅士。",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "哈，现代文明。",
@@ -289,11 +388,22 @@ local strings = {
                 	SLEEPING = "小坏蛋睡着了。",--和piko一样
                 	DEAD = "它已经消灭了。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "刚刚脱离黑暗的深渊。",
+                COI_COOKED = "乏味……但还算能接受。",
             },
         },
         --rog
         WATHGRITHR = {
             ANNOUNCE_GNATS_DIED="这就是下场，虫子。",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "驱散高温!",
@@ -316,10 +426,21 @@ local strings = {
                 	SLEEPING = "它很不明智的睡着了。",--和piko一样
                 	DEAD = "它倒下了。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "福金的手下败将。",
+                COI_COOKED = "一小口都不够！",
             },
         },
         WEBBER = {
             ANNOUNCE_GNATS_DIED="我们安全了！",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "微风吹过毛皮的感觉很惬意。",
@@ -342,11 +463,22 @@ local strings = {
                 	SLEEPING = "跑来跑去一定把他累坏了。",--和piko一样
                 	DEAD = "哦。我挺喜欢他的。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "胡须很漂亮！",
+                COI_COOKED = "再也没有漂亮的胡须了。",
             },
         },
         --sw
         WALANI = {
             ANNOUNCE_GNATS_DIED="清静了，终于。",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "宜人的微风。",
@@ -369,10 +501,21 @@ local strings = {
                 	SLEEPING = "小家伙，我希望我可以像你一样酣睡。",--和piko一样
                 	DEAD = "不！小家伙！",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "哇哦，吉兆啊。",
+                COI_COOKED = "这份好运我收下了。",
             },
         },
         WARLY = {
             ANNOUNCE_GNATS_DIED="谢天谢地。",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "厨房必须通风良好。",
@@ -395,11 +538,22 @@ local strings = {
                 	SLEEPING = "毫无疑问，它会梦到坚果。",--和piko一样
                 	DEAD = "不幸的结局。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "鱼！",
+                COI_COOKED = "可以挤点柠檬汁...",
             },
         },
         WOODLEGS = {
             --吐字清晰！求你了！
             ANNOUNCE_GNATS_DIED="死吧！会飞的鱼饵！",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "凉爽的风向你身上吹来！",
@@ -422,11 +576,22 @@ local strings = {
                 	SLEEPING = "趁它睡觉时抓住它。",--和piko一样
                 	DEAD = "它现在死无对证。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "鱼肉！那可是俺最喜欢的食物之一。",
+                COI_COOKED = "这鱼烤得真好。",
             },
         },
         --ham-
         WORMWOOD = {
             ANNOUNCE_GNATS_DIED="滋滋的家伙们没了",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "风",
@@ -450,6 +615,10 @@ local strings = {
                 	SLEEPING = "它睡着了。嘘...",--和piko一样
                 	DEAD = "啊...",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "金色的噗噜噗噜",
+                COI_COOKED = "小心骨头",
             },
         },
         --dst
@@ -503,6 +672,11 @@ local strings = {
                 --[[SHOP = {
                     CANTPAY = "",
                     GENERIC = "",
+                },
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
                 },
                 --ACTIONFAIL from Island Adventure
                 REPAIRBOAT = {
@@ -1222,7 +1396,12 @@ local strings = {
 
                 SMASHINGPOT = "",
 
-                ANTMAN = "",
+                ANTMAN = 
+                {
+        	        GENERIC = "",
+        	        SLEEPING = "",
+        	        DEAD = "",
+                },
                 ANTMASKHAT = "",
                 ANTSUIT = "",
                 ANTMAN_WARRIOR = "",
@@ -1318,8 +1497,58 @@ local strings = {
                 HEDGE_BLOCK_ITEM = "",
                 HEDGE_CONE_ITEM = "",
                 HEDGE_LAYERED_ITEM = "",
+
+    	        ANTQUEEN_CHAMBERS = "",
+    	        ANTMAN_WARRIOR_EGG = "",
+
+                ANTHILL = "",
+
+                ROC_LEG = "",
+                ROC_HEAD = "",
+                ROC_TAIL = "",
+
+                ROC_NEST_TREE1 = "",
+                ROC_NEST_TREE2 = "",
+                ROC_NEST_BUSH = "",
+                ROC_NEST_BRANCH1 = "",
+                ROC_NEST_BRANCH2 = "",
+                ROC_NEST_TRUNK = "",
+                ROC_NEST_HOUSE = "",
+                ROC_NEST_RUSTY_LAMP = "",
+
+                ROC_NEST_EGG1 = "",
+                ROC_NEST_EGG2 = "",
+                ROC_NEST_EGG3 = "",
+                ROC_NEST_EGG4 = "",
+
+                ROC_ROBIN_EGG = "",
+
+                RO_BIN = "",
+                RO_BIN_GIZZARD_STONE = "",
+
+                ROC_NEST_DEBRIS1 = "",
+    	        ROC_NEST_DEBRIS2 = "",
+    	        ROC_NEST_DEBRIS3 = "",
+    	        ROC_NEST_DEBRIS4 = "",
+
+                PIG_SCEPTER = "",
+                PIGCROWNHAT = "",
+
+                CAVE_EXIT_ROC = "",
+
+                ROYAL_GALLERY = "",
+
+                GIANTGRUB = "",
+                ANTQUEEN = "",
+
+                ANTLER_CORRUPTED = "",
+                ANTLER = "",
+                BAT_HIDE = "",
+                VAMPIRE_BAT_WING = "",
                 ]]
 
+                SUNKEN_RELIC = "有什么东西沉在那底下。",
+                
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "噫，尝起来像麻油。",
 	            VENOMGLAND = "哈哈，真恶心。",
@@ -1369,6 +1598,12 @@ local strings = {
 		        TRAWLNET = "我想知道我能用它捞出什么？",
 
                 LAVAPOOL = "炽热的熔岩，站后点！",
+
+                SAND = "没错，我捧着一堆沙子。",
+
+                --Above the clouds new things
+                COI = "我宁愿一天吃到晚，也不愿意啥都没的吃。",
+                COI_COOKED = "我讨厌从牙缝里挑鱼刺。",
             },
         },
         WORTOX = {
@@ -1421,6 +1656,11 @@ local strings = {
                 --[[SHOP = {
                     CANTPAY = "",
                     GENERIC = "",
+                },
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
                 },
                 --ACTIONFAIL from Island Adventure
                 REPAIRBOAT = {
@@ -2141,7 +2381,12 @@ local strings = {
 
                 SMASHINGPOT = "",
 
-                ANTMAN = "",
+                ANTMAN = 
+                {
+        	        GENERIC = "",
+        	        SLEEPING = "",
+        	        DEAD = "",
+                },
                 ANTMASKHAT = "",
                 ANTSUIT = "",
                 ANTMAN_WARRIOR = "",
@@ -2237,7 +2482,57 @@ local strings = {
                 HEDGE_BLOCK_ITEM = "",
                 HEDGE_CONE_ITEM = "",
                 HEDGE_LAYERED_ITEM = "",
+
+                ANTQUEEN_CHAMBERS = "",
+    	        ANTMAN_WARRIOR_EGG = "",
+
+                ANTHILL = "",
+
+                ROC_LEG = "",
+                ROC_HEAD = "",
+                ROC_TAIL = "",
+
+                ROC_NEST_TREE1 = "",
+                ROC_NEST_TREE2 = "",
+                ROC_NEST_BUSH = "",
+                ROC_NEST_BRANCH1 = "",
+                ROC_NEST_BRANCH2 = "",
+                ROC_NEST_TRUNK = "",
+                ROC_NEST_HOUSE = "",
+                ROC_NEST_RUSTY_LAMP = "",
+
+                ROC_NEST_EGG1 = "",
+                ROC_NEST_EGG2 = "",
+                ROC_NEST_EGG3 = "",
+                ROC_NEST_EGG4 = "",
+
+                ROC_ROBIN_EGG = "",
+
+                RO_BIN = "",
+                RO_BIN_GIZZARD_STONE = "",
+
+                ROC_NEST_DEBRIS1 = "",
+    	        ROC_NEST_DEBRIS2 = "",
+    	        ROC_NEST_DEBRIS3 = "",
+    	        ROC_NEST_DEBRIS4 = "",
+
+                PIG_SCEPTER = "",
+                PIGCROWNHAT = "",
+
+                CAVE_EXIT_ROC = "",
+
+                ROYAL_GALLERY = "",
+
+                GIANTGRUB = "",
+                ANTQUEEN = "",
+
+                ANTLER_CORRUPTED = "",
+                ANTLER = "",
+                BAT_HIDE = "",
+                VAMPIRE_BAT_WING = "",
                 ]]
+
+                SUNKEN_RELIC = "快看我的倒影！等等，那不是...",
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "放心管好的治疗方案。",
@@ -2288,6 +2583,12 @@ local strings = {
                 TRAWLNET = "哦，我们是在寻宝吗？",
 
                 LAVAPOOL = "我才不要伸脚进去。",
+
+                SAND = "是一把沙子。",
+
+                --Above the clouds new things
+                COI = "你身上好香。",
+                COI_COOKED = "至少它不再受苦了。",
             },
         },
         WURT = {
@@ -2340,6 +2641,11 @@ local strings = {
                 --[[SHOP = {
                     CANTPAY = "",
                     GENERIC = "",
+                },
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
                 },
                 --ACTIONFAIL from Island Adventure
                 REPAIRBOAT = {
@@ -3060,7 +3366,12 @@ local strings = {
 
                 SMASHINGPOT = "",
 
-                ANTMAN = "",
+                ANTMAN = 
+                {
+        	        GENERIC = "",
+        	        SLEEPING = "",
+        	        DEAD = "",
+                },
                 ANTMASKHAT = "",
                 ANTSUIT = "",
                 ANTMAN_WARRIOR = "",
@@ -3156,7 +3467,57 @@ local strings = {
                 HEDGE_BLOCK_ITEM = "",
                 HEDGE_CONE_ITEM = "",
                 HEDGE_LAYERED_ITEM = "",
+
+                ANTQUEEN_CHAMBERS = "",
+    	        ANTMAN_WARRIOR_EGG = "",
+
+                ANTHILL = "",
+
+                ROC_LEG = "",
+                ROC_HEAD = "",
+                ROC_TAIL = "",
+
+                ROC_NEST_TREE1 = "",
+                ROC_NEST_TREE2 = "",
+                ROC_NEST_BUSH = "",
+                ROC_NEST_BRANCH1 = "",
+                ROC_NEST_BRANCH2 = "",
+                ROC_NEST_TRUNK = "",
+                ROC_NEST_HOUSE = "",
+                ROC_NEST_RUSTY_LAMP = "",
+
+                ROC_NEST_EGG1 = "",
+                ROC_NEST_EGG2 = "",
+                ROC_NEST_EGG3 = "",
+                ROC_NEST_EGG4 = "",
+
+                ROC_ROBIN_EGG = "",
+
+                RO_BIN = "",
+                RO_BIN_GIZZARD_STONE = "",
+
+                ROC_NEST_DEBRIS1 = "",
+    	        ROC_NEST_DEBRIS2 = "",
+    	        ROC_NEST_DEBRIS3 = "",
+    	        ROC_NEST_DEBRIS4 = "",
+
+                PIG_SCEPTER = "",
+                PIGCROWNHAT = "",
+
+                CAVE_EXIT_ROC = "",
+
+                ROYAL_GALLERY = "",
+
+                GIANTGRUB = "",
+                ANTQUEEN = "",
+
+                ANTLER_CORRUPTED = "",
+                ANTLER = "",
+                BAT_HIDE = "",
+                VAMPIRE_BAT_WING = "",
                 ]]
+
+                SUNKEN_RELIC = "不会游泳的东西。",
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "不舒服的时候很有用。",
@@ -3207,6 +3568,12 @@ local strings = {
                 TRAWLNET = "是为鱼儿们准备的。",
 
                 LAVAPOOL = "太热了不能游泳，浮浪噗！",
+
+                SAND = "在鳞片上感觉很好，浮浪噗！",
+
+                --Above the clouds new things
+                COI = "啊，太可爱了！",
+                COI_COOKED = "鱼是朋友，不是食物！",
             },
         },
         WALTER = {
@@ -3259,6 +3626,11 @@ local strings = {
                 --[[SHOP = {
                     CANTPAY = "",
                     GENERIC = "",
+                },
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
                 },
                 --ACTIONFAIL from Island Adventure
                 REPAIRBOAT = {
@@ -3979,7 +4351,12 @@ local strings = {
 
                 SMASHINGPOT = "",
 
-                ANTMAN = "",
+                ANTMAN = 
+                {
+        	        GENERIC = "",
+        	        SLEEPING = "",
+        	        DEAD = "",
+                },
                 ANTMASKHAT = "",
                 ANTSUIT = "",
                 ANTMAN_WARRIOR = "",
@@ -4075,7 +4452,57 @@ local strings = {
                 HEDGE_BLOCK_ITEM = "",
                 HEDGE_CONE_ITEM = "",
                 HEDGE_LAYERED_ITEM = "",
+
+                ANTQUEEN_CHAMBERS = "",
+    	        ANTMAN_WARRIOR_EGG = "",
+
+                ANTHILL = "",
+
+                ROC_LEG = "",
+                ROC_HEAD = "",
+                ROC_TAIL = "",
+
+                ROC_NEST_TREE1 = "",
+                ROC_NEST_TREE2 = "",
+                ROC_NEST_BUSH = "",
+                ROC_NEST_BRANCH1 = "",
+                ROC_NEST_BRANCH2 = "",
+                ROC_NEST_TRUNK = "",
+                ROC_NEST_HOUSE = "",
+                ROC_NEST_RUSTY_LAMP = "",
+
+                ROC_NEST_EGG1 = "",
+                ROC_NEST_EGG2 = "",
+                ROC_NEST_EGG3 = "",
+                ROC_NEST_EGG4 = "",
+
+                ROC_ROBIN_EGG = "",
+
+                RO_BIN = "",
+                RO_BIN_GIZZARD_STONE = "",
+
+                ROC_NEST_DEBRIS1 = "",
+    	        ROC_NEST_DEBRIS2 = "",
+    	        ROC_NEST_DEBRIS3 = "",
+    	        ROC_NEST_DEBRIS4 = "",
+
+                PIG_SCEPTER = "",
+                PIGCROWNHAT = "",
+
+                CAVE_EXIT_ROC = "",
+
+                ROYAL_GALLERY = "",
+
+                GIANTGRUB = "",
+                ANTQUEEN = "",
+
+                ANTLER_CORRUPTED = "",
+                ANTLER = "",
+                BAT_HIDE = "",
+                VAMPIRE_BAT_WING = "",
                 ]]
+
+                SUNKEN_RELIC = "沃比快看！水里面是不是有东西！",
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "是苦的，所以对身体有好处！",
@@ -4126,6 +4553,12 @@ local strings = {
 		        TRAWLNET = "用手工编织网捕鱼，这才是求生该做的。",
 
                 LAVAPOOL = "是的，用那个烤暖没问题。",
+
+                SAND = "这是沙子。",
+
+                --Above the clouds new things
+                COI = "那鸟为我们送来一条鱼！",
+                COI_COOKED = "不是自己捕的鱼总觉得缺点什么...",
             },
         },
         WANDA = {
@@ -4155,7 +4588,7 @@ local strings = {
             ANNOUNCE_MYSTERY_DOOR_NOT_FOUND = "嗷，不好。不是这里。",
 
             ANNOUNCE_HOUSE_DOOR = "这必须先取得许可。",
-            ANNOUNCE_ROOM_STUCK = "我可不想呆在这个房间里直到永远。",
+            ANNOUNCE_ROOM_STUCK = "没人会想呆在这个房间里直到永远。",
 
             ANNOUNCE_TAXDAY = "滴答滴答，该交税了市民们。", --Tick tock
             ANNOUNCE_NOTHING_FOUND = "这样的距离太勉强它了。",
@@ -4178,6 +4611,11 @@ local strings = {
                 --[[SHOP = {
                     CANTPAY = "",
                     GENERIC = "",
+                },
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
                 },
                 --ACTIONFAIL from Island Adventure
                 REPAIRBOAT = {
@@ -4898,7 +5336,12 @@ local strings = {
 
                 SMASHINGPOT = "",
 
-                ANTMAN = "",
+                ANTMAN = 
+                {
+        	        GENERIC = "",
+        	        SLEEPING = "",
+        	        DEAD = "",
+                },
                 ANTMASKHAT = "",
                 ANTSUIT = "",
                 ANTMAN_WARRIOR = "",
@@ -4994,7 +5437,57 @@ local strings = {
                 HEDGE_BLOCK_ITEM = "",
                 HEDGE_CONE_ITEM = "",
                 HEDGE_LAYERED_ITEM = "",
+
+                ANTQUEEN_CHAMBERS = "",
+    	        ANTMAN_WARRIOR_EGG = "",
+
+                ANTHILL = "",
+
+                ROC_LEG = "",
+                ROC_HEAD = "",
+                ROC_TAIL = "",
+
+                ROC_NEST_TREE1 = "",
+                ROC_NEST_TREE2 = "",
+                ROC_NEST_BUSH = "",
+                ROC_NEST_BRANCH1 = "",
+                ROC_NEST_BRANCH2 = "",
+                ROC_NEST_TRUNK = "",
+                ROC_NEST_HOUSE = "",
+                ROC_NEST_RUSTY_LAMP = "",
+
+                ROC_NEST_EGG1 = "",
+                ROC_NEST_EGG2 = "",
+                ROC_NEST_EGG3 = "",
+                ROC_NEST_EGG4 = "",
+
+                ROC_ROBIN_EGG = "",
+
+                RO_BIN = "",
+                RO_BIN_GIZZARD_STONE = "",
+
+                ROC_NEST_DEBRIS1 = "",
+    	        ROC_NEST_DEBRIS2 = "",
+    	        ROC_NEST_DEBRIS3 = "",
+    	        ROC_NEST_DEBRIS4 = "",
+
+                PIG_SCEPTER = "",
+                PIGCROWNHAT = "",
+
+                CAVE_EXIT_ROC = "",
+
+                ROYAL_GALLERY = "",
+
+                GIANTGRUB = "",
+                ANTQUEEN = "",
+
+                ANTLER_CORRUPTED = "",
+                ANTLER = "",
+                BAT_HIDE = "",
+                VAMPIRE_BAT_WING = "",
                 ]]
+
+                SUNKEN_RELIC = "麻烦呐！我真的不想下水！",
 
                 --DESCRIBE from Island Adventure
                 ANTIVENOM = "这可是这里的必备品。",
@@ -5045,6 +5538,12 @@ local strings = {
 		        TRAWLNET = "至少这比我自己去钓宝贝要快。",
 
                 LAVAPOOL = "这似乎是一种快速烧伤自己的方法。",
+
+                SAND = "沙子。你在这附近确实能找到很多。",
+
+                --Above the clouds new things
+                COI = "是条像样的鱼。",
+                COI_COOKED = "要是我有一点醋就好了。",
             },
         },
         --New Characters for us
@@ -5067,6 +5566,14 @@ local strings = {
             ANNOUNCE_PUTONGOGGLES_WAGPUNKHAT = "W.A.R.B.I.S. 你醒了吗？",--Engage heads up display.]]
 
             ANNOUNCE_GNATS_DIED="哈！我找到了它们的弱点！",
+
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
 
             DESCRIBE = {
                 BASEFAN = {
@@ -5096,6 +5603,11 @@ local strings = {
                     SLEEPING = "这些动物正在进行必要的休息。",
                     APORKALYPSE = "异常的气候使它们充满攻击性。",
                 },
+
+                --Above the clouds new things
+                COI = "看看它的质量！",
+                COI_COOKED = "我会尽量不吃到鱼刺的。",
+
                 --我是火学家，我放火
                 LIGHTER =  "她随身携带的奇怪人造物。火是怎么产生的？",
                 BERNIE_ACTIVE = "它会与精神攻击产生反应！真迷人！",
@@ -5522,6 +6034,13 @@ local strings = {
         WILBA = {
             --CNM，猪人语
             ANNOUNCE_GNATS_DIED="打倒麻烦",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "吹吧！风啊！",
@@ -5544,10 +6063,21 @@ local strings = {
                 	SLEEPING = "啊 睡得很安稳！",--和piko一样
                 	DEAD = "这是你最后一次偷薇尔芭的东西了",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "这是一尊贵的鱼",
+                COI_COOKED = "这是一条烤熟的鱼",
             },
         },
         WHEELER = {
             ANNOUNCE_GNATS_DIED="敌机坠毁，棒！",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "要是用飞机的螺旋桨当叶片就更好了。",
@@ -5570,10 +6100,21 @@ local strings = {
                 	SLEEPING = "至少它在睡觉时不会去偷东西。",--和piko一样
                 	DEAD = "哎。它只是想偷个东西而已。",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "啊哈，死鱼。所有气味中最难闻的。",
+                COI_COOKED = "这鱼多出来的刺是送的，不收钱！",
             },
         },
         WARBUCKS = {
             ANNOUNCE_GNATS_DIED="呸！下地狱吧！",
+            --[[ACTIONFAIL = {
+                SEARCH_MYSTERY = {
+                    GENERIC = "",--1 to 10
+                    SEARCHFORAWHILE = "",--10 to 50
+                    CLOSETOSUCCESS = "",--50 plus
+                },
+            },]]
             DESCRIBE = {
                 BASEFAN = {
                     ON = "啊. 一阵舒爽的冷风。",
@@ -5602,6 +6143,10 @@ local strings = {
                 	SLEEPING = "啊！现在不那么可怕了。",--和piko一样
                 	DEAD = "喝茶时间到了吗？",--和piko一样
                 },
+
+                --Above the clouds new things
+                COI = "我捉住了它！我！",
+                COI_COOKED = "很淡，但可以吃。",
             },
         },
     },
